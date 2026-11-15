@@ -1,0 +1,2 @@
+// Runs before first paint: applies the saved theme and question text size.
+try{var t=JSON.parse(localStorage.getItem('bs.theme')||'null');if(t==='day')document.documentElement.setAttribute('data-theme','light');else if(t==='night')document.documentElement.setAttribute('data-theme','dark');var z=JSON.parse(localStorage.getItem('bs.text')||'null');if(z&&z!=='default')document.documentElement.setAttribute('data-text',z);}catch(e){}

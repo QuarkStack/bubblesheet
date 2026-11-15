@@ -1,0 +1,925 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "als1-01",
+    "title": "Advanced Life Support (ALS1), set 1",
+    "description": "Adult advanced life support: shock and drug sequencing, special circumstances, post-ROSC care, airway emergencies, anaphylaxis and stopping CPR. Pitched from a strong ALS1 candidate to medical registrar level.",
+    "created": "2026-11-08",
+    "reviewBy": "2027-07-28",
+    "sources": [
+      "Australian Resuscitation Council, Advanced Life Support Level 1, 3rd Australian edition (2016)",
+      "ARC ALS1 and ALS2 manuals addendum and correction notice (28/07/2026)",
+      "ANZCOR Guidelines 4, 11.2, 11.4, 11.5, 11.6.1, 11.7, 11.8, 11.10",
+      "ASCIA acute management of anaphylaxis flowchart (2026)"
+    ]
+  },
+  "questions": [
+    {
+      "id": "als1-s01",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Stacked shocks and drug timing",
+      "source": "ALS1 Ch 4 and 7",
+      "stem": [
+        "Michael Tran, 63, a bus driver, is in the coronary care unit 6 hours after primary PCI to his right coronary artery. He is connected to a manual defibrillator through self-adhesive pads. While talking to the nurse he slumps, unresponsive, and the monitor shows ventricular fibrillation.",
+        "The registrar delivers three rapid successive shocks, the first within 20 seconds of onset. VF persists, so CPR is started. At the next rhythm check 2 minutes later he is still in VF, and a further shock is delivered. Compressions have resumed. He has a working IV cannula and no drugs have been given yet."
+      ],
+      "lead": "Following the ARC ALS algorithm, what is the MOST appropriate drug therapy during this cycle of CPR?",
+      "options": [
+        {
+          "text": "Adrenaline 1 mg IV and amiodarone 300 mg IV",
+          "why": "Often chosen by counting four shocks. ARC counts the stacked sequence once, so the shock just given is only the 2nd and amiodarone is not yet due."
+        },
+        {
+          "text": "Adrenaline 1 mg IV only",
+          "correct": true,
+          "why": "ARC treats the three stacked shocks as the first shock in the algorithm. The shock just given is therefore the 2nd, so adrenaline 1 mg goes in during this cycle and then every second cycle. If VF persists at the next check, amiodarone 300 mg follows that 3rd shock."
+        },
+        {
+          "text": "Amiodarone 150 mg IV only",
+          "why": "This is the supplementary dose, considered after the 5th shock if VF persists. Wrong dose and wrong timing."
+        },
+        {
+          "text": "Amiodarone 300 mg IV only",
+          "why": "The common trap: counting the stacked shocks as three. ARC gives amiodarone after three shocks delivered in different cycles, with the stacked sequence counting as one."
+        },
+        {
+          "text": "Lignocaine 1 mg/kg IV only",
+          "why": "Lignocaine is the alternative when amiodarone is unavailable, so it carries the same timing error. It is not used when amiodarone is on hand."
+        },
+        {
+          "text": "Magnesium sulfate 5 mmol IV only",
+          "why": "ANZCOR suggests against routine magnesium in shock-refractory VF. Keep it for torsades, digoxin toxicity, or documented low magnesium or potassium."
+        },
+        {
+          "text": "No drug therapy until the next rhythm check",
+          "why": "Delays adrenaline, which ARC gives after the 2nd shock. The stacked sequence still counts as a shock."
+        }
+      ],
+      "keyPoint": "Stacked shocks (witnessed, monitored VF, first shock within 20 s) count as shock 1. Adrenaline follows shock 2 and amiodarone follows shock 3."
+    },
+    {
+      "id": "als1-s02",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Fine VF at the rhythm check",
+      "source": "ARC addendum 07/2026",
+      "stem": [
+        "Joan Ashby, 77, a retired librarian, is found unresponsive on a surgical ward 2 days after a bowel resection. Her first rhythm was asystole. CPR is under way with an i-gel in place, and adrenaline 1 mg was given 2 minutes ago.",
+        "At the next rhythm check the monitor shows an irregular, chaotic, low-amplitude waveform of about 1 mm, with no organised complexes. The gain is set at 1 mV/cm and the pads and leads are secure. The team leader reads it as very fine ventricular fibrillation."
+      ],
+      "lead": "What is the MOST appropriate immediate action?",
+      "options": [
+        {
+          "text": "Continue CPR for a further 2 minutes so the VF coarsens, then shock",
+          "why": "The common trap, taken from the superseded 2016 text. The ARC addendum (07/2026) replaced it: don't try to grade VF amplitude at the rhythm check."
+        },
+        {
+          "text": "Deliver a shock now, then resume compressions immediately",
+          "correct": true,
+          "why": "ARC addendum (07/2026): defibrillate if the rhythm appears to be VF of any amplitude, and continue compressions if it appears to be asystole. Charge during compressions, shock, and restart CPR without a pulse check. She now moves to the shockable side of the algorithm."
+        },
+        {
+          "text": "Give adrenaline 1 mg IV and continue on the non-shockable side",
+          "why": "Adrenaline was given 2 minutes ago and isn't due until after the next cycle. A drug never replaces a shock for VF."
+        },
+        {
+          "text": "Give amiodarone 300 mg IV, then shock at the next rhythm check",
+          "why": "Amiodarone follows the 3rd shock, and delaying the first shock lowers its chance of success."
+        },
+        {
+          "text": "Keep compressions paused while switching leads and increasing the gain",
+          "why": "Prolongs hands-off time. The addendum specifically warns against excessive interruptions for rhythm analysis."
+        },
+        {
+          "text": "Palpate for a central pulse for up to 10 seconds",
+          "why": "A pulse check is for an organised rhythm that could produce output. VF never does."
+        },
+        {
+          "text": "Start transcutaneous pacing",
+          "why": "Pacing is for ventricular standstill with continuing P waves, not VF."
+        }
+      ],
+      "keyPoint": "At the rhythm check, VF of any amplitude gets a shock and apparent asystole gets compressions. Don't stretch the pause to decide which."
+    },
+    {
+      "id": "als1-s03",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Post-ROSC temperature control",
+      "source": "ANZCOR 11.8 (06/2024)",
+      "stem": [
+        "Peter Lindqvist, 58, an electrician, had a witnessed VF arrest at his gym. Bystanders started CPR straight away, and paramedics achieved ROSC after two shocks, 12 minutes after collapse. He was intubated on scene.",
+        "In the emergency department, sedation is paused briefly and he does not obey commands. His MAP is 72 mmHg on noradrenaline 4 micrograms/min, and his 12-lead ECG shows no ST elevation. His oesophageal temperature is 35.2 °C."
+      ],
+      "lead": "Which temperature management plan is MOST appropriate?",
+      "options": [
+        {
+          "text": "Active surface rewarming to 36.5 °C, then normothermia for 24 hours",
+          "why": "ANZCOR 11.8 advises against actively warming a comatose patient with mild hypothermia after ROSC."
+        },
+        {
+          "text": "Allow passive drift, and prevent fever (core ≤ 37.5 °C) for at least 72 hours",
+          "correct": true,
+          "why": "ANZCOR 11.8 (06/2024), adopted in the ARC addendum: monitor core temperature, don't rewarm mild hypothermia, and actively prevent fever for at least 72 hours in patients who stay comatose. Use a surface or endovascular device with temperature feedback when needed."
+        },
+        {
+          "text": "Cool to 33 °C for 24 hours with a feedback device, then rewarm at 0.25 °C per hour",
+          "why": "Often chosen from older TTM teaching. Since TTM2, routine hypothermia shows no benefit over fever prevention. ANZCOR calls 32–34 °C in subgroups uncertain, so it is not the default plan."
+        },
+        {
+          "text": "Give 30 mL/kg of ice-cold 0.9% sodium chloride now to reach 34 °C",
+          "why": "Cold fluid is only an induction adjunct for planned hypothermia, which isn't indicated. ANZCOR recommends against large-volume cold fluid before hospital."
+        },
+        {
+          "text": "Hold at 36 °C for 24 hours, then stop temperature monitoring",
+          "why": "The superseded 2016 approach. Fever is common for 48–72 hours after arrest and is linked to worse outcomes, so control must continue for at least 72 hours."
+        },
+        {
+          "text": "Treat only temperatures above 38.5 °C, with paracetamol",
+          "why": "Reactive and too late. The target is ≤ 37.5 °C, and paracetamol alone rarely holds it in a comatose patient."
+        }
+      ],
+      "keyPoint": "Comatose after ROSC: don't rewarm mild hypothermia, and prevent fever (≤ 37.5 °C) for at least 72 hours. Routine cooling to 33 °C is no longer the default."
+    },
+    {
+      "id": "als1-s04",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Hyperkalaemic arrest",
+      "source": "ANZCOR 11.5 and 11.10",
+      "stem": [
+        "Gary Watts, 49, a forklift driver on haemodialysis three times a week, has missed his last two sessions. He presents to the emergency department with weakness. While monitoring is being attached he loses consciousness and becomes pulseless, with a slow, broad, sinusoidal rhythm on the monitor. CPR is started and a venous blood gas is drawn.",
+        "He has a working 18 G cannula in his right forearm. His left arm has an arteriovenous fistula."
+      ],
+      "tables": [
+        {
+          "caption": "Venous blood gas, during CPR",
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Potassium",
+              "8.4 mmol/L",
+              "3.5–5.2"
+            ],
+            [
+              "pH",
+              "7.12",
+              "7.32–7.43"
+            ],
+            [
+              "Bicarbonate",
+              "13 mmol/L",
+              "22–28"
+            ],
+            [
+              "Ionised calcium",
+              "1.02 mmol/L",
+              "1.12–1.30"
+            ],
+            [
+              "Glucose",
+              "6.1 mmol/L",
+              "3.5–7.8"
+            ]
+          ]
+        }
+      ],
+      "lead": "In addition to standard ALS, which is the MOST appropriate first drug for the underlying cause?",
+      "options": [
+        {
+          "text": "Calcium chloride 10%, 10 mL IV as a rapid bolus",
+          "correct": true,
+          "why": "Membrane stabilisation comes first. ANZCOR 11.10: 10 mL of 10% calcium chloride (6.8 mmol Ca) as a rapid bolus, repeated if the arrest is prolonged. It doesn't lower potassium, so follow with insulin and glucose, consider bicarbonate, and plan dialysis. Flush the line between calcium and bicarbonate."
+        },
+        {
+          "text": "Calcium gluconate 10%, 10 mL IV as a rapid bolus",
+          "why": "The right idea at the wrong dose. Gluconate carries about a third of the elemental calcium, so the equivalent is 30 mL (6.6 mmol)."
+        },
+        {
+          "text": "Insulin (neutral) 10 units IV with 50 mL of 50% glucose",
+          "why": "Often chosen. It is the right second step, but potassium shifts over 15–30 minutes and the myocardium needs protecting now."
+        },
+        {
+          "text": "Salbutamol 10 mg nebulised",
+          "why": "Can't be delivered effectively during CPR, and adds little."
+        },
+        {
+          "text": "Sodium bicarbonate 8.4%, 50 mL IV",
+          "why": "Reasonable here (renal failure, severe acidosis), but after calcium, and never in the same line at the same time because the two precipitate."
+        },
+        {
+          "text": "Sodium polystyrene sulfonate 30 g rectally",
+          "why": "Works over hours. No role in an arrest."
+        }
+      ],
+      "keyPoint": "Hyperkalaemic arrest: calcium chloride 10% 10 mL rapid IV first (or calcium gluconate 10% 30 mL), then insulin 10 units with 25 g glucose, bicarbonate 50 mmol if acidotic or in renal failure, and early dialysis."
+    },
+    {
+      "id": "als1-s05",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Hypothermic arrest",
+      "source": "ANZCOR 11.10 (07/2026)",
+      "stem": [
+        "Liam O'Connor, 34, a ski instructor, is found at dawn in a creek bed near Falls Creek after going missing overnight in July. Paramedics find him in VF and start mechanical CPR. He is flown to a tertiary hospital with an ECMO service.",
+        "In the emergency department his oesophageal temperature is 26.8 °C and he remains in VF. Three shocks have been given since arrival. No drugs have been given. His potassium is 4.6 mmol/L."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Adrenaline 1 mg IV every 3–5 minutes, with amiodarone 300 mg IV now",
+          "why": "Normothermic dosing. Below 30 °C the drugs don't work and they accumulate to toxic levels as he warms."
+        },
+        {
+          "text": "Adrenaline 1 mg IV every 6–10 minutes, with a shock every 2 minutes",
+          "why": "The common trap: the 30–34 °C rule applied below 30 °C. Below 30 °C, adrenaline is withheld."
+        },
+        {
+          "text": "Amiodarone 300 mg IV, then further shocks every 2 minutes",
+          "why": "Wrong on both counts below 30 °C."
+        },
+        {
+          "text": "Cease resuscitation, because VF persisting after three shocks below 28 °C is not survivable",
+          "why": "Cold protects the brain, and good outcomes after prolonged CPR and ECLS rewarming are well described. A potassium of 4.6 mmol/L doesn't point to a non-survivable arrest."
+        },
+        {
+          "text": "Continue CPR and ECMO rewarming, withholding shocks and adrenaline until above 30 °C",
+          "correct": true,
+          "why": "ANZCOR 11.10: withhold adrenaline below 30 °C, and if VF persists after three shocks, delay further shocks until the core is above 30 °C. Patients in arrest should go straight to ECLS rewarming where it is available. Between 30 and 34 °C, double the drug interval to every 6–10 minutes."
+        },
+        {
+          "text": "Continue CPR with forced-air rewarming and a shock every 2 minutes",
+          "why": "Surface rewarming is far too slow in arrest, and repeated shocks below 30 °C rarely work."
+        }
+      ],
+      "keyPoint": "Below 30 °C: no adrenaline, and no more than three shocks. At 30–34 °C, double the drug interval. Rewarm with ECLS if you can."
+    },
+    {
+      "id": "als1-s06",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Capnography during CPR",
+      "source": "ALS1 Ch 4",
+      "stem": [
+        "Daniel Kwan, 66, a retired accountant, is in a PEA arrest on a cardiology ward. He is intubated with waveform capnography, a feedback device confirms good compressions, and he is ventilated at 10 breaths/min. ETCO2 has been 12–15 mmHg throughout.",
+        "One minute into the current 2-minute cycle, ETCO2 rises abruptly to 41 mmHg with a normal-shaped waveform. Ventilation has not changed and no sodium bicarbonate has been given. The drug nurse says adrenaline 1 mg is now due."
+      ],
+      "lead": "What is the MOST appropriate response?",
+      "options": [
+        {
+          "text": "Give adrenaline 0.5 mg IV as a compromise",
+          "why": "There is no half-dose rule. If ROSC is suspected, the dose is withheld."
+        },
+        {
+          "text": "Give adrenaline 1 mg IV now, as scheduled",
+          "why": "The common trap. A 1 mg bolus into a heart that has restarted risks tachyarrhythmia, severe hypertension and further myocardial injury."
+        },
+        {
+          "text": "Give sodium bicarbonate 8.4%, 50 mL IV",
+          "why": "No indication. Bicarbonate itself causes a transient ETCO2 rise, which would only cloud the picture."
+        },
+        {
+          "text": "Increase the ventilation rate to bring the ETCO2 down",
+          "why": "Hyperventilation raises intrathoracic pressure, cuts venous return and lowers cerebral blood flow. The ETCO2 is a signal, not a problem to correct."
+        },
+        {
+          "text": "Replace the CO2 sampling line, as the sudden reading is most likely artefact",
+          "why": "A sustained rise with a normal waveform and unchanged ventilation is the classic sign of ROSC, not artefact."
+        },
+        {
+          "text": "Withhold adrenaline and check for ROSC with a rhythm and pulse check",
+          "correct": true,
+          "why": "An abrupt rise towards 35–45 mmHg during CPR suggests ROSC. ARC: if ROSC is suspected, withhold adrenaline, and give it at the next rhythm check only if arrest is confirmed."
+        }
+      ],
+      "keyPoint": "A sudden, sustained ETCO2 rise during CPR means probable ROSC. Hold the adrenaline and confirm with a rhythm and pulse check."
+    },
+    {
+      "id": "als1-s07",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Choking",
+      "source": "ALS1 Ch 5, ANZCOR Guideline 4",
+      "stem": [
+        "Rosemary Clarke, 70, a retired teacher, is eating steak in the hospital cafeteria when she suddenly clutches her throat. She cannot speak or cough, makes only a faint high-pitched noise, and is becoming cyanosed. She is conscious and standing.",
+        "You stand to her side, lean her forwards and give five sharp back blows between the shoulder blades, checking after each one. The obstruction persists and she is still conscious."
+      ],
+      "lead": "According to ANZCOR guidelines, what is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Encourage her to keep trying to cough",
+          "why": "Only for mild obstruction with an effective cough. Hers is severe."
+        },
+        {
+          "text": "Give up to five abdominal thrusts",
+          "why": "The common trap, especially for those trained overseas. ANZCOR does not recommend abdominal thrusts because of the risk of internal injury."
+        },
+        {
+          "text": "Give up to five chest thrusts, alternating with back blows",
+          "correct": true,
+          "why": "ANZCOR Guideline 4 and the ALS1 manual: when back blows fail, give up to five chest thrusts at the CPR compression point, sharper and slower than compressions, checking after each. Keep alternating five and five while she stays conscious. If she becomes unresponsive, start CPR."
+        },
+        {
+          "text": "Lie her down on the floor and begin CPR at a ratio of 30:2",
+          "why": "CPR starts once she becomes unresponsive. While she is conscious, keep working to relieve the obstruction."
+        },
+        {
+          "text": "Perform a blind finger sweep of the mouth to find the object",
+          "why": "Blind sweeps can push the object further down. Remove material only if you can see it."
+        },
+        {
+          "text": "Prepare for needle cricothyroidotomy",
+          "why": "A last resort for a skilled operator, after she has lost consciousness and laryngoscopy has failed."
+        }
+      ],
+      "keyPoint": "Australia uses back blows then chest thrusts, not abdominal thrusts. If she becomes unresponsive, start CPR, and use laryngoscopy and Magill forceps once a skilled operator is there."
+    },
+    {
+      "id": "als1-s08",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Torsades de pointes in arrest",
+      "source": "ANZCOR 11.5 (04/2025)",
+      "stem": [
+        "Sandra Bell, 52, a cleaner on methadone 120 mg daily, was admitted with community-acquired pneumonia and started on IV azithromycin. She has also had several doses of ondansetron. This morning's ECG showed a QTc of 590 ms.",
+        "She collapses, and the monitor shows a pulseless polymorphic broad-complex tachycardia with a twisting QRS axis. She has had three shocks in successive cycles of CPR, and adrenaline 1 mg was given after the second. After the third shock the rhythm briefly organised, then degenerated into the same polymorphic pattern. Bloods taken at the start of the arrest are back."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Potassium",
+              "3.9 mmol/L",
+              "3.5–5.2"
+            ],
+            [
+              "Magnesium",
+              "0.64 mmol/L",
+              "0.70–1.10"
+            ],
+            [
+              "Ionised calcium",
+              "1.18 mmol/L",
+              "1.12–1.30"
+            ]
+          ]
+        }
+      ],
+      "lead": "Alongside the shockable algorithm, which drug is MOST appropriate now?",
+      "options": [
+        {
+          "text": "Amiodarone 300 mg IV",
+          "why": "Often chosen because the 3rd shock has just been given. ANZCOR advises avoiding amiodarone in torsades de pointes because it prolongs the QT further."
+        },
+        {
+          "text": "Calcium chloride 10%, 10 mL IV",
+          "why": "No hyperkalaemia, hypocalcaemia or calcium-channel blocker toxicity."
+        },
+        {
+          "text": "Isoprenaline IV infusion",
+          "why": "Isoprenaline or overdrive pacing suppresses pause-dependent torsades in a patient with a pulse. It is not an arrest drug."
+        },
+        {
+          "text": "Lignocaine 1 mg/kg IV",
+          "why": "It doesn't lengthen the QT, but it is the stand-in for amiodarone in refractory VF, not the specific treatment for torsades."
+        },
+        {
+          "text": "Magnesium sulfate 5 mmol IV bolus",
+          "correct": true,
+          "why": "ANZCOR 11.5: magnesium for torsades de pointes or documented hypomagnesaemia, and both apply. Give 5 mmol, repeat once if needed, then infuse 20 mmol over 2–4 hours aiming for a level above 2 mmol/L. Local protocols often use 10 mmol. Stop the QT-prolonging drugs."
+        },
+        {
+          "text": "Potassium chloride 5 mmol IV bolus",
+          "why": "ANZCOR keeps the arrest bolus for documented or suspected hypokalaemia. At 3.9 mmol/L, correct towards 4.5–5.0 after ROSC instead."
+        },
+        {
+          "text": "Sodium bicarbonate 8.4%, 50 mL IV",
+          "why": "For hyperkalaemia, tricyclic toxicity or severe acidosis, none of which applies."
+        }
+      ],
+      "keyPoint": "Torsades in arrest: shock it, give magnesium, and skip amiodarone. Then stop the QT-prolonging drugs and correct potassium and magnesium."
+    },
+    {
+      "id": "als1-s09",
+      "format": "sba",
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Laryngectomy stoma",
+      "source": "ALS1 Ch 5",
+      "stem": [
+        "Frank Doyle, 68, a retired boilermaker, had a total laryngectomy for laryngeal cancer 3 years ago and breathes through a permanent neck stoma. He is on a medical ward with pneumonia. A nurse finds him unresponsive with no breathing effort. He has a weak carotid pulse at 48/min and an SpO2 of 74%.",
+        "You have called the medical emergency team and attached monitoring. Oxygen and a self-inflating bag with face masks of several sizes are at the bedside."
+      ],
+      "lead": "What is the MOST appropriate way to ventilate him?",
+      "options": [
+        {
+          "text": "Bag ventilation through a small face mask sealed over the stoma",
+          "correct": true,
+          "why": "ALS1 manual: give oxygen and ventilate through the stoma, not the mouth. A small (often paediatric) mask over the stoma works, or a tracheal tube placed in the stoma if you are skilled. Check the stoma for secretions or a blocked device first."
+        },
+        {
+          "text": "Bag-mask ventilation over the mouth and nose, with jaw thrust",
+          "why": "Air goes only to the pharynx and oesophagus. None reaches the lungs."
+        },
+        {
+          "text": "Bag-mask ventilation over the mouth and nose, with the stoma sealed",
+          "why": "The common trap. This is right for a tracheostomy with a normal upper airway. After a laryngectomy the mouth and nose no longer connect to the trachea."
+        },
+        {
+          "text": "Insertion of an i-gel, then bag ventilation",
+          "why": "A supraglottic airway sits above a larynx he no longer has."
+        },
+        {
+          "text": "Needle cricothyroidotomy",
+          "why": "There is no cricothyroid membrane in the airway any more, and the stoma already gives direct access."
+        },
+        {
+          "text": "Oral tracheal intubation by direct laryngoscopy",
+          "why": "His trachea opens at the stoma, not into the pharynx."
+        }
+      ],
+      "keyPoint": "Laryngectomy: the stoma is the only airway, so ventilate through it. Tracheostomy: an upper airway usually remains, so seal the stoma and use the mouth if the tube can't be used."
+    },
+    {
+      "id": "als1-c01",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Safe manual defibrillation",
+      "source": "ALS1 Ch 4 and 7, ANZCOR 11.4 (07/2025)",
+      "stem": [
+        "Mavis Hartley, 74, has COPD and is on 2 L/min oxygen through nasal prongs on a respiratory ward. A nurse finds her unresponsive and not breathing normally. She was not on a monitor. CPR is under way at 30:2, with two-person bag-mask ventilation on 15 L/min oxygen.",
+        "You arrive as team leader. Self-adhesive pads were applied during compressions, and the first rhythm check shows coarse ventricular fibrillation. The ward's biphasic manual defibrillator is a model you use regularly."
+      ],
+      "lead": "Which FOUR actions are MOST appropriate in delivering the first shock?",
+      "options": [
+        {
+          "text": "Activate synchronised mode before charging",
+          "score": 0,
+          "why": "Synchronised shocks are for cardioversion of a perfusing rhythm. VF has no R wave to trigger on, so the shock may never fire."
+        },
+        {
+          "text": "Ask the compressor to keep gloved hands on the chest during the shock to avoid a pause",
+          "score": 0,
+          "why": "No evidence of benefit, and standard gloves don't protect the rescuer. Everyone is clear for the shock."
+        },
+        {
+          "text": "Charge the defibrillator while compressions continue, with everyone else standing clear",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Every 5-second increase in the pre-shock pause nearly halves the chance of success. Charge during compressions, then pause only for the safety check and the shock, aiming for under 5 seconds."
+        },
+        {
+          "text": "Check for a central pulse immediately after the shock",
+          "score": 0,
+          "why": "Often chosen. A pulse is rarely palpable straight after a successful shock, and checking costs perfusion time."
+        },
+        {
+          "text": "Deliver three stacked shocks",
+          "score": 0,
+          "why": "Reserved for witnessed, monitored VF when the first shock can be given within 20 seconds of onset. This arrest was unmonitored."
+        },
+        {
+          "text": "Give adrenaline 1 mg IV before the first shock",
+          "score": 0,
+          "why": "In VF, adrenaline follows the 2nd shock."
+        },
+        {
+          "text": "Move the nasal prongs and bag-mask at least 1 metre from the chest for the shock",
+          "score": 1,
+          "why": "Free-flowing oxygen near the pads is a fire risk. A bag attached to an SGA or tracheal tube can stay connected."
+        },
+        {
+          "text": "Perform a precordial thump while the defibrillator charges",
+          "score": 0,
+          "why": "Only for witnessed, monitored VF when a defibrillator isn't immediately available. It rarely works and only adds delay here."
+        },
+        {
+          "text": "Resume compressions immediately after the shock, without a rhythm or pulse check",
+          "score": 1,
+          "why": "Restart CPR for 2 minutes straight away. A freshly restarted heart needs support, and compressions don't make VF more likely to recur."
+        },
+        {
+          "text": "Select 200 J",
+          "score": 1,
+          "why": "ANZCOR 11.4 (07/2025): the default biphasic energy for adults is 200 J. Escalating to the maximum for later shocks is reasonable."
+        },
+        {
+          "text": "Stop compressions so the rhythm can be confirmed while the defibrillator charges",
+          "score": 0,
+          "why": "The common trap. Charging during a pause adds 5–10 seconds of no flow before every shock."
+        }
+      ],
+      "keyPoint": "Charge on the chest, clear the free-flowing oxygen, keep the pause under 5 seconds, shock, and get straight back on the chest."
+    },
+    {
+      "id": "als1-c02",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Post-ROSC care",
+      "source": "ANZCOR 11.7 (09/2024) and 11.6.1 (02/2026)",
+      "stem": [
+        "Anthony Russo, 61, a plumber, had an out-of-hospital VF arrest at home after 30 minutes of central chest pain. Paramedics achieved ROSC after three shocks, adrenaline 1 mg and amiodarone 300 mg, and intubated him.",
+        "In the emergency department he is sedated with propofol and did not obey commands when it was briefly paused. His 12-lead ECG shows 3 mm ST elevation in V1–V4. He has had 1 L of crystalloid. His blood pressure is 84/52 mmHg (MAP 63), heart rate 106/min in sinus rhythm, and SpO2 100% on FiO2 1.0. Temperature control has been started under the unit protocol. The hospital has a 24-hour PCI service."
+      ],
+      "tables": [
+        {
+          "caption": "Arterial blood gas on FiO2 1.0",
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "pH",
+              "7.21",
+              "7.35–7.45"
+            ],
+            [
+              "PaCO2",
+              "52 mmHg",
+              "35–45"
+            ],
+            [
+              "PaO2",
+              "410 mmHg",
+              "80–100"
+            ],
+            [
+              "Lactate",
+              "6.1 mmol/L",
+              "< 2.0"
+            ],
+            [
+              "Glucose",
+              "9.2 mmol/L",
+              "4.0–7.8"
+            ],
+            [
+              "Potassium",
+              "3.9 mmol/L",
+              "3.5–5.2"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which FOUR actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Activate the catheter laboratory for emergency coronary angiography",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. ANZCOR 11.7 suggests early angiography for ST elevation after ROSC, whether or not the patient is comatose. With 24-hour PCI on site, primary PCI is the reperfusion route."
+        },
+        {
+          "text": "Adjust ventilation to a PaCO2 of 35–45 mmHg",
+          "score": 1,
+          "why": "Normocapnia is the target. A PaCO2 of 52 needs a modest rise in minute ventilation."
+        },
+        {
+          "text": "Defer angiography until neurological prognosis is clearer at 72 hours",
+          "score": 0,
+          "why": "Coma is no reason to delay reperfusion, and prognosis can't be judged reliably before 72 hours anyway."
+        },
+        {
+          "text": "Give hydrocortisone 200 mg IV",
+          "score": 0,
+          "why": "ANZCOR suggests against routine corticosteroids after ROSC."
+        },
+        {
+          "text": "Give sodium bicarbonate 100 mmol IV to correct the pH",
+          "score": 0,
+          "why": "This mixed acidosis improves with perfusion and ventilation. Bicarbonate adds CO2 and a sodium load without benefit."
+        },
+        {
+          "text": "Give tenecteplase IV now",
+          "score": 0,
+          "why": "Fibrinolysis is for when PCI can't happen within 120 minutes. Here it can."
+        },
+        {
+          "text": "Hyperventilate to a PaCO2 of 30–35 mmHg to offset the metabolic acidosis",
+          "score": 0,
+          "why": "The common trap. Hypocapnia causes cerebral vasoconstriction and worsens brain ischaemia. ANZCOR suggests against routinely targeting it."
+        },
+        {
+          "text": "Load levetiracetam to prevent seizures",
+          "score": 0,
+          "why": "ANZCOR suggests against seizure prophylaxis. Treat seizures if they occur, with EEG where available."
+        },
+        {
+          "text": "Reduce FiO2, titrating to an SpO2 of 94–98%",
+          "score": 1,
+          "why": "A PaO2 of 410 mmHg is hyperoxaemia, which ANZCOR suggests avoiding. Once SpO2 is reliable, titrate to 94–98%."
+        },
+        {
+          "text": "Start an insulin infusion targeting glucose 4.0–6.0 mmol/L",
+          "score": 0,
+          "why": "Too tight. ANZCOR treats glucose above 10 mmol/L with insulin while avoiding hypoglycaemia. At 9.2 mmol/L he needs monitoring only."
+        },
+        {
+          "text": "Start noradrenaline and titrate to a MAP of at least 65 mmHg",
+          "score": 1,
+          "why": "He is still hypotensive after a litre of fluid. ANZCOR suggests an initial MAP of at least 60–65 mmHg, or systolic above 100 mmHg, because cerebral autoregulation is lost after arrest."
+        }
+      ],
+      "keyPoint": "After ROSC: SpO2 94–98%, PaCO2 35–45 mmHg, MAP at least 65 mmHg, glucose under 10 mmol/L, fever prevention, and early angiography for ST elevation even if the patient is comatose."
+    },
+    {
+      "id": "als1-c03",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Pulmonary embolism arrest",
+      "source": "ANZCOR 11.5 and 11.10",
+      "stem": [
+        "Karen Mills, 46, a pharmacist, is 5 days after an open hysterectomy. She becomes suddenly breathless on the ward. Minutes later the nurse records a heart rate of 132/min, blood pressure of 78/50 mmHg and SpO2 of 84% on room air, and then she collapses.",
+        "She is in PEA. CPR is under way with an i-gel and IV access, and adrenaline 1 mg has been given. A focused echo during the rhythm check shows a markedly dilated right ventricle and no pericardial effusion. There is no visible bleeding, and the wound and drain are dry."
+      ],
+      "lead": "Which THREE further actions are MOST appropriate?",
+      "options": [
+        {
+          "text": "Arrange CT pulmonary angiography to confirm the diagnosis before treating",
+          "score": 0,
+          "why": "Not possible during CPR. The echo and clinical picture are enough to act on."
+        },
+        {
+          "text": "Continue adrenaline 1 mg IV every second cycle",
+          "score": 1,
+          "why": "The non-shockable algorithm continues alongside cause-specific treatment."
+        },
+        {
+          "text": "Give a fibrinolytic (for example alteplase) IV now",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. ANZCOR suggests fibrinolysis when PE is the suspected cause of arrest. Recent surgery is a relative contraindication, and the alternative here is death."
+        },
+        {
+          "text": "Give amiodarone 300 mg IV",
+          "score": 0,
+          "why": "Only for shock-refractory VF or pulseless VT."
+        },
+        {
+          "text": "Give calcium chloride 10%, 10 mL IV",
+          "score": 0,
+          "why": "No hyperkalaemia, hypocalcaemia or calcium-channel blocker overdose."
+        },
+        {
+          "text": "Give unfractionated heparin 5000 units IV as the only clot treatment",
+          "score": 0,
+          "why": "Heparin stops propagation but won't clear an obstructing clot fast enough to restore output."
+        },
+        {
+          "text": "Infuse 2 L of crystalloid rapidly",
+          "score": 0,
+          "why": "A dilated, failing right ventricle doesn't benefit from large volumes, which worsen septal shift. Small boluses at most."
+        },
+        {
+          "text": "Perform bilateral needle decompression of the chest",
+          "score": 0,
+          "why": "Nothing suggests tension pneumothorax, and ultrasound can exclude it."
+        },
+        {
+          "text": "Perform pericardiocentesis",
+          "score": 0,
+          "why": "The echo shows no effusion."
+        },
+        {
+          "text": "Plan to continue CPR for 60–90 minutes after fibrinolysis before considering stopping",
+          "score": 1,
+          "why": "Clot lysis takes time. Good neurological survival is reported after more than 60 minutes of CPR."
+        },
+        {
+          "text": "Stop resuscitation if PEA persists 20 minutes after fibrinolysis",
+          "score": 0,
+          "why": "The common trap. The 20-minute guide applies to asystole without a reversible cause. After fibrinolysis for PE, ANZCOR suggests 60–90 minutes."
+        }
+      ],
+      "keyPoint": "Suspected PE arrest: give the fibrinolytic during CPR, keep running the algorithm, and commit to 60–90 minutes of CPR."
+    },
+    {
+      "id": "als1-c04",
+      "format": "cdp",
+      "select": 5,
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Anaphylaxis with shock",
+      "source": "ALS1 appendix, ASCIA flowchart (2026)",
+      "stem": [
+        "Priya Nair, 38, a software tester weighing 68 kg, is on a surgical ward. Three minutes after an IV cefazolin infusion starts, she reports itching, chest tightness and feeling faint. She is sitting upright on the bed.",
+        "She has generalised urticaria and a mild expiratory wheeze, with no stridor or voice change. Her heart rate is 134/min, blood pressure 76/40 mmHg and SpO2 91% on room air. She is alert. You have called for help, and she has a cannula in her left forearm."
+      ],
+      "lead": "Which FIVE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Adrenaline 0.5 mg (0.5 mL of 1:1000) IM into the anterolateral thigh",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. IM adrenaline is the first-line drug: 0.01 mg/kg up to 0.5 mg, repeated after 5 minutes if needed. Delayed adrenaline is the main factor in fatal anaphylaxis."
+        },
+        {
+          "text": "Adrenaline 0.5 mL of 1:10 000 IM",
+          "score": 0,
+          "why": "Wrong concentration. This delivers only 0.05 mg."
+        },
+        {
+          "text": "Adrenaline 1 mg IV bolus",
+          "score": 0,
+          "why": "The cardiac arrest dose. In a patient with a pulse it can cause severe hypertension, arrhythmia and myocardial ischaemia. IV adrenaline in anaphylaxis is a titrated infusion run by experienced clinicians."
+        },
+        {
+          "text": "Give high-flow oxygen through a reservoir (non-rebreather) mask",
+          "score": 1,
+          "why": "Give the highest concentration first, then titrate once the SpO2 reading is reliable."
+        },
+        {
+          "text": "Give promethazine 25 mg IV first to block histamine",
+          "score": 0,
+          "why": "Antihistamines don't treat airway, breathing or circulation problems, and promethazine can worsen hypotension."
+        },
+        {
+          "text": "Hydrocortisone 200 mg IV before adrenaline",
+          "score": 0,
+          "why": "Steroids are slow and not first-line. Never delay adrenaline for them."
+        },
+        {
+          "text": "Infuse 0.9% sodium chloride 1000 mL IV rapidly",
+          "score": 1,
+          "why": "Capillary leak and vasodilation cause relative hypovolaemia. ASCIA advises 10–20 mL/kg, about 1 L for her."
+        },
+        {
+          "text": "Lie her flat and don't let her sit up, stand or walk",
+          "score": 1,
+          "why": "She is faint and hypotensive. Upright posture in anaphylactic shock has been linked to sudden arrest. If her breathing worsens, she can sit with her legs outstretched."
+        },
+        {
+          "text": "Nebulised salbutamol instead of IM adrenaline",
+          "score": 0,
+          "why": "Salbutamol can be added for persistent wheeze, but it does nothing for shock."
+        },
+        {
+          "text": "Sit her fully upright to ease her breathing",
+          "score": 0,
+          "why": "The common trap. With hypotension and faintness, sitting up risks collapse and arrest."
+        },
+        {
+          "text": "Stop the cefazolin infusion",
+          "score": 1,
+          "why": "Remove the trigger whenever you can do it without delaying adrenaline."
+        },
+        {
+          "text": "Wait 10 minutes before considering a second IM dose",
+          "score": 0,
+          "why": "If there is no improvement, repeat IM adrenaline after 5 minutes. After two doses without response, follow the refractory anaphylaxis pathway and call senior help."
+        }
+      ],
+      "keyPoint": "Anaphylaxis with shock: IM adrenaline 0.5 mg into the thigh, lie flat, oxygen, a rapid fluid bolus, and stop the trigger. Repeat adrenaline every 5 minutes and escalate after two doses."
+    },
+    {
+      "id": "als1-c05",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "ALS1"
+      ],
+      "topics": [
+        "Resuscitation"
+      ],
+      "subtopic": "Stopping CPR and confirming death",
+      "source": "ALS1 Ch 4 and 10",
+      "stem": [
+        "Walter Briggs, 81, a retired farmer with ischaemic cardiomyopathy (ejection fraction 20%), is found unresponsive on a medical ward. He was last seen well 15 minutes earlier. He has no documented resuscitation plan.",
+        "You have led the resuscitation for 26 minutes. The rhythm has been asystole throughout, with gain and leads checked. He has had high-quality CPR, an i-gel, IO access and adrenaline every 4 minutes. Focused echo shows no cardiac activity, effusion or right ventricular dilatation, and ETCO2 is 8–10 mmHg. A blood gas shows potassium 4.6 mmol/L and glucose 7.4 mmol/L, and his temperature is 36.4 °C. His daughter is on her way, and the nurse unit manager will meet her."
+      ],
+      "lead": "Which FOUR actions are MOST appropriate?",
+      "options": [
+        {
+          "text": "After 5 minutes, confirm absent pupillary light reflexes, corneal reflexes and motor response to supraorbital pressure",
+          "score": 1,
+          "why": "These checks complete the confirmation of death once 5 minutes of arrest have been observed."
+        },
+        {
+          "text": "Attempt transcutaneous pacing",
+          "score": 0,
+          "why": "Pacing rarely works in true asystole. It is for ventricular standstill with P waves, which isn't present."
+        },
+        {
+          "text": "Confirm death after 1 minute if the monitor shows a flat line",
+          "score": 0,
+          "why": "Too short. Circulation can return spontaneously after CPR stops."
+        },
+        {
+          "text": "Continue CPR for at least 60 minutes in total before stopping",
+          "score": 0,
+          "why": "There is no fixed minimum. The 60–90 minute guidance applies after fibrinolysis for PE."
+        },
+        {
+          "text": "Continue CPR until his daughter arrives so she can agree to stopping",
+          "score": 0,
+          "why": "The common trap. The decision rests with the senior clinician, and families shouldn't be made to feel responsible for it."
+        },
+        {
+          "text": "Give empirical calcium chloride and sodium bicarbonate before stopping",
+          "score": 0,
+          "why": "Routine calcium and bicarbonate are advised against, and nothing points to hyperkalaemia, calcium-channel blocker toxicity or a tricyclic overdose."
+        },
+        {
+          "text": "Observe for at least 5 minutes after stopping CPR before confirming death",
+          "score": 1,
+          "why": "ARC: observe for at least 5 minutes (no central pulse, no heart sounds, asystole on the monitor). Any return of activity restarts the 5-minute period."
+        },
+        {
+          "text": "Record the time of death as the time CPR stopped",
+          "score": 0,
+          "why": "Often chosen. Death is confirmed after the observation period, not when CPR stops."
+        },
+        {
+          "text": "Record the time of death as the time these criteria are met",
+          "score": 1,
+          "why": "ARC records the time of death as when the confirmation criteria are fulfilled."
+        },
+        {
+          "text": "Stop CPR now, after a brief check with the team",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Asystole for more than 20 minutes with all ALS measures in place and no reversible cause found is a reasonable basis for stopping. The team leader decides after consulting the team."
+        }
+      ],
+      "keyPoint": "Asystole beyond 20 minutes despite full ALS and no reversible cause: stop. Then observe for 5 minutes, check pupils, corneas and motor response, and record death when the criteria are met. Follow local policy on documentation."
+    }
+  ]
+}

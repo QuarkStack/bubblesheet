@@ -1,0 +1,1348 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "rheum-renal-01",
+    "title": "Rheumatology and Renal, set 1",
+    "description": "General practice rheumatology (inflammatory arthritis, crystal arthritis, PMR, osteoporosis, connective tissue disease) and kidney health (CKD, diabetes in CKD, haematuria, UTI, sick-day medicines). Adult only.",
+    "created": "2026-11-07",
+    "reviewBy": "2027-11-07",
+    "sources": [
+      "Therapeutic Guidelines (Rheumatology; Antibiotic; Bone and Metabolism)",
+      "Kidney Health Australia, CKD Management in Primary Care, 5th edition",
+      "RACGP/Healthy Bones Australia osteoporosis guideline (2024)",
+      "RACGP Curriculum and Syllabus, 6th edition (Musculoskeletal; Kidney and urinary health)",
+      "Australian Rheumatology Association methotrexate monitoring guidance"
+    ]
+  },
+  "questions": [
+    {
+      "id": "rr01-s01",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology"
+      ],
+      "subtopic": "Viral arthritis",
+      "source": "Therapeutic Guidelines: Rheumatology (viral arthritis)",
+      "stem": [
+        "Hannah Price, 36, presents with 4 days of painful swelling of both wrists, several metacarpophalangeal (MCP) joints and both ankles. She has also had a low-grade fever, myalgia and a faint maculopapular rash on her trunk. Ten days ago she returned from a camping trip along the Murray River near Mildura, where she had many mosquito bites. She has no past medical history and takes no regular medicines.",
+        "On examination, her temperature is 37.8 °C, with tender synovitis of both wrists and the 2nd and 3rd MCP joints bilaterally. You suspect Ross River virus infection. You request serology today and plan a second sample in 2 weeks."
+      ],
+      "lead": "Which result pattern would MOST reliably confirm recent Ross River virus infection?",
+      "options": [
+        {
+          "text": "Barmah Forest virus IgM and Ross River virus IgM both positive on the first sample",
+          "why": "Alphavirus antibodies cross-react, so dual IgM positivity can't tell you which virus caused the illness or when."
+        },
+        {
+          "text": "Rheumatoid factor positive at low titre, with negative anti-CCP antibodies",
+          "why": "RF can be transiently positive in viral arthritis, which is why TG advises against RF and anti-CCP testing before 6 weeks. It does not confirm RRV."
+        },
+        {
+          "text": "Ross River virus IgG negative on the first sample and positive on the second sample",
+          "correct": true,
+          "why": "IgG seroconversion between paired samples confirms recent infection. TG requires an appropriate change in paired acute (within 1 week) and convalescent (14–21 days) serology, ideally testing both IgM and IgG."
+        },
+        {
+          "text": "Ross River virus IgG positive at the same titre on both samples",
+          "why": "A stable IgG titre means past infection. Prior RRV exposure is common in endemic areas."
+        },
+        {
+          "text": "Ross River virus IgM positive on the first sample, with no second sample",
+          "why": "The common trap. IgM can persist for up to 2 years, cross-reacts with Barmah Forest virus and can be falsely positive in evolving inflammatory disease, so a single IgM is not confirmatory."
+        },
+        {
+          "text": "Ross River virus IgM positive, with a raised C-reactive protein",
+          "why": "CRP is non-specific and adds nothing to the specificity of a single IgM result."
+        }
+      ],
+      "keyPoint": "Paired serology showing IgG seroconversion or rise is the confirmatory pattern. Management is NSAIDs and reassurance. Most cases resolve by 6 weeks; reassess for RA if there's no improvement by 6 weeks or significant symptoms beyond 12 weeks."
+    },
+    {
+      "id": "rr01-s02",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology"
+      ],
+      "subtopic": "Crystal arthritis (CPPD)",
+      "source": "Therapeutic Guidelines: Rheumatology (calcium pyrophosphate deposition); RACGP Curriculum and Syllabus, 6th edition (Musculoskeletal)",
+      "stem": [
+        "Dorothy Whitfield, 79, presents with 2 days of a hot, swollen right knee. She can bear weight only with difficulty. Her past history includes type 2 diabetes, heart failure with reduced ejection fraction, chronic kidney disease, and a bleeding duodenal ulcer 2 years ago. Her medicines are metformin XR 1 g daily, linagliptin 5 mg daily, sacubitril/valsartan, bisoprolol, frusemide 40 mg daily and pantoprazole 40 mg daily.",
+        "On examination, her temperature is 37.6 °C and heart rate 78 bpm. There is a warm, tense right knee effusion. You aspirate the knee. A knee X-ray shows linear calcification of both menisci."
+      ],
+      "tables": [
+        {
+          "caption": "Synovial fluid",
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Appearance",
+              "Cloudy",
+              "Clear"
+            ],
+            [
+              "White cells",
+              "18 000 × 10⁶/L",
+              "< 200 × 10⁶/L"
+            ],
+            [
+              "Neutrophils",
+              "80%",
+              "< 25%"
+            ],
+            [
+              "Gram stain",
+              "No organisms seen",
+              ""
+            ],
+            [
+              "Crystals",
+              "Rhomboid, weakly positively birefringent",
+              "None"
+            ],
+            [
+              "Culture",
+              "Pending",
+              ""
+            ]
+          ]
+        },
+        {
+          "caption": "Blood",
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "eGFR",
+              "38 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "HbA1c",
+              "9.4% (79 mmol/mol)",
+              "Individualised target"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate initial treatment?",
+      "options": [
+        {
+          "text": "Allopurinol 50 mg orally, daily",
+          "why": "Urate-lowering therapy is for gout. These are calcium pyrophosphate crystals (pseudogout), so it's the right drug for the wrong diagnosis."
+        },
+        {
+          "text": "Colchicine 1 mg orally, then 0.5 mg 1 hour later",
+          "why": "This low-dose regimen works in crystal arthritis, but TG advises avoiding colchicine in kidney impairment. At 79 with an eGFR of 38 the toxicity risk is high."
+        },
+        {
+          "text": "Flucloxacillin 2 g intravenously, 6-hourly",
+          "why": "A negative Gram stain, crystals, a WCC of 18 000 and low-grade fever fit crystal arthritis. Culture is pending, but suspicion of sepsis is not high enough to justify empirical IV antibiotics."
+        },
+        {
+          "text": "Indometacin 50 mg orally, 3 times daily",
+          "why": "NSAIDs are unsafe here because of HFrEF, CKD and the previous bleeding ulcer."
+        },
+        {
+          "text": "Intra-articular corticosteroid injection into the right knee",
+          "correct": true,
+          "why": "Monoarticular disease plus contraindications to NSAIDs and colchicine make local injection the best choice. It avoids systemic steroid effects on her poorly controlled diabetes and fluid balance. TG supports injection before culture results when infection suspicion is low. Safety-net: return if fever develops or pain worsens."
+        },
+        {
+          "text": "Prednisolone 25 mg orally, daily until symptoms settle",
+          "why": "Often chosen, and a reasonable fallback if injection isn't possible. With an HbA1c of 9.4% and heart failure, though, systemic steroid will worsen hyperglycaemia and fluid retention when a local option exists."
+        },
+        {
+          "text": "Probenecid 250 mg orally, twice daily",
+          "why": "This is a uricosuric for chronic gout and has no role in CPPD."
+        },
+        {
+          "text": "Referral for arthroscopic washout",
+          "why": "Washout is a treatment for septic arthritis, which this is not."
+        }
+      ],
+      "keyPoint": "Chondrocalcinosis plus positively birefringent rhomboid crystals means CPPD. Choose treatment by comorbidity: in a single joint with NSAID and colchicine contraindications, inject the joint."
+    },
+    {
+      "id": "rr01-s03",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology"
+      ],
+      "subtopic": "Gout",
+      "source": "Therapeutic Guidelines: Rheumatology (gout)",
+      "stem": [
+        "Wei Zhang, 54, of Han Chinese descent, attends to discuss urate-lowering therapy. He has had 3 gout flares in the past 12 months, and monosodium urate crystals were confirmed on aspiration of his left knee in March. His past history includes hypertension and chronic kidney disease, and he takes amlodipine 10 mg daily and irbesartan 300 mg daily. He currently has no symptoms."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Serum urate",
+              "0.52 mmol/L",
+              "0.20–0.42"
+            ],
+            [
+              "eGFR",
+              "52 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "ALT",
+              "28 U/L",
+              "< 40"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which investigation is MOST appropriate before starting allopurinol?",
+      "options": [
+        {
+          "text": "24-hour urinary urate excretion",
+          "why": "TG does not recommend this routinely in gout."
+        },
+        {
+          "text": "Dual-energy CT of the feet",
+          "why": "DECT is a specialist tool for diagnostically difficult cases. His gout is already crystal-proven."
+        },
+        {
+          "text": "Glucose-6-phosphate dehydrogenase (G6PD) activity",
+          "why": "Relevant before rasburicase, dapsone or primaquine, not allopurinol. Right idea (pharmacogenomic screening), wrong drug."
+        },
+        {
+          "text": "HLA-B*1502",
+          "why": "The likely trap. HLA-B*1502 predicts carbamazepine-induced SJS/TEN in the same population. Right population, wrong drug."
+        },
+        {
+          "text": "HLA-B*5801",
+          "correct": true,
+          "why": "TG lists HLA-B*5801 (common in Han Chinese, Korean and Thai populations), kidney impairment, older age and a high starting dose as risk factors for allopurinol hypersensitivity syndrome. With 2 risk factors, test first. If positive, avoid allopurinol and use probenecid or febuxostat (febuxostat is not for those with major cardiovascular disease). If negative, start at 50 mg and titrate to target with colchicine prophylaxis."
+        },
+        {
+          "text": "HLA-B27",
+          "why": "Associated with spondyloarthritis. It has no role in gout or allopurinol safety."
+        },
+        {
+          "text": "Thiopurine methyltransferase (TPMT) activity",
+          "why": "Used before azathioprine or mercaptopurine. Allopurinol does interact with those drugs, but TPMT says nothing about allopurinol risk."
+        }
+      ],
+      "keyPoint": "Before allopurinol in people of Han Chinese, Korean or Thai descent, especially with CKD, check HLA-B*5801. Start low, go slow, use flare prophylaxis, and treat to a urate below 0.36 mmol/L."
+    },
+    {
+      "id": "rr01-s04",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology"
+      ],
+      "subtopic": "Osteoporosis",
+      "source": "RACGP/Healthy Bones Australia osteoporosis guideline (2024)",
+      "stem": [
+        "Rosa Mancini, 76, has had denosumab 60 mg subcutaneously every 6 months for 7 years, started after a minimal-trauma T12 vertebral fracture. Her last injection was 6 months ago and the next is due this week. After reading about osteonecrosis of the jaw she wants to stop. You have discussed the risks of stopping and she has made an informed decision. She has had no further fractures."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "DXA lumbar spine T-score",
+              "−2.0",
+              "≥ −1.0"
+            ],
+            [
+              "DXA femoral neck T-score",
+              "−2.3",
+              "≥ −1.0"
+            ],
+            [
+              "eGFR",
+              "64 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Corrected calcium",
+              "2.36 mmol/L",
+              "2.10–2.60"
+            ],
+            [
+              "25-hydroxyvitamin D",
+              "82 nmol/L",
+              "> 50"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate plan?",
+      "options": [
+        {
+          "text": "Alendronate 70 mg orally weekly, starting now and continuing for 12–24 months",
+          "correct": true,
+          "why": "Stopping denosumab causes rebound bone turnover and multiple spontaneous vertebral fractures, a risk highest in those with a previous vertebral fracture. TG suggests starting alendronate no more than 6 months after the last dose and continuing for 12–24 months. She is at 6 months, so start now. Counsel that alendronate also carries a small MRONJ risk."
+        },
+        {
+          "text": "Calcium and vitamin D supplements alone, with DXA in 2 years",
+          "why": "Unsafe. Without a replacement antiresorptive, bone loss is rapid and fracture risk rebounds within months."
+        },
+        {
+          "text": "Denosumab 60 mg once yearly instead of 6-monthly",
+          "why": "A dose delayed by more than 4 weeks (over 7 months since the last one) is associated with rebound vertebral fractures. Denosumab is not dosed yearly."
+        },
+        {
+          "text": "Drug holiday for 12 months, then repeat DXA",
+          "why": "Often chosen. Drug holidays apply to bisphosphonates, which have a long skeletal half-life. Denosumab's effect wears off once it is stopped."
+        },
+        {
+          "text": "Raloxifene 60 mg orally daily",
+          "why": "Raloxifene is weaker, not shown to prevent post-denosumab rebound, and carries VTE risk at 76."
+        },
+        {
+          "text": "Teriparatide 20 micrograms subcutaneously daily for 18 months",
+          "why": "She doesn't meet the PBS criteria. Moving from denosumab straight to an anabolic causes transient bone loss, so it is not a transition strategy."
+        },
+        {
+          "text": "Zoledronic acid 5 mg intravenously, 12 months after the last denosumab dose",
+          "why": "Zoledronic acid can be a transition agent, but at 12 months the 6-month gap means rebound turnover is already under way."
+        }
+      ],
+      "keyPoint": "Denosumab must be continued indefinitely or replaced by a bisphosphonate. Never leave a gap."
+    },
+    {
+      "id": "rr01-s05",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology"
+      ],
+      "subtopic": "PMR relapse",
+      "source": "Therapeutic Guidelines: Rheumatology (polymyalgia rheumatica)",
+      "stem": [
+        "Graham Ellis, 71, was diagnosed with polymyalgia rheumatica 8 months ago. He responded promptly to prednisolone 15 mg daily and has followed a taper; 3 weeks ago his dose went from 8 mg to 7 mg daily.",
+        "For the past 10 days he has had recurrent bilateral shoulder and hip-girdle pain, with 90 minutes of morning stiffness. He has no headache, scalp tenderness, jaw claudication, visual symptoms, fever or weight loss."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Today",
+            "8 weeks ago",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "ESR",
+              "46 mm/h",
+              "12 mm/h",
+              "< 20"
+            ],
+            [
+              "CRP",
+              "21 mg/L",
+              "3 mg/L",
+              "< 5"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate change to his corticosteroid therapy?",
+      "options": [
+        {
+          "text": "Continue prednisolone 7 mg daily and reassure him that symptoms are expected during tapering",
+          "why": "Often chosen. TG does say brief aching during dose reductions is expected and planned reductions should continue. Symptoms lasting more than a few days with clearly raised inflammatory markers count as a clinician-assessed relapse, though."
+        },
+        {
+          "text": "Increase prednisolone to 8 mg daily, then reduce back to 7 mg over 4–8 weeks",
+          "correct": true,
+          "why": "TG: revert to the previously effective dose, then reduce over 4–8 weeks to the dose at which relapse occurred. Also re-check for GCA and consider specialist referral (methotrexate is an option if relapses recur)."
+        },
+        {
+          "text": "Increase prednisolone to 10 mg daily, then reduce by 1 mg every 4 weeks",
+          "why": "The right idea at the wrong dose. It gives more steroid than needed and adds cumulative harm."
+        },
+        {
+          "text": "Increase prednisolone to 15 mg daily and restart the original taper",
+          "why": "Overtreats a mild relapse and adds months of avoidable steroid exposure."
+        },
+        {
+          "text": "Increase prednisolone to 60 mg daily",
+          "why": "This is the GCA dose (1 mg/kg up to 80 mg). He has no cranial or visual features."
+        },
+        {
+          "text": "Methylprednisolone 500 mg intravenously daily for 3 days",
+          "why": "Pulse IV methylprednisolone is reserved for GCA with evolving or recent transient visual loss."
+        },
+        {
+          "text": "Stop prednisolone and start methotrexate 10 mg weekly",
+          "why": "Stopping abruptly after 8 months risks adrenal crisis and relapse. Methotrexate is a specialist-initiated steroid-sparing add-on, not a replacement."
+        }
+      ],
+      "keyPoint": "PMR relapse: go back to the last dose that controlled it, not to the start dose. Taper over 12 months or more, and refer if steroids can't be tapered or are needed beyond 18 months."
+    },
+    {
+      "id": "rr01-s06",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Renal"
+      ],
+      "subtopic": "Diabetes in CKD",
+      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition",
+      "stem": [
+        "Leanne Fraser, 61, has had type 2 diabetes for 12 years and also has hypertension. Her medicines are perindopril 10 mg daily (maximum dose, for 2 years), amlodipine 5 mg daily, metformin XR 1 g twice daily and atorvastatin 40 mg daily. Her blood pressure is 126/74 mmHg."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "3 months ago",
+            "Today",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "eGFR (mL/min/1.73 m²)",
+              "52",
+              "50",
+              "> 90"
+            ],
+            [
+              "Urine albumin:creatinine ratio (mg/mmol)",
+              "38",
+              "44",
+              "< 3.0"
+            ],
+            [
+              "Potassium (mmol/L)",
+              "4.6",
+              "4.7",
+              "3.5–5.2"
+            ],
+            [
+              "HbA1c",
+              "7.0%",
+              "7.1% (54 mmol/mol)",
+              "Individualised target"
+            ],
+            [
+              "Urine microscopy",
+              "",
+              "No dysmorphic red cells",
+              ""
+            ]
+          ]
+        }
+      ],
+      "lead": "Which medicine is the MOST appropriate addition to slow progression of her kidney disease?",
+      "options": [
+        {
+          "text": "Dapagliflozin 10 mg orally, daily",
+          "correct": true,
+          "why": "Kidney Health Australia's stepwise plan for persistent albuminuria is: maximise the ACE inhibitor or ARB, add an SGLT2 inhibitor, then (in type 2 diabetes) consider a non-steroidal MRA and a GLP-1 RA. Expect a reversible eGFR dip, consider diuretic or antihypertensive reduction, and give sick-day advice. Her persistent UACR above 30 also meets a nephrology referral criterion."
+        },
+        {
+          "text": "Finerenone 10 mg orally, daily",
+          "why": "Often chosen. Finerenone fits her profile (type 2 diabetes, albuminuria, K⁺ ≤ 5.0), but in the stepwise sequence it comes after the SGLT2 inhibitor."
+        },
+        {
+          "text": "Frusemide 20 mg orally, daily",
+          "why": "No renoprotective effect, and she has no oedema."
+        },
+        {
+          "text": "Irbesartan 150 mg orally, daily",
+          "why": "Combining an ACE inhibitor with an ARB isn't recommended because of hyperkalaemia and AKI risk without outcome benefit."
+        },
+        {
+          "text": "Semaglutide 0.25 mg subcutaneously, weekly",
+          "why": "A GLP-1 RA is a later step, considered once SGLT2 inhibitor therapy is in place."
+        },
+        {
+          "text": "Sitagliptin 100 mg orally, daily",
+          "why": "Glucose-lowering only, with no kidney benefit, and her HbA1c is near target."
+        },
+        {
+          "text": "Spironolactone 25 mg orally, daily",
+          "why": "A steroidal MRA on top of an ACE inhibitor in CKD carries a high hyperkalaemia risk. It is used for heart failure or resistant hypertension, not to reduce albuminuria."
+        }
+      ],
+      "keyPoint": "For albuminuric CKD: ACE inhibitor or ARB at maximum dose, then SGLT2 inhibitor, then finerenone or a GLP-1 RA in type 2 diabetes. Aim for at least a 30% fall in UACR."
+    },
+    {
+      "id": "rr01-s07",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Renal"
+      ],
+      "subtopic": "Prescribing in CKD",
+      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition",
+      "stem": [
+        "Beatrice Holloway, 78, lives alone and has type 2 diabetes and chronic kidney disease. Her medicines are metformin XR 1 g daily, gliclazide MR 30 mg daily, dapagliflozin 10 mg daily, perindopril 5 mg daily and atorvastatin 20 mg daily. She reports no hypoglycaemia."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "4 months ago",
+            "Today",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "eGFR (mL/min/1.73 m²)",
+              "27",
+              "26",
+              "> 90"
+            ],
+            [
+              "HbA1c",
+              "8.0%",
+              "8.2% (66 mmol/mol)",
+              "Individualised target"
+            ],
+            [
+              "Urine albumin:creatinine ratio (mg/mmol)",
+              "16",
+              "18",
+              "< 3.0"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate change to her glucose-lowering therapy?",
+      "options": [
+        {
+          "text": "Cease metformin and start glibenclamide 5 mg daily",
+          "why": "Glibenclamide has active, renally cleared metabolites and causes prolonged hypoglycaemia in CKD. Avoid it."
+        },
+        {
+          "text": "Cease metformin and start linagliptin 5 mg daily",
+          "correct": true,
+          "why": "Metformin is contraindicated below an eGFR of 30 because of lactic acidosis risk. Linagliptin is cleared hepatobiliary and needs no dose change in CKD, so it suits her and adds little hypoglycaemia risk. Continue dapagliflozin for kidney protection."
+        },
+        {
+          "text": "Cease metformin and start saxagliptin 5 mg daily",
+          "why": "The right class at the wrong dose. Saxagliptin is reduced to 2.5 mg daily in moderate to severe kidney impairment."
+        },
+        {
+          "text": "Cease metformin and start sitagliptin 100 mg daily",
+          "why": "The right class at the wrong dose. Sitagliptin is 25 mg daily when the eGFR is below 30."
+        },
+        {
+          "text": "Continue the current regimen",
+          "why": "Metformin at an eGFR of 26 is unsafe."
+        },
+        {
+          "text": "Increase gliclazide MR to 120 mg daily",
+          "why": "Raises hypoglycaemia risk in a 78-year-old with CKD who lives alone, and doesn't deal with the metformin."
+        },
+        {
+          "text": "Reduce metformin XR to 500 mg daily",
+          "why": "Often chosen because it misapplies the eGFR 30–44 rule (maximum 1 g daily). Below 30, metformin should be stopped, not reduced."
+        }
+      ],
+      "keyPoint": "Metformin: maximum 1 g daily at eGFR 30–44, stop below 30. Of the gliptins, only linagliptin needs no renal dose adjustment."
+    },
+    {
+      "id": "rr01-s08",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Renal"
+      ],
+      "subtopic": "Haematuria",
+      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition (haematuria)",
+      "stem": [
+        "Ian Moretti, 66, a retired panel beater, reports one episode of painless red urine with small clots 5 days ago, which cleared within a day. He has no dysuria, loin pain, fever or lower urinary tract symptoms. He has atrial fibrillation and takes apixaban 5 mg twice daily. He is an ex-smoker with 30 pack-years who quit 8 years ago.",
+        "Examination is unremarkable apart from a smooth, mildly enlarged prostate."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Urinalysis",
+              "Blood 1+, nitrites negative, leucocytes negative",
+              ""
+            ],
+            [
+              "MSU red cells",
+              "40 × 10⁶/L",
+              "< 10"
+            ],
+            [
+              "MSU white cells",
+              "5 × 10⁶/L",
+              "< 10"
+            ],
+            [
+              "MSU culture",
+              "No growth",
+              ""
+            ],
+            [
+              "eGFR",
+              "76 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Haemoglobin",
+              "141 g/L",
+              "130–180"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Cease apixaban and repeat urinalysis in 2 weeks",
+          "why": "Stopping apixaban raises stroke risk and doesn't remove the need to investigate. Anticoagulation unmasks pathology rather than causing it."
+        },
+        {
+          "text": "CT urogram and referral to a urologist for cystoscopy",
+          "correct": true,
+          "why": "Even a single episode of visible haematuria needs full evaluation. His age, smoking history and solvent and paint exposure all raise urothelial cancer risk, and clots suggest a lower-tract source. CT urography images the upper tract and cystoscopy the bladder (RACGP syllabus). eGFR 76 means negligible contrast risk."
+        },
+        {
+          "text": "Plain X-ray of the kidneys, ureters and bladder",
+          "why": "The RACGP syllabus states plain KUB X-ray has no role in investigating haematuria."
+        },
+        {
+          "text": "Prostate-specific antigen, with urology referral only if raised",
+          "why": "PSA does not assess the urothelium or kidney, and a normal result would falsely reassure."
+        },
+        {
+          "text": "Referral to a nephrologist",
+          "why": "Clots, no albuminuria and a normal eGFR point to a urological, non-glomerular source. Nephrology is the pathway for glomerular haematuria."
+        },
+        {
+          "text": "Repeat urinalysis in 3 months, attributing the bleeding to anticoagulation",
+          "why": "The most common error. Haematuria on anticoagulants should be investigated exactly as it would be without them."
+        },
+        {
+          "text": "Urine cytology on 3 samples, with urology referral only if positive",
+          "why": "Cytology has low sensitivity, so cystoscopy is indicated even when cytology is negative."
+        }
+      ],
+      "keyPoint": "Visible haematuria in an adult means CT urography plus cystoscopy, whatever the anticoagulation status."
+    },
+    {
+      "id": "rr01-s09",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Renal"
+      ],
+      "subtopic": "UTI in men",
+      "source": "Therapeutic Guidelines: Antibiotic (urinary tract infections)",
+      "stem": [
+        "Robert Sutherland, 58, presents with 2 days of dysuria, frequency and urgency. He has no fever, rigors, loin or perineal pain, difficulty passing urine or urethral discharge. He is in a long-term monogamous relationship, has had no recent antibiotics or hospital admissions, and takes no regular medicines.",
+        "His temperature is 37.1 °C, there is no renal angle tenderness, and on digital rectal examination the prostate is normal-sized and non-tender. You send a midstream urine sample for culture."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Dipstick",
+              "Leucocytes 2+, nitrites positive, blood 1+"
+            ],
+            [
+              "eGFR",
+              "84 mL/min/1.73 m²"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate empirical antibiotic regimen while awaiting culture?",
+      "options": [
+        {
+          "text": "Amoxicillin+clavulanate 875+125 mg orally, 12-hourly for 10 days",
+          "why": "Broader spectrum than needed. TG reserves amoxicillin+clavulanate (8-hourly) for empirical treatment of pyelonephritis."
+        },
+        {
+          "text": "Cefalexin 500 mg orally, 12-hourly for 7 days",
+          "why": "TG lists this only if trimethoprim and nitrofurantoin can't be used."
+        },
+        {
+          "text": "Ciprofloxacin 500 mg orally, 12-hourly for 14 days",
+          "why": "Fluoroquinolones are reserved to limit resistance. He has no features of prostatitis or pyelonephritis."
+        },
+        {
+          "text": "Doxycycline 100 mg orally, 12-hourly for 7 days",
+          "why": "Treats chlamydial urethritis. With no discharge, low STI risk and a positive nitrite test, this is bacterial cystitis."
+        },
+        {
+          "text": "Fosfomycin 3 g orally, as a single dose",
+          "why": "TG lists single-dose fosfomycin for non-pregnant women, not for men."
+        },
+        {
+          "text": "Nitrofurantoin 100 mg orally, 6-hourly for 5 days",
+          "why": "The right drug for the female duration. The TG alternative for men is nitrofurantoin for 7 days."
+        },
+        {
+          "text": "Trimethoprim 300 mg orally, daily for 3 days",
+          "why": "Often chosen. This is the regimen for non-pregnant women. Men need 7 days."
+        },
+        {
+          "text": "Trimethoprim 300 mg orally, daily for 7 days",
+          "correct": true,
+          "why": "TG first-line empirical therapy for cystitis in men when prostatitis is unlikely. Cystitis in men often reflects a urinary tract abnormality, so review the culture and consider further assessment if it recurs."
+        }
+      ],
+      "keyPoint": "Male cystitis: trimethoprim 300 mg daily or nitrofurantoin 100 mg 6-hourly, both for 7 days. Think prostatitis if there's fever, obstructive symptoms or a tender prostate."
+    },
+    {
+      "id": "rr01-s10",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology"
+      ],
+      "subtopic": "Raynaud phenomenon / systemic sclerosis",
+      "source": "RACGP Curriculum and Syllabus, 6th edition (Musculoskeletal); Therapeutic Guidelines: Rheumatology",
+      "stem": [
+        "Natalie Brooks, 44, an office manager, has had 5 months of fingers turning white, then blue, then red in the cold. She now has painful sores on two fingertips. She also reports worsening heartburn, and her fingers feel puffy and tight in the mornings. She has no rash, joint swelling, or dry eyes or mouth. She takes no regular medicines and has never smoked.",
+        "On examination there are healed pitting scars on two fingertips and mild skin thickening of the fingers distal to the MCP joints. Dermatoscopy shows dilated nailfold capillaries. Her blood pressure is 122/78 mmHg."
+      ],
+      "lead": "Which investigation is MOST useful to support the likely diagnosis?",
+      "options": [
+        {
+          "text": "Anti-cyclic citrullinated peptide (anti-CCP) antibodies",
+          "why": "A marker for RA, and she has no synovitis."
+        },
+        {
+          "text": "Anti-double-stranded DNA antibodies",
+          "why": "Specific for SLE, but she has no SLE features, and ANA is the screening test either way."
+        },
+        {
+          "text": "Anti-neutrophil cytoplasmic antibodies (ANCA)",
+          "why": "Used for small-vessel vasculitis. Nothing here suggests vasculitis."
+        },
+        {
+          "text": "Antinuclear antibodies (ANA) with an extractable nuclear antigen (ENA) panel",
+          "correct": true,
+          "why": "Onset after 30, digital pitting scars, sclerodactyly, puffy fingers, reflux and abnormal nailfold capillaries all point to secondary Raynaud phenomenon from systemic sclerosis. ANA is positive in over 90%. The ENA panel and IIF pattern give the subtype: anti-centromere for limited, anti-Scl-70 for diffuse disease and lung involvement, anti-RNA polymerase III for renal crisis risk. Refer to rheumatology."
+        },
+        {
+          "text": "Creatine kinase",
+          "why": "Only relevant if weakness suggests overlap myositis."
+        },
+        {
+          "text": "Cryoglobulins",
+          "why": "Raynaud phenomenon can occur in cryoglobulinaemia, but there's no purpura, hepatitis C or vasculitic picture."
+        },
+        {
+          "text": "HLA-B27",
+          "why": "Used for spondyloarthritis, which isn't relevant here."
+        },
+        {
+          "text": "Rheumatoid factor",
+          "why": "Non-specific and positive in many connective tissue diseases, so it won't confirm systemic sclerosis."
+        }
+      ],
+      "keyPoint": "Secondary Raynaud phenomenon (late onset, digital pits or ulcers, abnormal capillaries) warrants ANA and ENA. In systemic sclerosis, monitor blood pressure and avoid high-dose steroids because of the risk of scleroderma renal crisis."
+    },
+    {
+      "id": "rr01-c01",
+      "format": "cdp",
+      "select": 5,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology"
+      ],
+      "subtopic": "RA, before methotrexate",
+      "source": "Therapeutic Guidelines: Rheumatology; Australian Rheumatology Association methotrexate monitoring guidance",
+      "stem": [
+        "Ronald Pike, 71, a retired electrician, was diagnosed with seropositive rheumatoid arthritis by a rheumatologist last week, with synovitis in 8 joints. The rheumatologist has started prednisolone 10 mg daily as a bridge and plans methotrexate 15 mg weekly with folic acid in 2 weeks. Their letter asks you to complete the pre-treatment work-up and preventive care.",
+        "He has hypertension (amlodipine 5 mg daily). He drinks 2 standard drinks most nights, about 12 a week. He was born in Australia, has no TB risk factors and no respiratory symptoms, and has never had hepatitis serology. He had an influenza vaccine in April this year and a 20-valent pneumococcal conjugate vaccine at 70. He has never had a zoster vaccine."
+      ],
+      "lead": "Which FIVE actions are MOST appropriate before methotrexate starts?",
+      "options": [
+        {
+          "text": "Advise substantially reducing his alcohol intake while taking methotrexate",
+          "score": 1,
+          "why": "Alcohol adds to methotrexate hepatotoxicity, and 12 drinks a week is too many on methotrexate."
+        },
+        {
+          "text": "Baseline full blood count, liver function tests, and urea, electrolytes and creatinine",
+          "score": 1,
+          "why": "Needed as a baseline for marrow, liver and kidney toxicity. Methotrexate is renally cleared, so dosing depends on the eGFR."
+        },
+        {
+          "text": "Chest X-ray",
+          "score": 1,
+          "why": "A baseline (within 12 months) for comparison if methotrexate pneumonitis or RA lung disease develops later. ARA recommends it."
+        },
+        {
+          "text": "Glucose-6-phosphate dehydrogenase (G6PD) activity",
+          "score": 0,
+          "why": "Relevant for dapsone, primaquine or rasburicase. Not needed for methotrexate."
+        },
+        {
+          "text": "Hepatitis B and hepatitis C serology",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Immunosuppression can reactivate hepatitis B, sometimes fatally, and chronic hepatitis B or C greatly increases methotrexate liver toxicity. Test HBsAg, anti-HBc and anti-HBs, and hepatitis C antibody."
+        },
+        {
+          "text": "HLA-B27",
+          "score": 0,
+          "why": "Used for spondyloarthritis. It has no place here."
+        },
+        {
+          "text": "Interferon-gamma release assay (QuantiFERON-TB)",
+          "score": 0,
+          "why": "Often chosen. Latent TB screening is required before biological or targeted synthetic DMARDs, and isn't routine before methotrexate in someone at low risk. It would be correct in another setting."
+        },
+        {
+          "text": "Live attenuated zoster vaccine",
+          "score": 0,
+          "why": "The recombinant (non-live) vaccine is preferred and funded. A live vaccine is best avoided once he is on prednisolone and about to start methotrexate."
+        },
+        {
+          "text": "Ophthalmology referral for baseline retinal screening",
+          "score": 0,
+          "why": "Retinal screening is for hydroxychloroquine, not methotrexate. The right test for the wrong drug."
+        },
+        {
+          "text": "Recombinant zoster vaccine, 2 doses",
+          "score": 1,
+          "why": "Being non-live, it is safe on immunosuppression and best started before methotrexate. It is funded on the NIP from age 65."
+        },
+        {
+          "text": "Repeat 20-valent pneumococcal conjugate vaccine",
+          "score": 0,
+          "why": "He already had 20vPCV at 70, so no further dose is needed."
+        },
+        {
+          "text": "Repeat anti-CCP antibody titre",
+          "score": 0,
+          "why": "Antibody titres don't guide treatment or monitoring. This is low-value testing."
+        },
+        {
+          "text": "Thiopurine methyltransferase (TPMT) activity",
+          "score": 0,
+          "why": "Done before azathioprine, not methotrexate."
+        }
+      ],
+      "keyPoint": "Before methotrexate: bloods (FBC, LFT, EUC), hepatitis B and C serology, chest X-ray, non-live vaccines, alcohol advice. Save IGRA for before biologics, and retinal screening for hydroxychloroquine."
+    },
+    {
+      "id": "rr01-c02",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology"
+      ],
+      "subtopic": "Osteoporosis after hip fracture",
+      "source": "RACGP/Healthy Bones Australia osteoporosis guideline (2024)",
+      "stem": [
+        "Edna Kowalski, 83, attends 2 weeks after discharge from hospital, where her left intertrochanteric fracture was fixed after she tripped over a rug at home. She lives alone and has had 2 other falls in the past year. Her past history includes Barrett's oesophagus (pantoprazole 40 mg daily), hypertension (perindopril 5 mg daily) and knee osteoarthritis. She has about one glass of milk a day and rarely other dairy, giving an estimated calcium intake of 400 mg a day.",
+        "The discharge summary recommends zoledronic acid in general practice."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Corrected calcium",
+              "2.22 mmol/L",
+              "2.10–2.60"
+            ],
+            [
+              "25-hydroxyvitamin D",
+              "31 nmol/L",
+              "> 50"
+            ],
+            [
+              "eGFR",
+              "46 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Parathyroid hormone",
+              "8.4 pmol/L",
+              "1.6–6.9"
+            ],
+            [
+              "Alkaline phosphatase",
+              "118 U/L",
+              "30–110"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which FOUR actions are MOST appropriate?",
+      "options": [
+        {
+          "text": "Advise paracetamol before the infusion and for several days afterwards",
+          "score": 1,
+          "why": "TG advises paracetamol to reduce the acute-phase (flu-like) reaction, which is most common with the first infusion."
+        },
+        {
+          "text": "Alendronate 70 mg orally weekly instead of zoledronic acid",
+          "score": 0,
+          "why": "Active upper GI disease such as Barrett's oesophagus is a reason to avoid oral bisphosphonates, which is why IV was recommended."
+        },
+        {
+          "text": "Bone turnover markers (serum CTX) before treatment",
+          "score": 0,
+          "why": "Not recommended routinely in general practice. Specialists may use them for monitoring."
+        },
+        {
+          "text": "Calcium carbonate supplement providing 1500 mg elemental calcium daily",
+          "score": 0,
+          "why": "The right idea at the wrong dose. TG limits supplements to 500–600 mg a day, with diet first. Higher doses cause constipation and possibly cardiovascular risk."
+        },
+        {
+          "text": "Cholecalciferol (vitamin D3) replacement, then recheck 25-hydroxyvitamin D before the infusion",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. TG says zoledronic acid is safe in primary care only if 25-OH vitamin D is above 50 nmol/L, corrected calcium is normal, eGFR is above 35 and the patient is well hydrated. Infusing at 31 nmol/L risks symptomatic hypocalcaemia. The mildly raised PTH is secondary to vitamin D deficiency."
+        },
+        {
+          "text": "Denosumab 60 mg subcutaneously today instead of zoledronic acid",
+          "score": 0,
+          "why": "Denosumab has the same vitamin D and calcium prerequisites. It also commits her to lifelong 6-monthly dosing, with rebound fractures if a dose is missed."
+        },
+        {
+          "text": "Falls prevention: physiotherapy for strength and balance training, and an occupational therapy home safety assessment",
+          "score": 1,
+          "why": "She has recurrent falls and tripped at home. Falls prevention is standard practice for every fracture outcome in the RACGP guideline."
+        },
+        {
+          "text": "Increase dietary calcium towards 1300 mg a day, adding a 500–600 mg supplement only if this can't be reached",
+          "score": 1,
+          "why": "The recommended intake on osteoporosis treatment is 1300 mg a day, ideally from food. A supplement fills any gap."
+        },
+        {
+          "text": "Reduce the zoledronic acid dose to 2.5 mg because of her eGFR",
+          "score": 0,
+          "why": "There is no dose reduction for zoledronic acid. It is avoided below an eGFR of 35 and otherwise given as 5 mg over at least 15 minutes, with good hydration."
+        },
+        {
+          "text": "Refer for parathyroidectomy",
+          "score": 0,
+          "why": "Low-normal calcium with a raised PTH is secondary hyperparathyroidism from vitamin D deficiency, not primary disease."
+        },
+        {
+          "text": "Stop pantoprazole to reduce fracture risk",
+          "score": 0,
+          "why": "Barrett's oesophagus is a firm indication for the PPI. PPIs only modestly increase fracture risk."
+        },
+        {
+          "text": "Zoledronic acid 5 mg intravenously at today's visit",
+          "score": 0,
+          "why": "Often chosen because the hospital recommended it. It is unsafe until her vitamin D is replete."
+        }
+      ],
+      "keyPoint": "Before zoledronic acid: 25-OH vitamin D above 50, normal corrected calcium, eGFR above 35, well hydrated. Give paracetamol cover, and don't forget calcium intake and falls prevention."
+    },
+    {
+      "id": "rr01-c03",
+      "format": "cdp",
+      "select": 5,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Renal"
+      ],
+      "subtopic": "Sick-day medicines and AKI",
+      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition (sick day medicines)",
+      "stem": [
+        "Theo Papadopoulos, 74, has had 3 days of watery diarrhoea after his grandchildren had gastroenteritis. His vomiting stopped yesterday. He is now keeping oral fluids down and passing urine, and he took ibuprofen 400 mg 3 times daily for 2 days for aches.",
+        "He has type 2 diabetes, hypertension and CKD G3a A2, with a baseline creatinine of 112 µmol/L (eGFR 54) 3 months ago. His medicines are perindopril/indapamide 10/2.5 mg daily, metformin XR 1 g twice daily, empagliflozin 10 mg daily, atorvastatin 40 mg daily and aspirin 100 mg daily.",
+        "On examination: temperature 37.2 °C, heart rate 96 bpm, lying blood pressure 114/70 mmHg (usually 134/80), dry mucous membranes, soft abdomen. He is alert. You advise oral rehydration solution."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Sodium",
+              "134 mmol/L",
+              "135–145"
+            ],
+            [
+              "Potassium",
+              "5.3 mmol/L",
+              "3.5–5.2"
+            ],
+            [
+              "Urea",
+              "14.8 mmol/L",
+              "2.5–8.0"
+            ],
+            [
+              "Creatinine",
+              "171 µmol/L",
+              "60–110"
+            ],
+            [
+              "eGFR",
+              "33 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Glucose (random)",
+              "8.9 mmol/L",
+              ""
+            ],
+            [
+              "Capillary ketones",
+              "0.3 mmol/L",
+              "< 0.6"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which FIVE further actions are MOST appropriate?",
+      "options": [
+        {
+          "text": "Arrange hospital admission for intravenous fluids",
+          "score": 0,
+          "why": "He is alert, keeping fluids down, passing urine and has mild hyperkalaemia, so outpatient care with close review is reasonable. Admit if he can't maintain fluids, creatinine rises further, K⁺ reaches 6.0 or more, or ketones rise."
+        },
+        {
+          "text": "Cease aspirin 100 mg",
+          "score": 0,
+          "why": "The 'triple whammy' caution excludes low-dose aspirin. Keep it for cardiovascular protection."
+        },
+        {
+          "text": "Cease atorvastatin",
+          "score": 0,
+          "why": "Statins aren't a sick-day medicine and don't cause prerenal AKI."
+        },
+        {
+          "text": "Cease ibuprofen",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. An NSAID with an ACE inhibitor and diuretic in a volume-depleted patient with CKD is the triple whammy, and the most modifiable cause of this AKI (creatinine 1.5 times baseline)."
+        },
+        {
+          "text": "Commence gliclazide MR 30 mg daily while metformin is withheld",
+          "score": 0,
+          "why": "Sulfonylureas are themselves sick-day medicines because of hypoglycaemia with poor intake, and a glucose of 8.9 needs no cover."
+        },
+        {
+          "text": "Halve the dose of perindopril/indapamide and continue it",
+          "score": 0,
+          "why": "A half measure. During dehydration and AKI the ACE inhibitor and diuretic should be withheld entirely."
+        },
+        {
+          "text": "Permanently stop empagliflozin because of the AKI",
+          "score": 0,
+          "why": "Withhold it temporarily and restart once he is eating and drinking normally. Its long-term kidney and heart benefit still applies."
+        },
+        {
+          "text": "Repeat urea, electrolytes and creatinine within 24–48 hours",
+          "score": 1,
+          "why": "Confirms the AKI is recovering and the K⁺ is falling. Escalate if it isn't."
+        },
+        {
+          "text": "Request an urgent renal tract ultrasound",
+          "score": 0,
+          "why": "Low value. The cause is clearly prerenal, so ultrasound is only needed if kidney function doesn't recover."
+        },
+        {
+          "text": "Send stool for microscopy, culture and PCR",
+          "score": 0,
+          "why": "Short, resolving, household-acquired gastroenteritis is almost always viral, and the result won't change management."
+        },
+        {
+          "text": "Sodium polystyrene sulfonate for the potassium",
+          "score": 0,
+          "why": "A K⁺ of 5.3 will correct once the ACE inhibitor and NSAID are stopped and the AKI resolves."
+        },
+        {
+          "text": "Withhold empagliflozin",
+          "score": 1,
+          "why": "SGLT2 inhibitors are withheld when intake is poor because of volume depletion and euglycaemic ketoacidosis risk (his ketones of 0.3 are reassuring)."
+        },
+        {
+          "text": "Withhold metformin",
+          "score": 1,
+          "why": "Withhold during dehydration and AKI because of lactic acidosis risk, especially now his eGFR is 33."
+        },
+        {
+          "text": "Withhold perindopril/indapamide",
+          "score": 1,
+          "why": "Both the ACE inhibitor and the diuretic worsen prerenal AKI and hyperkalaemia during volume depletion."
+        }
+      ],
+      "keyPoint": "Sick-day rules (SADMANS): sulfonylureas, ACE inhibitors, diuretics, metformin, ARBs, NSAIDs, SGLT2 inhibitors. Restart them once he has been eating and drinking normally for 24–48 hours, then recheck EUC."
+    },
+    {
+      "id": "rr01-c04",
+      "format": "cdp",
+      "select": 2,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Renal"
+      ],
+      "subtopic": "Recurrent UTI",
+      "source": "Therapeutic Guidelines: Antibiotic (urinary tract infections)",
+      "stem": [
+        "Marguerite Lam, 64, a retired teacher, has had 4 culture-confirmed episodes of E. coli cystitis in the past 12 months, each responding to trimethoprim. She has no symptoms at present. She went through menopause 12 years ago, is not on hormone therapy and reports vaginal dryness. She is not sexually active and drinks about 1.5 L of fluid a day.",
+        "A renal tract ultrasound and post-void residual volume are normal, and she has had no haematuria between infections. Her eGFR is 78. She would like to avoid long-term antibiotics."
+      ],
+      "lead": "Which TWO strategies are MOST appropriate to reduce her risk of recurrence?",
+      "options": [
+        {
+          "text": "Continuous trimethoprim 150 mg orally at night",
+          "score": 0,
+          "why": "Antibiotic prophylaxis works, but she wants to avoid long-term antibiotics and there are effective non-antibiotic options. It would be correct in another setting."
+        },
+        {
+          "text": "Cranberry products daily",
+          "score": 0,
+          "why": "Often chosen. TG says cranberry may reduce recurrence only in non-pregnant women under 50, and evidence is insufficient in older women."
+        },
+        {
+          "text": "Cystoscopy referral",
+          "score": 0,
+          "why": "Not indicated: she has normal imaging, a normal residual volume and no haematuria."
+        },
+        {
+          "text": "Increase water intake by 1.5 L a day",
+          "score": 0,
+          "why": "TG evidence applies to premenopausal women drinking less than 1.5 L a day. She already drinks 1.5 L."
+        },
+        {
+          "text": "Intravaginal oestrogen (for example oestriol cream)",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. In postmenopausal women, vaginal oestrogen restores vaginal flora and reduces recurrent UTI. She also has atrophic symptoms."
+        },
+        {
+          "text": "Methenamine hippurate 1 g orally 12-hourly, reviewed every 6 months",
+          "score": 1,
+          "why": "TG: reduces recurrent UTI and is a reasonable alternative to continuous antibiotics in non-pregnant women."
+        },
+        {
+          "text": "Post-coital single-dose antibiotic",
+          "score": 0,
+          "why": "Only for infections linked to intercourse, and she is not sexually active."
+        },
+        {
+          "text": "Routine urine culture every 3 months while she has no symptoms",
+          "score": 0,
+          "why": "Treating asymptomatic bacteriuria causes harm. Culture only for symptoms."
+        },
+        {
+          "text": "Systemic menopausal hormone therapy",
+          "score": 0,
+          "why": "Systemic hormone therapy hasn't been shown to prevent UTI, and the benefit comes from vaginal oestrogen."
+        },
+        {
+          "text": "Urinary alkalinising agent daily",
+          "score": 0,
+          "why": "No preventive effect, and alkaline urine stops methenamine working (it needs acidic urine)."
+        },
+        {
+          "text": "Vitamin C (ascorbic acid) 1 g daily",
+          "score": 0,
+          "why": "TG: ascorbic acid does not appear to prevent UTI."
+        }
+      ],
+      "keyPoint": "For recurrent UTI after menopause, use vaginal oestrogen first, then methenamine. Cranberry evidence applies only to women under 50."
+    },
+    {
+      "id": "rr01-c05",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Rheumatology",
+        "Renal"
+      ],
+      "subtopic": "Lupus nephritis",
+      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition; Therapeutic Guidelines: Rheumatology",
+      "stem": [
+        "Priya Nair, 29, was diagnosed with SLE 3 years ago (arthritis, malar rash, positive ANA and anti-dsDNA) and has been stable on hydroxychloroquine 200 mg twice daily. She weighs 82 kg. Her urinalysis at review 12 months ago was normal.",
+        "She now has 3 weeks of ankle swelling and frothy urine, with mild hand arthralgia. She is sexually active with a male partner and uses condoms inconsistently. Her last menstrual period was 3 weeks ago.",
+        "On examination her blood pressure is 154/98 mmHg (previously 116/72), with pitting oedema to mid-shin and no rash."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Urinalysis",
+              "Blood 3+, protein 3+, leucocytes and nitrites negative",
+              ""
+            ],
+            [
+              "Urine albumin:creatinine ratio",
+              "112 mg/mmol",
+              "< 3.0"
+            ],
+            [
+              "Creatinine",
+              "96 µmol/L (62 a year ago)",
+              "45–90"
+            ],
+            [
+              "eGFR",
+              "72 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Albumin",
+              "28 g/L",
+              "35–50"
+            ],
+            [
+              "C3",
+              "0.48 g/L",
+              "0.90–1.80"
+            ],
+            [
+              "C4",
+              "0.07 g/L",
+              "0.10–0.40"
+            ],
+            [
+              "Anti-dsDNA",
+              "160 IU/mL (35 a year ago)",
+              "< 10"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "24-hour urine protein collection",
+          "score": 0,
+          "why": "Not needed. UACR quantifies the proteinuria, and the nephrologist will decide on further testing."
+        },
+        {
+          "text": "ANCA and anti-GBM antibodies",
+          "score": 0,
+          "why": "Low yield given active SLE serology (low complement, rising dsDNA). The specialist can add these if the biopsy is atypical."
+        },
+        {
+          "text": "Cease hydroxychloroquine",
+          "score": 0,
+          "why": "Continue it. Hydroxychloroquine reduces flares and improves kidney outcomes in lupus nephritis, and at 82 kg her dose is within 5 mg/kg."
+        },
+        {
+          "text": "Ibuprofen 400 mg 3 times daily for her arthralgia",
+          "score": 0,
+          "why": "NSAIDs worsen kidney function, blood pressure and oedema in active nephritis."
+        },
+        {
+          "text": "Increase hydroxychloroquine to 600 mg daily",
+          "score": 0,
+          "why": "This exceeds 5 mg/kg, raising retinal toxicity risk, and doesn't treat nephritis."
+        },
+        {
+          "text": "Prednisolone 1 mg/kg orally daily, starting today before specialist review",
+          "score": 0,
+          "why": "Often chosen. Induction therapy is specialist-directed and ideally guided by biopsy. Starting high-dose steroid before that discussion is premature."
+        },
+        {
+          "text": "Pregnancy test and advice on effective contraception",
+          "score": 1,
+          "why": "Pregnancy with active lupus nephritis carries high risks (pre-eclampsia, pregnancy loss, flare), and likely treatments such as mycophenolate, cyclophosphamide and ACE inhibitors are teratogenic. Prefer progestogen-only methods or an IUD until antiphospholipid status is known."
+        },
+        {
+          "text": "Repeat UACR twice over the next 3 months to confirm persistence",
+          "score": 0,
+          "why": "An unsafe delay. That rule is for CKD screening. Acute nephritis is a medical emergency (Kidney Health Australia)."
+        },
+        {
+          "text": "Routine rheumatology outpatient referral",
+          "score": 0,
+          "why": "The wrong urgency, and the wrong first port of call for nephritis."
+        },
+        {
+          "text": "Urgent nephrology referral, discussed by phone today",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. New nephrotic-range albuminuria with haematuria, new hypertension, oedema, a rising creatinine, low complement and rising dsDNA mean lupus nephritis until proven otherwise. KHA: refer signs of acute nephritis without delay. A biopsy will decide induction therapy."
+        },
+        {
+          "text": "Urine cytology",
+          "score": 0,
+          "why": "Belongs to the urological malignancy pathway, not glomerular disease."
+        },
+        {
+          "text": "Urine microscopy for dysmorphic red cells and red cell casts",
+          "score": 1,
+          "why": "Confirms a glomerular source and is part of the KHA pre-referral work-up. Request it the same day without delaying referral."
+        }
+      ],
+      "keyPoint": "In SLE, new proteinuria, haematuria, hypertension or oedema means lupus nephritis until proven otherwise. Refer the same day, confirm a glomerular source, continue hydroxychloroquine, and sort out contraception."
+    }
+  ]
+}

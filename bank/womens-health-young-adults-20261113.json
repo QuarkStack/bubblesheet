@@ -1,0 +1,800 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "womens-health-young-adults-20261113",
+    "title": "Women's Health and Young Adults (RACP Written Exam)",
+    "description": "Twelve RACP Basic Physician Training written-standard questions (8 SBA, 4 CDP) covering women's health, obstetric medicine, and young adult medicine, mapped to RACP BPT and General and Acute Care Medicine curriculum standards.",
+    "created": "2026-11-13",
+    "reviewBy": "2027-11-13",
+    "sources": [
+      "RACP Basic Training and General and Acute Care Medicine curriculum standards (topic mapping)",
+      "SOMANZ Hypertension in Pregnancy Guideline (2023)",
+      "Australian STI Management Guidelines (ASHM)",
+      "Therapeutic Guidelines",
+      "Australian Medicines Handbook",
+      "RHDAustralia ARF and RHD guideline (3rd edition, 2020)",
+      "Endocrine Society functional hypothalamic amenorrhea guideline (2017)",
+      "Turner syndrome clinical practice guidelines (2024)",
+      "American Thyroid Association pregnancy guidelines (2017)",
+      "RCOG Green-top Guideline 37b (2015)",
+      "ECCO ulcerative colitis guidelines (2022)",
+      "ESID Registry working definitions (2019)",
+      "UK Medical Eligibility Criteria for Contraceptive Use (2016, amended 2019)"
+    ]
+  },
+  "questions": [
+    {
+      "id": "whya1113-s01",
+      "format": "sba",
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Women's health",
+        "Endocrinology"
+      ],
+      "subtopic": "Functional hypothalamic amenorrhoea",
+      "source": "Endocrine Society clinical practice guideline: Functional hypothalamic amenorrhea (2017)",
+      "stem": [
+        "Maya Chen, 23, a distance runner and physiotherapy student, presents with 14 months of secondary amenorrhoea and a recent navicular stress fracture. Her body mass index is 17.8 kg/m2, and she takes no regular medications.",
+        "Pregnancy, hyperprolactinaemia, thyroid dysfunction, and hyperandrogenism have been excluded. Despite 6 months of structured nutritional rehabilitation and reduced training volume, she remains amenorrhoeic."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Luteinising hormone (LH)",
+              "1.2 IU/L",
+              "2.0–12.0"
+            ],
+            [
+              "Follicle-stimulating hormone (FSH)",
+              "2.4 IU/L",
+              "1.5–10.0"
+            ],
+            [
+              "Oestradiol",
+              "< 40 pmol/L",
+              "70–500"
+            ],
+            [
+              "Lumbar spine DEXA Z-score",
+              "-2.2",
+              "> -2.0"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which pharmacological regimen is MOST appropriate to protect her bone mineral density?",
+      "options": [
+        {
+          "text": "Alendronate 70 mg orally once weekly",
+          "why": "Bisphosphonates are generally avoided in premenopausal women of childbearing potential due to prolonged skeletal retention and fetal risk, and they do not address hypo-oestrogenism."
+        },
+        {
+          "text": "Combined oral contraceptive pill containing ethinyloestradiol 30 microg",
+          "why": "The common trap. Oral ethinyloestradiol undergoes hepatic first-pass metabolism that suppresses insulin-like growth factor 1 (IGF-1) and fails to reliably improve bone mineral density in functional hypothalamic amenorrhoea."
+        },
+        {
+          "text": "Medroxyprogesterone acetate 150 mg intramuscularly every 12 weeks",
+          "why": "Depot medroxyprogesterone acetate further suppresses gonadotrophins and exacerbates hypo-oestrogenic bone loss."
+        },
+        {
+          "text": "Transdermal oestradiol monotherapy without progestogen",
+          "why": "Unopposed systemic oestrogen in a woman with an intact uterus increases the risk of endometrial hyperplasia and carcinoma."
+        },
+        {
+          "text": "Transdermal oestradiol with cyclical oral progesterone",
+          "correct": true,
+          "why": "Physiological transdermal oestradiol bypasses hepatic first-pass IGF-1 suppression to improve bone mineral density, while cyclical progestogen protects the endometrium."
+        }
+      ],
+      "keyPoint": "In functional hypothalamic amenorrhoea with low bone mineral density refractory to nutritional restoration, transdermal oestradiol with cyclical progestogen protects bone without suppressing hepatic IGF-1."
+    },
+    {
+      "id": "whya1113-s02",
+      "format": "sba",
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Women's health",
+        "Neurology"
+      ],
+      "subtopic": "Contraception in neurological disease",
+      "source": "UK Medical Eligibility Criteria for Contraceptive Use (FSRH, 2016, amended 2019); Therapeutic Guidelines: Sexual and Reproductive Health",
+      "stem": [
+        "Sophie Williams, 26, a graphic designer, attends an ambulatory care clinic requesting reliable long-term contraception. She has a history of migraine preceded by scintillating scotomas and transient unilateral hand paraesthesiae.",
+        "She also has essential hypertension controlled on perindopril 5 mg daily, does not smoke, and plans to conceive in 3 years. Blood pressure is 124/76 mmHg and neurological examination is normal."
+      ],
+      "lead": "Which contraceptive option is MOST appropriate for her?",
+      "options": [
+        {
+          "text": "Combined oral contraceptive pill containing ethinyloestradiol 20 microg",
+          "why": "Often chosen. Even low-dose ethinyloestradiol preparations are absolutely contraindicated (UKMEC 4) in women with migraine with aura or hypertension due to elevated ischaemic stroke risk."
+        },
+        {
+          "text": "Combined vaginal ring releasing ethinyloestradiol and etonogestrel",
+          "why": "Non-oral combined hormonal contraceptives carry the same systemic oestrogen vascular and thromboembolic risks as combined oral pills and remain contraindicated in migraine with aura."
+        },
+        {
+          "text": "Cyproterone acetate 2 mg with ethinyloestradiol 35 microg",
+          "why": "This oestrogen-containing preparation carries higher thromboembolic and arterial vascular risk and is contraindicated in migraine with aura."
+        },
+        {
+          "text": "Levonorgestrel-releasing intrauterine system",
+          "correct": true,
+          "why": "Progestogen-only long-acting reversible contraception avoids oestrogen-mediated ischaemic stroke risk in migraine with aura and hypertension while reliably preventing pregnancy during perindopril therapy."
+        },
+        {
+          "text": "Ulipristal acetate 30 mg taken weekly as ongoing prophylaxis",
+          "why": "Ulipristal acetate is licensed solely for single-dose emergency postcoital contraception and is not safe or effective as routine maintenance contraception."
+        }
+      ],
+      "keyPoint": "Oestrogen-containing contraceptives are contraindicated in migraine with aura and hypertension; progestogen-only long-acting reversible methods such as a levonorgestrel intrauterine system are safe and effective."
+    },
+    {
+      "id": "whya1113-s03",
+      "format": "sba",
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Women's health",
+        "Cardiology"
+      ],
+      "subtopic": "Turner syndrome",
+      "source": "Clinical practice guidelines for the care of girls and women with Turner syndrome (Eur J Endocrinol, 2024)",
+      "stem": [
+        "Hannah O'Connor, 24, a postgraduate science student with mosaic Turner syndrome (45,X/46,XX), transfers from paediatric endocrinology to an adult general medicine clinic. She takes transdermal oestradiol 50 microg twice weekly with cyclical oral progesterone.",
+        "She is asymptomatic, normotensive (blood pressure 112/68 mmHg), and has a grade 2/6 ejection systolic murmur at the upper right sternal edge. Transthoracic echocardiography shows a bicuspid aortic valve with mild aortic regurgitation and an ascending aortic diameter indexed to body surface area (ASI) of 2.1 cm/m2."
+      ],
+      "lead": "Which surveillance strategy is MOST appropriate for her cardiovascular risk?",
+      "options": [
+        {
+          "text": "Annual exercise stress echocardiography without cross-sectional aortic imaging",
+          "why": "Stress echocardiography assesses inducible ischaemia rather than thoracic aortic dimensions and inadequately visualises the distal ascending aorta and aortic arch."
+        },
+        {
+          "text": "Cardiac MRI or CT aortography every 2 to 3 years with strict blood pressure control",
+          "correct": true,
+          "why": "Adults with Turner syndrome, a bicuspid aortic valve, and an ascending ASI above 2.0 cm/m2 require regular thoracic cross-sectional imaging (MRI or CT) and strict blood pressure control to prevent aortic dissection."
+        },
+        {
+          "text": "Discharge from specialist cardiology follow-up unless chest pain develops",
+          "why": "Thoracic aortic dissection in Turner syndrome occurs at smaller absolute diameters than in the general population and typically presents without prodromal symptoms."
+        },
+        {
+          "text": "Repeat transthoracic echocardiography in 10 years if she remains normotensive",
+          "why": "Often chosen. A 10-year surveillance interval is unsafe in a patient with both a bicuspid aortic valve and an indexed ascending aortic diameter exceeding 2.0 cm/m2."
+        },
+        {
+          "text": "Urgent referral for elective aortic root replacement",
+          "why": "Premature; elective aortic surgery in Turner syndrome is generally considered when ascending ASI reaches 2.5 cm/m2 or greater, or with rapid dilatation or additional risk factors."
+        }
+      ],
+      "keyPoint": "Women with Turner syndrome require lifelong thoracic aortic surveillance with cardiac MRI or CT aortography, particularly when a bicuspid aortic valve or ascending aortic dilatation is present."
+    },
+    {
+      "id": "whya1113-s04",
+      "format": "sba",
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Women's health",
+        "Endocrinology"
+      ],
+      "subtopic": "Thyroid disease in pregnancy",
+      "source": "American Thyroid Association guidelines for thyroid disease during pregnancy and the postpartum (2017)",
+      "stem": [
+        "Priya Nair, 29, an accountant at 10 weeks' gestation in her first pregnancy, presents with palpitations, heat intolerance, and 3 kg weight loss. She underwent radioactive iodine ablation 3 years ago for Graves disease and takes levothyroxine 125 microg daily.",
+        "Heart rate is 104 bpm, blood pressure is 118/72 mmHg, and she has mild bilateral exophthalmos without palpable thyroid tissue."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "TSH",
+              "< 0.01 mU/L",
+              "0.40–4.00"
+            ],
+            [
+              "Free T4",
+              "26.4 pmol/L",
+              "10.0–20.0"
+            ],
+            [
+              "TSH receptor antibodies (TRAb)",
+              "18.5 IU/L",
+              "< 1.8"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST important clinical implication of her elevated TSH receptor antibodies?",
+      "options": [
+        {
+          "text": "Gestational transient thyrotoxicosis is confirmed and requires no fetal monitoring",
+          "why": "Gestational transient thyrotoxicosis is driven by human chorionic gonadotrophin and is TRAb-negative; high TRAb titres reflect persistent autoimmune Graves activity."
+        },
+        {
+          "text": "Maternal propylthiouracil must be started immediately to treat maternal hyperthyroidism",
+          "why": "Her suppressed TSH and raised free T4 reflect excess exogenous levothyroxine after thyroid ablation rather than endogenous maternal thyroid hormone synthesis."
+        },
+        {
+          "text": "Prior radioactive iodine ablation prevents fetal thyroid dysfunction in pregnancy",
+          "why": "The common trap. Lymphocyte production of TRAb can persist for years after radioactive iodine ablation despite maternal hypothyroidism."
+        },
+        {
+          "text": "Transplacental IgG transfer can cause fetal and neonatal thyrotoxicosis",
+          "correct": true,
+          "why": "TRAb are IgG antibodies that cross the placenta from mid-gestation and stimulate the fetal thyroid even after maternal thyroid ablation, requiring repeat third-trimester TRAb and fetal monitoring."
+        },
+        {
+          "text": "TSH receptor antibodies cannot cross the placenta because they are IgM molecules",
+          "why": "TRAb belong to the IgG immunoglobulin class and actively cross the placenta via neonatal Fc receptors."
+        }
+      ],
+      "keyPoint": "Maternal TSH receptor antibodies persist after thyroid ablation and cross the placenta as IgG, risking fetal and neonatal thyrotoxicosis that warrants repeat third-trimester TRAb testing and fetal surveillance."
+    },
+    {
+      "id": "whya1113-s05",
+      "format": "sba",
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Young adult medicine",
+        "Immunology"
+      ],
+      "subtopic": "Primary immunodeficiency",
+      "source": "ESID Registry working definitions for the clinical diagnosis of inborn errors of immunity (2019)",
+      "stem": [
+        "Liam Patel, 18, an apprentice electrician, is reviewed in an adult immunology transition clinic following admission for lobar Streptococcus pneumoniae pneumonia. Over the past 3 years he has had three episodes of bacterial pneumonia, recurrent sinusitis, and intermittent non-bloody diarrhoea.",
+        "He takes no regular medications and has no known family history of immunodeficiency."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "IgG",
+              "2.1 g/L",
+              "7.0–16.0"
+            ],
+            [
+              "IgA",
+              "< 0.07 g/L",
+              "0.80–4.00"
+            ],
+            [
+              "IgM",
+              "2.3 g/L",
+              "0.40–2.50"
+            ],
+            [
+              "CD4+ T cells",
+              "1050 cells/µL",
+              "500–1650"
+            ],
+            [
+              "CD8+ T cells",
+              "490 cells/µL",
+              "210–1200"
+            ],
+            [
+              "CD19+ B cells",
+              "0 cells/µL",
+              "80–600"
+            ],
+            [
+              "NK cells",
+              "140 cells/µL",
+              "40–500"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST likely diagnosis?",
+      "options": [
+        {
+          "text": "Common variable immunodeficiency",
+          "why": "The common trap. Common variable immunodeficiency typically demonstrates normal or modestly reduced circulating CD19+ B-cell numbers with impaired differentiation into plasma cells, rather than complete absence of B cells."
+        },
+        {
+          "text": "Selective IgA deficiency",
+          "why": "Selective IgA deficiency is defined by isolated IgA deficiency with normal IgG, IgM, and peripheral B-cell counts."
+        },
+        {
+          "text": "Specific antibody deficiency",
+          "why": "Specific antibody deficiency features impaired polysaccharide vaccine responses despite normal serum immunoglobulin concentrations and normal B-cell counts."
+        },
+        {
+          "text": "X-linked agammaglobulinaemia",
+          "correct": true,
+          "why": "Absent circulating CD19+ B cells (0 cells/µL) with severe hypogammaglobulinaemia and recurrent encapsulated bacterial infections diagnoses X-linked agammaglobulinaemia (BTK mutation), which can present in late adolescence in hypomorphic variants."
+        },
+        {
+          "text": "X-linked hyper-IgM syndrome",
+          "why": "CD40 ligand deficiency impairs immunoglobulin class switching but preserves normal circulating CD19+ B-cell numbers."
+        }
+      ],
+      "keyPoint": "Complete absence of circulating CD19+ B cells with profound hypogammaglobulinaemia and recurrent sinopulmonary encapsulated bacterial infections distinguishes X-linked agammaglobulinaemia from common variable immunodeficiency."
+    },
+    {
+      "id": "whya1113-s06",
+      "format": "sba",
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Women's health",
+        "Genetics"
+      ],
+      "subtopic": "Pre-conception genetic counselling",
+      "source": "Hardy–Weinberg principle (standard population genetics)",
+      "stem": [
+        "Chloe Henderson, 27, a primary school teacher with classical phenylketonuria (an autosomal recessive disorder), attends a pre-conception clinic with her 28-year-old partner. Her partner is clinically unaffected, has no family history of phenylketonuria, and is unrelated to her.",
+        "She has maintained strict dietary phenylalanine control (plasma phenylalanine 180 µmol/L) for the past 6 months to prevent maternal phenylketonuria embryopathy. The birth incidence of phenylketonuria in their population is 1 in 10,000."
+      ],
+      "lead": "What is the approximate risk that their first child will be affected with phenylketonuria?",
+      "options": [
+        {
+          "text": "1 in 1,000",
+          "why": "This reflects an incorrect square-root calculation of the mutant allele frequency."
+        },
+        {
+          "text": "1 in 10,000",
+          "why": "This is the general population birth incidence and ignores that the mother is homozygous affected."
+        },
+        {
+          "text": "1 in 100",
+          "correct": true,
+          "why": "The affected mother transmits a mutant allele with probability 1; the partner's carrier probability is 2pq (2 x 1 x 1/100 = 1/50) and his transmission probability if a carrier is 1/2, giving 1 x (1/50) x (1/2) = 1/100."
+        },
+        {
+          "text": "1 in 200",
+          "why": "This underestimates the risk by halving the transmission probability twice."
+        },
+        {
+          "text": "1 in 50",
+          "why": "Often chosen. Under Hardy-Weinberg equilibrium (q2 = 1/10,000, so q = 1/100), 2pq (approximately 1/50) is the probability that the unaffected partner is a carrier, before multiplying by the 1/2 chance of transmitting the mutant allele."
+        }
+      ],
+      "keyPoint": "When one parent has an autosomal recessive condition (probability 1 of passing a mutant allele), the offspring's disease risk equals half the unaffected partner's population carrier frequency (2pq / 2 = q)."
+    },
+    {
+      "id": "whya1113-s07",
+      "format": "sba",
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Young adult medicine",
+        "Infectious diseases"
+      ],
+      "subtopic": "Acute rheumatic fever",
+      "source": "RHDAustralia: 2020 Australian guideline for prevention, diagnosis and management of acute rheumatic fever and rheumatic heart disease (3rd edition)",
+      "stem": [
+        "Jarrah Williams, 17, an Aboriginal Year 12 student from regional Victoria, is diagnosed with his first episode of definite acute rheumatic fever after presenting with migratory polyarthritis, fever of 38.6 °C, ESR 88 mm/hr, and a rising anti-streptolysin O titre.",
+        "Transthoracic echocardiography performed at diagnosis and repeated at 6 weeks shows structurally normal cardiac valves with no pathological regurgitation or rheumatic heart disease. He commences 4-weekly intramuscular benzathine benzylpenicillin."
+      ],
+      "lead": "What is the minimum recommended duration of secondary antibiotic prophylaxis?",
+      "options": [
+        {
+          "text": "Five years after the last episode or until age 21 years, whichever is longer",
+          "correct": true,
+          "why": "Australian guidelines recommend secondary prophylaxis for a minimum of 5 years after the most recent episode of acute rheumatic fever without carditis or until age 21 years, whichever is longer (here until age 22)."
+        },
+        {
+          "text": "Lifelong secondary antibiotic prophylaxis",
+          "why": "Prophylaxis until age 40 years or lifelong is reserved for severe rheumatic heart disease or patients following valve surgery."
+        },
+        {
+          "text": "One year after resolution of arthritis",
+          "why": "One year of prophylaxis is inadequate and leaves a high risk of recurrent Group A streptococcal infection and rheumatic carditis."
+        },
+        {
+          "text": "Ten years after the last episode or until age 21 years, whichever is longer",
+          "why": "The common trap. Ten years or until age 21 years is the recommended prophylaxis duration for mild rheumatic heart disease, whereas acute rheumatic fever without rheumatic heart disease requires 5 years or until age 21 years."
+        },
+        {
+          "text": "Ten years after the last episode or until age 35 years, whichever is longer",
+          "why": "Prophylaxis until age 35 years applies to patients with moderate rheumatic heart disease."
+        }
+      ],
+      "keyPoint": "Following a first episode of acute rheumatic fever without rheumatic heart disease, Australian guidelines recommend secondary benzathine benzylpenicillin prophylaxis for at least 5 years or until age 21 years, whichever is longer."
+    },
+    {
+      "id": "whya1113-s08",
+      "format": "sba",
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Women's health",
+        "Oncology"
+      ],
+      "subtopic": "Endocrine therapy drug interactions",
+      "source": "Australian Medicines Handbook: tamoxifen, drug interactions (CYP2D6 inhibitors)",
+      "stem": [
+        "Rachel Kim, 39, a retail manager, takes adjuvant tamoxifen 20 mg daily following breast-conserving surgery and radiotherapy for oestrogen-receptor-positive, HER2-negative invasive ductal carcinoma.",
+        "She develops moderate major depressive disorder and troublesome vasomotor hot flushes, and asks for pharmacological therapy."
+      ],
+      "lead": "Which antidepressant should be AVOIDED because it reduces the clinical efficacy of tamoxifen?",
+      "options": [
+        {
+          "text": "Citalopram",
+          "why": "Citalopram is a weak CYP2D6 inhibitor with minimal clinically significant effect on tamoxifen bioactivation."
+        },
+        {
+          "text": "Desvenlafaxine",
+          "why": "Desvenlafaxine has negligible CYP2D6 inhibition and is an effective option for both depression and vasomotor symptoms during tamoxifen therapy."
+        },
+        {
+          "text": "Escitalopram",
+          "why": "Escitalopram exhibits weak CYP2D6 inhibition and does not substantially reduce active endoxifen concentrations."
+        },
+        {
+          "text": "Paroxetine",
+          "correct": true,
+          "why": "Paroxetine is a potent irreversible CYP2D6 inhibitor that blocks hepatic conversion of the prodrug tamoxifen to its active metabolite endoxifen, increasing breast cancer recurrence risk."
+        },
+        {
+          "text": "Venlafaxine",
+          "why": "Venlafaxine is a minimal CYP2D6 inhibitor and is frequently used alongside tamoxifen to treat depression and hot flushes."
+        }
+      ],
+      "keyPoint": "Potent CYP2D6 inhibitors such as paroxetine and fluoxetine impair bioactivation of tamoxifen to endoxifen and must be avoided in patients receiving tamoxifen."
+    },
+    {
+      "id": "whya1113-c01",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Women's health",
+        "Obstetric medicine"
+      ],
+      "subtopic": "Hypertensive disorders of pregnancy",
+      "source": "SOMANZ Hypertension in Pregnancy Guideline (2023)",
+      "stem": [
+        "Elena Papadopoulos, 31, a physiotherapist, gravida 1 para 0 at 33 weeks' gestation, presents to the emergency department with severe frontal headache, visual blurring, and right upper quadrant pain. She has no prior medical history and takes pregnancy multivitamins only.",
+        "Blood pressure is 172/114 mmHg on repeated readings 15 minutes apart, heart rate is 88 bpm, respiratory rate is 16 breaths/min, and oxygen saturation is 98% on room air. She has 3+ pitting lower limb oedema, brisk patellar reflexes, and 3 beats of ankle clonus. Cardiotocography shows a reassuring fetal heart rate pattern."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Haemoglobin",
+              "128 g/L",
+              "115–160"
+            ],
+            [
+              "Platelets",
+              "86 x 10^9/L",
+              "150–400"
+            ],
+            [
+              "Creatinine",
+              "98 µmol/L",
+              "45–90"
+            ],
+            [
+              "ALT",
+              "145 U/L",
+              "5–40"
+            ],
+            [
+              "Uric acid",
+              "0.48 mmol/L",
+              "0.15–0.40"
+            ],
+            [
+              "Urine protein:creatinine ratio",
+              "112 mg/mmol",
+              "< 30"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which THREE management steps are MOST appropriate to initiate immediately?",
+      "options": [
+        {
+          "text": "Administer intravenous ergometrine to prevent postpartum haemorrhage",
+          "score": 0,
+          "why": "Ergometrine is contraindicated in hypertensive disorders of pregnancy because it causes severe vasoconstriction and hypertensive crisis."
+        },
+        {
+          "text": "Administer intravenous magnesium sulfate loading dose followed by maintenance infusion",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Severe pre-eclampsia with neurological signs (severe headache, visual disturbance, clonus) requires immediate intravenous magnesium sulfate (4 g loading dose over 20 minutes then 1 g/hour) for eclampsia prevention."
+        },
+        {
+          "text": "Administer oral immediate-release nifedipine or intravenous labetalol to lower blood pressure",
+          "score": 1,
+          "why": "Acute severe hypertension in pregnancy (systolic >= 160 mmHg or diastolic >= 110 mmHg) requires urgent controlled blood pressure reduction using oral immediate-release nifedipine, intravenous labetalol, or intravenous hydralazine."
+        },
+        {
+          "text": "Commence intravenous sodium nitroprusside infusion as first-line antihypertensive therapy",
+          "score": 0,
+          "why": "Sodium nitroprusside is avoided in pregnancy due to fetal cyanide toxicity and unpredictable maternal hypotension."
+        },
+        {
+          "text": "Initiate oral ramipril 5 mg daily for long-term renoprotection",
+          "score": 0,
+          "why": "ACE inhibitors are fetotoxic throughout pregnancy, causing fetal renal dysgenesis and oligohydramnios."
+        },
+        {
+          "text": "Notify senior obstetric and neonatal teams to plan expedited delivery after maternal stabilisation",
+          "score": 1,
+          "why": "Definitive management of severe pre-eclampsia complicated by HELLP features and neurological irritability at 33 weeks is expedited delivery once maternal blood pressure and seizure prophylaxis are stabilised."
+        },
+        {
+          "text": "Restrict intravenous fluid resuscitation to a 1000 mL crystalloid bolus",
+          "score": 0,
+          "why": "Rapid crystalloid bolus administration in pre-eclampsia precipitates acute pulmonary oedema due to endothelial capillary leak; total fluid intake should be restricted to approximately 80 mL/hour."
+        },
+        {
+          "text": "Target a blood pressure below 100/60 mmHg within 30 minutes",
+          "score": 0,
+          "why": "Excessive or precipitous blood pressure lowering impairs uteroplacental perfusion and causes fetal hypoxia; the initial target is 130–150 / 80–100 mmHg."
+        }
+      ],
+      "keyPoint": "Severe pre-eclampsia with neurological irritability and HELLP features requires immediate intravenous magnesium sulfate, urgent controlled antihypertensive therapy (nifedipine or labetalol), fluid restriction, and multidisciplinary planning for delivery after stabilisation."
+    },
+    {
+      "id": "whya1113-c02",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Women's health",
+        "Respiratory"
+      ],
+      "subtopic": "Venous thromboembolism in pregnancy",
+      "source": "RCOG Green-top Guideline 37b: Thromboembolic disease in pregnancy and the puerperium, acute management (2015)",
+      "stem": [
+        "Nadia Al-Mansoor, 28, a marketing coordinator, gravida 2 para 1 at 35 weeks' gestation, presents with 5 days of progressive exertional dyspnoea and 2 days of painful left calf swelling. She has no personal or family history of venous thromboembolism.",
+        "Temperature is 37.3 °C, blood pressure is 132/82 mmHg, heart rate is 96 bpm, respiratory rate is 20 breaths/min, and oxygen saturation is 97% on room air. Her left mid-calf circumference measures 2.5 cm greater than the right. Resting 12-lead ECG shows sinus tachycardia, and a shielded chest radiograph is normal."
+      ],
+      "lead": "Which THREE clinical decisions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Arrange bilateral lower limb compression duplex ultrasonography as the initial imaging test",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. In a pregnant woman with suspected pulmonary embolism and unilateral leg symptoms, bilateral compression duplex ultrasonography is the initial test of choice because confirming deep vein thrombosis establishes the diagnosis and indication for full anticoagulation without ionising radiation."
+        },
+        {
+          "text": "Commence oral rivaroxaban 15 mg twice daily as an outpatient",
+          "score": 0,
+          "why": "Direct oral anticoagulants cross the placenta and are contraindicated in pregnancy due to reproductive toxicity and fetal haemorrhage."
+        },
+        {
+          "text": "Commence oral warfarin targeting an INR of 2.0 to 3.0",
+          "score": 0,
+          "why": "Warfarin crosses the placenta and causes fetal intracranial haemorrhage in late pregnancy; low-molecular-weight heparin is the anticoagulant of choice."
+        },
+        {
+          "text": "Commence therapeutic-dose subcutaneous enoxaparin while awaiting diagnostic confirmation",
+          "score": 1,
+          "why": "With high clinical suspicion of pregnancy-associated venous thromboembolism, empirical therapeutic low-molecular-weight heparin should be commenced immediately unless contraindicated while imaging is arranged."
+        },
+        {
+          "text": "Obtain baseline full blood count, coagulation profile, and renal function before anticoagulation",
+          "score": 1,
+          "why": "Baseline haemoglobin, platelet count, coagulation studies, and renal function are required to verify safe dosing and establish reference values prior to initiating therapeutic anticoagulation."
+        },
+        {
+          "text": "Order a serum D-dimer to exclude venous thromboembolism without imaging",
+          "score": 0,
+          "why": "Physiological elevation of D-dimer throughout pregnancy, especially in the third trimester, gives poor specificity and cannot safely exclude venous thromboembolism."
+        },
+        {
+          "text": "Perform immediate CT pulmonary angiography before lower limb ultrasound",
+          "score": 0,
+          "why": "CT pulmonary angiography delivers ionising radiation to proliferating maternal breast tissue and should be deferred if lower limb duplex ultrasound confirms deep vein thrombosis."
+        },
+        {
+          "text": "Place an inferior vena cava filter prior to anticoagulation",
+          "score": 0,
+          "why": "Inferior vena cava filters are not indicated for routine pregnancy-associated venous thromboembolism and are reserved for acute thrombosis with an absolute contraindication to anticoagulation."
+        }
+      ],
+      "keyPoint": "In pregnant patients with suspected pulmonary embolism and lower limb signs, commence empirical therapeutic low-molecular-weight heparin after baseline bloods and perform bilateral lower limb compression duplex ultrasonography before radiation-based chest imaging."
+    },
+    {
+      "id": "whya1113-c03",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Young adult medicine",
+        "Gastroenterology"
+      ],
+      "subtopic": "Acute severe ulcerative colitis",
+      "source": "ECCO guidelines on therapeutics in ulcerative colitis: medical and surgical treatment (2022)",
+      "stem": [
+        "Zoe Papadimitriou, 18, a university student with pancolonic ulcerative colitis who recently transitioned from paediatric gastroenterology services, is on day 8 of admission for acute severe ulcerative colitis. She failed 3 days of intravenous hydrocortisone 100 mg four times daily and received rescue infliximab 5 mg/kg on day 4.",
+        "Today she passes 11 bloody stools per 24 hours with diffuse abdominal tenderness, temperature 38.1 °C, heart rate 108 bpm, and blood pressure 110/68 mmHg. Stool PCR, Clostridioides difficile toxin, and colonic biopsies for cytomegalovirus are negative. Supine abdominal radiograph shows a transverse colon diameter of 4.6 cm with mucosal islands."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Haemoglobin",
+              "104 g/L",
+              "115–160"
+            ],
+            [
+              "White cell count",
+              "14.8 x 10^9/L",
+              "4.0–11.0"
+            ],
+            [
+              "Platelets",
+              "540 x 10^9/L",
+              "150–400"
+            ],
+            [
+              "C-reactive protein",
+              "48 mg/L",
+              "< 5.0"
+            ],
+            [
+              "Albumin",
+              "25 g/L",
+              "35–46"
+            ],
+            [
+              "Creatinine",
+              "64 µmol/L",
+              "45–90"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which THREE management actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Add oral ciclosporin 2 mg/kg twice daily as sequential third-line salvage therapy",
+          "score": 0,
+          "why": "Sequential third-line immunosuppressive rescue with ciclosporin after failed infliximab carries high rates of severe opportunistic infection and mortality without reliably avoiding surgery."
+        },
+        {
+          "text": "Administer prophylactic-dose subcutaneous enoxaparin daily",
+          "score": 1,
+          "why": "Hospitalised patients with acute severe ulcerative colitis have a markedly increased risk of venous thromboembolism and require daily pharmacological thromboprophylaxis."
+        },
+        {
+          "text": "Commence total parenteral nutrition and continue intravenous hydrocortisone for 10 more days",
+          "score": 0,
+          "why": "Prolonging ineffective corticosteroid therapy beyond 7 to 10 days increases postoperative sepsis and mortality, and enteral nutrition is preferred over parenteral nutrition when the gut is functional."
+        },
+        {
+          "text": "Involve a stomal therapy nurse and engage the young adult directly in shared surgical decision-making",
+          "score": 1,
+          "why": "An 18-year-old adult has full legal decision-making capacity; early stomal therapy education and direct, empathetic shared decision-making support informed consent and psychosocial adaptation."
+        },
+        {
+          "text": "Obtain written consent from her parents before discussing colectomy with the patient",
+          "score": 0,
+          "why": "At age 18 in Australia, the patient is a legal adult with autonomous decision-making capacity; seeking parental consent instead of the patient's consent breaches autonomy and confidentiality."
+        },
+        {
+          "text": "Perform an urgent full colonoscopy to reassess endoscopic severity",
+          "score": 0,
+          "why": "Full colonoscopy is contraindicated in acute severe ulcerative colitis because of the high risk of colonic perforation."
+        },
+        {
+          "text": "Prescribe oral loperamide 4 mg after each loose bowel motion",
+          "score": 0,
+          "why": "Antimotility agents are contraindicated in acute severe ulcerative colitis because they can precipitate toxic megacolon."
+        },
+        {
+          "text": "Refer urgently for subtotal colectomy with end ileostomy",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Failure of second-line medical rescue therapy (infliximab) following intravenous corticosteroids in acute severe ulcerative colitis mandates urgent subtotal colectomy to prevent toxic megacolon, perforation, and death."
+        }
+      ],
+      "keyPoint": "Acute severe ulcerative colitis refractory to intravenous corticosteroids and rescue infliximab requires urgent subtotal colectomy, thromboprophylaxis, and direct shared decision-making with the young adult patient."
+    },
+    {
+      "id": "whya1113-c04",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACP"
+      ],
+      "topics": [
+        "Young adult medicine",
+        "Infectious diseases"
+      ],
+      "subtopic": "Sexually transmitted infectious proctitis",
+      "source": "Australian STI Management Guidelines for Use in Primary Care (ASHM): Proctitis",
+      "stem": [
+        "Ethan Nguyen, 21, a hospitality worker, presents with 4 days of severe anorectal pain, tenesmus, mucopurulent rectal discharge, and scant rectal bleeding. He reports condomless receptive anal intercourse with a new male partner 12 days ago and is not taking HIV pre-exposure prophylaxis.",
+        "He has no diarrhoea or systemic fever. Examination shows shallow perianal erosions and tender bilateral inguinal lymphadenopathy. Anorectal swabs for Neisseria gonorrhoeae, Chlamydia trachomatis (including lymphogranuloma venereum typing), Mycoplasma genitalium, and herpes simplex virus (HSV) PCR have been collected."
+      ],
+      "lead": "Which THREE actions are MOST appropriate while awaiting swab results?",
+      "options": [
+        {
+          "text": "Administer empirical ceftriaxone 500 mg intramuscularly, oral doxycycline 100 mg twice daily, and oral valaciclovir 500 mg twice daily",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Australian STI guidelines recommend immediate empirical syndromic treatment covering gonorrhoea (ceftriaxone 500 mg IM single dose), chlamydia/LGV (doxycycline 100 mg BD for 21 days), and HSV proctitis (valaciclovir 500 mg BD for 7 days) before PCR results return."
+        },
+        {
+          "text": "Advise the patient that he is legally required to notify his employer of his STI diagnosis",
+          "score": 0,
+          "why": "There is no legal or public health requirement to disclose an STI to an employer, and doing so violates patient confidentiality."
+        },
+        {
+          "text": "Arrange HIV fourth-generation antigen/antibody testing, syphilis serology, and hepatitis A, B, and C screening",
+          "score": 1,
+          "why": "Anorectal mucosal inflammation and ulceration substantially increase HIV and syphilis acquisition risk; comprehensive blood-borne virus and syphilis serology is required at baseline and repeated after the window period."
+        },
+        {
+          "text": "Commence immediate 28-day HIV post-exposure prophylaxis (PEP)",
+          "score": 0,
+          "why": "HIV PEP is only indicated within 72 hours of a high-risk exposure; at 12 days post-exposure, PEP is ineffective and HIV testing followed by PrEP counselling once HIV-negative is appropriate."
+        },
+        {
+          "text": "Counsel the patient to abstain from sexual contact until treatment is completed and symptoms resolve, and initiate partner notification",
+          "score": 1,
+          "why": "Abstaining from sexual activity until symptom resolution and completion of antimicrobial therapy prevents reinfection and onward transmission, alongside confidential partner notification."
+        },
+        {
+          "text": "Defer antimicrobial therapy until nucleic acid amplification results confirm the pathogen",
+          "score": 0,
+          "why": "Delaying empirical treatment prolongs severe pain, increases the risk of anorectal stricture or fistula in lymphogranuloma venereum, and enables ongoing transmission."
+        },
+        {
+          "text": "Prescribe single-dose oral azithromycin 1 g monotherapy",
+          "score": 0,
+          "why": "Azithromycin monotherapy fails to cover gonococcal proctitis, provides inadequate duration for lymphogranuloma venereum, and has no activity against HSV."
+        },
+        {
+          "text": "Refer for urgent colonoscopy prior to starting antimicrobial therapy",
+          "score": 0,
+          "why": "Colonoscopy is unnecessary prior to empirical STI therapy and risks mucosal trauma in acute ulcerative proctitis."
+        }
+      ],
+      "keyPoint": "Suspected sexually transmitted infectious proctitis requires immediate empirical coverage for gonorrhoea (ceftriaxone), chlamydia/LGV (21 days of doxycycline), and HSV (valaciclovir), alongside HIV/syphilis screening, abstinence advice, and partner notification."
+    }
+  ]
+}

@@ -1,0 +1,1023 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "womens-paeds-01",
+    "title": "Women's Health and Paediatrics, set 1",
+    "description": "General practice women's health (cervical screening, breast, fertility, recurrent miscarriage, antenatal care, preconception care, medical abortion) and paediatrics (newborn and infant checks, head shape, puberty, diabetes, burns, child protection, febrile seizures). All ages from newborns to older women. About 30 minutes at working pace: 11 AKT and 5 KFP items.",
+    "created": "2026-11-13",
+    "reviewBy": "2027-11-13",
+    "sources": [
+      "AJGP article packages: Paediatrics 1 and 2; Women's Health 1 and 2",
+      "Therapeutic Guidelines (Sexual and Reproductive Health; Antibiotic)",
+      "Cancer Council Australia, National Cervical Screening Program Guidelines (2025)",
+      "National Blood Authority, Guideline for the prophylactic use of Rh D immunoglobulin in pregnancy care (2021, updated 2024)",
+      "ADIPS 2025 consensus recommendations for gestational diabetes; RACGP Management of type 2 diabetes (2025)",
+      "ESHRE Recurrent pregnancy loss guideline (2022 update)",
+      "Royal Children's Hospital Melbourne clinical practice guidelines and Kids Health Info (febrile seizures, child abuse, diabetes)",
+      "Australian and New Zealand Burn Association referral criteria",
+      "RACGP Curriculum and Syllabus, 6th edition (Women's health; Children and young people's health)"
+    ]
+  },
+  "questions": [
+    {
+      "id": "wp01-s01",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Women's health"
+      ],
+      "subtopic": "Cervical screening in immune deficiency",
+      "source": "Cancer Council Australia, National Cervical Screening Program Guidelines (2025), section 7.2",
+      "stem": [
+        "Mele Vaipulu, 41, a primary school teacher, had a kidney transplant 6 years ago. She takes tacrolimus 3 mg twice daily, mycophenolate 720 mg twice daily and prednisolone 5 mg daily. Her previous cervical screening test, 3 years ago, found no HPV.",
+        "Two weeks ago she chose a self-collected vaginal sample, which detected oncogenic HPV (not 16/18). She returned last week for a clinician-collected cervical sample for liquid-based cytology (LBC). She has no abnormal bleeding or discharge."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result"
+          ],
+          "rows": [
+            [
+              "HPV test (self-collected)",
+              "Oncogenic HPV (not 16/18) detected"
+            ],
+            [
+              "LBC (clinician-collected)",
+              "Negative for intraepithelial lesion or malignancy"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Co-test (HPV and LBC) in 12 months",
+          "why": "Annual co-testing is part of the follow-up of immune-deficient people after colposcopy. It doesn't replace referral when HPV is detected."
+        },
+        {
+          "text": "HPV test in 3 years",
+          "why": "Three-yearly testing is her routine screening interval when HPV is not detected. With HPV detected, it is an unsafe delay."
+        },
+        {
+          "text": "HPV test in 12 months, self-collected or clinician-collected",
+          "why": "The common trap. This is the intermediate-risk pathway for an immunocompetent person with HPV (not 16/18) and negative or low-grade LBC. It doesn't apply when severe immune deficiency raises the risk of progression."
+        },
+        {
+          "text": "LBC repeated in 6 weeks",
+          "why": "A repeat LBC in 6 weeks is for an unsatisfactory LBC. Hers was satisfactory and negative."
+        },
+        {
+          "text": "Refer for colposcopy",
+          "correct": true,
+          "why": "Solid organ transplant recipients on multiple immunosuppressants are in the severely immune-deficient group (NCSP guidelines, section 7.2). They are referred for colposcopy, ideally to an experienced colposcopist or a tertiary centre, if HPV of any type is detected, whatever the LBC result. The LBC still informs the colposcopist. Routine screening in this group is 3-yearly."
+        }
+      ],
+      "keyPoint": "Severely immune-deficient people, such as solid organ transplant recipients, screen 3-yearly and are referred straight to colposcopy if any oncogenic HPV is detected, regardless of the LBC."
+    },
+    {
+      "id": "wp01-s02",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Women's health"
+      ],
+      "subtopic": "Paget disease of the nipple",
+      "source": "AJGP Women's Health 1: Skin changes of the female breast (2025)",
+      "stem": [
+        "Joanne Whitfield, 61, a retired pharmacy assistant, has had an itchy, scaly red patch on her left nipple for 4 months. It started on the tip of the nipple and has spread onto the areola. Another GP diagnosed eczema and prescribed mometasone 0.1% ointment daily. After 6 weeks it is only slightly better, and it now weeps at times.",
+        "She has no personal history of eczema or psoriasis, hasn't changed her soap or laundry products, and isn't breastfeeding. There is no nipple discharge. Her last BreastScreen mammogram, 14 months ago, was normal.",
+        "On examination there is a well-demarcated, scaly, erythematous plaque with a small central erosion on the left nipple, extending about 5 mm onto the areola. The right nipple is normal. There is no palpable breast mass and no axillary lymphadenopathy."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Bilateral diagnostic mammogram and breast ultrasound, continuing mometasone if they are normal",
+          "why": "The common trap. Imaging can be normal in Paget disease (in up to half of cases in some series), so a normal mammogram doesn't exclude it. The skin biopsy is the diagnostic test."
+        },
+        {
+          "text": "Clobetasol propionate 0.05% ointment twice daily for 4 weeks, then review",
+          "why": "Often chosen. Escalating steroid potency continues the delay that typically postpones this diagnosis by months. Atopic nipple dermatitis is usually bilateral and responds to steroid."
+        },
+        {
+          "text": "Continue the topical corticosteroid, with her next routine BreastScreen mammogram in 10 months",
+          "why": "Unsafe delay. BreastScreen is for women without symptoms. A symptomatic breast needs diagnostic imaging and tissue diagnosis now."
+        },
+        {
+          "text": "Patch testing for allergic contact dermatitis",
+          "why": "Contact dermatitis is usually bilateral and linked to a new product. Patch testing delays a needed biopsy."
+        },
+        {
+          "text": "Pimecrolimus 1% cream twice daily for 6 weeks",
+          "why": "A steroid-sparing treatment for eczema. Treating presumed dermatitis again delays the diagnosis."
+        },
+        {
+          "text": "Punch biopsy of the left nipple, with bilateral diagnostic mammogram and breast ultrasound",
+          "correct": true,
+          "why": "Unilateral nipple 'eczema' that starts on the nipple, spreads to the areola, erodes and fails topical corticosteroid is Paget disease of the nipple until proven otherwise. Diagnosis is by full-thickness skin biopsy (punch or wedge), with bilateral diagnostic imaging to look for the underlying DCIS or invasive cancer, then referral to a breast surgeon."
+        },
+        {
+          "text": "Skin scraping for fungal microscopy and culture, with clotrimazole 1% cream twice daily",
+          "why": "Candida of the nipple occurs mainly during breastfeeding. A weeping, eroded, unilateral plaque at 61 needs a biopsy."
+        }
+      ],
+      "keyPoint": "Persistent unilateral nipple dermatitis that starts on the nipple is Paget disease until a full-thickness biopsy says otherwise. Normal imaging doesn't exclude it."
+    },
+    {
+      "id": "wp01-s03",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Women's health"
+      ],
+      "subtopic": "Subfertility: confirming ovulation",
+      "source": "AJGP Women's Health 1: Assessment of female fertility in the general practice setting",
+      "stem": [
+        "Chloe Martens, 36, an architect, and her male partner have had unprotected intercourse 2 to 3 times a week for 7 months without conceiving. Since stopping the combined pill a year ago, her cycles have been regular at 35 days, with 5 days of bleeding and premenstrual breast tenderness. She has no dysmenorrhoea, dyspareunia or hirsutism. Her BMI is 23 kg/m².",
+        "She takes folic acid 500 micrograms and iodine 150 micrograms daily. Her rubella and varicella serology show immunity, her cervical screening is up to date, and a transvaginal pelvic ultrasound last month was normal. Her partner's semen analysis is booked.",
+        "Her previous GP ordered a serum progesterone, which was taken on day 21 of her last cycle. Her next period started 15 days later."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Serum progesterone (day 21)",
+              "4 nmol/L",
+              "Follicular < 5; mid-luteal > 30 suggests ovulation"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Clomifene citrate 50 mg orally daily on days 2 to 6 of her next cycle",
+          "why": "Often chosen. This treats anovulation, which hasn't been shown: her result is uninterpretable because of its timing. Ovulation induction also needs specialist monitoring."
+        },
+        {
+          "text": "Referral to a fertility specialist for ovulation induction",
+          "why": "Premature for the same reason. Referral may follow once the work-up is complete, but anovulation is not established."
+        },
+        {
+          "text": "Serum FSH, LH, oestradiol, prolactin and TSH on day 2 to 4 of her next cycle",
+          "why": "This is the work-up for oligomenorrhoea or amenorrhoea. With regular cycles and premenstrual symptoms, confirm ovulation first."
+        },
+        {
+          "text": "Serum progesterone on day 14 of her next cycle",
+          "why": "Day 14 is around ovulation only in a 28-day cycle, and is still follicular in hers. Progesterone confirms ovulation only in the mid-luteal phase."
+        },
+        {
+          "text": "Serum progesterone on day 21 of her next cycle",
+          "why": "The common trap. 'Day 21' assumes a 28-day cycle. In her 35-day cycle, day 21 is around ovulation, which is why the first result was low."
+        },
+        {
+          "text": "Serum progesterone on day 28 of her next cycle",
+          "correct": true,
+          "why": "Ovulation is confirmed by a mid-luteal progesterone, taken about 7 days before the next expected period. In a 35-day cycle that is day 28. Her day-21 result is uninterpretable, not evidence of anovulation. If cycle length varies, serial levels may be needed."
+        }
+      ],
+      "keyPoint": "Time the 'day 21' progesterone to 7 days before the expected period: cycle length minus 7."
+    },
+    {
+      "id": "wp01-s04",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Women's health"
+      ],
+      "subtopic": "Recurrent pregnancy loss",
+      "source": "AJGP Women's Health 2: Clinical care for women seeking pregnancy after miscarriage (2024); ESHRE RPL guideline (2022)",
+      "stem": [
+        "Mariam Haddad, 33, a dental hygienist, has had three miscarriages in a row over the past 2 years, at 7, 8 and 9 weeks' gestation. Each was confirmed on ultrasound, and she has no live children. Tissue from the miscarriages was not sent for testing.",
+        "Her cycles are regular, she has no personal history of venous thromboembolism, and her BMI is 24 kg/m². Her TSH last month was normal, and a recent 3D transvaginal ultrasound showed a normal uterine cavity. She and her partner want to try again and ask what else should be checked."
+      ],
+      "lead": "Which investigation is MOST appropriate now?",
+      "options": [
+        {
+          "text": "Factor V Leiden and prothrombin gene mutation testing, with protein C, protein S and antithrombin levels",
+          "why": "Often chosen. Routine testing for inherited thrombophilia (factor V Leiden, prothrombin gene, protein C, protein S, antithrombin) is not recommended in recurrent pregnancy loss without other risk factors, and heparin for inherited thrombophilia hasn't been shown to improve live birth rates."
+        },
+        {
+          "text": "Lupus anticoagulant, anticardiolipin antibodies and anti-β2-glycoprotein I antibodies",
+          "correct": true,
+          "why": "Antiphospholipid syndrome is the most important treatable cause of recurrent pregnancy loss. Test for lupus anticoagulant and anticardiolipin (IgG and IgM) antibodies, with anti-β2-glycoprotein I, and repeat a positive result after at least 12 weeks. If confirmed, low-dose aspirin with prophylactic heparin is offered in the next pregnancy."
+        },
+        {
+          "text": "Mid-luteal serum progesterone",
+          "why": "A luteal progesterone neither explains nor predicts recurrent loss, and isn't recommended."
+        },
+        {
+          "text": "MTHFR gene mutation testing with a fasting homocysteine level",
+          "why": "Not recommended. MTHFR variants are common, and neither they nor homocysteine change management."
+        },
+        {
+          "text": "Peripheral blood natural killer cell count and activity",
+          "why": "Immune tests such as NK cells aren't recommended outside research, and they lead to unproven treatments."
+        },
+        {
+          "text": "Serum prolactin",
+          "why": "Indicated only with symptoms of hyperprolactinaemia, such as oligomenorrhoea or galactorrhoea. Her cycles are regular."
+        }
+      ],
+      "keyPoint": "In recurrent pregnancy loss, test for antiphospholipid antibodies (lupus anticoagulant, anticardiolipin, anti-β2-glycoprotein I) and thyroid function. Inherited thrombophilia, MTHFR and NK cell tests are not recommended."
+    },
+    {
+      "id": "wp01-s05",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Women's health"
+      ],
+      "subtopic": "RhD immunoglobulin after a sensitising event",
+      "source": "National Blood Authority, Guideline for the prophylactic use of Rh D immunoglobulin in pregnancy care (2021, updated 2024)",
+      "stem": [
+        "Tessa Moran, 29, a physiotherapist, is 31 weeks pregnant with her second child. Her blood group is O RhD negative, and her 28-week antibody screen was negative. Cell-free DNA testing at 16 weeks predicted a RhD-positive fetus. She received RhD immunoglobulin 625 IU at 28 weeks, 3 weeks ago.",
+        "About 20 hours ago she slipped on wet tiles and landed on her abdomen. In the birth suite there was no bleeding, contractions or abdominal tenderness, and cardiotocography was normal for 4 hours. She was discharged with advice to see her GP. The discharge summary doesn't mention RhD immunoglobulin or further blood tests.",
+        "Today she feels well and fetal movements are normal."
+      ],
+      "lead": "Regarding RhD immunoglobulin, what is the MOST appropriate action?",
+      "options": [
+        {
+          "text": "Antibody screen today, giving RhD immunoglobulin only if anti-D is not detected",
+          "why": "Anti-D on her screen is probably passive, from the 28-week dose, and can't be told apart from immune anti-D. Withholding on that basis risks sensitisation."
+        },
+        {
+          "text": "No RhD immunoglobulin until the routine 34-week dose, as the 28-week dose still protects her",
+          "why": "The common trap. Routine prophylaxis doesn't cover a new sensitising event. Each event needs its own dose, regardless of earlier doses."
+        },
+        {
+          "text": "RhD immunoglobulin 250 IU today",
+          "why": "250 IU is the dose for sensitising events in the first trimester. Later in pregnancy it is 625 IU."
+        },
+        {
+          "text": "RhD immunoglobulin 625 IU today, after taking blood to quantify fetomaternal haemorrhage",
+          "correct": true,
+          "why": "Abdominal trauma is a sensitising event. Give 625 IU as soon as possible, ideally within 72 hours (it may still help up to 10 days). After 20 weeks, take blood first to quantify the fetomaternal haemorrhage, and give more RhD immunoglobulin if the bleed is larger than the dose covers."
+        },
+        {
+          "text": "RhD immunoglobulin 625 IU within 10 days, at her antenatal visit next week",
+          "why": "Right dose, wrong timing. Give it as soon as possible and ideally within 72 hours. Protection after that is less reliable."
+        },
+        {
+          "text": "Test for fetomaternal haemorrhage today, giving RhD immunoglobulin only if fetal cells are detected",
+          "why": "Often chosen. The test decides whether extra doses are needed, not whether to give the standard dose. Don't wait for the result."
+        }
+      ],
+      "keyPoint": "Every sensitising event after the first trimester needs RhD immunoglobulin 625 IU within 72 hours, even after routine prophylaxis. After 20 weeks, also quantify the fetomaternal haemorrhage."
+    },
+    {
+      "id": "wp01-s06",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Women's health"
+      ],
+      "subtopic": "Gestational diabetes: ADIPS 2025 criteria",
+      "source": "ADIPS 2025 consensus; RACGP Management of type 2 diabetes: Gestational diabetes (updated 01/08/2025)",
+      "stem": [
+        "Lucia Ferreira, 31, a café manager, is 26 weeks pregnant with her first baby. Her BMI is 27 kg/m². Her HbA1c at the first antenatal visit was 5.4% (36 mmol/mol). Her father has type 2 diabetes. She feels well and the pregnancy has been uncomplicated.",
+        "This week she had a 75 g pregnancy oral glucose tolerance test (POGTT)."
+      ],
+      "tables": [
+        {
+          "head": [
+            "75 g POGTT, 26 weeks",
+            "Plasma glucose"
+          ],
+          "rows": [
+            [
+              "Fasting",
+              "5.2 mmol/L"
+            ],
+            [
+              "1 hour",
+              "10.4 mmol/L"
+            ],
+            [
+              "2 hours",
+              "8.8 mmol/L"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate interpretation and plan?",
+      "options": [
+        {
+          "text": "Gestational diabetes: refer to a diabetes educator and dietitian, and start capillary glucose monitoring",
+          "why": "The common trap. These values meet the IADPSG thresholds (fasting 5.1, 1-hour 10.0, 2-hour 8.5 mmol/L) that ADIPS used from 2014 until 2025. The current thresholds are higher, and she doesn't meet them."
+        },
+        {
+          "text": "Gestational diabetes: start metformin 500 mg daily with the evening meal",
+          "why": "She doesn't have gestational diabetes. Even when she does, medicine is added only if diet and activity don't reach the glucose targets."
+        },
+        {
+          "text": "Inconclusive result: check HbA1c now to decide",
+          "why": "HbA1c isn't sensitive enough to diagnose gestational diabetes. In pregnancy it is used at the first visit to find overt diabetes and to guide early testing."
+        },
+        {
+          "text": "Inconclusive result: repeat the 75 g POGTT at 32 weeks",
+          "why": "Often chosen when values sit near old cut-offs. A negative 24–28-week test isn't routinely repeated."
+        },
+        {
+          "text": "No gestational diabetes: continue routine antenatal care",
+          "correct": true,
+          "why": "Under the ADIPS 2025 criteria, which the RACGP has adopted, gestational diabetes needs one or more of: fasting 5.3–6.9 mmol/L, 1-hour ≥ 10.6 mmol/L or 2-hour 9.0–11.0 mmol/L. All her values are below these. General healthy eating and activity advice still applies."
+        },
+        {
+          "text": "Overt diabetes in pregnancy: refer urgently to the high-risk pregnancy clinic",
+          "why": "Overt diabetes in pregnancy needs a fasting glucose ≥ 7.0 mmol/L, a 2-hour glucose ≥ 11.1 mmol/L or an HbA1c ≥ 6.5%."
+        }
+      ],
+      "keyPoint": "ADIPS 2025 thresholds for the 75 g POGTT: fasting 5.3, 1-hour 10.6 and 2-hour 9.0 mmol/L. The older 5.1/10.0/8.5 cut-offs no longer apply."
+    },
+    {
+      "id": "wp01-s07",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Paediatrics"
+      ],
+      "subtopic": "Bilateral impalpable testes in a newborn",
+      "source": "AJGP Paediatrics 1: Undescended testes",
+      "stem": [
+        "Theo Brennan, 4 days old, is brought by his parents, Ella and Sam, for his first medical check. He was born at term at home with a private midwife after an uncomplicated pregnancy, and is breastfeeding well. He has passed urine and meconium. The midwife noted that she couldn't feel his testes.",
+        "On examination in a warm room he is alert and well perfused, with mild facial jaundice. He weighs 3.40 kg (birth weight 3.55 kg). The scrotum is small and smooth. Neither testis can be felt in the scrotum, the inguinal canals or the perineum despite careful examination. The stretched penile length is 2.8 cm, with the urethral opening at the tip. The rest of the examination is normal."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Human chorionic gonadotrophin injections to encourage testicular descent",
+          "why": "Hormone treatment hasn't been shown to help testicular descent."
+        },
+        {
+          "text": "Inguinal and scrotal ultrasound to locate the testes, then referral according to the result",
+          "why": "Ultrasound often misses impalpable testes and isn't recommended before referral. Here it would also delay urgent assessment."
+        },
+        {
+          "text": "LH, FSH and testosterone during mini-puberty at 6 to 8 weeks of age, then referral",
+          "why": "Specialists may measure these during mini-puberty, but waiting weeks risks missing CAH."
+        },
+        {
+          "text": "Review at 3 months of age, referring if the testes have not descended",
+          "why": "The common trap. Waiting until 3 months suits a well baby with a unilateral undescended testis, because many descend. Bilateral impalpable testes need urgent assessment."
+        },
+        {
+          "text": "Routine paediatric surgical referral now, for orchidopexy at 6 to 12 months of age",
+          "why": "Right timing for surgery, wrong urgency. The first priority is to exclude a disorder of sex development."
+        },
+        {
+          "text": "Same-day paediatric review for karyotype, 17-hydroxyprogesterone and electrolytes",
+          "correct": true,
+          "why": "Bilateral impalpable testes in a newborn may be a virilised genetic female with congenital adrenal hyperplasia (CAH), or another disorder of sex development. A salt-wasting crisis from CAH usually appears in the first 1 to 3 weeks and can be fatal, so assess the same day, with urgent paediatric surgical input."
+        }
+      ],
+      "keyPoint": "Unilateral undescended testis: refer at 3 months for orchidopexy at 6–12 months, with no ultrasound. Bilateral impalpable testes or any genital ambiguity: same-day assessment for a disorder of sex development, including CAH."
+    },
+    {
+      "id": "wp01-s08",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Paediatrics"
+      ],
+      "subtopic": "New type 1 diabetes in a child",
+      "source": "RACGP Curriculum and Syllabus, 6th edition (Children and young people's health); RCH clinical practice guideline: Diabetes mellitus",
+      "stem": [
+        "Kai Watson, 9, in year 4, is brought by his mother, Nicole, who thinks he has a urinary tract infection. For 3 weeks he has been thirsty and getting up at night to pass urine, and he has wet the bed twice after being dry at night since the age of 4. He is more tired than usual and his school shorts are looser.",
+        "He is alert and chatty. He weighs 26 kg, down from 28.5 kg at a visit 2 months ago. Temperature 36.8°C, heart rate 98/min, respiratory rate 20/min, capillary refill 2 seconds. His mucous membranes are moist and his abdomen is soft and non-tender."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Capillary blood glucose (random)",
+              "17.8 mmol/L",
+              "< 11.1"
+            ],
+            [
+              "Urine glucose",
+              "4+",
+              "Negative"
+            ],
+            [
+              "Urine ketones",
+              "2+",
+              "Negative"
+            ],
+            [
+              "Urine leucocytes and nitrites",
+              "Negative",
+              "Negative"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "75 g oral glucose tolerance test this week",
+          "why": "An OGTT is never needed when symptoms and a high random glucose already confirm diabetes."
+        },
+        {
+          "text": "Emergency department referral today for paediatric assessment",
+          "correct": true,
+          "why": "Polyuria, polydipsia, new bedwetting and weight loss with a glucose of 17.8 mmol/L and ketonuria is new type 1 diabetes. He needs same-day assessment for DKA (venous gas, electrolytes, blood ketones) and insulin started by the paediatric team. Looking well doesn't exclude significant ketosis."
+        },
+        {
+          "text": "Fasting venous glucose and HbA1c tomorrow morning, then review with the results",
+          "why": "The common trap. Symptoms with a random glucose above 11.1 mmol/L confirm diabetes. Formal tests add nothing and delay care while ketosis progresses."
+        },
+        {
+          "text": "Insulin glargine 0.2 units/kg at night, with diabetes education this week",
+          "why": "Children with new type 1 diabetes start insulin under a paediatric diabetes team after assessment for diabetic ketoacidosis (DKA). Basal insulin alone, started in general practice, is unsafe."
+        },
+        {
+          "text": "Metformin 500 mg daily with dietary advice, and review in 1 week",
+          "why": "Right drug for the wrong diagnosis. Weight loss, ketonuria and a short history mean type 1 diabetes."
+        },
+        {
+          "text": "Paediatric endocrinology referral, to be seen within 2 weeks",
+          "why": "Often chosen. The diagnosis is right but the timing isn't. Ketonuria and weight loss show insulin deficiency, and DKA can develop within hours to days."
+        },
+        {
+          "text": "Urine microscopy and culture, with review in 2 days",
+          "why": "Anchors on the parent's diagnosis. Glycosuria with ketonuria and weight loss is not a urinary tract infection, and the delay risks DKA."
+        }
+      ],
+      "keyPoint": "A child with osmotic symptoms and a high glucose has type 1 diabetes until proven otherwise: refer to the emergency department the same day. Don't wait for fasting glucose, HbA1c or an OGTT."
+    },
+    {
+      "id": "wp01-s09",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Paediatrics"
+      ],
+      "subtopic": "Murmur with weak femoral pulses",
+      "source": "AJGP Paediatrics 1: Navigating heart murmurs in children (2025)",
+      "stem": [
+        "Ruby Sinclair, 6 weeks old, is brought by her mother, Jess, for her 6-week check and immunisations. She was born at term after an uncomplicated pregnancy. Her newborn examination and pulse oximetry screen were normal before discharge at 36 hours. Jess says Ruby has been feeding a little more slowly over the past few days, but she finishes her feeds.",
+        "Ruby is alert and pink. She weighs 4.6 kg (25th centile, down from the 50th centile at birth). Heart rate 156/min, respiratory rate 48/min with no recession, oxygen saturation 98% in the right hand. There is a soft systolic murmur at the left sternal edge. Her brachial pulses are easy to feel, but both femoral pulses are weak on repeated examination. The liver edge is 1 cm below the costal margin."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Chest X-ray and ECG, then review with the results",
+          "why": "Neither test excludes coarctation, and waiting for them delays assessment that she needs today."
+        },
+        {
+          "text": "Emergency department transfer today for paediatric assessment",
+          "correct": true,
+          "why": "Weak femoral pulses with normal brachial pulses suggest coarctation of the aorta. Ductal tissue in the aortic arch can narrow it as the duct closes over the first 6 weeks, so pulses that were normal at birth may fade. Infants can present in shock that looks like sepsis. She needs same-day assessment with four-limb blood pressure, echocardiography and paediatric cardiology input."
+        },
+        {
+          "text": "Four-limb blood pressure at a review in 2 weeks",
+          "why": "Four-limb blood pressure helps, but it doesn't remove the need for same-day assessment. Waiting 2 weeks is unsafe."
+        },
+        {
+          "text": "Outpatient echocardiogram and paediatric cardiology referral within 4 weeks",
+          "why": "Often chosen. Right investigation, wrong urgency. Coarctation can progress to circulatory collapse in this age group."
+        },
+        {
+          "text": "Pre-ductal and post-ductal oxygen saturations, reassuring if they differ by less than 3%",
+          "why": "Pulse oximetry misses many cases of coarctation, so normal saturations don't exclude it."
+        },
+        {
+          "text": "Reassurance that the murmur is probably innocent, with re-examination at her 4-month immunisations",
+          "why": "The common trap. The level of concern depends on the features around the murmur: weak femoral pulses, slower feeding and a falling weight centile are red flags."
+        }
+      ],
+      "keyPoint": "Check femoral pulses at every infant check. Weak or absent femoral pulses, especially with feeding or growth concerns, need same-day assessment for coarctation."
+    },
+    {
+      "id": "wp01-s10",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Paediatrics"
+      ],
+      "subtopic": "Abnormal head shape: synostosis or positional",
+      "source": "AJGP Paediatrics 2: Assessment of paediatric head shape and management of craniosynostosis",
+      "stem": [
+        "Isaac Morgan, 4 months old, is brought by his father, Daniel, who is worried about the shape of the back of Isaac's head. Daniel noticed flattening on the right side at birth. It hasn't improved despite placing Isaac to sleep with his head turned to the left and daily tummy time. Isaac was born at term by vaginal delivery, is feeding well and his development is normal for age.",
+        "Isaac turns his head fully to both sides and has no head tilt. Viewed from above, the right occiput is flat and the head has a trapezoid outline. The right ear sits further back and lower than the left, and there is a bulge behind the right ear. The forehead is symmetrical. His head circumference has stayed on the 40th centile."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Continue counter-positioning and tummy time, and review in 2 months",
+          "why": "The common trap. This suits deformational plagiocephaly, which usually isn't present at birth and gives a parallelogram shape with the ear on the flat side pushed forward."
+        },
+        {
+          "text": "Plain skull X-ray, referring if it shows a fused suture",
+          "why": "Most single-suture synostosis is diagnosed clinically. The craniofacial team chooses any imaging, usually CT. A GP-ordered X-ray delays referral and adds radiation."
+        },
+        {
+          "text": "Prompt referral to a paediatric craniofacial unit",
+          "correct": true,
+          "why": "Flattening present from birth, a trapezoid outline, the ear on the flat side displaced backwards and down, and a mastoid bulge point to right lambdoid craniosynostosis rather than deformational plagiocephaly. Synostosis doesn't improve with time, and early referral keeps more treatment options open, including less invasive surgery that is only possible in young infants."
+        },
+        {
+          "text": "Reassurance that the shape will improve once he can sit",
+          "why": "True of deformational plagiocephaly, which improves as neck tone and mobility develop. Synostosis doesn't."
+        },
+        {
+          "text": "Referral for moulding helmet therapy",
+          "why": "Helmets are used for some severe deformational cases, and their benefit is debated. They don't treat a fused suture."
+        },
+        {
+          "text": "Referral to a paediatric physiotherapist for positioning and neck exercises",
+          "why": "Physiotherapy helps deformational plagiocephaly with torticollis. He has full neck movement and features of synostosis."
+        }
+      ],
+      "keyPoint": "Deformational plagiocephaly: parallelogram, ear forward, worse up to 4 months then improves. Lambdoid synostosis: trapezoid, ear back and down, mastoid bulge, present from birth. Refer suspected synostosis early to a craniofacial unit."
+    },
+    {
+      "id": "wp01-s11",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Paediatrics"
+      ],
+      "subtopic": "Premature thelarche",
+      "source": "AJGP Paediatrics 2: The assessment of premature thelarche (2025)",
+      "stem": [
+        "Aria Coleman, 3, is brought by her father, Ben, because of breast swelling he noticed 6 weeks ago. Aria has no pubic hair, body odour or vaginal bleeding, and her behaviour and energy are unchanged. Her grandmother, Lorraine, looks after her three days a week.",
+        "On examination there is soft glandular tissue about 2 cm across behind both nipples (Tanner breast stage 2), with no skin change, discharge or tenderness, and no pubic or axillary hair. Her height has followed the 50th centile since birth. Her thyroid and abdominal examinations are normal.",
+        "Ben mentions that Lorraine, 57, started an estradiol gel for hot flushes 4 months ago. She rubs it onto her forearms each morning before she gets the children up."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Breast ultrasound to distinguish glandular tissue from fat",
+          "why": "Breast ultrasound doesn't distinguish premature thelarche from precocious puberty, and this tissue is clearly glandular."
+        },
+        {
+          "text": "Pelvic ultrasound to assess ovarian volume and uterine length",
+          "why": "Pelvic ultrasound is best left to the paediatrician when precocious puberty is suspected."
+        },
+        {
+          "text": "Reassurance that this is benign premature thelarche, with review of her height and breasts in 3 to 6 months",
+          "why": "Often chosen. Watchful monitoring suits isolated thelarche without a cause, but here a likely reversible cause needs removing first."
+        },
+        {
+          "text": "Review in 3 months, after advising her grandmother to cover the gel site and wash her hands",
+          "correct": true,
+          "why": "Transdermal oestrogen transfers to children through skin contact and is a recognised, reversible cause of breast development. Letting the gel dry, covering the site, washing hands and avoiding contact with the site usually leads to regression. Investigate if the breasts don't regress, or if other pubertal signs or faster growth appear."
+        },
+        {
+          "text": "Serum LH, FSH and oestradiol, with referral to a paediatric endocrinologist for assessment",
+          "why": "Blood tests and referral are for additional pubertal signs or accelerated growth. She has neither, and the likely cause is external."
+        },
+        {
+          "text": "TSH and free T4",
+          "why": "Primary hypothyroidism is a rare cause, usually with slowed growth and other signs. Her growth and thyroid examination are normal."
+        },
+        {
+          "text": "X-ray of the left hand and wrist for bone age, and review with the result in 2 weeks",
+          "why": "The common trap. Bone age is the most useful test when progression to precocious puberty is suspected, but it isn't the first step when growth is normal and there is a clear external source of oestrogen."
+        }
+      ],
+      "keyPoint": "Before investigating breast development in a young girl, ask about exogenous oestrogen: a carer's transdermal oestrogen, lavender or tea tree oil, or soy formula. Removing the source is usually enough."
+    },
+    {
+      "id": "wp01-c01",
+      "format": "cdp",
+      "select": 5,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Women's health"
+      ],
+      "subtopic": "Preconception care in type 2 diabetes",
+      "source": "AJGP Women's Health 2: Preconception care (2024); Therapeutic Guidelines; Australian Immunisation Handbook",
+      "stem": [
+        "Rania Aziz, 34, an accountant, wants to start trying for her first pregnancy and asks you to remove her etonogestrel implant today. She has had type 2 diabetes for 4 years and hypertension for 2 years. Her medicines are metformin modified release 2 g daily, perindopril 5 mg daily and atorvastatin 20 mg daily. She takes a pregnancy multivitamin containing folic acid 500 micrograms and iodine 150 micrograms. She doesn't smoke or drink alcohol.",
+        "Her BMI is 33 kg/m² and her blood pressure 128/78 mmHg. Retinal photography 4 months ago was normal. She has discussed reproductive carrier screening and declined it."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "HbA1c",
+              "8.1% (65 mmol/mol)",
+              "4.0–6.0%"
+            ],
+            [
+              "eGFR",
+              "> 90 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Urine albumin-to-creatinine ratio",
+              "1.2 mg/mmol",
+              "< 3.5"
+            ],
+            [
+              "TSH",
+              "1.6 mU/L",
+              "0.4–4.0"
+            ],
+            [
+              "Rubella IgG",
+              "Not detected",
+              "Detected (immune)"
+            ],
+            [
+              "Varicella IgG",
+              "Detected",
+              "Detected (immune)"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which FIVE actions are MOST appropriate?",
+      "options": [
+        {
+          "text": "Aspirin 150 mg at night, starting now",
+          "score": 0,
+          "why": "Correct but premature. Aspirin to prevent pre-eclampsia starts at 12 to 16 weeks of pregnancy in women at increased risk, such as those with pre-existing diabetes or hypertension."
+        },
+        {
+          "text": "Cease atorvastatin",
+          "score": 1,
+          "why": "Statins are avoided in pregnancy and are stopped before contraception is stopped. A short break has little effect on her cardiovascular risk."
+        },
+        {
+          "text": "Change atorvastatin to ezetimibe 10 mg daily",
+          "score": 0,
+          "why": "Right idea, wrong drug. Lipid-lowering drugs, including ezetimibe, are generally stopped before pregnancy because safety data are lacking."
+        },
+        {
+          "text": "Change metformin to insulin before conception",
+          "score": 0,
+          "why": "Metformin can be continued before conception and in pregnancy. Insulin is added if targets aren't met, not substituted routinely."
+        },
+        {
+          "text": "Change perindopril to candesartan 8 mg daily",
+          "score": 0,
+          "why": "Often chosen. Angiotensin receptor blockers have the same fetal toxicity as ACE inhibitors."
+        },
+        {
+          "text": "Change perindopril to labetalol 100 mg twice daily",
+          "score": 1,
+          "why": "ACE inhibitors are fetotoxic and are not continued in pregnancy. Labetalol, nifedipine or methyldopa are used instead. Switching before contraception stops avoids an unplanned exposure."
+        },
+        {
+          "text": "Continue contraception until her HbA1c is 6.5% or lower, if this can be reached without hypoglycaemia",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. The risk of congenital anomalies and miscarriage rises with HbA1c around conception. Aim for an HbA1c of 6.5% (48 mmol/mol) or lower before conception where it is safe. Pregnancy is strongly discouraged above 10% (86 mmol/mol). Her implant can stay while her glucose is optimised."
+        },
+        {
+          "text": "Folic acid 5 mg daily",
+          "score": 1,
+          "why": "Diabetes and a BMI of 30 or more each raise the risk of neural tube defects, so the dose is 5 mg daily from at least a month before conception through the first trimester. Her multivitamin gives only 500 micrograms."
+        },
+        {
+          "text": "MMR vaccine today, avoiding conception for 28 days",
+          "score": 1,
+          "why": "She isn't immune to rubella. MMR is a live vaccine and is contraindicated in pregnancy, so give it now, while she has reliable contraception, and avoid pregnancy for 28 days afterwards."
+        },
+        {
+          "text": "Stop metformin once she starts trying to conceive",
+          "score": 0,
+          "why": "Stopping metformin would worsen her glucose control at the time it matters most."
+        },
+        {
+          "text": "Varicella vaccine today",
+          "score": 0,
+          "why": "Her varicella IgG shows immunity, so vaccination isn't needed."
+        }
+      ],
+      "keyPoint": "Before pregnancy in diabetes: contraception until HbA1c is 6.5% or lower if safe, folic acid 5 mg, stop statins and ACE inhibitors or ARBs (switch to labetalol or nifedipine), and vaccinate against rubella and varicella if not immune."
+    },
+    {
+      "id": "wp01-c02",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Women's health"
+      ],
+      "subtopic": "Medical abortion with an IUD in place",
+      "source": "Therapeutic Guidelines: Sexual and Reproductive Health (medical abortion)",
+      "stem": [
+        "Leilani Fonoti, 27, a hospitality supervisor, requests a medical abortion. Her last normal period started 7 weeks and 1 day ago. Her cycles are regular and her periods are not heavy. A home pregnancy test was positive yesterday. A copper IUD was inserted 3 years ago, and its threads are visible on speculum examination today. She has no pain or bleeding.",
+        "She has thought it through, is certain of her decision and has a support person. She has no medical conditions, takes no medicines, eats a mixed diet and lives 20 minutes from a hospital emergency department. Her blood group, from a previous pregnancy, is O RhD negative. You prescribe MS-2 Step (mifepristone and misoprostol) in your practice."
+      ],
+      "lead": "Which FOUR actions are MOST appropriate before she takes mifepristone?",
+      "options": [
+        {
+          "text": "Delay mifepristone until 9 weeks' gestation, when it is more effective",
+          "score": 0,
+          "why": "Effectiveness falls slightly as gestation rises, and MS-2 Step is PBS-listed up to 63 days. Delay has no benefit."
+        },
+        {
+          "text": "Doxycycline 100 mg orally twice daily for 7 days as prophylaxis",
+          "score": 0,
+          "why": "Universal antibiotic prophylaxis isn't recommended for medical abortion. Test for infection and treat if positive."
+        },
+        {
+          "text": "Full blood examination",
+          "score": 0,
+          "why": "Haemoglobin is checked only if there are risk factors for anaemia, such as heavy periods, coeliac disease or a vegetarian diet. She has none."
+        },
+        {
+          "text": "Pelvic ultrasound to confirm an intrauterine pregnancy and its gestation",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. A pregnancy with an IUD in place is more likely to be ectopic, and a confirmed or suspected ectopic pregnancy is a contraindication to medical abortion. Ultrasound also confirms the gestation is within 63 days."
+        },
+        {
+          "text": "Referral to a psychologist for counselling before prescribing",
+          "score": 0,
+          "why": "Counselling is offered, not mandatory. She is certain of her decision, and delay increases the gestation."
+        },
+        {
+          "text": "Remove the copper IUD",
+          "score": 1,
+          "why": "An IUD in place is a contraindication: the strong uterine contractions caused by mifepristone and misoprostol can injure the uterus. The threads are visible, so it can be removed today."
+        },
+        {
+          "text": "Repeat serum hCG in 48 hours to confirm an appropriate rise",
+          "score": 0,
+          "why": "Serial hCG is for a pregnancy of unknown location. Ultrasound answers the location question."
+        },
+        {
+          "text": "Request a baseline quantitative serum hCG",
+          "score": 1,
+          "why": "Ideally taken on the day she takes mifepristone, and compared with a level 7 days later. A fall to below 20% of baseline confirms there is no continuing pregnancy."
+        },
+        {
+          "text": "Rhesus antibody screen, with RhD immunoglobulin 250 IU after misoprostol",
+          "score": 0,
+          "why": "Often chosen. RANZCOG doesn't recommend routine RhD immunoglobulin after medical abortion before 10 weeks, and Therapeutic Guidelines notes that antibody testing is no longer required before medical abortion."
+        },
+        {
+          "text": "Self-collected vaginal swab for chlamydia and gonorrhoea NAAT",
+          "score": 1,
+          "why": "STI testing before medical abortion allows treatment of any infection, reducing the risk of pelvic inflammatory disease."
+        }
+      ],
+      "keyPoint": "Before MS-2 Step: ultrasound to confirm an intrauterine pregnancy up to 63 days, remove any IUD, take a baseline quantitative hCG and test for chlamydia and gonorrhoea. No routine RhD immunoglobulin before 10 weeks and no routine antibiotics."
+    },
+    {
+      "id": "wp01-c03",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Paediatrics"
+      ],
+      "subtopic": "Scald in a toddler",
+      "source": "AJGP Paediatrics 2: Assessment and management of minor burns in children",
+      "stem": [
+        "Mateo Rossi, 22 months, weighing 12 kg, is brought by his father, Luca, 40 minutes after pulling a cup of freshly made tea off the bench onto his left forearm. Luca held the arm under the kitchen tap for about 2 minutes, then held an ice pack wrapped in a tea towel on it for 10 minutes on the drive to your clinic. Mateo is fully immunised, including his 18-month vaccines.",
+        "Mateo is crying but consolable. On the inner left forearm there is a 6 cm by 4 cm scald with an irregular edge and a few small splash marks. It is pink and moist with intact blisters, blanches with brisk capillary refill and is painful to touch. It doesn't reach the wrist or elbow and isn't circumferential. There are no other injuries, and Luca's account fits Mateo's stage of development."
+      ],
+      "lead": "Which FOUR actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Apply a cold pack for a further 20 minutes",
+          "score": 0,
+          "why": "Ice and cold packs cause vasoconstriction, can deepen the burn and risk hypothermia."
+        },
+        {
+          "text": "Apply a non-adherent burns dressing, such as a silver-containing dressing",
+          "score": 1,
+          "why": "A non-adherent dressing protects the wound, keeps it moist and makes changes less painful. Silver dressings add antimicrobial cover and can stay on for several days."
+        },
+        {
+          "text": "Cool the burn under cool running tap water for 20 minutes now, keeping the rest of him warm",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. First aid is 20 minutes of cool running water, and it still helps for up to 3 hours after the burn. Two minutes under the tap and an ice pack were not adequate. Keep unburnt areas warm, because young children cool quickly."
+        },
+        {
+          "text": "Flucloxacillin 150 mg orally 6-hourly for 5 days",
+          "score": 0,
+          "why": "Prophylactic antibiotics aren't recommended for burns. Treat only clinical infection, guided by a wound swab."
+        },
+        {
+          "text": "Paracetamol 180 mg orally",
+          "score": 1,
+          "why": "15 mg/kg for a 12 kg child, now and about 30 minutes before dressing changes."
+        },
+        {
+          "text": "Refer to the paediatric burns unit today",
+          "score": 0,
+          "why": "Often chosen. He doesn't meet the referral criteria: the burn is under 5% of body surface area, superficial, not circumferential, and spares the face, hands, feet, perineum, genitalia and major joints, and he is over 1 year old. Phone the unit for advice if unsure."
+        },
+        {
+          "text": "Report to child protection services",
+          "score": 0,
+          "why": "Always consider non-accidental injury, but a splash-pattern scald from pulling a cup down matches the history and his development."
+        },
+        {
+          "text": "Review in 2 to 3 days to reassess the depth of the burn",
+          "score": 1,
+          "why": "Burns evolve. Reassess at 2 to 3 days to confirm it is superficial and suitable for GP care, and refer if it hasn't healed by about 10 days."
+        },
+        {
+          "text": "Silver sulfadiazine 1% cream applied daily",
+          "score": 0,
+          "why": "No longer favoured by most burns units: daily changes are painful and the cream changes the wound's appearance, making depth harder to judge."
+        },
+        {
+          "text": "Tetanus-containing vaccine today",
+          "score": 0,
+          "why": "He is fully immunised, including the 18-month DTPa dose, so no booster is needed."
+        }
+      ],
+      "keyPoint": "Burns first aid is 20 minutes of cool running water, effective up to 3 hours after the burn, with no ice. Then give analgesia, apply a non-adherent dressing and review at 2 to 3 days."
+    },
+    {
+      "id": "wp01-c04",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Paediatrics"
+      ],
+      "subtopic": "Bruising in a non-mobile infant",
+      "source": "RCH clinical practice guideline: Child abuse; RACGP Abuse and violence (White book)",
+      "stem": [
+        "Leo Parker, 3 months, is brought by his mother, Kayla, 21, because of a mild cough for 2 days. While examining him you notice bruising on his left cheek and ear. Kayla says his 2-year-old sister hit him with a toy truck yesterday while she was in the shower.",
+        "Leo is alert, afebrile and feeding well, and he isn't rolling over yet. He has a 2 cm bruise on the left cheek and a 1 cm bruise on the outer left ear. There are no other bruises, no petechiae and no mouth injuries, and the frenulum is intact. His chest is clear apart from transmitted upper airway sounds. His weight is on the 25th centile, as at his 6-week check. He received vitamin K at birth, and there is no known family history of a bleeding disorder."
+      ],
+      "lead": "Which THREE actions are MOST appropriate?",
+      "options": [
+        {
+          "text": "Arrange same-day assessment by the hospital paediatric or child protection team",
+          "score": 1,
+          "why": "A bruised non-mobile infant needs same-day specialist assessment, including a skeletal survey, coagulation studies and consideration of head imaging, because occult fractures and head injuries are common in this group."
+        },
+        {
+          "text": "Ask Kayla directly whether she or her partner has hurt Leo",
+          "score": 0,
+          "why": "Take a careful, open and non-judgemental history. Accusatory questioning doesn't protect the child and can compromise later assessment."
+        },
+        {
+          "text": "CT brain at a local radiology practice",
+          "score": 0,
+          "why": "Head imaging may be needed, but the paediatric team decides and arranges it as part of a full assessment."
+        },
+        {
+          "text": "Document the injuries with measurements and a body map, and record Kayla's account in her own words",
+          "score": 1,
+          "why": "Accurate, contemporaneous notes support both the medical assessment and the protective process."
+        },
+        {
+          "text": "Full blood examination and coagulation studies, with review in 2 days",
+          "score": 0,
+          "why": "These tests are part of the work-up, but ordering them alone and waiting 2 days leaves an infant at possible ongoing risk."
+        },
+        {
+          "text": "Make a report to child protection services",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Any bruise in an infant who isn't yet mobile, and bruising of the ear in any child under 4 years, is a sentinel sign of physical abuse. GPs are mandatory reporters, and the threshold is a belief on reasonable grounds, not certainty."
+        },
+        {
+          "text": "Outpatient skeletal survey at a local radiology practice",
+          "score": 0,
+          "why": "An infant skeletal survey needs a specific protocol, specialist reporting and a repeat series, and is arranged by the paediatric team as part of a full assessment."
+        },
+        {
+          "text": "Reassure Kayla that the sibling's blow explains the bruising, and review Leo in 1 week",
+          "score": 0,
+          "why": "The common trap. A plausible explanation from a carer doesn't exclude abuse. Bruising in a pre-mobile infant needs assessment whatever the explanation."
+        },
+        {
+          "text": "Referral to the maternal and child health nurse for a home visit this week",
+          "score": 0,
+          "why": "Family support may help later, but it doesn't replace a report and same-day assessment."
+        }
+      ],
+      "keyPoint": "'Those who don't cruise rarely bruise.' Any bruise in a non-mobile infant: report to child protection, arrange same-day paediatric assessment, and document carefully."
+    },
+    {
+      "id": "wp01-c05",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Paediatrics"
+      ],
+      "subtopic": "First simple febrile seizure",
+      "source": "RCH Kids Health Info and clinical practice guideline: Febrile seizures",
+      "stem": [
+        "Zara Hussain, 20 months, is brought by her parents, Amir and Leah, the morning after a seizure. Last night, with a fever of 39.4°C, she had a generalised tonic-clonic seizure lasting about 2 minutes. An ambulance took her to the emergency department, where she was back to normal within 30 minutes. After 4 hours of observation she was diagnosed with a simple febrile seizure with a viral upper respiratory infection, and sent home.",
+        "Today she has a runny nose and a temperature of 38.1°C, but she is playful and drinking well. Her examination is normal, with no rash, neck stiffness or focal neurological signs, and normal ears and chest. Her development is normal and she is fully immunised. Her uncle had febrile seizures as a toddler. Her parents are frightened and ask what to do if it happens again."
+      ],
+      "lead": "Which FOUR actions or pieces of advice are MOST appropriate?",
+      "options": [
+        {
+          "text": "About 1 in 3 children who have a febrile seizure have another in early childhood",
+          "score": 1,
+          "why": "Recurrence is about 30%, and higher with onset under 18 months or a family history, as here. Most children outgrow febrile seizures by about 6 years."
+        },
+        {
+          "text": "Arrange an EEG",
+          "score": 0,
+          "why": "An EEG doesn't predict recurrence or epilepsy after a simple febrile seizure and isn't indicated."
+        },
+        {
+          "text": "Arrange an MRI of the brain",
+          "score": 0,
+          "why": "Neuroimaging isn't indicated after a simple febrile seizure with a normal examination."
+        },
+        {
+          "text": "Buccal midazolam to keep at home for any future seizure",
+          "score": 0,
+          "why": "Home rescue medicine is for children with prolonged seizures, on specialist advice. Hers lasted 2 minutes."
+        },
+        {
+          "text": "Cool her with a tepid bath or wet towels during future fevers",
+          "score": 0,
+          "why": "Baths and sponging cause shivering and discomfort, and don't prevent seizures."
+        },
+        {
+          "text": "Delay her next vaccines until she is 6 years old",
+          "score": 0,
+          "why": "Vaccines should continue on schedule. A history of febrile seizures is not a contraindication, and the benefits far outweigh the small risk of a fever-related seizure."
+        },
+        {
+          "text": "Have someone stay awake to watch her sleep for the rest of this illness",
+          "score": 0,
+          "why": "Not needed. A cot or bed is a safe place if a seizure does happen."
+        },
+        {
+          "text": "If she has another seizure, lie her on her side, put nothing in her mouth, time it, and call 000 if it lasts 5 minutes or more",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. First aid, and knowing when to call an ambulance, is the most useful thing to teach. A seizure lasting 5 minutes or more needs medicine, which paramedics carry. Also call if she doesn't wake after it stops or seems very unwell."
+        },
+        {
+          "text": "Keep her home from childcare until she has been seizure-free for 2 weeks",
+          "score": 0,
+          "why": "She can return to childcare once she has recovered from the illness."
+        },
+        {
+          "text": "Paracetamol or ibuprofen can be used for comfort, but they don't prevent febrile seizures",
+          "score": 1,
+          "why": "Antipyretics don't reduce recurrence, so use them only for comfort."
+        },
+        {
+          "text": "Simple febrile seizures don't cause brain damage",
+          "score": 1,
+          "why": "Reassure that simple febrile seizures don't cause brain damage or affect development, and that most children who have them never develop epilepsy."
+        }
+      ],
+      "keyPoint": "After a simple febrile seizure: teach first aid and to call 000 at 5 minutes, explain the 1-in-3 recurrence risk and that antipyretics don't prevent seizures, and reassure that there is no brain damage. No EEG or imaging."
+    }
+  ]
+}
