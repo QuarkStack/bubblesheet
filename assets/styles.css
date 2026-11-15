@@ -474,3 +474,33 @@ details.card.help h3 { margin: 6px 0 0; font-size: 16px; }
 .private-ref-h { display: flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .private-ref-h svg { width: 14px; height: 14px; flex: none; }
 .private-ref q { font-style: italic; color: var(--muted); }
+
+/* ---------- v1.5.1: "Use on another device" and the Settings spotlight ---------- */
+.device-cta {
+  display: grid; grid-template-columns: 46px 1fr auto; gap: 14px; align-items: center; width: 100%; text-align: left;
+  padding: 14px 16px; border-radius: var(--r-card); cursor: pointer; font: inherit; color: var(--ink);
+  border: 1px solid color-mix(in srgb, var(--pen-2) 45%, var(--rule));
+  background: linear-gradient(120deg, var(--pen-soft) 0%, color-mix(in srgb, var(--pen-soft) 35%, var(--sheet)) 55%, var(--sheet) 100%);
+  box-shadow: var(--clay); transition: transform .25s var(--spring), box-shadow .2s ease;
+}
+.device-cta:hover { box-shadow: var(--clay), 0 6px 18px color-mix(in srgb, var(--pen-2) 22%, transparent); }
+.device-cta:active { transform: scale(.98); }
+.device-cta:focus-visible { outline: 3px solid var(--pen-2); outline-offset: 2px; }
+.device-cta-ico { width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center; background: var(--pen); color: var(--on-pen, #fff); box-shadow: 0 4px 10px color-mix(in srgb, var(--pen) 35%, transparent); }
+.device-cta-ico svg { width: 26px; height: 26px; }
+.device-cta-txt { display: grid; gap: 2px; min-width: 0; }
+.device-cta-txt b { font-size: 16px; }
+.device-cta-txt span { font-size: 13.5px; color: var(--muted); line-height: 1.35; }
+.device-cta-go { width: 30px; height: 30px; border-radius: 50%; display: grid; place-items: center; color: var(--pen); background: var(--sheet); border: 1px solid var(--rule); }
+.device-cta-go svg { width: 16px; height: 16px; }
+
+.spotlight { position: relative; box-shadow: 0 0 0 3px var(--pen-2); animation: spotPulse 1.6s ease-in-out infinite; }
+@keyframes spotPulse { 50% { box-shadow: 0 0 0 3px var(--pen-2), 0 0 0 10px color-mix(in srgb, var(--pen-2) 22%, transparent); } }
+.tap-tip {
+  position: absolute; left: 50%; bottom: calc(100% + 12px); transform: translateX(-50%); white-space: nowrap; pointer-events: none;
+  background: var(--pen); color: var(--on-pen, #fff); font-size: 13px; font-weight: 600; padding: 6px 12px; border-radius: 999px;
+  box-shadow: 0 6px 16px rgba(8, 14, 24, .25); animation: tapBob 1.6s ease-in-out infinite;
+}
+.tap-tip::after { content: ""; position: absolute; left: 50%; top: 100%; margin-left: -6px; border: 6px solid transparent; border-top-color: var(--pen); }
+@keyframes tapBob { 50% { transform: translate(-50%, -3px); } }
+@media (prefers-reduced-motion: reduce) { .spotlight, .tap-tip { animation: none; } }

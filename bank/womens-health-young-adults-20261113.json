@@ -19,7 +19,7 @@
       "RCOG Green-top Guideline 37b (2015)",
       "ECCO ulcerative colitis guidelines (2022)",
       "ESID Registry working definitions (2019)",
-      "UK Medical Eligibility Criteria for Contraceptive Use (2016, amended 2019)"
+      "UK Medical Eligibility Criteria for Contraceptive Use (UKMEC 2025)"
     ]
   },
   "questions": [
@@ -107,7 +107,7 @@
         "Neurology"
       ],
       "subtopic": "Contraception in neurological disease",
-      "source": "UK Medical Eligibility Criteria for Contraceptive Use (FSRH, 2016, amended 2019); Therapeutic Guidelines: Sexual and Reproductive Health",
+      "source": "UK Medical Eligibility Criteria for Contraceptive Use (UKMEC 2025, CoSRH); Therapeutic Guidelines: Sexual and Reproductive Health",
       "stem": [
         "Sophie Williams, 26, a graphic designer, attends an ambulatory care clinic requesting reliable long-term contraception. She has a history of migraine preceded by scintillating scotomas and transient unilateral hand paraesthesiae.",
         "She also has essential hypertension controlled on perindopril 5 mg daily, does not smoke, and plans to conceive in 3 years. Blood pressure is 124/76 mmHg and neurological examination is normal."
@@ -116,7 +116,7 @@
       "options": [
         {
           "text": "Combined oral contraceptive pill containing ethinyloestradiol 20 microg",
-          "why": "Often chosen. Even low-dose ethinyloestradiol preparations are absolutely contraindicated (UKMEC 4) in women with migraine with aura or hypertension due to elevated ischaemic stroke risk."
+          "why": "Often chosen. Combined hormonal contraception is UKMEC 4 (unacceptable risk) in migraine with aura at any age, because of ischaemic stroke risk, even at low ethinyloestradiol doses. Her controlled hypertension adds further risk (UKMEC 3)."
         },
         {
           "text": "Combined vaginal ring releasing ethinyloestradiol and etonogestrel",
@@ -191,9 +191,9 @@
         "Endocrinology"
       ],
       "subtopic": "Thyroid disease in pregnancy",
-      "source": "American Thyroid Association guidelines for thyroid disease during pregnancy and the postpartum (2017)",
+      "source": "American Thyroid Association guidelines for thyroid disease during pregnancy and the postpartum (2017), recommendations 52–53",
       "stem": [
-        "Priya Nair, 29, an accountant at 10 weeks' gestation in her first pregnancy, presents with palpitations, heat intolerance, and 3 kg weight loss. She underwent radioactive iodine ablation 3 years ago for Graves disease and takes levothyroxine 125 microg daily.",
+        "Priya Nair, 29, an accountant at 10 weeks' gestation in her first pregnancy, presents with palpitations, heat intolerance and 3 kg weight loss. She had radioactive iodine ablation 3 years ago for Graves disease. Six months ago her TSH was 1.6 mU/L on levothyroxine 100 microg daily. When the pregnancy was confirmed 5 weeks ago, the dose was increased to 150 microg daily.",
         "Heart rate is 104 bpm, blood pressure is 118/72 mmHg, and she has mild bilateral exophthalmos without palpable thyroid tissue."
       ],
       "tables": [
@@ -226,27 +226,27 @@
       "options": [
         {
           "text": "Gestational transient thyrotoxicosis is confirmed and requires no fetal monitoring",
-          "why": "Gestational transient thyrotoxicosis is driven by human chorionic gonadotrophin and is TRAb-negative; high TRAb titres reflect persistent autoimmune Graves activity."
+          "why": "Gestational transient thyrotoxicosis is driven by human chorionic gonadotrophin, is TRAb-negative, and needs functioning thyroid tissue. High TRAb titres reflect persistent Graves autoimmunity."
         },
         {
           "text": "Maternal propylthiouracil must be started immediately to treat maternal hyperthyroidism",
-          "why": "Her suppressed TSH and raised free T4 reflect excess exogenous levothyroxine after thyroid ablation rather than endogenous maternal thyroid hormone synthesis."
+          "why": "Her thyrotoxicosis followed a 50% levothyroxine increase, with a normal TSH on the previous dose, so it reflects over-replacement and the dose should come down. Antithyroid drugs cross the placenta. They are reserved for confirmed fetal thyrotoxicosis, given with levothyroxine."
         },
         {
           "text": "Prior radioactive iodine ablation prevents fetal thyroid dysfunction in pregnancy",
-          "why": "The common trap. Lymphocyte production of TRAb can persist for years after radioactive iodine ablation despite maternal hypothyroidism."
+          "why": "The common trap. TRAb can persist for years after radioactive iodine ablation, even though the mother now needs levothyroxine, and still reach the fetus."
         },
         {
           "text": "Transplacental IgG transfer can cause fetal and neonatal thyrotoxicosis",
           "correct": true,
-          "why": "TRAb are IgG antibodies that cross the placenta from mid-gestation and stimulate the fetal thyroid even after maternal thyroid ablation, requiring repeat third-trimester TRAb and fetal monitoring."
+          "why": "TRAb are IgG antibodies that cross the placenta and stimulate the fetal thyroid from about 20 weeks, even after maternal ablation. At more than 3 times the upper limit, ATA recommends fetal ultrasound surveillance, with TRAb repeated at 18–22 weeks and, if still raised, at 30–34 weeks."
         },
         {
           "text": "TSH receptor antibodies cannot cross the placenta because they are IgM molecules",
-          "why": "TRAb belong to the IgG immunoglobulin class and actively cross the placenta via neonatal Fc receptors."
+          "why": "TRAb are IgG antibodies, which are actively carried across the placenta by neonatal Fc receptors."
         }
       ],
-      "keyPoint": "Maternal TSH receptor antibodies persist after thyroid ablation and cross the placenta as IgG, risking fetal and neonatal thyrotoxicosis that warrants repeat third-trimester TRAb testing and fetal surveillance."
+      "keyPoint": "TSH receptor antibodies persist after thyroid ablation and cross the placenta as IgG. When they exceed 3 times the upper limit, monitor the fetus and repeat TRAb at 18–22 and 30–34 weeks for fetal and neonatal thyrotoxicosis."
     },
     {
       "id": "whya1113-s05",
@@ -261,8 +261,8 @@
       "subtopic": "Primary immunodeficiency",
       "source": "ESID Registry working definitions for the clinical diagnosis of inborn errors of immunity (2019)",
       "stem": [
-        "Liam Patel, 18, an apprentice electrician, is reviewed in an adult immunology transition clinic following admission for lobar Streptococcus pneumoniae pneumonia. Over the past 3 years he has had three episodes of bacterial pneumonia, recurrent sinusitis, and intermittent non-bloody diarrhoea.",
-        "He takes no regular medications and has no known family history of immunodeficiency."
+        "Liam Patel, 18, an apprentice electrician, is reviewed in the general medical clinic after admission for lobar Streptococcus pneumoniae pneumonia. Since he was about 10 months old he has had recurrent ear infections, sinusitis and pneumonia, treated with repeated antibiotic courses but never investigated. He also has intermittent non-bloody diarrhoea.",
+        "His maternal uncle died of meningitis aged 3 years. He takes no regular medications. Examination shows no palpable tonsils or cervical lymph nodes."
       ],
       "tables": [
         {
@@ -284,7 +284,7 @@
             ],
             [
               "IgM",
-              "2.3 g/L",
+              "0.12 g/L",
               "0.40–2.50"
             ],
             [
@@ -314,27 +314,27 @@
       "options": [
         {
           "text": "Common variable immunodeficiency",
-          "why": "The common trap. Common variable immunodeficiency typically demonstrates normal or modestly reduced circulating CD19+ B-cell numbers with impaired differentiation into plasma cells, rather than complete absence of B cells."
+          "why": "The common trap. CVID usually begins after early childhood, and most patients have measurable circulating B cells that fail to mature into plasma cells. Infection from infancy, an affected maternal uncle and absent B cells point to a defect in B-cell development instead."
         },
         {
           "text": "Selective IgA deficiency",
-          "why": "Selective IgA deficiency is defined by isolated IgA deficiency with normal IgG, IgM, and peripheral B-cell counts."
+          "why": "Selective IgA deficiency means low IgA with normal IgG, IgM and B-cell counts. Here all three immunoglobulin classes are low."
         },
         {
           "text": "Specific antibody deficiency",
-          "why": "Specific antibody deficiency features impaired polysaccharide vaccine responses despite normal serum immunoglobulin concentrations and normal B-cell counts."
+          "why": "Specific antibody deficiency means poor polysaccharide vaccine responses with normal immunoglobulin levels and normal B-cell counts."
         },
         {
           "text": "X-linked agammaglobulinaemia",
           "correct": true,
-          "why": "Absent circulating CD19+ B cells (0 cells/µL) with severe hypogammaglobulinaemia and recurrent encapsulated bacterial infections diagnoses X-linked agammaglobulinaemia (BTK mutation), which can present in late adolescence in hypomorphic variants."
+          "why": "Absent CD19+ B cells with low IgG, IgA and IgM, infections from about 10 months (when maternal IgG wanes), absent tonsils and an affected maternal uncle indicate X-linked agammaglobulinaemia (BTK mutation). Milder cases can go undiagnosed into adolescence or adulthood."
         },
         {
           "text": "X-linked hyper-IgM syndrome",
-          "why": "CD40 ligand deficiency impairs immunoglobulin class switching but preserves normal circulating CD19+ B-cell numbers."
+          "why": "CD40 ligand deficiency blocks class switching, so IgM is normal or raised and circulating B-cell numbers are normal. Here IgM is low and B cells are absent."
         }
       ],
-      "keyPoint": "Complete absence of circulating CD19+ B cells with profound hypogammaglobulinaemia and recurrent sinopulmonary encapsulated bacterial infections distinguishes X-linked agammaglobulinaemia from common variable immunodeficiency."
+      "keyPoint": "Absent circulating B cells with low IgG, IgA and IgM, infections from late infancy and an X-linked family history indicate X-linked agammaglobulinaemia rather than common variable immunodeficiency."
     },
     {
       "id": "whya1113-s06",

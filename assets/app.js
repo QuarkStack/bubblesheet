@@ -6,7 +6,7 @@
 'use strict';
 
 /* =========================================================== CONSTANTS */
-var APP_VERSION = '1.5.0';
+var APP_VERSION = '1.5.1';
 var API = 'https://api.github.com';
 var API_VERSION = '2022-11-28';
 // Paper style changes the names of the two formats only. Questions, scoring and timing are identical.
@@ -106,6 +106,8 @@ var I = {
   grid: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="6" cy="6" r="2.2"/><circle cx="12" cy="6" r="2.2"/><circle cx="18" cy="6" r="2.2"/><circle cx="6" cy="12" r="2.2"/><circle cx="12" cy="12" r="2.2" fill="currentColor"/><circle cx="18" cy="12" r="2.2"/><circle cx="6" cy="18" r="2.2"/><circle cx="12" cy="18" r="2.2"/><circle cx="18" cy="18" r="2.2"/></svg>',
   pause: '<svg viewBox="0 0 24 24" fill="currentColor"><rect x="6" y="5" width="4" height="14" rx="1.2"/><rect x="14" y="5" width="4" height="14" rx="1.2"/></svg>',
   close: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></svg>',
+  devices: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="4.5" width="13" height="9.5" rx="1.5"/><path d="M1.5 17.5h11"/><rect x="15.5" y="8.5" width="6.5" height="12" rx="1.6"/><path d="M18 18h1.5"/></svg>',
+  chevron: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>',
   lock: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8.5 10.5V7.5a3.5 3.5 0 0 1 7 0v3"/></svg>',
   share: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3.5M7.5 7.6L12 3.2l4.5 4.4M7.5 11.5h-2A1.5 1.5 0 0 0 4 13v6.5A1.5 1.5 0 0 0 5.5 21h13a1.5 1.5 0 0 0 1.5-1.5V13a1.5 1.5 0 0 0-1.5-1.5h-2"/></svg>'
 };
@@ -887,6 +889,7 @@ function route() {
   else if (['home', 'build', 'paper', 'history', 'notes', 'prefs', 'welcome', 'device'].indexOf(name) === -1) v = { name: 'home' };
   if (S.firstRun && (v.name === 'home' || v.name === 'device')) v = { name: 'welcome' };
   S.view = v; S.ui.sheet = null; S.ui.ulPending = null; S.ui.armed = null; S.ui.confirm = null; S.ui.share = null; S.ui.code.msg = null;
+  if (v.name !== 'prefs') S.ui.focusLink = false;
 }
 
 /* =========================================================== RENDER */
@@ -909,6 +912,8 @@ function afterRender() {
   updateUlFloat();
   placeTip();
   if (UPDATE.ready) setTimeout(reloadIfIdle, 0);
+  var spot = S.view.name === 'prefs' && app.querySelector('.spotlight');
+  if (spot && !spot.dataset.shown) { spot.dataset.shown = '1'; setTimeout(function () { spot.scrollIntoView({ block: 'center', behavior: 'smooth' }); }, 60); }
 }
 // The first-time tip on the paper screen: line its highlights and pointers up with the real buttons.
 function placeTip() {
@@ -929,11 +934,11 @@ function placeTip() {
 function tipLayer() {
   return '<div class="tip-layer" data-act="tip-close" role="dialog" aria-label="Tips for this screen">' +
     '<span class="icon-btn tip-ghost" id="tipG1" aria-hidden="true">' + I.share + '</span><span class="icon-btn tip-ghost" id="tipG2" aria-hidden="true">' + I.grid + '</span>' +
-    '<div class="tip-card" id="tipCard"><i class="tip-caret" id="tipC1"></i><i class="tip-caret" id="tipC2"></i>' +
+    '<div class="tip-card" id="tipCard" data-act="tip-stay"><i class="tip-caret" id="tipC1"></i><i class="tip-caret" id="tipC2"></i>' +
     '<button class="icon-btn tip-x" data-act="tip-close" aria-label="Close tips">' + I.close + '</button>' +
     '<div class="tip-row"><span class="tip-ico" aria-hidden="true">' + I.share + '</span><p><b>Share this paper</b>Get a code so you, or someone you study with, can sit the same questions in the same order.</p></div>' +
     '<div class="tip-row"><span class="tip-ico" aria-hidden="true">' + I.grid + '</span><p><b>All questions</b>Jump to any question, see what’s answered or flagged, and finish the paper.</p></div>' +
-    '<p class="tiny muted">Tap anywhere to close. The clock is stopped while this is showing.</p></div></div>';
+    '<p class="tiny muted">Tap outside this box, or the cross, to close. The clock is stopped while this is showing.</p></div></div>';
 }
 function topbar(title, back) {
   return '<header class="topbar"><div class="wrap">' +
@@ -1062,6 +1067,8 @@ VIEWS.home = function () {
     if (a.acc == null && b.acc == null) return a.topic.localeCompare(b.topic);
     if (a.acc == null) return 1; if (b.acc == null) return -1; return a.acc - b.acc;
   });
+  if (isRemote()) out.push('<button class="device-cta span2" data-act="device-help"><span class="device-cta-ico" aria-hidden="true">' + I.devices + '</span>' +
+    '<span class="device-cta-txt"><b>Use on another device</b><span>Pick up your papers and results on your phone, tablet or computer</span></span><span class="device-cta-go" aria-hidden="true">' + I.chevron + '</span></button>');
   out.push('<div class="card"><div class="card-head"><h2>By topic</h2><span class="eyebrow">Weakest first</span></div><div class="topic-rows">' +
     ts.map(function (r) {
       return '<button class="topic-row press" style="background:none;border:0;padding:0;text-align:left" data-act="quick" data-k="topic" data-v="' + esc(r.topic) + '" aria-label="' + esc(r.topic) + ': ' + (r.acc == null ? 'not started' : pct(r.acc) + '% on ' + r.seen + ' of ' + r.total) + '. Build a paper on this topic.">' +
@@ -1385,8 +1392,8 @@ VIEWS.prefs = function () {
       ? '<p class="small">Answers are saved on this device only. To keep them in sync across devices, add a profile below.</p>'
       : '<p class="small">Saving to <span class="mono">' + esc(p.owner + '/' + p.repo) + '</span>, file <span class="mono">logs/' + esc(p.user) + '.json</span>.</p>' +
         '<p class="small" id="syncLine">' + esc(syncLabel()) + '</p>' +
-        '<div class="row"><button class="btn btn-sm" data-act="sync-now">Sync now</button><button class="btn btn-sm" data-act="show-link">' + (S.ui.setupLink ? 'Hide setup link' : 'Setup link for another device') + '</button></div>' +
-        (S.ui.setupLink ? '<div class="callout warn small"><b>Treat this link like a password.</b> Anyone who has it can read and change this profile’s answers. Send it only to this profile’s owner, or open it on your own device to troubleshoot.</div><div class="codebox" id="setupLinkBox">' + esc(setupLink(p)) + '</div><button class="btn btn-sm" data-act="copy-link">Copy link</button>' : '')) + '</div>';
+        '<div class="row"><button class="btn btn-sm" data-act="sync-now">Sync now</button><button class="btn btn-sm' + (S.ui.focusLink && !S.ui.setupLink ? ' spotlight' : '') + '" data-act="show-link" id="setupLinkBtn">' + (S.ui.setupLink ? 'Hide setup link' : 'Setup link for another device') + (S.ui.focusLink && !S.ui.setupLink ? '<span class="tap-tip" aria-hidden="true">Tap here</span>' : '') + '</button></div>' +
+        (S.ui.setupLink ? '<p class="small">To continue your papers and see your results on another device, set up your profile there too. Copy the setup link below, then open it on the other device, or paste it into Bubblesheet there.</p><div class="callout warn small"><b>Treat this link like a password.</b> Anyone who has it can read and change this profile’s answers. Send it only to this profile’s owner, or open it on your own device to troubleshoot.</div><div class="codebox" id="setupLinkBox">' + esc(setupLink(p)) + '</div><button class="btn btn-sm" data-act="copy-link">Copy link</button>' : '')) + '</div>';
   var themeCard = '<div class="card stack"><h2>Appearance</h2><div class="seg" role="group">' +
     [['system', 'Follow device'], ['day', 'Day'], ['night', 'Night']].map(function (o) { return '<button data-act="theme-set" data-v="' + o[0] + '" aria-pressed="' + (c === o[0]) + '">' + o[1] + '</button>'; }).join('') + '</div>' +
     '<div class="field"><span class="label">Question text size</span><div class="seg" role="group" aria-label="Question text size">' +
@@ -1645,6 +1652,7 @@ var ACT = {
     if (!S.ui.share || !S.ui.share.code) return;
     navigator.share({ text: 'Bubblesheet paper code: ' + fmtCode(S.ui.share.code) + '. In Bubblesheet, tap Build a paper, then enter it under Use an existing paper.' }).catch(function () {});
   },
+  'tip-stay': function () { /* a tap on the tip box itself keeps it open */ },
   'tip-close': function () { LS.set('bs.tip.paper', true); S.ui.tip = false; rerender(); },
   pick: function (el, e) { if (selectionInside(el)) return; pick(+el.getAttribute('data-i'), el); },
   move: function (el) { stepQuestion(+el.getAttribute('data-d')); },
@@ -1698,7 +1706,8 @@ var ACT = {
   'text-set': function (el) { LS.set('bs.text', el.getAttribute('data-v')); applyText(); rerender(); },
   'fs-set': function (el) { var on = el.getAttribute('data-v') === 'on'; LS.set('bs.fullscreen', on); if (!on && S.ui.fsByApp && fsActive()) fsExit(); rerender(); },
   'sync-now': function () { syncNow(); toast('Syncing'); },
-  'show-link': function () { S.ui.setupLink = !S.ui.setupLink; rerender(); },
+  'show-link': function () { S.ui.setupLink = !S.ui.setupLink; S.ui.focusLink = false; rerender(); },
+  'device-help': function () { S.ui.setupLink = false; go('prefs'); S.ui.focusLink = true; },
   'copy-link': function () { copyText(setupLink(activeProfile()), document.getElementById('setupLinkBox')); },
   switch: function (el) { switchProfile(el.getAttribute('data-v')); },
   arm: function (el) { S.ui.armed = el.getAttribute('data-v'); rerender(); },
