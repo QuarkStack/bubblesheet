@@ -343,7 +343,7 @@
         "Rheumatology"
       ],
       "subtopic": "PMR relapse",
-      "source": "Therapeutic Guidelines: Rheumatology (polymyalgia rheumatica)",
+      "source": "Therapeutic Guidelines: Rheumatology (polymyalgia rheumatica); EULAR/ACR recommendations for the management of polymyalgia rheumatica (2015); Australian Prescriber: Prescribing for polymyalgia rheumatica (2018)",
       "stem": [
         "Graham Ellis, 71, was diagnosed with polymyalgia rheumatica 8 months ago. He responded promptly to prednisolone 15 mg daily and has followed a taper; 3 weeks ago his dose went from 8 mg to 7 mg daily.",
         "For the past 10 days he has had recurrent bilateral shoulder and hip-girdle pain, with 90 minutes of morning stiffness. He has no headache, scalp tenderness, jaw claudication, visual symptoms, fever or weight loss."
@@ -376,12 +376,12 @@
       "options": [
         {
           "text": "Continue prednisolone 7 mg daily and reassure him that symptoms are expected during tapering",
-          "why": "Often chosen. TG does say brief aching during dose reductions is expected and planned reductions should continue. Symptoms lasting more than a few days with clearly raised inflammatory markers count as a clinician-assessed relapse, though."
+          "why": "Often chosen. Mild aching for a few days after a dose reduction can be watched, with the plan continued. Ten days of recurrent girdle pain and stiffness with a clear rise in ESR and CRP meets the definition of relapse, though, and needs a dose increase."
         },
         {
           "text": "Increase prednisolone to 8 mg daily, then reduce back to 7 mg over 4–8 weeks",
           "correct": true,
-          "why": "TG: revert to the previously effective dose, then reduce over 4–8 weeks to the dose at which relapse occurred. Also re-check for GCA and consider specialist referral (methotrexate is an option if relapses recur)."
+          "why": "For relapse, EULAR/ACR advise returning to the pre-relapse dose (here 8 mg), then reducing over 4–8 weeks to the dose at which relapse occurred. Also check again for GCA features. Consider specialist referral if relapses recur, as methotrexate is the usual steroid-sparing option."
         },
         {
           "text": "Increase prednisolone to 10 mg daily, then reduce by 1 mg every 4 weeks",
@@ -393,7 +393,7 @@
         },
         {
           "text": "Increase prednisolone to 60 mg daily",
-          "why": "This is the GCA dose (1 mg/kg up to 80 mg). He has no cranial or visual features."
+          "why": "This is a GCA starting dose (40–60 mg daily). He has no headache, scalp tenderness, jaw claudication or visual symptoms."
         },
         {
           "text": "Methylprednisolone 500 mg intravenously daily for 3 days",
@@ -404,7 +404,7 @@
           "why": "Stopping abruptly after 8 months risks adrenal crisis and relapse. Methotrexate is a specialist-initiated steroid-sparing add-on, not a replacement."
         }
       ],
-      "keyPoint": "PMR relapse: go back to the last dose that controlled it, not to the start dose. Taper over 12 months or more, and refer if steroids can't be tapered or are needed beyond 18 months."
+      "keyPoint": "PMR relapse means recurrent symptoms with a rise in inflammatory markers. Go back to the last dose that controlled it, not the starting dose, then reduce over 4–8 weeks. Refer if relapses recur, the dose can't be tapered, or steroids are still needed after 2 years."
     },
     {
       "id": "rr01-s06",
@@ -745,7 +745,7 @@
         "Rheumatology"
       ],
       "subtopic": "Raynaud phenomenon / systemic sclerosis",
-      "source": "RACGP Curriculum and Syllabus, 6th edition (Musculoskeletal); Therapeutic Guidelines: Rheumatology",
+      "source": "ACR/EULAR classification criteria for systemic sclerosis (2013); Australian Family Physician: Nailfold dermatoscopy in general practice (2015)",
       "stem": [
         "Natalie Brooks, 44, an office manager, has had 5 months of fingers turning white, then blue, then red in the cold. She now has painful sores on two fingertips. She also reports worsening heartburn, and her fingers feel puffy and tight in the mornings. She has no rash, joint swelling, or dry eyes or mouth. She takes no regular medicines and has never smoked.",
         "On examination there are healed pitting scars on two fingertips and mild skin thickening of the fingers distal to the MCP joints. Dermatoscopy shows dilated nailfold capillaries. Her blood pressure is 122/78 mmHg."
@@ -799,17 +799,17 @@
         "Rheumatology"
       ],
       "subtopic": "RA, before methotrexate",
-      "source": "Therapeutic Guidelines: Rheumatology; Australian Rheumatology Association methotrexate monitoring guidance",
+      "source": "Australian Immunisation Handbook (zoster and pneumococcal chapters, 2026); Australian Rheumatology Association: Methotrexate patient information (2024); Australian Prescriber: Managing the drug treatment of rheumatoid arthritis (2017); EULAR recommendations for infection screening in autoimmune inflammatory rheumatic diseases (2022)",
       "stem": [
         "Ronald Pike, 71, a retired electrician, was diagnosed with seropositive rheumatoid arthritis by a rheumatologist last week, with synovitis in 8 joints. The rheumatologist has started prednisolone 10 mg daily as a bridge and plans methotrexate 15 mg weekly with folic acid in 2 weeks. Their letter asks you to complete the pre-treatment work-up and preventive care.",
-        "He has hypertension (amlodipine 5 mg daily). He drinks 2 standard drinks most nights, about 12 a week. He was born in Australia, has no TB risk factors and no respiratory symptoms, and has never had hepatitis serology. He had an influenza vaccine in April this year and a 20-valent pneumococcal conjugate vaccine at 70. He has never had a zoster vaccine."
+        "He has hypertension (amlodipine 5 mg daily). He drinks 2 standard drinks most nights, about 12 a week. He was born in Australia, has no TB risk factors and no respiratory symptoms, and has never had hepatitis serology. He had an influenza vaccine in April this year and a 21-valent pneumococcal conjugate vaccine (21vPCV) 2 months ago. He has never had a zoster vaccine."
       ],
       "lead": "Which FIVE actions are MOST appropriate before methotrexate starts?",
       "options": [
         {
           "text": "Advise substantially reducing his alcohol intake while taking methotrexate",
           "score": 1,
-          "why": "Alcohol adds to methotrexate hepatotoxicity, and 12 drinks a week is too many on methotrexate."
+          "why": "Alcohol adds to methotrexate liver toxicity. ARA advice is that 1 to 2 standard drinks once or twice a week is unlikely to cause harm, so 12 a week is too many."
         },
         {
           "text": "Baseline full blood count, liver function tests, and urea, electrolytes and creatinine",
@@ -819,7 +819,7 @@
         {
           "text": "Chest X-ray",
           "score": 1,
-          "why": "A baseline (within 12 months) for comparison if methotrexate pneumonitis or RA lung disease develops later. ARA recommends it."
+          "why": "A baseline chest X-ray (if none in the past 12 months) is standard before methotrexate, for comparison if pneumonitis or RA lung disease develops later."
         },
         {
           "text": "Glucose-6-phosphate dehydrogenase (G6PD) activity",
@@ -840,12 +840,12 @@
         {
           "text": "Interferon-gamma release assay (QuantiFERON-TB)",
           "score": 0,
-          "why": "Often chosen. Latent TB screening is required before biological or targeted synthetic DMARDs, and isn't routine before methotrexate in someone at low risk. It would be correct in another setting."
+          "why": "Often chosen. Before methotrexate, TB screening starts with a risk assessment, and he has no risk factors or symptoms. Routine IGRA is required before biological or targeted synthetic DMARDs, and is only considered before methotrexate when risk factors are present."
         },
         {
-          "text": "Live attenuated zoster vaccine",
+          "text": "Measure varicella-zoster IgG before zoster vaccination",
           "score": 0,
-          "why": "The recombinant (non-live) vaccine is preferred and funded. A live vaccine is best avoided once he is on prednisolone and about to start methotrexate."
+          "why": "Serology is not recommended before or after zoster vaccination. Most adults have had chickenpox, and the recombinant vaccine is given regardless of the result."
         },
         {
           "text": "Ophthalmology referral for baseline retinal screening",
@@ -855,12 +855,12 @@
         {
           "text": "Recombinant zoster vaccine, 2 doses",
           "score": 1,
-          "why": "Being non-live, it is safe on immunosuppression and best started before methotrexate. It is funded on the NIP from age 65."
+          "why": "Being non-live, it is safe on immunosuppression and best started before methotrexate. It is the only zoster vaccine now available in Australia and is funded on the NIP from age 65. In immunocompromised people the 2 doses can be given 1–2 months apart."
         },
         {
-          "text": "Repeat 20-valent pneumococcal conjugate vaccine",
+          "text": "Repeat 21-valent pneumococcal conjugate vaccine",
           "score": 0,
-          "why": "He already had 20vPCV at 70, so no further dose is needed."
+          "why": "He had his adult 21vPCV dose 2 months ago. An adult who has had it does not need another dose when a risk condition such as immunosuppressive therapy develops."
         },
         {
           "text": "Repeat anti-CCP antibody titre",
@@ -873,7 +873,7 @@
           "why": "Done before azathioprine, not methotrexate."
         }
       ],
-      "keyPoint": "Before methotrexate: bloods (FBC, LFT, EUC), hepatitis B and C serology, chest X-ray, non-live vaccines, alcohol advice. Save IGRA for before biologics, and retinal screening for hydroxychloroquine."
+      "keyPoint": "Before methotrexate: bloods (FBC, LFT, EUC), hepatitis B and C serology, baseline chest X-ray, non-live vaccines (recombinant zoster) and alcohol advice. TB screening is by risk assessment, with routine IGRA kept for biologics. Retinal screening is for hydroxychloroquine."
     },
     {
       "id": "rr01-c02",
@@ -886,9 +886,9 @@
         "Rheumatology"
       ],
       "subtopic": "Osteoporosis after hip fracture",
-      "source": "RACGP/Healthy Bones Australia osteoporosis guideline (2024)",
+      "source": "RACGP and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age (2024); zoledronic acid (Aclasta) Australian product information",
       "stem": [
-        "Edna Kowalski, 83, attends 2 weeks after discharge from hospital, where her left intertrochanteric fracture was fixed after she tripped over a rug at home. She lives alone and has had 2 other falls in the past year. Her past history includes Barrett's oesophagus (pantoprazole 40 mg daily), hypertension (perindopril 5 mg daily) and knee osteoarthritis. She has about one glass of milk a day and rarely other dairy, giving an estimated calcium intake of 400 mg a day.",
+        "Edna Kowalski, 83, who weighs 68 kg, attends 2 weeks after discharge from hospital, where her left intertrochanteric fracture was fixed after she tripped over a rug at home. She lives alone and has had 2 other falls in the past year. Her past history includes Barrett's oesophagus (pantoprazole 40 mg daily), hypertension (perindopril 5 mg daily) and knee osteoarthritis. She has about one glass of milk a day and rarely other dairy, giving an estimated calcium intake of 400 mg a day.",
         "The discharge summary recommends zoledronic acid in general practice."
       ],
       "tables": [
@@ -908,6 +908,11 @@
               "25-hydroxyvitamin D",
               "31 nmol/L",
               "> 50"
+            ],
+            [
+              "Creatinine",
+              "104 µmol/L",
+              "45–90"
             ],
             [
               "eGFR",
@@ -932,7 +937,7 @@
         {
           "text": "Advise paracetamol before the infusion and for several days afterwards",
           "score": 1,
-          "why": "TG advises paracetamol to reduce the acute-phase (flu-like) reaction, which is most common with the first infusion."
+          "why": "Paracetamol around the time of the infusion reduces the flu-like acute-phase reaction over the first 3 days, which is most common after the first infusion. Ibuprofen is the alternative in the product information but is a poor choice with her kidney function and perindopril."
         },
         {
           "text": "Alendronate 70 mg orally weekly instead of zoledronic acid",
@@ -947,23 +952,23 @@
         {
           "text": "Calcium carbonate supplement providing 1500 mg elemental calcium daily",
           "score": 0,
-          "why": "The right idea at the wrong dose. TG limits supplements to 500–600 mg a day, with diet first. Higher doses cause constipation and possibly cardiovascular risk."
+          "why": "The right idea at the wrong dose. The aim is a total intake of about 1300 mg a day, mainly from food, with a supplement only filling the gap (usually 500–600 mg). Adding 1500 mg to her 400 mg diet overshoots, and higher doses cause constipation and possibly add cardiovascular risk."
         },
         {
           "text": "Cholecalciferol (vitamin D3) replacement, then recheck 25-hydroxyvitamin D before the infusion",
           "score": 2,
           "critical": true,
-          "why": "Critical. TG says zoledronic acid is safe in primary care only if 25-OH vitamin D is above 50 nmol/L, corrected calcium is normal, eGFR is above 35 and the patient is well hydrated. Infusing at 31 nmol/L risks symptomatic hypocalcaemia. The mildly raised PTH is secondary to vitamin D deficiency."
+          "why": "Critical. Vitamin D should be above 50 nmol/L before starting antiresorptive therapy, and zoledronic acid is contraindicated in hypocalcaemia and needs a creatinine clearance of at least 35 mL/min and good hydration. Infusing at 31 nmol/L risks symptomatic hypocalcaemia. The mildly raised PTH is secondary to vitamin D deficiency."
         },
         {
           "text": "Denosumab 60 mg subcutaneously today instead of zoledronic acid",
           "score": 0,
-          "why": "Denosumab has the same vitamin D and calcium prerequisites. It also commits her to lifelong 6-monthly dosing, with rebound fractures if a dose is missed."
+          "why": "Denosumab also needs vitamin D and calcium corrected first, and hypocalcaemia is more likely with reduced kidney function. It also commits her to uninterrupted 6-monthly dosing, with rebound vertebral fractures if a dose is late or it is stopped without a bisphosphonate."
         },
         {
           "text": "Falls prevention: physiotherapy for strength and balance training, and an occupational therapy home safety assessment",
           "score": 1,
-          "why": "She has recurrent falls and tripped at home. Falls prevention is standard practice for every fracture outcome in the RACGP guideline."
+          "why": "She has recurrent falls and tripped at home. Strength and balance training and a home safety assessment reduce falls, and falls prevention is part of fracture prevention after a hip fracture."
         },
         {
           "text": "Increase dietary calcium towards 1300 mg a day, adding a 500–600 mg supplement only if this can't be reached",
@@ -973,7 +978,7 @@
         {
           "text": "Reduce the zoledronic acid dose to 2.5 mg because of her eGFR",
           "score": 0,
-          "why": "There is no dose reduction for zoledronic acid. It is avoided below an eGFR of 35 and otherwise given as 5 mg over at least 15 minutes, with good hydration."
+          "why": "There is no dose reduction for zoledronic acid. It is contraindicated if creatinine clearance is below 35 mL/min (hers is about 39 mL/min by Cockcroft-Gault) and otherwise given as 5 mg over at least 15 minutes, with good hydration."
         },
         {
           "text": "Refer for parathyroidectomy",
@@ -991,7 +996,7 @@
           "why": "Often chosen because the hospital recommended it. It is unsafe until her vitamin D is replete."
         }
       ],
-      "keyPoint": "Before zoledronic acid: 25-OH vitamin D above 50, normal corrected calcium, eGFR above 35, well hydrated. Give paracetamol cover, and don't forget calcium intake and falls prevention."
+      "keyPoint": "Before zoledronic acid: 25-OH vitamin D above 50 nmol/L, normal corrected calcium, creatinine clearance of at least 35 mL/min and good hydration. Give paracetamol cover, and don't forget calcium intake and falls prevention."
     },
     {
       "id": "rr01-c03",
