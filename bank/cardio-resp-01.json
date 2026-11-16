@@ -1,0 +1,1160 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "cardio-resp-01",
+    "title": "Cardiology and Respiratory, set 1",
+    "description": "Thirty-minute set at RACGP written exam standard: 11 single best answer and 5 clinical decision problems on cardiovascular and respiratory presentations in general practice, across all ages.",
+    "created": "2026-11-16",
+    "reviewBy": "2027-11-16",
+    "sources": [
+      "Therapeutic Guidelines: Cardiovascular",
+      "Therapeutic Guidelines: Respiratory",
+      "National Heart Foundation of Australia: Guideline for the diagnosis and management of hypertension in adults (2016)",
+      "National Heart Foundation of Australia and CSANZ: Australian clinical guideline for diagnosing and managing acute coronary syndromes (2025)",
+      "National Asthma Council Australia: Australian Asthma Handbook (2025)",
+      "Lung Foundation Australia and TSANZ: COPD-X Plan",
+      "Lung Foundation Australia and TSANZ: CICADA cough position statement",
+      "Australian Government: National Lung Cancer Screening Program guidelines (2025)",
+      "Austroads: Assessing Fitness to Drive (2022)",
+      "ESC Guidelines for the diagnosis and management of pericardial diseases (2015)",
+      "ESC/EACTS Guidelines for the management of valvular heart disease (2021)"
+    ]
+  },
+  "questions": [
+    {
+      "id": "cr01-s01",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Heart failure with reduced ejection fraction",
+      "source": "Therapeutic Guidelines: Cardiovascular (heart failure with reduced ejection fraction), 2023",
+      "stem": [
+        "Graham Pollard, 67, a retired fitter, attends for review. He was diagnosed with heart failure 4 months ago after an anterior myocardial infarction. His echocardiogram last month showed a left ventricular ejection fraction of 32%.",
+        "He becomes breathless walking up hills but manages on the flat. He has no orthopnoea. He does not have diabetes.",
+        "His medicines are perindopril arginine 10 mg daily, bisoprolol 10 mg daily, spironolactone 25 mg daily, frusemide 40 mg in the morning, atorvastatin 80 mg daily and aspirin 100 mg daily. He takes them reliably.",
+        "On examination his BP is 118/70 mmHg and his pulse is 62/min and regular. His JVP is not raised, his chest is clear and he has no ankle oedema. His weight is unchanged. An ECG shows sinus rhythm."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Potassium",
+              "4.7 mmol/L",
+              "3.5–5.2"
+            ],
+            [
+              "Creatinine",
+              "104 micromol/L",
+              "60–110"
+            ],
+            [
+              "eGFR",
+              "64 mL/min/1.73 m²",
+              "> 60"
+            ],
+            [
+              "HbA1c",
+              "5.6%",
+              "< 6.0"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which change to his medicines is MOST appropriate now?",
+      "options": [
+        {
+          "text": "Add dapagliflozin 10 mg daily",
+          "correct": true,
+          "why": "He is on three of the four drug classes that reduce mortality in HFrEF. The missing one is an SGLT2 inhibitor, which is indicated whether or not he has diabetes and can be started at this eGFR. Adding the fourth class takes priority over any other adjustment."
+        },
+        {
+          "text": "Add digoxin 62.5 micrograms daily",
+          "why": "Digoxin improves symptoms and admissions but not survival. In sinus rhythm it is considered only after the four core classes are in place."
+        },
+        {
+          "text": "Add ivabradine 5 mg twice daily",
+          "why": "Ivabradine is for patients in sinus rhythm whose heart rate stays at 70/min or more despite a maximal beta blocker dose. His rate is 62/min."
+        },
+        {
+          "text": "Add sacubitril+valsartan 49/51 mg twice daily to his current medicines",
+          "why": "Often chosen. An ARNI is the right class, but it replaces the ACE inhibitor and must start at least 36 hours after the last perindopril dose. Taking both together risks angioedema."
+        },
+        {
+          "text": "Change bisoprolol to metoprolol tartrate 50 mg twice daily",
+          "why": "Immediate-release metoprolol tartrate is not a heart failure beta blocker. Bisoprolol at target dose should continue."
+        },
+        {
+          "text": "Increase frusemide to 80 mg in the morning",
+          "why": "He is euvolaemic. Loop diuretics relieve congestion only and more diuretic risks hypotension and kidney injury."
+        }
+      ],
+      "keyPoint": "Every patient with HFrEF should be on an ARNI or ACE inhibitor, a heart failure beta blocker, a mineralocorticoid receptor antagonist and an SGLT2 inhibitor. Find the missing class before adjusting anything else."
+    },
+    {
+      "id": "cr01-s02",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Atrial fibrillation with rheumatic mitral stenosis",
+      "source": "Therapeutic Guidelines: Cardiovascular (atrial fibrillation, choice of anticoagulant), 2023",
+      "stem": [
+        "Ruby Anderson, 46, an Aboriginal health worker in Katherine, presents with 3 weeks of intermittent palpitations. She had acute rheumatic fever at age 11 and has benzathine benzylpenicillin injections every 4 weeks. An echocardiogram 2 years ago showed moderate rheumatic mitral stenosis.",
+        "She has no hypertension, diabetes, heart failure or previous stroke. She has had a tubal ligation. She takes no other medicines and drinks no alcohol.",
+        "Her pulse is 84/min and irregularly irregular, and her BP is 118/72 mmHg. She has a low-pitched mid-diastolic murmur at the apex. Her chest is clear. An ECG confirms atrial fibrillation. Her weight is 71 kg and her eGFR is 92 mL/min/1.73 m²."
+      ],
+      "lead": "Which strategy is MOST appropriate to reduce her risk of stroke?",
+      "options": [
+        {
+          "text": "Apixaban 5 mg twice daily",
+          "why": "Often chosen. DOACs are preferred for most atrial fibrillation, but not with rheumatic mitral stenosis or a mechanical valve, where trial outcomes were worse than with warfarin."
+        },
+        {
+          "text": "Aspirin 100 mg daily",
+          "why": "Antiplatelet drugs are not recommended for stroke prevention in atrial fibrillation at any level of risk."
+        },
+        {
+          "text": "Dabigatran 150 mg twice daily",
+          "why": "A DOAC, so the same exclusion applies. Dabigatran was harmful in the mechanical valve trial."
+        },
+        {
+          "text": "No antithrombotic therapy, with stroke risk reassessed each year",
+          "why": "The common trap. Her CHA2DS2-VA score is 0, but the score does not apply when atrial fibrillation occurs with rheumatic mitral stenosis. The embolic risk is high and anticoagulation is indicated regardless."
+        },
+        {
+          "text": "Rivaroxaban 20 mg daily with food",
+          "why": "Rivaroxaban led to more strokes and deaths than a vitamin K antagonist in rheumatic heart disease with atrial fibrillation."
+        },
+        {
+          "text": "Warfarin, target INR 2.0 to 3.0",
+          "correct": true,
+          "why": "Atrial fibrillation with rheumatic mitral stenosis carries a particularly high thromboembolic risk. These patients need anticoagulation whatever their risk score, and warfarin is the anticoagulant of choice, with the usual target range."
+        },
+        {
+          "text": "Warfarin, target INR 2.5 to 3.5",
+          "why": "Right drug, wrong target. The higher range is used for mechanical mitral valves, not for native valve stenosis."
+        }
+      ],
+      "keyPoint": "Atrial fibrillation with rheumatic mitral stenosis or a mechanical heart valve is anticoagulated with warfarin regardless of the CHA2DS2-VA score. DOACs are for everyone else."
+    },
+    {
+      "id": "cr01-s03",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "White-coat hypertension",
+      "source": "National Heart Foundation of Australia: Guideline for the diagnosis and management of hypertension in adults (2016)",
+      "stem": [
+        "Daniel Okafor, 41, an accountant, has had clinic BP readings of 152/94, 148/92 and 150/96 mmHg at three visits over 6 weeks, each taken seated with an appropriately sized cuff.",
+        "He feels well, does not smoke, drinks 4 standard drinks a week and has no family history of early cardiovascular disease. His BMI is 26 kg/m². He takes no medicines.",
+        "Examination, including fundoscopy, is normal. His urine albumin-to-creatinine ratio, electrolytes, creatinine, fasting lipids, HbA1c and ECG are all normal.",
+        "You arranged 24-hour ambulatory BP monitoring, which he has now completed with 92% valid readings."
+      ],
+      "tables": [
+        {
+          "caption": "Ambulatory blood pressure monitoring",
+          "head": [
+            "Period",
+            "Mean BP"
+          ],
+          "rows": [
+            [
+              "24 hours",
+              "122/76 mmHg"
+            ],
+            [
+              "Daytime (awake)",
+              "128/80 mmHg"
+            ],
+            [
+              "Night-time (asleep)",
+              "108/66 mmHg"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate management?",
+      "options": [
+        {
+          "text": "Aldosterone-to-renin ratio and renal artery duplex ultrasound",
+          "why": "Often chosen for a young patient. Secondary causes are sought when hypertension is confirmed out of the clinic. Here the ambulatory averages are normal."
+        },
+        {
+          "text": "Amlodipine 5 mg daily, with review in 4 weeks",
+          "why": "Treats the clinic number. With normal ambulatory averages and no target organ damage, drug treatment exposes him to adverse effects without proven benefit."
+        },
+        {
+          "text": "Lifestyle advice, with out-of-clinic BP monitoring repeated in 12 months",
+          "correct": true,
+          "why": "All three ambulatory averages are below the hypertension thresholds (24-hour 130/80, daytime 135/85, night-time 120/70 mmHg) while clinic readings are raised. This is white-coat hypertension. It is not treated with drugs when there is no target organ damage, but it carries a higher chance of sustained hypertension later, so lifestyle change and regular out-of-clinic monitoring are needed."
+        },
+        {
+          "text": "Perindopril arginine 5 mg daily, with review in 4 weeks",
+          "why": "Often chosen. Three raised clinic readings look like a diagnosis, but ambulatory monitoring is the more accurate measure and it is normal."
+        },
+        {
+          "text": "Reassurance that his BP is normal, with a routine check in 5 years",
+          "why": "The common trap. White-coat hypertension is not benign enough to ignore. A proportion progress to sustained hypertension, so he needs earlier follow-up."
+        },
+        {
+          "text": "Repeat clinic BP measurements monthly for 3 months",
+          "why": "More clinic readings add nothing once ambulatory monitoring has answered the question."
+        }
+      ],
+      "keyPoint": "Clinic 140/90 mmHg corresponds to ambulatory means of 135/85 daytime, 130/80 over 24 hours and 120/70 at night. Raised clinic BP with normal ambulatory BP is white-coat hypertension: no drugs, lifestyle advice and regular out-of-clinic monitoring."
+    },
+    {
+      "id": "cr01-s04",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Acute pericarditis",
+      "source": "ESC Guidelines for the diagnosis and management of pericardial diseases (2015)",
+      "stem": [
+        "Tom Vasquez, 29, a carpenter weighing 82 kg, has had 2 days of sharp central chest pain. It is worse when he breathes in or lies flat and eases when he sits forward. He had a head cold 10 days ago. He is not breathless.",
+        "He takes no medicines and has no history of peptic ulcer disease, kidney disease or asthma.",
+        "He attended the emergency department this morning. Two troponin results 3 hours apart were normal, his CRP was 48 mg/L, a chest X-ray was normal and a bedside echocardiogram showed no effusion. He was told he has acute pericarditis and was sent to you for treatment. No medicines were supplied.",
+        "His temperature is 37.4°C, pulse 88/min and BP 124/78 mmHg. His JVP is not raised. You hear a scratchy sound at the left sternal edge in systole and diastole. The ECG from this morning shows widespread concave ST elevation with PR depression."
+      ],
+      "lead": "Which treatment is MOST appropriate?",
+      "options": [
+        {
+          "text": "Colchicine 1 mg, then 500 micrograms 1 hour later, as a single course",
+          "why": "Right drug, wrong regimen. This is the acute gout dose. In pericarditis colchicine is given at a low dose for 3 months alongside an NSAID."
+        },
+        {
+          "text": "Ibuprofen 400 mg three times daily for 3 days",
+          "why": "Right drug, wrong dose and duration. Anti-inflammatory doses are needed for 1 to 2 weeks and then tapered, and colchicine is left out."
+        },
+        {
+          "text": "Ibuprofen 600 mg three times daily with colchicine 500 micrograms twice daily",
+          "correct": true,
+          "why": "He has uncomplicated presumed viral pericarditis with no high-risk features (no fever above 38°C, no large effusion or tamponade, normal troponin), so outpatient care is suitable. First-line treatment is a full-dose NSAID for 1 to 2 weeks and then a taper, combined with colchicine for 3 months (twice daily at 70 kg or more). Colchicine roughly halves recurrence. Add a proton pump inhibitor and restrict strenuous exercise until symptoms and CRP settle."
+        },
+        {
+          "text": "Paracetamol 1 g four times daily, with review in 1 week",
+          "why": "Paracetamol has no anti-inflammatory effect and leaves the recurrence risk untouched."
+        },
+        {
+          "text": "Prednisolone 25 mg daily, weaned over 2 weeks",
+          "why": "Often chosen. Corticosteroids give rapid relief but increase recurrence. They are kept for patients who cannot take NSAIDs or who have a specific indication such as autoimmune disease."
+        }
+      ],
+      "keyPoint": "Uncomplicated acute pericarditis is treated with a full-dose NSAID plus colchicine for 3 months. Corticosteroids as first-line treatment increase recurrence."
+    },
+    {
+      "id": "cr01-s05",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Aortic stenosis",
+      "source": "ESC/EACTS Guidelines for the management of valvular heart disease (2021)",
+      "stem": [
+        "Kevin Brandt, 74, a retired bus driver, has had 3 months of breathlessness and chest tightness when he walks uphill. Both settle within minutes of rest. Last week he nearly blacked out while carrying groceries up his front steps.",
+        "He has hypertension treated with irbesartan 150 mg daily. He stopped smoking 20 years ago.",
+        "His BP is 128/84 mmHg and his pulse is 72/min and regular. The carotid upstroke is slow. There is a harsh ejection systolic murmur, loudest at the right upper sternal edge and radiating to both carotids, and the second heart sound is soft. His chest is clear and he has no oedema.",
+        "An ECG shows sinus rhythm with voltage criteria for left ventricular hypertrophy."
+      ],
+      "lead": "Which investigation is MOST appropriate next?",
+      "options": [
+        {
+          "text": "24-hour Holter monitor",
+          "why": "Exertional presyncope prompts a search for arrhythmia, but the examination points to fixed outflow obstruction, which must be assessed first."
+        },
+        {
+          "text": "Carotid duplex ultrasound",
+          "why": "The neck sound is a radiated murmur, not a bruit, and carotid disease does not explain exertional presyncope with a soft second heart sound."
+        },
+        {
+          "text": "CT coronary angiography",
+          "why": "Coronary disease may coexist, but the valve needs assessment first. Coronary anatomy is defined later as part of planning valve intervention."
+        },
+        {
+          "text": "Exercise stress echocardiogram",
+          "why": "The common trap. Exertional chest tightness usually leads to stress testing, but exercise testing is contraindicated in symptomatic severe aortic stenosis because of the risk of hypotension, syncope and sudden death."
+        },
+        {
+          "text": "Myocardial perfusion scan",
+          "why": "Another test for ischaemia, which does not assess the valve. Vasodilator stress is also hazardous in severe aortic stenosis."
+        },
+        {
+          "text": "Transthoracic echocardiogram",
+          "correct": true,
+          "why": "Exertional angina, dyspnoea and presyncope with a slow-rising pulse, a radiating ejection systolic murmur and a soft second heart sound indicate severe aortic stenosis. A resting transthoracic echocardiogram confirms the diagnosis and severity and should be arranged urgently, with prompt cardiology referral, because symptomatic severe disease has a poor outlook without valve replacement."
+        }
+      ],
+      "keyPoint": "Exertional chest pain, dyspnoea or syncope with an ejection systolic murmur is severe aortic stenosis until a resting echocardiogram shows otherwise. Do not send these patients for exercise testing."
+    },
+    {
+      "id": "cr01-s06",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory",
+        "Paediatrics"
+      ],
+      "subtopic": "Chronic wet cough in a child",
+      "source": "Lung Foundation Australia: Chronic cough in children, guide for health professionals (2025)",
+      "stem": [
+        "Archie Nolan, 3, is brought by his mother, Kate, with a cough every day for 6 weeks. It started with a cold at childcare. The cough sounds wet and is worst in the morning. He has had no fever, is eating well and is as active as usual.",
+        "There was no choking episode at the onset. Kate has not heard him wheeze. A week of salbutamol through a spacer, suggested by a pharmacist, made no difference.",
+        "Archie was born at term and is fully immunised. Nobody smokes at home. There is no family history of cystic fibrosis or asthma. His weight is 15 kg and he has tracked along the 50th centile.",
+        "He is afebrile with a respiratory rate of 24/min and an oxygen saturation of 99% in room air. He has no finger clubbing. A few coarse crackles clear when he coughs and there is no wheeze. A chest X-ray shows mild peribronchial thickening only."
+      ],
+      "lead": "What is the MOST appropriate management?",
+      "options": [
+        {
+          "text": "Amoxicillin orally for 5 days",
+          "why": "Right idea, wrong agent and duration. A short course of amoxicillin does not reliably clear the endobronchial infection, which often involves beta-lactamase-producing Haemophilus influenzae."
+        },
+        {
+          "text": "Amoxicillin+clavulanate orally for 2 weeks",
+          "correct": true,
+          "why": "A daily wet cough for more than 4 weeks in a well child with no pointers to a specific cause is protracted bacterial bronchitis. Treatment is 2 weeks of an appropriate antibiotic, usually amoxicillin+clavulanate, with review and a further 2 weeks if the cough has not cleared."
+        },
+        {
+          "text": "Azithromycin orally for 3 days",
+          "why": "Too short, and not the recommended agent for this condition."
+        },
+        {
+          "text": "Fluticasone propionate 50 micrograms inhaled twice daily through a spacer for 4 weeks",
+          "why": "Often chosen. Asthma rarely presents as an isolated wet cough. He has no wheeze and did not respond to salbutamol."
+        },
+        {
+          "text": "Reassurance that a post-viral cough can last 8 weeks, with review if it continues",
+          "why": "The common trap. In children a daily cough beyond 4 weeks is chronic, and a wet cough is never normal. Untreated, it may progress to bronchiectasis."
+        },
+        {
+          "text": "Referral for a sweat test and CT of the chest",
+          "why": "Correct but premature. These are for children with specific pointers (clubbing, poor growth, haemoptysis), a cough that persists after 4 weeks of antibiotics, or more than 3 episodes a year."
+        }
+      ],
+      "keyPoint": "A wet cough lasting more than 4 weeks in an otherwise well child is protracted bacterial bronchitis: give 2 weeks of amoxicillin+clavulanate and review. Investigate for bronchiectasis if it does not clear or keeps recurring."
+    },
+    {
+      "id": "cr01-s07",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory",
+        "Paediatrics"
+      ],
+      "subtopic": "Bronchiolitis: who needs hospital",
+      "source": "Therapeutic Guidelines: Respiratory (acute bronchiolitis)",
+      "stem": [
+        "Evie Tran, 7 weeks old, is brought by her father, Minh, in July. She was born at 35 weeks. She has had a runny nose and cough for 2 days. Her 3-year-old brother has a cold.",
+        "Since last night she has tired quickly at the breast and has taken about 40% of her usual feeds. She has had 2 wet nappies in the past 12 hours, where she usually has 5.",
+        "Evie is alert. Her temperature is 37.6°C, respiratory rate 58/min and oxygen saturation 95% in room air. She has mild subcostal recession, and fine crackles and wheeze throughout both lungs. Her capillary refill time is 2 seconds and her fontanelle is normal."
+      ],
+      "lead": "What is the MOST appropriate management?",
+      "options": [
+        {
+          "text": "Chest X-ray today, with management guided by the result",
+          "why": "Bronchiolitis is a clinical diagnosis. An X-ray often shows patchy changes that lead to unnecessary antibiotics."
+        },
+        {
+          "text": "Home care with small frequent feeds, and review in 24 hours",
+          "why": "Often chosen, because her oxygen saturation and work of breathing are acceptable. But feeds below half of usual meet the threshold for admission, she is on day 2 of an illness that peaks around days 3 to 5, and she is under 10 weeks old and was born preterm."
+        },
+        {
+          "text": "Oral amoxicillin for 5 days",
+          "why": "Crackles are expected in bronchiolitis and do not indicate bacterial pneumonia."
+        },
+        {
+          "text": "Oral prednisolone 1 mg/kg daily for 3 days",
+          "why": "Corticosteroids do not help in bronchiolitis and are not recommended."
+        },
+        {
+          "text": "Referral to the emergency department for observation and feeding support",
+          "correct": true,
+          "why": "This is bronchiolitis with intake under 50% of usual over 12 hours, which is a criterion for hospital care. Her risk of deterioration and apnoea is raised by her age and prematurity, and the illness has not yet peaked. Hospital care is supportive: observation, nasogastric or intravenous fluids, and oxygen if her saturation falls."
+        },
+        {
+          "text": "Salbutamol 6 puffs through a spacer and mask, with reassessment in 20 minutes",
+          "why": "Bronchodilators do not improve outcomes in bronchiolitis and are not recommended in infants."
+        }
+      ],
+      "keyPoint": "In bronchiolitis, feeding less than half of usual, apnoea, marked work of breathing or an oxygen saturation of 92% or less means hospital. Have a lower threshold in young or preterm infants seen early in the illness."
+    },
+    {
+      "id": "cr01-s08",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory"
+      ],
+      "subtopic": "Obstructive sleep apnoea and driving",
+      "source": "Austroads: Assessing Fitness to Drive (2022), sleep disorders",
+      "stem": [
+        "Darren Kowalczyk, 52, drives B-double trucks interstate. His wife made the appointment because of his loud snoring and pauses in his breathing at night.",
+        "He admits he is sleepy most days. Twice this month he has nodded off at the wheel, and last week he drifted onto the gravel shoulder before waking.",
+        "His BMI is 36 kg/m², his neck circumference is 45 cm and his BP is 148/92 mmHg. His Epworth Sleepiness Scale score is 16 and his STOP-Bang score is 6.",
+        "You request a sleep study and refer him to a sleep physician. The first appointment is in 3 weeks."
+      ],
+      "lead": "What is the MOST appropriate advice about driving?",
+      "options": [
+        {
+          "text": "He may continue all driving until the sleep study confirms the diagnosis",
+          "why": "Unsafe delay. Fitness to drive depends on his sleepiness at the wheel, which is already established. It does not wait for a test result."
+        },
+        {
+          "text": "He may continue commercial driving if he works daylight shifts only",
+          "why": "Sleepiness from sleep apnoea is not confined to night driving, and the commercial standard makes no such allowance."
+        },
+        {
+          "text": "He may drive his own car but should stop commercial driving",
+          "why": "Often chosen. Commercial standards are stricter, but repeated episodes of falling asleep while driving also fail the private standard."
+        },
+        {
+          "text": "He should stop all driving until he is assessed and effectively treated",
+          "correct": true,
+          "why": "Frequent self-reported sleepiness while driving, or a near miss caused by it, means a person does not meet the standard for an unconditional licence, private or commercial. He should not drive until a sleep specialist has assessed him and treatment has controlled the sleepiness. A conditional commercial licence then depends on specialist review and adherence to treatment. Document the advice and explain his duty to notify the licensing authority."
+        },
+        {
+          "text": "He should stop driving if his apnoea–hypopnoea index is above 30 events per hour",
+          "why": "The index grades the severity of sleep apnoea. Driving risk is judged on sleepiness and its response to treatment, not on a single cut-off."
+        }
+      ],
+      "keyPoint": "A driver who reports falling asleep at the wheel should be told to stop driving, private and commercial, until assessed and effectively treated. Do not wait for the sleep study."
+    },
+    {
+      "id": "cr01-s09",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory"
+      ],
+      "subtopic": "Lung cancer screening",
+      "source": "Australian Government: National Lung Cancer Screening Program guidelines (2025)",
+      "stem": [
+        "Helen Georgiou, 61, a cleaner, asks whether she should be checked for lung cancer. Her brother was diagnosed with it last month.",
+        "She smoked 25 cigarettes a day from age 18 until she quit at 54. She has no cough, haemoptysis, breathlessness, chest pain or weight loss, and has had no chest imaging in the past 5 years.",
+        "She takes no medicines. Her oxygen saturation is 98% in room air and her examination is normal."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Chest X-ray",
+          "why": "Often chosen. A chest X-ray is not sensitive enough to screen for lung cancer and does not reduce mortality."
+        },
+        {
+          "text": "CT of the chest with contrast",
+          "why": "This is the test for a patient with symptoms or signs suggesting lung cancer. She has none."
+        },
+        {
+          "text": "Low-dose CT of the chest under the national screening program",
+          "correct": true,
+          "why": "She meets every criterion for the National Lung Cancer Screening Program: aged 50 to 70, no symptoms or signs of lung cancer, at least 30 pack-years (25 a day for 36 years is 45), and either still smoking or quit within the past 10 years (she quit 7 years ago). Enrol her through the National Cancer Screening Register and request a low-dose CT, which is repeated every 2 years if the result is very low risk."
+        },
+        {
+          "text": "No imaging, with advice to return if symptoms develop",
+          "why": "The common trap. Screening is not limited to current smokers. People who quit within the past 10 years are eligible, and a family history is not required."
+        },
+        {
+          "text": "Spirometry, with imaging only if airflow obstruction is found",
+          "why": "Spirometry detects COPD. It does not screen for lung cancer and plays no part in eligibility."
+        },
+        {
+          "text": "Sputum cytology on three morning samples",
+          "why": "Sputum cytology has poor sensitivity and is not a screening test."
+        }
+      ],
+      "keyPoint": "Lung cancer screening: age 50 to 70, no symptoms, at least 30 pack-years, and smoking now or quit within 10 years. The test is a low-dose CT every 2 years. People with symptoms are investigated, not screened."
+    },
+    {
+      "id": "cr01-s10",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory",
+        "Cardiology"
+      ],
+      "subtopic": "Drug-induced lung disease",
+      "source": "Australian Medicines Handbook (amiodarone), 2026",
+      "stem": [
+        "Bruce Hallett, 72, a retired stock agent, has had 3 months of worsening breathlessness on exertion and a dry cough. He has no orthopnoea, ankle swelling, fever or wheeze. He has never smoked and keeps no birds.",
+        "He has paroxysmal atrial fibrillation and hypertension. He has taken amiodarone 200 mg daily and apixaban 5 mg twice daily for 20 months, and perindopril arginine 5 mg daily for 8 years.",
+        "His oxygen saturation is 93% in room air and his pulse is 64/min and regular. His JVP is not raised. He has fine end-inspiratory crackles at both lung bases, with no oedema and no clubbing.",
+        "A chest X-ray shows new reticular opacities in both lower zones with a normal heart size."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "FEV1",
+              "2.05 L (72% predicted)",
+              "> 80% predicted"
+            ],
+            [
+              "FVC",
+              "2.45 L (68% predicted)",
+              "> 80% predicted"
+            ],
+            [
+              "FEV1/FVC",
+              "0.84",
+              "Lower limit of normal 0.68"
+            ],
+            [
+              "Bronchodilator response",
+              "Nil",
+              ""
+            ],
+            [
+              "NT-proBNP",
+              "96 ng/L",
+              "< 125"
+            ],
+            [
+              "TSH",
+              "2.4 mU/L",
+              "0.4–4.0"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Cease perindopril and start irbesartan 150 mg daily",
+          "why": "ACE inhibitor cough is dry, but it usually starts within months of starting the drug and does not cause hypoxia, crackles, a low FVC or X-ray changes."
+        },
+        {
+          "text": "High-resolution CT of the chest and urgent cardiology advice about amiodarone",
+          "correct": true,
+          "why": "A low FVC with a preserved ratio is a restrictive pattern, and with basal crackles, hypoxia and new reticular opacities it indicates interstitial lung disease. In a patient on amiodarone, pulmonary toxicity must be assumed. It can occur at any time and at doses as low as 200 mg daily, and can be fatal if the drug is continued. He needs prompt high-resolution CT and same-week discussion with his cardiologist about stopping amiodarone and using another rhythm or rate strategy."
+        },
+        {
+          "text": "Start budesonide+formoterol 200/6 micrograms, 2 inhalations twice daily",
+          "why": "There is no airflow obstruction and no bronchodilator response, so inhaled therapy has no target."
+        },
+        {
+          "text": "Start doxycycline 100 mg twice daily for 7 days",
+          "why": "Three months of afebrile, progressive symptoms with bilateral reticular change is not atypical pneumonia."
+        },
+        {
+          "text": "Start frusemide 40 mg daily, with review in 1 week",
+          "why": "Often chosen, because basal crackles in a patient with atrial fibrillation suggest heart failure. His JVP, heart size and NT-proBNP are normal, and there is no oedema."
+        },
+        {
+          "text": "Transthoracic echocardiogram, with review in 4 weeks",
+          "why": "Unsafe delay. An echocardiogram does not explain a restrictive defect with reticular opacities, and 4 more weeks of amiodarone risks irreversible fibrosis."
+        }
+      ],
+      "keyPoint": "New breathlessness or dry cough in anyone taking amiodarone is pulmonary toxicity until shown otherwise. A restrictive spirometry pattern with crackles needs high-resolution CT and early advice about stopping the drug."
+    },
+    {
+      "id": "cr01-s11",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory"
+      ],
+      "subtopic": "COPD: escalating inhaled therapy",
+      "source": "Lung Foundation Australia and TSANZ: COPD-X Plan, stepwise management of stable COPD",
+      "stem": [
+        "Lorraine Mackie, 68, a retired hairdresser, has COPD. Her post-bronchodilator FEV1 is 48% of predicted with an FEV1/FVC of 0.52. She smoked for 40 pack-years and quit 3 years ago. She has never had asthma.",
+        "For 14 months she has used umeclidinium+vilanterol 62.5/25 micrograms once daily, with salbutamol as needed. Pharmacy records confirm regular dispensing and her inhaler technique is correct today. She has completed pulmonary rehabilitation and her vaccinations are up to date.",
+        "In the past 12 months she has had 3 exacerbations treated with prednisolone and antibiotics, including one hospital admission. She is breathless walking on the flat at her own pace.",
+        "Her oxygen saturation is 94% in room air. She has quiet breath sounds and no ankle oedema."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Haemoglobin",
+              "138 g/L",
+              "115–160"
+            ],
+            [
+              "Eosinophils",
+              "0.42 × 10⁹/L",
+              "0.04–0.50"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which change to her regular treatment is MOST appropriate?",
+      "options": [
+        {
+          "text": "Add azithromycin 500 mg three times a week",
+          "why": "Correct but premature. Long-term macrolides are considered, usually with specialist input, for frequent exacerbations that continue despite optimal inhaled therapy."
+        },
+        {
+          "text": "Add prednisolone 5 mg daily long term",
+          "why": "Long-term oral corticosteroids have no place in stable COPD and cause osteoporosis, diabetes and myopathy."
+        },
+        {
+          "text": "Add tiotropium 18 micrograms daily",
+          "why": "She already takes a long-acting muscarinic antagonist. Two together add adverse effects without benefit."
+        },
+        {
+          "text": "Change to fluticasone furoate+umeclidinium+vilanterol 100/62.5/25 micrograms once daily",
+          "correct": true,
+          "why": "She has had 2 or more moderate exacerbations and a severe one in 12 months and remains symptomatic despite a LAMA+LABA taken correctly. That is the indication to add an inhaled corticosteroid as triple therapy, ideally in one inhaler. An eosinophil count of 0.3 × 10⁹/L or more predicts a better response. Warn her about the small increase in pneumonia risk."
+        },
+        {
+          "text": "Change to fluticasone furoate+vilanterol 100/25 micrograms once daily",
+          "why": "Often chosen. This adds the corticosteroid but removes the muscarinic antagonist, giving up bronchodilation she needs. Step up, not sideways."
+        },
+        {
+          "text": "Change to tiotropium+olodaterol 2.5/2.5 micrograms, 2 inhalations once daily",
+          "why": "A swap within the same two classes. It does not address her exacerbations."
+        }
+      ],
+      "keyPoint": "In COPD, add an inhaled corticosteroid to LAMA+LABA (triple therapy) after 2 or more moderate exacerbations, or 1 needing hospital, in 12 months with ongoing symptoms. Check technique and adherence first."
+    },
+    {
+      "id": "cr01-c01",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Follow-up after myocardial infarction",
+      "source": "National Heart Foundation of Australia and CSANZ: Australian clinical guideline for diagnosing and managing acute coronary syndromes (2025); Austroads: Assessing Fitness to Drive (2022)",
+      "stem": [
+        "Paul Whitaker, 58, a primary school teacher, attends 6 days after discharge from hospital. He had an anterior ST-elevation myocardial infarction treated with primary PCI and a drug-eluting stent to the left anterior descending artery. His echocardiogram before discharge showed an ejection fraction of 50%.",
+        "His discharge medicines are aspirin 100 mg daily, ticagrelor 90 mg twice daily, atorvastatin 80 mg daily, bisoprolol 2.5 mg daily, ramipril 2.5 mg daily and glyceryl trinitrate spray as needed. He smoked 20 cigarettes a day until the day of his infarct and has not smoked since. His LDL cholesterol on admission was 3.9 mmol/L.",
+        "He has had no chest pain or breathlessness. He bruises easily on his forearms and asks when he can stop \"the extra blood thinner\". He also asks when he can drive his car. He sees his cardiologist in 6 weeks.",
+        "His BP is 116/70 mmHg and his pulse is 58/min. His radial access site has healed. You confirm that he is taking every medicine as prescribed and you support him to stay off cigarettes."
+      ],
+      "lead": "Which FOUR further actions are MOST appropriate at this visit?",
+      "options": [
+        {
+          "text": "Advise him not to drive his car until 2 weeks after the infarct",
+          "score": 1,
+          "why": "The minimum non-driving period after a myocardial infarction is 2 weeks for a private licence."
+        },
+        {
+          "text": "Advise him not to drive his car until 4 weeks after the infarct",
+          "score": 0,
+          "why": "Correct only in another setting. Four weeks is the commercial standard."
+        },
+        {
+          "text": "Advise him to avoid sexual activity for 3 months",
+          "score": 0,
+          "why": "Sexual activity can resume once he manages moderate exertion, such as two flights of stairs, without symptoms. That is usually within a couple of weeks."
+        },
+        {
+          "text": "Advise him to continue ticagrelor with aspirin for 12 months",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Stopping dual antiplatelet therapy early after a drug-eluting stent for an acute coronary syndrome risks stent thrombosis, which is often fatal. Minor bruising is expected and is not a reason to stop."
+        },
+        {
+          "text": "Arrange an exercise stress test before he returns to work",
+          "score": 0,
+          "why": "Routine stress testing is not needed in a patient who is free of symptoms after successful revascularisation."
+        },
+        {
+          "text": "Cease ticagrelor and continue aspirin alone",
+          "score": 0,
+          "why": "Unsafe. This is the action most likely to cause stent thrombosis."
+        },
+        {
+          "text": "Change ticagrelor to clopidogrel 75 mg daily today",
+          "score": 0,
+          "why": "Often chosen. Minor bruising does not justify a move to a less effective drug. De-escalation is a cardiology decision made for significant bleeding or intolerance."
+        },
+        {
+          "text": "Increase bisoprolol to 10 mg daily",
+          "score": 0,
+          "why": "His resting pulse is 58/min and his ejection fraction is preserved. A large increase risks bradycardia and hypotension."
+        },
+        {
+          "text": "Recheck his lipids within 2 months, aiming for an LDL cholesterol below 1.4 mmol/L",
+          "score": 1,
+          "why": "After an acute coronary syndrome the target is below 1.4 mmol/L with at least a 50% fall. Early rechecking allows ezetimibe to be added if the target is missed."
+        },
+        {
+          "text": "Reduce atorvastatin to 40 mg daily",
+          "score": 0,
+          "why": "High-intensity statin therapy continues unless it is not tolerated."
+        },
+        {
+          "text": "Refer him to a cardiac rehabilitation program",
+          "score": 1,
+          "why": "Cardiac rehabilitation lowers mortality and readmission and supports smoking abstinence, exercise and return to work. Referral rates are low, so check it has been made."
+        },
+        {
+          "text": "Start fish oil 1 g daily",
+          "score": 0,
+          "why": "Low-dose fish oil does not reduce cardiovascular events."
+        }
+      ],
+      "keyPoint": "After a stented myocardial infarction: 12 months of dual antiplatelet therapy, cardiac rehabilitation, LDL cholesterol below 1.4 mmol/L, and no private driving for 2 weeks (4 weeks commercial)."
+    },
+    {
+      "id": "cr01-c02",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Resistant hypertension",
+      "source": "Therapeutic Guidelines: Cardiovascular (secondary hypertension; resistant hypertension), 2023",
+      "stem": [
+        "Angela Rossi, 49, a bookkeeper, has clinic BP readings between 158/96 and 166/100 mmHg at three visits. For 4 months she has taken perindopril arginine 10 mg, amlodipine 10 mg and indapamide SR 1.5 mg each morning. Pharmacy records show she collects them on time.",
+        "She takes ibuprofen 400 mg three times daily on most days for knee osteoarthritis. She drinks one standard drink a week and eats little processed food. Her husband says she snores loudly, and she wakes unrefreshed.",
+        "She has no headaches, sweats or palpitations. Her BMI is 33 kg/m². She has no striae, easy bruising or proximal weakness. Her femoral pulses are normal and there is no abdominal bruit."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Sodium",
+              "141 mmol/L",
+              "135–145"
+            ],
+            [
+              "Potassium",
+              "3.7 mmol/L",
+              "3.5–5.2"
+            ],
+            [
+              "Creatinine",
+              "68 micromol/L",
+              "45–90"
+            ],
+            [
+              "eGFR",
+              "> 90 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Urine albumin-to-creatinine ratio",
+              "4.1 mg/mmol",
+              "< 3.5"
+            ],
+            [
+              "TSH",
+              "1.8 mU/L",
+              "0.4–4.0"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which FOUR actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Add atenolol 50 mg daily",
+          "score": 0,
+          "why": "Beta blockers are not the preferred fourth drug, and adding any drug comes after the reasons for poor control have been sought."
+        },
+        {
+          "text": "Add moxonidine 200 micrograms daily",
+          "score": 0,
+          "why": "A later-line drug. It does nothing about the cause of her resistance."
+        },
+        {
+          "text": "Add spironolactone 25 mg daily today",
+          "score": 0,
+          "why": "Often chosen. Spironolactone is the best fourth drug in true resistant hypertension, but it invalidates the aldosterone-to-renin ratio for weeks. Test first, then start."
+        },
+        {
+          "text": "Arrange 24-hour ambulatory BP monitoring",
+          "score": 1,
+          "why": "Confirms that hypertension is truly resistant and not a white-coat effect before more tests and drugs are added."
+        },
+        {
+          "text": "Cease ibuprofen and offer paracetamol",
+          "score": 1,
+          "why": "NSAIDs raise BP and blunt the effect of ACE inhibitors and diuretics. The combination with those two classes also risks acute kidney injury."
+        },
+        {
+          "text": "Change perindopril to irbesartan 300 mg daily",
+          "score": 0,
+          "why": "A swap within the same pathway gives no extra BP lowering."
+        },
+        {
+          "text": "Increase indapamide SR to 3 mg daily",
+          "score": 0,
+          "why": "A higher dose adds little BP effect and more hypokalaemia and hyponatraemia."
+        },
+        {
+          "text": "Measure the plasma aldosterone-to-renin ratio",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Primary aldosteronism is the most common curable cause of hypertension, is found in a large share of resistant cases, and is often present with a normal potassium. It has specific treatment (a mineralocorticoid antagonist or adrenalectomy), so missing it leaves her at ongoing risk."
+        },
+        {
+          "text": "Refer her to the emergency department for intravenous BP lowering",
+          "score": 0,
+          "why": "She has no symptoms or signs of a hypertensive emergency. Rapid lowering would cause harm."
+        },
+        {
+          "text": "Request an overnight dexamethasone suppression test",
+          "score": 0,
+          "why": "She has no features of Cushing syndrome, so this is low-yield testing."
+        },
+        {
+          "text": "Request plasma metanephrines",
+          "score": 0,
+          "why": "She has no paroxysmal headache, sweating or palpitations to suggest phaeochromocytoma."
+        },
+        {
+          "text": "Screen for obstructive sleep apnoea and arrange a sleep study",
+          "score": 1,
+          "why": "Snoring, unrefreshing sleep and obesity make sleep apnoea likely. It is a common, treatable contributor to resistant hypertension."
+        }
+      ],
+      "keyPoint": "Before adding a fourth drug for resistant hypertension: confirm it with out-of-clinic readings, check adherence, remove drugs that raise BP such as NSAIDs, and look for primary aldosteronism and sleep apnoea. Measure the aldosterone-to-renin ratio before starting spironolactone."
+    },
+    {
+      "id": "cr01-c03",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Severe hypertriglyceridaemia",
+      "source": "Therapeutic Guidelines: Cardiovascular (severely elevated triglycerides), 2023",
+      "stem": [
+        "Wayne Draper, 47, a fly-in fly-out mine worker, attends for the results of fasting blood tests done as part of a diabetes review. He feels well and has no abdominal pain.",
+        "He has had type 2 diabetes for 5 years and takes metformin modified-release 2 g daily and atorvastatin 20 mg daily. During his weeks at home he drinks 6 to 8 full-strength beers on most nights. His BMI is 34 kg/m².",
+        "You have advised him to cut down on refined carbohydrate and saturated fat and have referred him to a dietitian."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Triglycerides",
+              "16.8 mmol/L",
+              "< 2.0"
+            ],
+            [
+              "Total cholesterol",
+              "8.9 mmol/L",
+              "< 5.5"
+            ],
+            [
+              "HDL cholesterol",
+              "0.7 mmol/L",
+              "> 1.0"
+            ],
+            [
+              "HbA1c",
+              "9.6%",
+              "< 7.0"
+            ],
+            [
+              "eGFR",
+              "88 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "ALT",
+              "62 U/L",
+              "< 40"
+            ],
+            [
+              "TSH",
+              "2.1 mU/L",
+              "0.4–4.0"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which FOUR further actions are MOST appropriate?",
+      "options": [
+        {
+          "text": "Advise him to stop drinking alcohol",
+          "score": 1,
+          "why": "Alcohol is a major reversible driver of severe hypertriglyceridaemia and a pancreatitis risk in its own right."
+        },
+        {
+          "text": "Cease metformin",
+          "score": 0,
+          "why": "Metformin does not raise triglycerides. Stopping it would worsen the hyperglycaemia that is driving them."
+        },
+        {
+          "text": "Change atorvastatin to rosuvastatin 40 mg daily",
+          "score": 0,
+          "why": "Often chosen. Statins lower triglycerides only modestly and do not protect against pancreatitis at this level. His statin continues for cardiovascular risk, but intensifying it is not today's priority."
+        },
+        {
+          "text": "Intensify his glucose-lowering treatment",
+          "score": 1,
+          "why": "Poorly controlled diabetes is a common secondary cause. Triglycerides often fall sharply once glycaemia improves."
+        },
+        {
+          "text": "Refer him to the emergency department for an insulin infusion",
+          "score": 0,
+          "why": "This is for hypertriglyceridaemic pancreatitis. He has no symptoms."
+        },
+        {
+          "text": "Repeat fasting lipids in 3 months before starting any drug",
+          "score": 0,
+          "why": "Unsafe delay. Above 10 mmol/L the risk of acute pancreatitis warrants drug treatment now, alongside lifestyle change."
+        },
+        {
+          "text": "Request genetic testing for familial hypercholesterolaemia",
+          "score": 0,
+          "why": "His raised cholesterol is carried in triglyceride-rich particles. This is not the pattern of familial hypercholesterolaemia."
+        },
+        {
+          "text": "Request serum lipase",
+          "score": 0,
+          "why": "Without abdominal pain, lipase does not change management."
+        },
+        {
+          "text": "Start colestyramine 4 g twice daily",
+          "score": 0,
+          "why": "Bile acid binding resins raise triglycerides and are contraindicated here."
+        },
+        {
+          "text": "Start ezetimibe 10 mg daily",
+          "score": 0,
+          "why": "Ezetimibe lowers LDL cholesterol and has little effect on triglycerides."
+        },
+        {
+          "text": "Start fenofibrate 145 mg daily",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Triglycerides above 10 mmol/L carry a risk of acute pancreatitis, and the first aim is to bring them below 10. Fenofibrate is the drug of choice, at full dose with an eGFR above 60. Monitor creatine kinase when it is combined with a statin."
+        },
+        {
+          "text": "Start fish oil providing 4 g of omega-3 fatty acids daily",
+          "score": 1,
+          "why": "High-dose fish oil is used with fenofibrate for severely raised triglycerides. Low doses are ineffective."
+        },
+        {
+          "text": "Start nicotinic acid 250 mg twice daily",
+          "score": 0,
+          "why": "Poorly tolerated, worsens glycaemic control and is no longer recommended."
+        }
+      ],
+      "keyPoint": "Triglycerides above 10 mmol/L: the goal is to prevent pancreatitis. Start fenofibrate with high-dose fish oil, stop alcohol and treat secondary causes, especially poorly controlled diabetes. A statin alone is not enough."
+    },
+    {
+      "id": "cr01-c04",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory"
+      ],
+      "subtopic": "Chronic cough in an adult",
+      "source": "Lung Foundation Australia and TSANZ: Cough in Children and Adults: Diagnosis, Assessment and Management (CICADA) position statement and primary care algorithm",
+      "stem": [
+        "Nicole Baptiste, 44, a call-centre operator, has had a dry cough for 11 weeks. It is worse at night and when she laughs or goes out into cold air. She has had no sputum, haemoptysis, fever, weight loss, breathlessness, heartburn or regurgitation.",
+        "She has never smoked. She has hay fever each spring, and for the past 3 months her nose has been blocked and she clears her throat often.",
+        "Her medicines are perindopril arginine 5 mg daily, started 5 months ago for hypertension, and a levonorgestrel intrauterine device. Her BP is 126/78 mmHg.",
+        "Her nasal turbinates are pale and swollen. Her throat and chest are normal. You arranged a chest X-ray last week and it is normal."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Change perindopril to an angiotensin II receptor blocker",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. ACE inhibitor cough can start weeks to months after the drug is begun and will not settle while it continues. Any chronic cough work-up in a patient on an ACE inhibitor starts by stopping it. Resolution can take up to 3 months."
+        },
+        {
+          "text": "Refer her for bronchoscopy",
+          "score": 0,
+          "why": "There are no red flags and the chest X-ray is normal."
+        },
+        {
+          "text": "Refer her to a speech pathologist for cough suppression therapy",
+          "score": 0,
+          "why": "Correct but premature. This is for refractory or unexplained chronic cough after treatable causes have been addressed."
+        },
+        {
+          "text": "Request a CT of the chest",
+          "score": 0,
+          "why": "Over-investigation. CT is for an abnormal X-ray, red flags, or a cough that persists after common causes are treated."
+        },
+        {
+          "text": "Request spirometry before and after bronchodilator",
+          "score": 1,
+          "why": "Recommended with a chest X-ray for every adult with chronic cough. Her night-time and cold-air triggers raise the possibility of asthma, which needs objective confirmation."
+        },
+        {
+          "text": "Start amoxicillin+clavulanate 875/125 mg twice daily for 10 days",
+          "score": 0,
+          "why": "A dry cough with a clear chest and normal X-ray is not bacterial infection."
+        },
+        {
+          "text": "Start an intranasal corticosteroid",
+          "score": 1,
+          "why": "She has chronic rhinitis with throat clearing. Treating upper airway disease is one of the high-yield steps in chronic cough."
+        },
+        {
+          "text": "Start esomeprazole 20 mg twice daily for 8 weeks",
+          "score": 0,
+          "why": "Often chosen. Empirical proton pump inhibitors do not help chronic cough unless there are reflux symptoms, and she has none."
+        },
+        {
+          "text": "Start montelukast 10 mg at night",
+          "score": 0,
+          "why": "Not a treatment for undifferentiated cough, and asthma has not been shown."
+        },
+        {
+          "text": "Start prednisolone 37.5 mg daily for 5 days",
+          "score": 0,
+          "why": "A blind steroid trial exposes her to adverse effects and clouds the diagnosis. Confirm variable airflow limitation first."
+        }
+      ],
+      "keyPoint": "Chronic cough in an adult (more than 8 weeks): chest X-ray and spirometry for everyone, stop any ACE inhibitor, then treat what you find, such as rhinitis or asthma. Give a proton pump inhibitor only when there are reflux symptoms."
+    },
+    {
+      "id": "cr01-c05",
+      "format": "cdp",
+      "select": 5,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory",
+        "Paediatrics"
+      ],
+      "subtopic": "Poorly controlled asthma in a child",
+      "source": "National Asthma Council Australia: Australian Asthma Handbook (2025), children 6 to 11 years",
+      "stem": [
+        "Mason Clarke, 9, in year 4, is brought by his mother, Tegan, for an asthma review. He was diagnosed at age 5. For the past year he has been prescribed fluticasone propionate 50 micrograms, 1 puff twice daily, with salbutamol as needed.",
+        "Over the past 2 months he has needed salbutamol on about 4 days a week and wakes coughing about once a week. He had a course of prednisolone 6 weeks ago. He plays soccer and often has to stop to use his puffer.",
+        "Tegan says he \"usually remembers\" his preventer. Mason puts the puffer straight into his mouth because \"spacers are for little kids\". His nose is always blocked and itchy and he sneezes most mornings. His father smokes in the house and car. His last written action plan was done when he was 6.",
+        "Mason is well today, with a clear chest and an oxygen saturation of 99% in room air. His nasal turbinates are pale and swollen. His height is on the 50th centile, as before. His weight is 30 kg."
+      ],
+      "lead": "Which FIVE actions are MOST appropriate today?",
+      "options": [
+        {
+          "text": "Add montelukast 5 mg at night",
+          "score": 0,
+          "why": "Correct but premature. It is an add-on option once the basics are right, and it carries a risk of behavioural and mood adverse effects."
+        },
+        {
+          "text": "Advise him to stop soccer until his asthma is controlled",
+          "score": 0,
+          "why": "Children with asthma should stay active. Exercise symptoms are a marker of poor control, to be fixed by better treatment."
+        },
+        {
+          "text": "Advise that the house and car be smoke-free, and offer his father help to quit",
+          "score": 1,
+          "why": "Second-hand smoke worsens control and reduces the response to inhaled corticosteroids."
+        },
+        {
+          "text": "Ask Mason and his mother, without judgement, how many preventer doses he misses",
+          "score": 1,
+          "why": "Poor adherence is one of the two most common reasons for apparent treatment failure, and \"usually remembers\" needs exploring."
+        },
+        {
+          "text": "Change his preventer to fluticasone propionate+salmeterol 50/25 micrograms, 2 puffs twice daily",
+          "score": 0,
+          "why": "Often chosen. Stepping up is reasonable only after technique, adherence, triggers and comorbidities have been addressed. Otherwise he is exposed to more drug for a delivery problem."
+        },
+        {
+          "text": "Check his inhaler technique and restart the spacer",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. A metered dose inhaler used without a spacer delivers little drug to a child's lungs, so his preventer and his reliever are both under-dosed. Correcting this is likely to restore control and matters for his safety in a flare-up."
+        },
+        {
+          "text": "Increase fluticasone propionate to 250 micrograms twice daily",
+          "score": 0,
+          "why": "A high dose for a child, with a risk of adrenal suppression and slowed growth, used to make up for poor delivery."
+        },
+        {
+          "text": "Provide an updated written asthma action plan",
+          "score": 1,
+          "why": "Every child with asthma needs a current written plan. His is 3 years old, and he has had a recent flare-up."
+        },
+        {
+          "text": "Refer him to a paediatric respiratory physician for biologic therapy",
+          "score": 0,
+          "why": "This is not severe asthma. It is asthma that is not yet adequately treated in primary care."
+        },
+        {
+          "text": "Request a chest X-ray",
+          "score": 0,
+          "why": "There is nothing to suggest another diagnosis, so this adds radiation without changing management."
+        },
+        {
+          "text": "Start an intranasal corticosteroid for allergic rhinitis",
+          "score": 1,
+          "why": "Untreated allergic rhinitis worsens asthma control, and treating it improves both conditions."
+        },
+        {
+          "text": "Start prednisolone 30 mg daily for 3 days",
+          "score": 0,
+          "why": "He is not having a flare-up today."
+        },
+        {
+          "text": "Start salmeterol 25 micrograms, 2 puffs twice daily, in a separate inhaler",
+          "score": 0,
+          "why": "A long-acting beta agonist without an inhaled corticosteroid in the same device increases the risk of severe flare-ups and must not be used in asthma."
+        }
+      ],
+      "keyPoint": "Before stepping up a child's preventer, check inhaler technique with a spacer, adherence, smoke exposure and other triggers, allergic rhinitis and the written action plan. Most \"treatment failure\" is found there."
+    }
+  ]
+}
