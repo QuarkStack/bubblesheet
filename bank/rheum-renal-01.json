@@ -25,7 +25,7 @@
         "Rheumatology"
       ],
       "subtopic": "Viral arthritis",
-      "source": "Therapeutic Guidelines: Rheumatology (viral arthritis)",
+      "source": "CDNA Ross River virus infection surveillance case definition (2016); Australian Journal of General Practice: Paired serology for Ross River virus and Barmah Forest virus diseases (2019). TG not directly checked",
       "stem": [
         "Hannah Price, 36, presents with 4 days of painful swelling of both wrists, several metacarpophalangeal (MCP) joints and both ankles. She has also had a low-grade fever, myalgia and a faint maculopapular rash on her trunk. Ten days ago she returned from a camping trip along the Murray River near Mildura, where she had many mosquito bites. She has no past medical history and takes no regular medicines.",
         "On examination, her temperature is 37.8 °C, with tender synovitis of both wrists and the 2nd and 3rd MCP joints bilaterally. You suspect Ross River virus infection. You request serology today and plan a second sample in 2 weeks."
@@ -34,31 +34,31 @@
       "options": [
         {
           "text": "Barmah Forest virus IgM and Ross River virus IgM both positive on the first sample",
-          "why": "Alphavirus antibodies cross-react, so dual IgM positivity can't tell you which virus caused the illness or when."
+          "why": "Dual IgM positivity on one sample usually reflects a false-positive or non-specific IgM, so it can't tell you which virus caused the illness or whether the infection is recent."
         },
         {
           "text": "Rheumatoid factor positive at low titre, with negative anti-CCP antibodies",
-          "why": "RF can be transiently positive in viral arthritis, which is why TG advises against RF and anti-CCP testing before 6 weeks. It does not confirm RRV."
+          "why": "RF can be transiently positive after viral infections, so an early low-titre RF neither confirms RRV nor diagnoses RA. It does not test for RRV at all."
         },
         {
           "text": "Ross River virus IgG negative on the first sample and positive on the second sample",
           "correct": true,
-          "why": "IgG seroconversion between paired samples confirms recent infection. TG requires an appropriate change in paired acute (within 1 week) and convalescent (14–21 days) serology, ideally testing both IgM and IgG."
+          "why": "IgG seroconversion between paired samples taken at least 2 weeks apart is laboratory definitive evidence of recent infection in the national case definition. IgM usually appears from about day 4 and IgG within about 2 weeks after it."
         },
         {
           "text": "Ross River virus IgG positive at the same titre on both samples",
           "why": "A stable IgG titre means past infection. Prior RRV exposure is common in endemic areas."
         },
         {
-          "text": "Ross River virus IgM positive on the first sample, with no second sample",
-          "why": "The common trap. IgM can persist for up to 2 years, cross-reacts with Barmah Forest virus and can be falsely positive in evolving inflammatory disease, so a single IgM is not confirmatory."
+          "text": "Ross River virus IgM positive on both samples, with IgG negative on both samples",
+          "why": "The common trap. IgG normally appears within about 2 weeks of IgM, so IgM without IgG seroconversion on paired samples suggests a false-positive or persistent non-specific IgM. IgM can also persist for months to years after past infection. This pattern does not confirm recent infection."
         },
         {
           "text": "Ross River virus IgM positive, with a raised C-reactive protein",
           "why": "CRP is non-specific and adds nothing to the specificity of a single IgM result."
         }
       ],
-      "keyPoint": "Paired serology showing IgG seroconversion or rise is the confirmatory pattern. Management is NSAIDs and reassurance. Most cases resolve by 6 weeks; reassess for RA if there's no improvement by 6 weeks or significant symptoms beyond 12 weeks."
+      "keyPoint": "Recent Ross River virus infection is confirmed by IgG seroconversion or a significant IgG rise on paired samples at least 2 weeks apart. A single positive IgM is not confirmatory. Treatment is supportive, mainly NSAIDs."
     },
     {
       "id": "rr01-s02",
@@ -70,7 +70,7 @@
         "Rheumatology"
       ],
       "subtopic": "Crystal arthritis (CPPD)",
-      "source": "Therapeutic Guidelines: Rheumatology (calcium pyrophosphate deposition); RACGP Curriculum and Syllabus, 6th edition (Musculoskeletal)",
+      "source": "EULAR recommendations for calcium pyrophosphate deposition, Part II: management (Ann Rheum Dis 2011). TG not directly checked",
       "stem": [
         "Dorothy Whitfield, 79, presents with 2 days of a hot, swollen right knee. She can bear weight only with difficulty. Her past history includes type 2 diabetes, heart failure with reduced ejection fraction, chronic kidney disease, and a bleeding duodenal ulcer 2 years ago. Her medicines are metformin XR 1 g daily, linagliptin 5 mg daily, sacubitril/valsartan, bisoprolol, frusemide 40 mg daily and pantoprazole 40 mg daily.",
         "On examination, her temperature is 37.6 °C and heart rate 78 bpm. There is a warm, tense right knee effusion. You aspirate the knee. A knee X-ray shows linear calcification of both menisci."
@@ -145,7 +145,7 @@
         },
         {
           "text": "Colchicine 1 mg orally, then 0.5 mg 1 hour later",
-          "why": "This low-dose regimen works in crystal arthritis, but TG advises avoiding colchicine in kidney impairment. At 79 with an eGFR of 38 the toxicity risk is high."
+          "why": "Low-dose colchicine can treat acute CPP arthritis, but at 79 with an eGFR of 38 it needs a reduced dose and carries a higher toxicity risk. With a single joint that has just been aspirated, injection is more effective and safer."
         },
         {
           "text": "Flucloxacillin 2 g intravenously, 6-hourly",
@@ -158,7 +158,7 @@
         {
           "text": "Intra-articular corticosteroid injection into the right knee",
           "correct": true,
-          "why": "Monoarticular disease plus contraindications to NSAIDs and colchicine make local injection the best choice. It avoids systemic steroid effects on her poorly controlled diabetes and fluid balance. TG supports injection before culture results when infection suspicion is low. Safety-net: return if fever develops or pain worsens."
+          "why": "EULAR recommends joint aspiration plus intra-articular corticosteroid as first-line treatment for acute CPP arthritis in one joint. It also avoids NSAID and colchicine risks and the systemic steroid effects on her poorly controlled diabetes and fluid balance. With crystals, a negative Gram stain and low clinical suspicion of sepsis, injecting before culture returns is reasonable. Safety-net: review the culture result, and return if fever develops or pain worsens."
         },
         {
           "text": "Prednisolone 25 mg orally, daily until symptoms settle",
@@ -173,7 +173,7 @@
           "why": "Washout is a treatment for septic arthritis, which this is not."
         }
       ],
-      "keyPoint": "Chondrocalcinosis plus positively birefringent rhomboid crystals means CPPD. Choose treatment by comorbidity: in a single joint with NSAID and colchicine contraindications, inject the joint."
+      "keyPoint": "Chondrocalcinosis plus positively birefringent rhomboid crystals means CPPD. For acute CPP arthritis in one joint, aspiration and intra-articular corticosteroid is first line, and it is the clear choice when NSAIDs and colchicine are risky."
     },
     {
       "id": "rr01-s03",
@@ -185,7 +185,7 @@
         "Rheumatology"
       ],
       "subtopic": "Gout",
-      "source": "Therapeutic Guidelines: Rheumatology (gout)",
+      "source": "ACR Guideline for the Management of Gout (2020); CPIC guideline for HLA-B genotype and allopurinol dosing (2015 update); Australian Journal of General Practice: Allopurinol for gout, limited HLA-B*5801 screening (2022). TG not directly checked",
       "stem": [
         "Wei Zhang, 54, of Han Chinese descent, attends to discuss urate-lowering therapy. He has had 3 gout flares in the past 12 months, and monosodium urate crystals were confirmed on aspiration of his left knee in March. His past history includes hypertension and chronic kidney disease, and he takes amlodipine 10 mg daily and irbesartan 300 mg daily. He currently has no symptoms."
       ],
@@ -219,7 +219,7 @@
       "options": [
         {
           "text": "24-hour urinary urate excretion",
-          "why": "TG does not recommend this routinely in gout."
+          "why": "Not routinely needed. It can guide uricosuric choice but does not address the main risk of starting allopurinol in this patient."
         },
         {
           "text": "Dual-energy CT of the feet",
@@ -236,7 +236,7 @@
         {
           "text": "HLA-B*5801",
           "correct": true,
-          "why": "TG lists HLA-B*5801 (common in Han Chinese, Korean and Thai populations), kidney impairment, older age and a high starting dose as risk factors for allopurinol hypersensitivity syndrome. With 2 risk factors, test first. If positive, avoid allopurinol and use probenecid or febuxostat (febuxostat is not for those with major cardiovascular disease). If negative, start at 50 mg and titrate to target with colchicine prophylaxis."
+          "why": "HLA-B*5801 is common in people of Han Chinese, Korean and Thai descent and strongly predicts allopurinol hypersensitivity syndrome (DRESS, SJS/TEN). ACR and CPIC advise testing before allopurinol in these groups, and CKD further raises the risk. If positive, avoid allopurinol and use probenecid or febuxostat (avoid febuxostat where possible in established cardiovascular disease). If negative, start low (50 mg daily with his eGFR) and titrate to target with colchicine flare prophylaxis."
         },
         {
           "text": "HLA-B27",
@@ -259,7 +259,7 @@
         "Rheumatology"
       ],
       "subtopic": "Osteoporosis",
-      "source": "RACGP/Healthy Bones Australia osteoporosis guideline (2024)",
+      "source": "RACGP and Healthy Bones Australia guideline for osteoporosis management and fracture prevention in postmenopausal women and men over 50 years of age (2024)",
       "stem": [
         "Rosa Mancini, 76, has had denosumab 60 mg subcutaneously every 6 months for 7 years, started after a minimal-trauma T12 vertebral fracture. Her last injection was 6 months ago and the next is due this week. After reading about osteonecrosis of the jaw she wants to stop. You have discussed the risks of stopping and she has made an informed decision. She has had no further fractures."
       ],
@@ -304,7 +304,7 @@
         {
           "text": "Alendronate 70 mg orally weekly, starting now and continuing for 12–24 months",
           "correct": true,
-          "why": "Stopping denosumab causes rebound bone turnover and multiple spontaneous vertebral fractures, a risk highest in those with a previous vertebral fracture. TG suggests starting alendronate no more than 6 months after the last dose and continuing for 12–24 months. She is at 6 months, so start now. Counsel that alendronate also carries a small MRONJ risk."
+          "why": "Stopping denosumab causes rebound bone turnover and multiple spontaneous vertebral fractures, a risk highest in those with a previous vertebral fracture. The RACGP and Healthy Bones Australia guideline says denosumab should not be interrupted, and if it is stopped the patient should move to a bisphosphonate for at least 12 months. Start when the next denosumab dose would have been due, which is now. Counsel that alendronate also carries a small MRONJ risk."
         },
         {
           "text": "Calcium and vitamin D supplements alone, with DXA in 2 years",
@@ -312,7 +312,7 @@
         },
         {
           "text": "Denosumab 60 mg once yearly instead of 6-monthly",
-          "why": "A dose delayed by more than 4 weeks (over 7 months since the last one) is associated with rebound vertebral fractures. Denosumab is not dosed yearly."
+          "why": "Rebound turnover starts about 7 months after the last dose, and delays of more than 4 months are linked to rebound vertebral fractures. Denosumab is not dosed yearly."
         },
         {
           "text": "Drug holiday for 12 months, then repeat DXA",
@@ -331,7 +331,7 @@
           "why": "Zoledronic acid can be a transition agent, but at 12 months the 6-month gap means rebound turnover is already under way."
         }
       ],
-      "keyPoint": "Denosumab must be continued indefinitely or replaced by a bisphosphonate. Never leave a gap."
+      "keyPoint": "Denosumab must be continued or replaced by a bisphosphonate for at least 12 months, started when the next dose is due. Never leave a gap."
     },
     {
       "id": "rr01-s05",
