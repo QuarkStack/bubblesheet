@@ -506,7 +506,7 @@
         "Renal"
       ],
       "subtopic": "Prescribing in CKD",
-      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition",
+      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition (2024); Australian Diabetes Society, Australian Type 2 Diabetes Glycaemic Management Algorithm (2024); Trajenta (linagliptin) product information (2024)",
       "stem": [
         "Beatrice Holloway, 78, lives alone and has type 2 diabetes and chronic kidney disease. Her medicines are metformin XR 1 g daily, gliclazide MR 30 mg daily, dapagliflozin 10 mg daily, perindopril 5 mg daily and atorvastatin 20 mg daily. She reports no hypoglycaemia."
       ],
@@ -549,7 +549,7 @@
         {
           "text": "Cease metformin and start linagliptin 5 mg daily",
           "correct": true,
-          "why": "Metformin is contraindicated below an eGFR of 30 because of lactic acidosis risk. Linagliptin is cleared hepatobiliary and needs no dose change in CKD, so it suits her and adds little hypoglycaemia risk. Continue dapagliflozin for kidney protection."
+          "why": "Metformin is contraindicated below an eGFR of 30 because of lactic acidosis risk. Linagliptin is cleared hepatobiliary and needs no dose change in CKD, so it suits her. It doesn't cause hypoglycaemia on its own but adds to the risk from gliclazide, so monitor her glucose and stop gliclazide if hypoglycaemia occurs. Continue dapagliflozin for kidney protection."
         },
         {
           "text": "Cease metformin and start saxagliptin 5 mg daily",
