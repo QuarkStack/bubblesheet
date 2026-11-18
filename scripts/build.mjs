@@ -63,6 +63,10 @@ function checkImages(q, where) {
     if (im.caption !== undefined && !isStr(im.caption)) err(w, 'caption must be a non-empty string (shown after answering)');
     const shown = [...words(im.alt), ...words(visibleCredit(im.credit))].filter((x) => answer.has(x));
     if (shown.length) warn(w, `alt or credit text shares "${[...new Set(shown)].join('", "')}" with the answer, which may give it away`);
+    // a computer shows a link's address on hover, so credit links shouldn't name the answer either
+    const answerParts = new Set([...answer].flatMap((x) => x.split('-')).filter((x) => x.length >= 5));
+    const inLinks = [...String(im.credit || '').matchAll(/\]\(([^)]*)\)/g)].flatMap((m) => m[1].toLowerCase().split(/[^a-z]+/)).filter((x) => answerParts.has(x));
+    if (inLinks.length) warn(w, `a credit link's address contains "${[...new Set(inLinks)].join('", "')}", which shows on hover; link credit to a neutral page and put the image's page in source (shown after answering)`);
     if (isStr(im.file) && IMG_EXT.test(im.file)) {
       usedImages.add(im.file);
       const f = path.join(IMG_DIR, im.file);

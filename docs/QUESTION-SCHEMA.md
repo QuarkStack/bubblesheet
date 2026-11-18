@@ -146,8 +146,8 @@ Add an image only when the question can't be answered correctly without seeing i
 
 **Nothing shown before answering may give the answer away.**
 - The file name, `alt` and the visible text of `credit` must not name or hint at the diagnosis.
-- A link's address may contain it, because only the short link text is shown.
-- Put the diagnosis in `caption`, which appears only after answering.
+- Nor may the address of a link in `credit`, because a computer shows it on hover. Link `credit` to neutral pages, such as the site's home page, and put the page the image came from in `source`, which appears as a link only after answering.
+- Put the diagnosis in `caption`, which also appears only after answering.
 
 **Fields** (each entry in `images`):
 
@@ -165,7 +165,7 @@ Add an image only when the question can't be answered correctly without seeing i
 "images": [{
   "file": "cr02-s04-1.jpg",
   "alt": "Photo of a round red patch with a paler centre on the back of a thigh",
-  "credit": "Case courtesy of Dr A Smith, [Example Atlas](https://example.org), [case 12345](https://example.org/cases/12345)",
+  "credit": "Case courtesy of Dr A Smith, [Example Atlas](https://example.org), case 12345",
   "licence": "CC BY-NC-SA 3.0 (modified)",
   "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
   "source": "https://example.org/cases/12345",
@@ -181,7 +181,7 @@ Add an image only when the question can't be answered correctly without seeing i
 
 The user uploads each file to `bank/img/`. Until a file is there, the build holds that question back from the live site with a warning, so the rest of the bank still publishes. Code-drawn images can be committed directly.
 
-**What the build checks:** the file name and type, the size, the required fields, the licence wording, that links use https, images that no question uses, and a warning when `alt` or `credit` text shares a word with the answer.
+**What the build checks:** the file name and type, the size, the required fields, the licence wording, that links use https, images that no question uses, and a warning when `alt`, the `credit` text or a `credit` link's address shares a word with the answer.
 
 ## Minimal examples
 
