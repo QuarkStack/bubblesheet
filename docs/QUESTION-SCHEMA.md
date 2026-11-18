@@ -178,6 +178,7 @@ Add an image only when the question can't be answered correctly without seeing i
 - The file name to save it as.
 - The exact page to download it from.
 - What to check: that it shows the finding the question depends on, and that the credit and licence match the page.
+- Whether you could open the page. If you couldn't, name each credit detail the user must confirm there.
 
 The user uploads each file to `bank/img/`. Until a file is there, the build holds that question back from the live site with a warning, so the rest of the bank still publishes. Code-drawn images can be committed directly.
 
