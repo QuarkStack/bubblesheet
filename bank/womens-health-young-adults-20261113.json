@@ -103,7 +103,7 @@
         "RACP"
       ],
       "topics": [
-        "Women's health",
+        "Pregnancy and reproductive health",
         "Neurology"
       ],
       "subtopic": "Contraception in neurological disease",
@@ -145,8 +145,8 @@
         "RACP"
       ],
       "topics": [
-        "Women's health",
-        "Cardiology"
+        "Cardiology",
+        "Genetics"
       ],
       "subtopic": "Turner syndrome",
       "source": "Clinical practice guidelines for the care of girls and women with Turner syndrome (Eur J Endocrinol, 2024)",
@@ -187,7 +187,7 @@
         "RACP"
       ],
       "topics": [
-        "Women's health",
+        "Pregnancy and reproductive health",
         "Endocrinology"
       ],
       "subtopic": "Thyroid disease in pregnancy",
@@ -255,8 +255,8 @@
         "RACP"
       ],
       "topics": [
-        "Young adult medicine",
-        "Immunology"
+        "Immunology",
+        "Young adult medicine"
       ],
       "subtopic": "Primary immunodeficiency",
       "source": "ESID Registry working definitions for the clinical diagnosis of inborn errors of immunity (2019)",
@@ -343,7 +343,7 @@
         "RACP"
       ],
       "topics": [
-        "Women's health",
+        "Pregnancy and reproductive health",
         "Genetics"
       ],
       "subtopic": "Pre-conception genetic counselling",
@@ -385,8 +385,9 @@
         "RACP"
       ],
       "topics": [
+        "Infectious diseases",
         "Young adult medicine",
-        "Infectious diseases"
+        "Paediatrics"
       ],
       "subtopic": "Acute rheumatic fever",
       "source": "RHDAustralia: 2020 Australian guideline for prevention, diagnosis and management of acute rheumatic fever and rheumatic heart disease (3rd edition)",
@@ -470,8 +471,7 @@
         "RACP"
       ],
       "topics": [
-        "Women's health",
-        "Obstetric medicine"
+        "Pregnancy and reproductive health"
       ],
       "subtopic": "Hypertensive disorders of pregnancy",
       "source": "SOMANZ Hypertension in Pregnancy Guideline (2023)",
@@ -574,7 +574,7 @@
         "RACP"
       ],
       "topics": [
-        "Women's health",
+        "Pregnancy and reproductive health",
         "Respiratory"
       ],
       "subtopic": "Venous thromboembolism in pregnancy",
@@ -637,8 +637,8 @@
         "RACP"
       ],
       "topics": [
-        "Young adult medicine",
-        "Gastroenterology"
+        "Gastroenterology",
+        "Young adult medicine"
       ],
       "subtopic": "Acute severe ulcerative colitis",
       "source": "ECCO guidelines on therapeutics in ulcerative colitis: medical and surgical treatment (2022)",
@@ -741,8 +741,8 @@
         "RACP"
       ],
       "topics": [
-        "Young adult medicine",
-        "Infectious diseases"
+        "Sexual health",
+        "Young adult medicine"
       ],
       "subtopic": "Sexually transmitted infectious proctitis",
       "source": "Australian STI Management Guidelines for Use in Primary Care (ASHM): Proctitis",

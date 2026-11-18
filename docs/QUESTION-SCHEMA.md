@@ -15,7 +15,7 @@ No list or index needs updating: the build finds every `bank/*.json` file.
 
 - **Output:** one complete JSON file in a single code block, named `bank/<bank-id>.json`. The user uploads it in GitHub: open `bank/`, then **Add file**, then **Upload files**.
 - **Bank ID and prefix:** use a date-stamped bank id such as `cardiology-20261113` and a matching ID prefix such as `card1113`. This avoids clashing with banks you can't see.
-- **Topics:** reuse these names where they fit: `Paediatrics`, `Renal`, `Resuscitation`, `Rheumatology`, `Women's health`.
+- **Topics:** follow "Choosing topics" below, using its list of topic names.
 - **Check before output:** you can't run `build.mjs`, so check the rules yourself:
   - Options are in alphabetical order.
   - Each SBA has exactly one `correct: true`.
@@ -65,7 +65,7 @@ No list or index needs updating: the build finds every `bank/*.json` file.
 | `format` | `"sba"` | `"cdp"` | Single best answer or clinical decision problem. In the app's RACGP paper style these are labelled AKT and KFP. |
 | `select` | – | yes | How many options to choose (1–8). It must equal the number of options with `score` above 0. |
 | `exams` | optional | optional | Exam tags for filtering, e.g. `["RACGP"]`, `["ALS1"]`, `["RACP"]`. Never shown during a question. |
-| `topics` | yes | yes | Broad areas used for filters and the dashboard, e.g. `["Rheumatology"]`. Reuse the existing names (see existing banks) so topics don't fragment. Put the main topic first. |
+| `topics` | yes | yes | 1 to 3 names from the list under "Choosing topics". The first is the question's home topic. |
 | `subtopic` | recommended | recommended | e.g. `"Gout"`. Shown after answering. |
 | `source` | optional | optional | The published guideline or reference that supports the answer, with its year. Shown after answering. Public: never a private file, page number or quote. |
 | `stem` | yes | yes | Array of paragraph strings. |
@@ -80,6 +80,47 @@ No list or index needs updating: the build finds every `bank/*.json` file.
 | `penalty` | – | optional | Share of the item lost per extra option chosen. Default 0.245 (0.35% of a 70-item paper). |
 
 Scoring: SBA scores 1 or 0. CDP scores (sum of chosen option scores ÷ sum of all positive scores) − penalty × options chosen beyond `select`.
+
+## Choosing topics
+
+Topics drive the app's filters and the question tracker, which counts each question once, under its **first** topic. The rules follow how RACGP's public exam reports file questions.
+
+**Rule 1. The first topic is the area the question tests**, chosen in this order:
+1. **A female-specific problem goes to its own area, never to a body system:**
+   - `Pregnancy and reproductive health`: pregnancy and the postpartum period, conditions in pregnancy (for example thyroid disease or hypertension in pregnancy), preconception care, contraception, fertility and subfertility, pregnancy loss, abortion.
+   - `Women's health`: gynaecology, menstrual problems and amenorrhoea, menopause, cervical screening, breast conditions (including breast cancer care).
+2. **A sexually transmitted infection, or a question about sexual or gender health in anyone, goes to `Sexual health`.**
+3. **Otherwise, the body system or discipline**, for example `Cardiology` or `Respiratory`. This applies to children too: a child with asthma is `Respiratory`.
+4. **`Paediatrics` comes first only for a problem of childhood itself** that fits no body system: newborn and infant checks, growth and development, immunisation schedules, child protection, behaviour.
+
+**Rule 2. A female patient doesn't make a question women's health.** A woman with asthma, gout or lupus nephritis is tagged by her condition, with no `Women's health` tag.
+
+**Rule 3. Tag every patient younger than 18 with `Paediatrics`** (neonates, children and adolescents), as the last topic unless Rule 1 already put it first. Take the age from the stem. No other question gets `Paediatrics`.
+
+**Rule 4. Optional extra topics:**
+- At most one more body system, and only when the question tests that area substantially too, for example `["Pregnancy and reproductive health", "Endocrinology"]` for thyroid disease in pregnancy.
+- `Young adult medicine`, in RACP banks only, for patients aged 16 to 24.
+- Never more than 3 topics. Never repeat the first topic in other words (for example, no `Obstetric medicine` after `Pregnancy and reproductive health`).
+
+**Topic names.** Use exactly these spellings. Add a name only for an area none of them covers, and tell the user so it can be added to the tracker.
+
+| Group | Names |
+|---|---|
+| Body systems and disciplines | `Addiction medicine`, `Cardiology`, `Dermatology`, `Ear, nose and throat`, `Emergency medicine`, `Endocrinology`, `Gastroenterology`, `Genetics`, `Haematology`, `Immunology`, `Infectious diseases`, `Men's health`, `Mental health`, `Neurology`, `Older persons' health`, `Oncology`, `Ophthalmology`, `Palliative care`, `Renal`, `Respiratory`, `Resuscitation`, `Rheumatology` |
+| Female-specific and sexual health | `Pregnancy and reproductive health`, `Sexual health`, `Women's health` |
+| Patient group | `Paediatrics`, `Young adult medicine` (RACP banks only) |
+
+**Examples:**
+
+| Question | `topics` |
+|---|---|
+| Gestational diabetes screening | `["Pregnancy and reproductive health", "Endocrinology"]` |
+| Cervical screening after a transplant | `["Women's health"]` |
+| Chlamydia in a 20-year-old man | `["Sexual health"]` |
+| Gout in a 60-year-old woman | `["Rheumatology"]` |
+| Bronchiolitis in a 7-week-old | `["Respiratory", "Paediatrics"]` |
+| Bruising in a non-mobile infant | `["Paediatrics"]` |
+| Acute rheumatic fever in a 17-year-old (RACP bank) | `["Infectious diseases", "Young adult medicine", "Paediatrics"]` |
 
 ## Minimal examples
 

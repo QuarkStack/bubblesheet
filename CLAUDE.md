@@ -6,7 +6,7 @@ Bubblesheet is a static quiz app published to GitHub Pages from `main`. Most req
 
 1. Read `docs/QUESTION-SCHEMA.md` in full. It covers the file format, the rules that protect saved answers, and the item-writing method.
 2. Read the existing files in `bank/`, in particular each question's `id`, `topics` and `subtopic`.
-   - Reuse existing topic names. A new topic name is fine only for a genuinely new area.
+   - Choose `topics` by the rules under "Choosing topics" in `docs/QUESTION-SCHEMA.md`. In short: the first topic is the area tested; female-specific problems go to `Pregnancy and reproductive health` or `Women's health`, never because the patient is female; every patient under 18 also gets `Paediatrics`.
    - Don't repeat a scenario that already exists. Pick a different decision point.
    - Pick a new bank `id` and an ID prefix that isn't already used.
 3. If the user names source material (lecture slides, guidelines), read it before writing.

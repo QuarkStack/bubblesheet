@@ -135,7 +135,7 @@
         "RACGP"
       ],
       "topics": [
-        "Women's health"
+        "Pregnancy and reproductive health"
       ],
       "subtopic": "Subfertility: confirming ovulation",
       "source": "AJGP Women's Health 1: Assessment of female fertility in the general practice setting",
@@ -197,7 +197,7 @@
         "RACGP"
       ],
       "topics": [
-        "Women's health"
+        "Pregnancy and reproductive health"
       ],
       "subtopic": "Recurrent pregnancy loss",
       "source": "AJGP Women's Health 2: Clinical care for women seeking pregnancy after miscarriage (2024); ESHRE RPL guideline (2022)",
@@ -242,7 +242,7 @@
         "RACGP"
       ],
       "topics": [
-        "Women's health"
+        "Pregnancy and reproductive health"
       ],
       "subtopic": "RhD immunoglobulin after a sensitising event",
       "source": "National Blood Authority, Guideline for the prophylactic use of Rh D immunoglobulin in pregnancy care (2021, updated 2024)",
@@ -288,7 +288,8 @@
         "RACGP"
       ],
       "topics": [
-        "Women's health"
+        "Pregnancy and reproductive health",
+        "Endocrinology"
       ],
       "subtopic": "Gestational diabetes: ADIPS 2025 criteria",
       "source": "ADIPS 2025 consensus; RACGP Management of type 2 diabetes: Gestational diabetes (updated 01/08/2025)",
@@ -400,6 +401,7 @@
         "RACGP"
       ],
       "topics": [
+        "Endocrinology",
         "Paediatrics"
       ],
       "subtopic": "New type 1 diabetes in a child",
@@ -480,6 +482,7 @@
         "RACGP"
       ],
       "topics": [
+        "Cardiology",
         "Paediatrics"
       ],
       "subtopic": "Murmur with weak femoral pulses",
@@ -570,6 +573,7 @@
         "RACGP"
       ],
       "topics": [
+        "Endocrinology",
         "Paediatrics"
       ],
       "subtopic": "Premature thelarche",
@@ -621,7 +625,8 @@
         "RACGP"
       ],
       "topics": [
-        "Women's health"
+        "Pregnancy and reproductive health",
+        "Endocrinology"
       ],
       "subtopic": "Preconception care in type 2 diabetes",
       "source": "AJGP Women's Health 2: Preconception care (2024); Therapeutic Guidelines; Australian Immunisation Handbook",
@@ -739,7 +744,7 @@
         "RACGP"
       ],
       "topics": [
-        "Women's health"
+        "Pregnancy and reproductive health"
       ],
       "subtopic": "Medical abortion with an IUD in place",
       "source": "Therapeutic Guidelines: Sexual and Reproductive Health (medical abortion)",
@@ -811,6 +816,7 @@
         "RACGP"
       ],
       "topics": [
+        "Emergency medicine",
         "Paediatrics"
       ],
       "subtopic": "Scald in a toddler",
@@ -950,6 +956,7 @@
         "RACGP"
       ],
       "topics": [
+        "Neurology",
         "Paediatrics"
       ],
       "subtopic": "First simple febrile seizure",

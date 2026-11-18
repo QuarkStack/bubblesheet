@@ -88,16 +88,16 @@ This token can only read and write `bubblesheet-answers`. It can't touch the pub
    - **GitHub account that owns the answers repository:** your username.
    - **Answers repository name:** `bubblesheet-answers`.
    - **Profile ID:** `p1`.
-   - **Display name:** her first name (it stays on devices only).
+   - **Display name:** the person's first name (it stays on devices only).
    - **Fine-grained access token:** the p1 token.
 5. Tap **Test and save**. Success means the app wrote `logs/p1.json` into the private repository. You can check it's there.
-6. Tap **Setup link for another device**, then **Copy link**. Send the link to her privately, for example by iMessage.
-7. Repeat steps 3 to 6 for your own profile (`p2`, with your token).
+6. Tap **Setup link for another device**, then **Copy link**. Send the link to that person privately, for example by iMessage.
+7. Repeat steps 3 to 6 for each other person, with the next profile ID (`p2`, `p3` and so on) and their own token.
 8. To switch between profiles on this computer, open **Settings**, then **Profiles on this device**, then tap **Use** on the profile you want.
 
 **Treat every setup link like a password.** It contains that profile's token.
 
-## Step 6. Her phone (2 minutes, do it together)
+## Step 6. Set up each person's phone (2 minutes)
 
 **iPhone:**
 
@@ -119,7 +119,7 @@ Why step 3 is needed: on iPhone and iPad, a Home Screen app keeps its own storag
 
 **Icons made before version 1.2** still have the link inside them. They now open straight to the dashboard, and an old link in an icon never overwrites a renewed token.
 
-Answers, notes, flags and underlines save to her profile automatically. The coloured dot next to her name in the app shows the sync state:
+Answers, notes, flags and underlines save to that person's profile automatically. The coloured dot next to their name in the app shows the sync state:
 
 | Dot | Meaning |
 |---|---|
@@ -153,14 +153,14 @@ Once Claude has the repository, it reads `CLAUDE.md` (the rules for AI assistant
 
 1. Make a new token (step 4).
 2. On your computer, open **Settings**, then **Create a new profile**. Enter the **same** profile ID (`p1`) and the new token, then tap **Test and save**. This reconnects to the same answer file.
-3. Copy the new setup link and send it to her.
-   - **iPhone or iPad with the icon:** she copies the link in Messages, opens the Bubblesheet icon, goes to **Settings**, and taps **Paste my setup link** under **Add a profile**. Tapping the link itself opens Safari, which doesn't update the icon.
-   - **Other devices:** she taps the link.
-4. She opens the link. It replaces the old one, and the waiting answers upload.
+3. Copy the new setup link and send it to the profile's owner.
+   - **iPhone or iPad with the icon:** they copy the link in Messages, open the Bubblesheet icon, go to **Settings**, and tap **Paste my setup link** under **Add a profile**. Tapping the link itself opens Safari, which doesn't update the icon.
+   - **Other devices:** they tap the link.
+4. The new link replaces the old one, and the waiting answers upload.
 
-**Looking at her profile to troubleshoot.** Open her setup link on your device. Her profile is added alongside yours. Switch to it in **Settings**, then **Profiles on this device**. Remove it there when you're finished. Removing a profile only forgets it on that device, and her answers stay on GitHub.
+**Looking at someone else's profile to troubleshoot.** Open their setup link on your device. Their profile is added alongside yours. Switch to it in **Settings**, then **Profiles on this device**. Remove it there when you're finished. Removing a profile only forgets it on that device, and their answers stay on GitHub.
 
-**Her raw answer file.** It's at `bubblesheet-answers/logs/p1.json`.
+**A profile's raw answer file.** It's at `bubblesheet-answers/logs/<profile-id>.json`, for example `logs/p1.json`.
 
 - Each save is a commit.
 - To see or restore an earlier version, click **History** on that file.
