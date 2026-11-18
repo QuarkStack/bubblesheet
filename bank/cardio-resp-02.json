@@ -1,0 +1,1336 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "cardio-resp-02",
+    "title": "Cardiology and Respiratory, set 2",
+    "description": "RACGP AKT and KFP practice on cardiovascular and respiratory health: 11 AKT and 5 KFP items, about 30 minutes at working pace. Topics follow recent public exam reports, with paediatric, older, remote and Aboriginal patients.",
+    "created": "2026-11-18",
+    "reviewBy": "2027-11-18",
+    "sources": [
+      "National Heart Foundation of Australia and CSANZ: Australian clinical guideline for diagnosing and managing acute coronary syndromes (2025)",
+      "Therapeutic Guidelines: Cardiovascular (2023)",
+      "Therapeutic Guidelines: Respiratory; Therapeutic Guidelines: Antibiotic",
+      "National Heart Foundation of Australia: Guideline for the diagnosis and management of hypertension in adults (2016)",
+      "ESC Guidelines for the management of peripheral arterial and aortic diseases (2024)",
+      "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (2021) and focused update (2023)",
+      "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy (2021)",
+      "ESC Guidelines for the diagnosis and management of syncope (2018)",
+      "ESC Guidelines for the diagnosis and management of acute pulmonary embolism (2019)",
+      "American Heart Association scientific statement on Kawasaki disease (2017)",
+      "Royal Children's Hospital Melbourne clinical practice guidelines: Kawasaki disease; Foreign body inhalation; Syncope",
+      "National Asthma Council Australia: Australian Asthma Handbook",
+      "Lung Foundation Australia and TSANZ: COPD-X Plan",
+      "National Tuberculosis Advisory Committee: National position statement for the management of latent tuberculosis infection (2017)",
+      "Fleischner Society guidelines for incidental pulmonary nodules (2017)",
+      "Cancer Australia: Investigating symptoms of lung cancer (2020)",
+      "British Thoracic Society Guideline for pleural disease (2023)"
+    ]
+  },
+  "questions": [
+    {
+      "id": "cr02-s01",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Intermittent claudication: non-compressible arteries",
+      "source": "ESC Guidelines for the management of peripheral arterial and aortic diseases (2024)",
+      "stem": [
+        "Kenji Watanabe, 67, a retired electrician, has had pain in both calves when he walks for the past 5 months. It comes on after about 200 metres, is worse uphill and goes within 2 minutes of standing still. He does not need to sit or bend forward for it to settle. He has no back pain, rest pain or foot ulcers.",
+        "He has had type 2 diabetes for 16 years and chronic kidney disease, with an eGFR of 48 mL/min/1.73 m². He smoked 30 cigarettes a day until 8 years ago. His medicines are metformin XR 1 g daily, empagliflozin 10 mg daily, perindopril arginine 10 mg daily and atorvastatin 40 mg daily.",
+        "His feet are cool, with shiny, hairless skin. You cannot feel the dorsalis pedis or posterior tibial pulses on either side. Monofilament sensation is reduced over both forefeet. Your practice nurse measures his arm and ankle pressures with a hand-held Doppler."
+      ],
+      "tables": [
+        {
+          "caption": "Doppler systolic pressures (normal resting ankle-brachial index 1.00–1.40)",
+          "head": [
+            "Site",
+            "Right",
+            "Left"
+          ],
+          "rows": [
+            [
+              "Brachial",
+              "134 mmHg",
+              "130 mmHg"
+            ],
+            [
+              "Dorsalis pedis",
+              "196 mmHg",
+              "202 mmHg"
+            ],
+            [
+              "Posterior tibial",
+              "190 mmHg",
+              "198 mmHg"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which investigation is MOST appropriate to confirm the diagnosis?",
+      "options": [
+        {
+          "text": "CT angiography of the aorta and lower limbs",
+          "why": "Maps the arteries for planning revascularisation, which he does not yet need, and gives a contrast load at an eGFR of 48. It is not the test that establishes the diagnosis."
+        },
+        {
+          "text": "Digital subtraction angiography",
+          "why": "Invasive, and reserved for patients having endovascular or open revascularisation. Not a diagnostic first step."
+        },
+        {
+          "text": "Exercise ankle-brachial index on a treadmill",
+          "why": "Often chosen. Exercise testing helps when the resting index is normal (1.00 to 1.40) but the symptoms suggest PAD. His resting index is above 1.40 because the arteries are calcified, so ankle pressures after exercise are just as unreliable."
+        },
+        {
+          "text": "MRI of the lumbar spine",
+          "why": "The right test for neurogenic claudication, which comes on with standing as well as walking, eases with sitting or bending forward, and usually comes with back pain. His pain settles on standing still."
+        },
+        {
+          "text": "Nerve conduction studies",
+          "why": "He has diabetic neuropathy, but neuropathy causes burning or numbness at rest, not calf pain that walking reliably brings on and stopping relieves."
+        },
+        {
+          "text": "Repeat ankle-brachial index in 12 months",
+          "why": "The result is not borderline but uninterpretable. Repeating it gives the same falsely high reading and delays the diagnosis."
+        },
+        {
+          "text": "Serum creatine kinase",
+          "why": "Statin muscle symptoms are an aching, usually symmetrical, present at rest. They do not stop within minutes of standing still, and a CK does not answer the vascular question."
+        },
+        {
+          "text": "Toe-brachial index",
+          "correct": true,
+          "why": "His ankle-brachial index is 196/134 = 1.46 on the right and 202/134 = 1.51 on the left. An index above 1.40 means the tibial arteries are too calcified to compress, which is common with long-standing diabetes and CKD, so it can neither confirm nor exclude PAD. The toe arteries are usually spared, so a toe-brachial index (abnormal below 0.70) is the recommended next test. With absent pedal pulses and classic claudication, it is likely to confirm PAD."
+        }
+      ],
+      "keyPoint": "An ankle-brachial index above 1.40 means calcified, non-compressible arteries, not normal flow. Confirm PAD with a toe-brachial index. Exercise testing is for a normal resting index with typical symptoms."
+    },
+    {
+      "id": "cr02-s02",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology",
+        "Paediatrics"
+      ],
+      "subtopic": "Incomplete Kawasaki disease",
+      "source": "American Heart Association scientific statement on the diagnosis and management of Kawasaki disease (2017); Royal Children's Hospital Melbourne clinical practice guideline: Kawasaki disease",
+      "stem": [
+        "Arlo Nguyen, 11 months, is brought back by his father, Bao, on the sixth day of fever. His temperature has reached 39.8°C each day despite regular paracetamol. He is miserable and hard to settle, and he is feeding less than usual but still has 5 wet nappies a day. For 3 days both eyes have been red without any discharge, and his lips have become red and cracked.",
+        "He has no cough, runny nose, vomiting or diarrhoea. Nobody at home is unwell, and the family has not travelled. His immunisations are up to date for his age; his measles-mumps-rubella vaccine is due at 12 months. He weighs 9.6 kg.",
+        "His temperature is 39.4°C, pulse 166/min and capillary refill time 2 seconds. Both eyes have non-exudative conjunctival injection that spares the rim around the iris. His lips are red, dry and fissured, and his pharynx is mildly red without exudate. He has no rash, no lymph node larger than 1 cm, and no redness or swelling of his hands or feet. His chest is clear, his abdomen is soft and his neck is not stiff. These are the results of tests you requested yesterday."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "CRP",
+              "118 mg/L",
+              "< 5"
+            ],
+            [
+              "ESR",
+              "82 mm/h",
+              "< 20"
+            ],
+            [
+              "Haemoglobin",
+              "97 g/L",
+              "105–135"
+            ],
+            [
+              "White cell count",
+              "18.6 × 10⁹/L",
+              "6.0–17.5"
+            ],
+            [
+              "Platelets",
+              "436 × 10⁹/L",
+              "150–450"
+            ],
+            [
+              "Albumin",
+              "27 g/L",
+              "30–45"
+            ],
+            [
+              "ALT",
+              "74 U/L",
+              "< 40"
+            ],
+            [
+              "Urine white cells",
+              "40 × 10⁶/L",
+              "< 10"
+            ],
+            [
+              "Urine culture",
+              "No growth at 48 hours",
+              "No growth"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Cefalexin orally for a urinary tract infection, with review in 48 hours",
+          "why": "The common trap. The pyuria is sterile, which is a recognised feature of Kawasaki disease. Treating a UTI that the culture has excluded delays treatment that prevents coronary aneurysms."
+        },
+        {
+          "text": "Measles PCR on a throat swab and urine, with notification to the public health unit",
+          "why": "Measles matters in an infant too young for MMR, but by day 6 it brings cough, coryza and a spreading rash, and he has none of these."
+        },
+        {
+          "text": "Outpatient echocardiogram within 1 week",
+          "why": "An echocardiogram is part of the work-up, but coronary aneurysms form in the second week of illness. Waiting a week without treatment wastes the window when IVIG prevents them."
+        },
+        {
+          "text": "Repeat the inflammatory markers in 48 hours, with a clinic review if he is still febrile",
+          "why": "Often chosen. Serial review is the plan only when CRP is under 30 mg/L and ESR is under 40 mm/h. His markers are high and he meets at least 3 supplementary laboratory criteria, so he needs treatment now."
+        },
+        {
+          "text": "Same-day referral to hospital for intravenous immunoglobulin and echocardiography",
+          "correct": true,
+          "why": "Fever for 5 days or more with only 2 principal features (conjunctival injection and lip changes) is possible incomplete Kawasaki disease. Infants under 12 months often present this way and have the highest risk of coronary aneurysms. With CRP 30 mg/L or more and at least 3 supplementary criteria (anaemia for age, albumin 30 g/L or less, raised ALT, white cells 15 × 10⁹/L or more, sterile pyuria), he should be treated as Kawasaki disease: IVIG within the first 10 days of illness, aspirin and an echocardiogram."
+        },
+        {
+          "text": "Start aspirin 3 to 5 mg/kg daily, with review in 24 hours",
+          "why": "Aspirin is part of hospital treatment, but on its own it does not prevent coronary aneurysms. IVIG does, and it must not be delayed."
+        },
+        {
+          "text": "Throat swab and oral amoxicillin for streptococcal pharyngitis",
+          "why": "The right treatment for scarlet fever, which is uncommon under 2 years and brings a sandpaper rash and exudative pharyngitis. Antibiotics here delay the diagnosis."
+        }
+      ],
+      "keyPoint": "An infant with 5 or more days of fever and only 2 or 3 Kawasaki features has incomplete Kawasaki disease until proven otherwise. CRP of 30 mg/L or more plus at least 3 supplementary laboratory criteria means same-day IVIG and echocardiography."
+    },
+    {
+      "id": "cr02-s03",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Hypertension: calcium channel blocker oedema",
+      "source": "Therapeutic Guidelines: Cardiovascular (dihydropyridine calcium channel blockers), 2023; National Heart Foundation of Australia: Guideline for the diagnosis and management of hypertension in adults (2016)",
+      "stem": [
+        "Mariana Costa, 58, a real estate agent, has had swollen ankles for 3 months. They are worse by the evening and her shoes feel tight. She is not breathless and has no orthopnoea. She has type 2 diabetes and was found to have hypertension 6 months ago. Her BP did not reach target on amlodipine 5 mg daily, so it was increased to 10 mg daily 4 months ago. Her only other medicine is metformin XR 1 g daily, and she takes no anti-inflammatory medicines. She would like to keep treating her blood pressure but wants the swelling to go.",
+        "Her home BP readings over the past week average 152/92 mmHg, and her clinic BP today is 154/90 mmHg. Her pulse is 74/min and regular. Her JVP is not raised, her chest is clear and her heart sounds are normal. She has pitting oedema to the mid-shins on both sides, with no calf tenderness."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Sodium",
+              "139 mmol/L",
+              "135–145"
+            ],
+            [
+              "Potassium",
+              "4.4 mmol/L",
+              "3.5–5.2"
+            ],
+            [
+              "Creatinine",
+              "66 micromol/L",
+              "45–90"
+            ],
+            [
+              "eGFR",
+              "88 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Urine albumin-to-creatinine ratio",
+              "7.4 mg/mmol",
+              "< 3.5"
+            ],
+            [
+              "HbA1c",
+              "7.1%",
+              "< 7.0"
+            ],
+            [
+              "Albumin",
+              "40 g/L",
+              "35–50"
+            ],
+            [
+              "TSH",
+              "2.0 mU/L",
+              "0.4–4.0"
+            ],
+            [
+              "NT-proBNP",
+              "64 ng/L",
+              "< 125"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate change to her treatment?",
+      "options": [
+        {
+          "text": "Add atenolol 50 mg daily",
+          "why": "Beta blockers are not first-line for uncomplicated hypertension and do nothing for her oedema or her kidneys."
+        },
+        {
+          "text": "Add frusemide 20 mg each morning",
+          "why": "The common trap. Calcium channel blocker oedema comes from arteriolar dilatation raising capillary pressure, not from salt and water retention. A diuretic barely reduces it and risks volume depletion."
+        },
+        {
+          "text": "Add indapamide SR 1.5 mg daily",
+          "why": "A thiazide-like diuretic would lower her BP, but it does not treat this kind of oedema and leaves her albuminuria without the kidney protection that an ACE inhibitor or ARB gives."
+        },
+        {
+          "text": "Add perindopril arginine 5 mg daily",
+          "correct": true,
+          "why": "Her BP is above target on maximum-dose amlodipine, and she has diabetes with albuminuria (ACR 7.4 mg/mmol), so an ACE inhibitor (or ARB) is indicated in its own right. It also dilates the venous side of the capillary bed, which reduces dihydropyridine oedema. An ACE inhibitor with a calcium channel blocker is a recommended combination. Recheck potassium and creatinine in 1 to 2 weeks."
+        },
+        {
+          "text": "Add spironolactone 25 mg daily",
+          "why": "Spironolactone is the fourth drug for resistant hypertension. She is on one drug, so she is not resistant, and it misses the ACE inhibitor her albuminuria needs."
+        },
+        {
+          "text": "Advise compression stockings and leg elevation",
+          "why": "Symptom measures that leave her BP uncontrolled and her albuminuria untreated."
+        },
+        {
+          "text": "Cease amlodipine and start perindopril arginine 5 mg daily",
+          "why": "Often chosen. Swapping one drug for another rarely gives the extra 20 mmHg she needs. She needs two drugs, and amlodipine can stay because the ACE inhibitor will reduce the oedema."
+        },
+        {
+          "text": "Change amlodipine to lercanidipine 20 mg daily",
+          "why": "Lercanidipine causes less oedema, but a switch within the same class does not lower her BP further or protect her kidneys."
+        }
+      ],
+      "keyPoint": "Ankle oedema from a dihydropyridine calcium channel blocker does not respond to diuretics. Adding an ACE inhibitor or ARB reduces it, and in diabetes with albuminuria that is the drug she needs anyway."
+    },
+    {
+      "id": "cr02-s04",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Heart failure with reduced ejection fraction: iron deficiency",
+      "source": "ESC Guidelines for the diagnosis and treatment of acute and chronic heart failure (2021) and focused update (2023)",
+      "stem": [
+        "Ivan Petrovic, 72, a retired train driver, has heart failure with reduced ejection fraction from ischaemic cardiomyopathy. His left ventricular ejection fraction was 30% on an echocardiogram 3 months ago. He becomes breathless and tired walking 100 metres on the flat, and this has not improved over 6 months. He has no orthopnoea or ankle swelling. He takes his medicines reliably.",
+        "His medicines are sacubitril+valsartan 97/103 mg twice daily, bisoprolol 7.5 mg daily, spironolactone 25 mg daily, dapagliflozin 10 mg daily, frusemide 20 mg daily, aspirin 100 mg daily and atorvastatin 80 mg daily. A higher dose of bisoprolol made him dizzy.",
+        "Eight months ago, low iron studies led to a gastroscopy and colonoscopy, which were normal, as were his duodenal biopsies. He has had no bleeding, eats a varied diet and takes no supplements.",
+        "His BP is 108/66 mmHg and his pulse is 58/min and regular. His JVP is not raised, his chest is clear and he has no oedema. His weight is 78 kg and stable. An ECG shows sinus rhythm with a QRS duration of 108 ms."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Haemoglobin",
+              "122 g/L",
+              "130–180"
+            ],
+            [
+              "MCV",
+              "86 fL",
+              "80–100"
+            ],
+            [
+              "Ferritin",
+              "142 microg/L",
+              "30–500"
+            ],
+            [
+              "Transferrin saturation",
+              "14%",
+              "20–50"
+            ],
+            [
+              "Vitamin B12",
+              "410 pmol/L",
+              "150–700"
+            ],
+            [
+              "Potassium",
+              "4.8 mmol/L",
+              "3.5–5.2"
+            ],
+            [
+              "eGFR",
+              "54 mL/min/1.73 m²",
+              "> 90"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which treatment is MOST appropriate to improve his symptoms?",
+      "options": [
+        {
+          "text": "Darbepoetin alfa subcutaneously every 2 weeks",
+          "why": "Erythropoiesis-stimulating agents did not improve outcomes in heart failure and increased thrombotic events. His problem is iron deficiency, not erythropoietin deficiency."
+        },
+        {
+          "text": "Ferric carboxymaltose 1000 mg intravenously",
+          "correct": true,
+          "why": "In heart failure, iron deficiency is a ferritin under 100 microg/L, or 100 to 299 microg/L with a transferrin saturation under 20%. His ferritin of 142 is \"normal\" on the laboratory range, but with a saturation of 14% he is iron deficient (heart failure raises ferritin as an inflammatory marker). His GI tract has already been investigated. In symptomatic HFrEF, intravenous iron improves symptoms, exercise capacity and quality of life, and reduces heart failure admissions."
+        },
+        {
+          "text": "Ferrous sulfate 325 mg orally daily",
+          "why": "Often chosen. Oral iron is poorly absorbed in heart failure and did not improve exercise capacity in a randomised trial. Guidelines recommend intravenous iron."
+        },
+        {
+          "text": "Increase frusemide to 40 mg daily",
+          "why": "He is euvolaemic, with no oedema, orthopnoea or raised JVP. More diuretic would lower his BP and kidney function without helping his fatigue."
+        },
+        {
+          "text": "Ivabradine 5 mg twice daily",
+          "why": "Ivabradine is for sinus rhythm with a resting heart rate of 70/min or more despite the highest tolerated beta blocker dose. His rate is 58/min."
+        },
+        {
+          "text": "No iron treatment, because his ferritin is within the normal range",
+          "why": "The common trap. Laboratory ferritin ranges do not apply in heart failure. The threshold for treatment is a ferritin under 300 microg/L with a saturation under 20%, or a ferritin under 100."
+        },
+        {
+          "text": "Red cell transfusion of 1 unit",
+          "why": "Transfusion is not indicated at a haemoglobin of 122 g/L and risks fluid overload in heart failure."
+        }
+      ],
+      "keyPoint": "In heart failure, iron deficiency is a ferritin under 100 microg/L, or 100 to 299 microg/L with a transferrin saturation under 20%. Treat it with intravenous iron; oral iron does not work."
+    },
+    {
+      "id": "cr02-s05",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Second-degree AV block (Mobitz II)",
+      "source": "ESC Guidelines on cardiac pacing and cardiac resynchronization therapy (2021)",
+      "stem": [
+        "Beryl Thompson, 79, a retired dressmaker, has had episodes of light-headedness for 3 weeks. Most come on while she is gardening or carrying shopping and pass within a minute when she stops. Yesterday she nearly fainted while hanging out the washing. She has had no chest pain or palpitations. She has hypertension and osteoarthritis. Her medicines are irbesartan 150 mg daily and paracetamol 1 g as needed. She takes no other medicines or supplements.",
+        "Her BP is 138/76 mmHg sitting and 134/74 mmHg after 3 minutes standing. Her pulse is 46/min and irregular. Her heart sounds and neurological examination are normal. Her potassium, calcium, magnesium and TSH, checked last week, were normal. You record a 12-lead ECG."
+      ],
+      "tables": [
+        {
+          "caption": "12-lead ECG",
+          "head": [
+            "Feature",
+            "Finding"
+          ],
+          "rows": [
+            [
+              "Atrial (P wave) rate",
+              "80/min, regular"
+            ],
+            [
+              "Ventricular rate",
+              "46/min"
+            ],
+            [
+              "PR interval of conducted beats",
+              "0.18 s, the same before and after each non-conducted P wave"
+            ],
+            [
+              "Conduction",
+              "Runs of 2:1 and 3:2 conduction, with some P waves not followed by a QRS complex"
+            ],
+            [
+              "QRS",
+              "0.14 s, right bundle branch block pattern"
+            ],
+            [
+              "QTc",
+              "430 ms"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "24-hour Holter monitor, with review of the result in 2 weeks",
+          "why": "Often chosen. Monitoring helps when the cause of symptoms is uncertain. Her ECG already shows the cause, and this block can progress to complete heart block without warning."
+        },
+        {
+          "text": "Cease irbesartan and repeat the ECG in 1 week",
+          "why": "Irbesartan does not slow AV conduction and she has no postural drop. Stopping it will not reverse block below the AV node."
+        },
+        {
+          "text": "Exercise stress test",
+          "why": "Exertion is when she becomes symptomatic, and this type of block often worsens as the atrial rate rises. Stress testing is unsafe and would not change management."
+        },
+        {
+          "text": "Reassure her that this conduction pattern is common with ageing, and review in 3 months",
+          "why": "The common trap. That describes Wenckebach (Mobitz I) block, where the PR interval lengthens before each dropped beat, often in fit young people during sleep. Here the PR interval is fixed and the QRS is wide, which places the block below the AV node."
+        },
+        {
+          "text": "Same-day cardiology assessment for permanent pacemaker insertion",
+          "correct": true,
+          "why": "Dropped QRS complexes with a constant PR interval and a bundle branch block is Mobitz type II block, from disease in the His-Purkinje system. It is unstable, can progress suddenly to complete heart block or asystole, and is an indication for permanent pacing even without symptoms. With exertional presyncope and a rate of 46/min, she needs assessment the same day."
+        },
+        {
+          "text": "Tilt-table test",
+          "why": "Used for suspected reflex (vasovagal) syncope. Her symptoms are exertional and her ECG shows conduction disease."
+        },
+        {
+          "text": "Transthoracic echocardiogram, then cardiology referral if it is abnormal",
+          "why": "She will have an echocardiogram, but the indication for pacing comes from the ECG. Waiting for the echo first is an unsafe delay."
+        }
+      ],
+      "keyPoint": "Dropped beats with a fixed PR interval (Mobitz II), especially with a wide QRS, is block below the AV node that can progress to complete heart block. Refer the same day for permanent pacing."
+    },
+    {
+      "id": "cr02-s06",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology"
+      ],
+      "subtopic": "Atrial fibrillation: anticoagulant dose",
+      "source": "Therapeutic Guidelines: Cardiovascular (atrial fibrillation, direct-acting oral anticoagulants), 2023",
+      "stem": [
+        "Joyce Barlow, 83, a retired school cook, had atrial fibrillation found on an ECG at her health assessment. She has no palpitations or breathlessness. She has hypertension treated with amlodipine 5 mg daily, and osteoarthritis treated with paracetamol. She has never had a stroke, bleeding or a fall, and drinks no alcohol. After discussion she would like to start an anticoagulant.",
+        "Her BP is 132/78 mmHg and her pulse is 76/min and irregularly irregular. Her heart sounds are normal with no murmur. She weighs 58 kg. An echocardiogram shows a structurally normal heart with no valve disease."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Haemoglobin",
+              "128 g/L",
+              "115–160"
+            ],
+            [
+              "Platelets",
+              "236 × 10⁹/L",
+              "150–400"
+            ],
+            [
+              "Creatinine",
+              "96 micromol/L",
+              "45–90"
+            ],
+            [
+              "eGFR",
+              "48 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Creatinine clearance (Cockcroft–Gault)",
+              "36 mL/min",
+              "> 90"
+            ],
+            [
+              "ALT",
+              "18 U/L",
+              "< 35"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which treatment is MOST appropriate to reduce her risk of stroke?",
+      "options": [
+        {
+          "text": "Apixaban 2.5 mg twice daily",
+          "correct": true,
+          "why": "Her CHA2DS2-VA score is 3 (age 75 or over scores 2, hypertension 1), so anticoagulation is recommended. Apixaban is reduced to 2.5 mg twice daily when at least 2 of these are present: age 80 or over, weight 60 kg or less, serum creatinine 133 micromol/L or more. She has 2 (age 83 and weight 58 kg), even though her creatinine is below 133."
+        },
+        {
+          "text": "Apixaban 5 mg twice daily",
+          "why": "The common trap. Her creatinine is below 133 micromol/L, but her age and weight alone meet 2 of the 3 dose-reduction criteria."
+        },
+        {
+          "text": "Aspirin 100 mg daily",
+          "why": "Aspirin barely reduces stroke in AF, and in older people it causes about as much major bleeding as an anticoagulant. It is not an alternative."
+        },
+        {
+          "text": "Dabigatran 150 mg twice daily",
+          "why": "Dabigatran is 110 mg twice daily from age 75, and in a creatinine clearance of 30 to 50 mL/min. At 150 mg her bleeding risk would be too high."
+        },
+        {
+          "text": "No anticoagulation, with stroke risk reassessed in 12 months",
+          "why": "Age alone is not a reason to withhold anticoagulation. With a score of 3 her stroke risk is about 3% a year, and she wants treatment."
+        },
+        {
+          "text": "Rivaroxaban 20 mg daily with the evening meal",
+          "why": "Rivaroxaban is reduced to 15 mg daily when creatinine clearance is 15 to 49 mL/min. Hers is 36 mL/min."
+        },
+        {
+          "text": "Warfarin, target INR 2.5 to 3.5",
+          "why": "Warfarin is an option in AF, but the target INR is 2.0 to 3.0; the higher range is for some mechanical valves. DOACs are preferred in AF without mitral stenosis or a mechanical valve."
+        }
+      ],
+      "keyPoint": "Apixaban in AF is 2.5 mg twice daily if 2 of: age 80 or over, weight 60 kg or less, creatinine 133 micromol/L or more. Rivaroxaban and dabigatran doses depend on creatinine clearance, and dabigatran also on age."
+    },
+    {
+      "id": "cr02-s07",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory",
+        "Paediatrics"
+      ],
+      "subtopic": "Inhaled foreign body",
+      "source": "Royal Children's Hospital Melbourne clinical practice guideline: Foreign body inhalation",
+      "stem": [
+        "Oscar Lim, 22 months, is brought by his grandmother, Mei, with a cough for 4 days. It started at a family barbecue, where he was eating from a bowl of mixed nuts. Mei saw him go red, cough hard and gag for a couple of minutes, and then he seemed fine. Since then he has had a dry cough every few hours and noisy breathing at times. He has had no fever or runny nose, and he is eating and playing normally.",
+        "He was born at term, has never wheezed before and is fully immunised. He weighs 12 kg.",
+        "He is alert and playing. His temperature is 36.9°C, respiratory rate 30/min and oxygen saturation 96% in room air. There is no stridor or recession. Breath sounds are reduced over the right lower chest, with a soft expiratory wheeze on that side only. The left side is clear. An inspiratory chest X-ray taken this morning is reported as normal."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Expiratory chest X-ray, with referral only if it shows air trapping",
+          "why": "Often chosen. Expiratory or decubitus films can show air trapping, but a normal film does not exclude a foreign body, because most inhaled objects, like nuts, are radiolucent. With this history and these signs, the result would not change the plan."
+        },
+        {
+          "text": "Low-dose CT of the chest, with referral if a foreign body is seen",
+          "why": "CT can help when suspicion is low or uncertain, but it should not delay bronchoscopy when suspicion is high, as it is here. Bronchoscopy both diagnoses and removes the object."
+        },
+        {
+          "text": "Oral amoxicillin for 5 days, with review in 48 hours",
+          "why": "He is afebrile with no consolidation. Antibiotics treat the infection a retained foreign body later causes, not the foreign body."
+        },
+        {
+          "text": "Oral prednisolone 1 mg/kg daily for 3 days",
+          "why": "Steroids treat croup or asthma. He has no stridor, and wheeze on one side only is not asthma."
+        },
+        {
+          "text": "Reassure, and review in 1 week if the cough persists",
+          "why": "An unsafe delay. A retained nut fragment causes inflammation, pneumonia and eventually bronchiectasis, and becomes harder to remove."
+        },
+        {
+          "text": "Salbutamol 6 puffs through a spacer and mask, with review in 24 hours",
+          "why": "The common trap. Wheeze on one side only after a choking episode is a foreign body until proven otherwise, not viral-induced wheeze or asthma."
+        },
+        {
+          "text": "Same-day referral to a paediatric hospital for bronchoscopy",
+          "correct": true,
+          "why": "A witnessed choking episode while eating nuts, followed by cough and reduced breath sounds and wheeze on one side, is an inhaled foreign body. Up to a quarter of children with a proven foreign body have a normal chest X-ray, so a normal film does not exclude it. Refer the same day for rigid bronchoscopy by a paediatric ENT or respiratory team."
+        }
+      ],
+      "keyPoint": "A choking episode plus wheeze or reduced breath sounds on one side means bronchoscopy, even when the chest X-ray is normal. Do not let more imaging delay it."
+    },
+    {
+      "id": "cr02-s08",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory"
+      ],
+      "subtopic": "COPD exacerbation in the community",
+      "source": "Therapeutic Guidelines: Respiratory and Antibiotic (exacerbations of COPD); Lung Foundation Australia and TSANZ: COPD-X Plan",
+      "stem": [
+        "Raymond Pearce, 71, a retired truck driver, has had 3 days of increased breathlessness and cough after a cold caught from his grandchildren. He is coughing up more sputum than usual, but it is white, as it always is. He has had no fever, chest pain or ankle swelling. For 2 days he has used salbutamol, 8 puffs through a spacer every 3 to 4 hours, as his written action plan says. Each dose helps for an hour or so.",
+        "He has COPD, with a post-bronchodilator FEV1 of 52% of predicted. He stopped smoking 6 years ago. His medicines are tiotropium+olodaterol 2.5/2.5 micrograms, 2 inhalations once daily, and salbutamol as needed. He has had no exacerbations in the past year. His influenza and pneumococcal vaccinations are up to date.",
+        "He is talking in full sentences and walked in from the car park. His temperature is 37.3°C, respiratory rate 22/min, pulse 96/min and BP 136/80 mmHg. His oxygen saturation is 91% in room air; it was 92% at his last routine visit. He has scattered expiratory wheeze, no focal crackles and no ankle oedema, and he is alert. His wife is at home with him. You advise him to keep using salbutamol through his spacer as needed."
+      ],
+      "lead": "Which additional treatment is MOST appropriate?",
+      "options": [
+        {
+          "text": "Amoxicillin 500 mg orally, 8-hourly for 5 days",
+          "why": "Often chosen. Antibiotics help when more breathlessness comes with both more sputum and purulent or changed-colour sputum. His sputum has increased but is still white, so a viral trigger is most likely."
+        },
+        {
+          "text": "Amoxicillin+clavulanate 875/125 mg orally, 12-hourly for 5 days",
+          "why": "Antibiotics are not indicated. When they are, amoxicillin or doxycycline is used; broader agents are no more effective."
+        },
+        {
+          "text": "Budesonide+formoterol 400/12 micrograms, 1 inhalation twice daily",
+          "why": "This adds a second long-acting beta agonist on top of olodaterol, and an inhaled corticosteroid does not replace a short oral course in an exacerbation."
+        },
+        {
+          "text": "Doxycycline 100 mg orally daily for 5 days",
+          "why": "As for amoxicillin, he does not meet the criteria for an antibiotic."
+        },
+        {
+          "text": "Ipratropium 21 micrograms, 4 inhalations through a spacer 6-hourly",
+          "why": "The common trap. Ipratropium is contraindicated in patients taking a long-acting muscarinic antagonist such as tiotropium. The two act on the same receptor, so ipratropium adds anticholinergic effects without more bronchodilation."
+        },
+        {
+          "text": "Oxygen 2 L/min through nasal prongs at home until review",
+          "why": "A saturation of 91% is at his baseline and within the 88 to 92% target in COPD. Unneeded oxygen risks hypercapnia, and he has no indication for home oxygen."
+        },
+        {
+          "text": "Prednisolone 25 mg orally daily, tapering over 14 days",
+          "why": "Too low a dose for too long. Longer courses add steroid harms without extra benefit."
+        },
+        {
+          "text": "Prednisolone 40 mg orally daily for 5 days",
+          "correct": true,
+          "why": "His exacerbation has not settled with repeated bronchodilator, which is the indication for a systemic corticosteroid. Prednisolone 30 to 50 mg daily for 5 days works as well as longer courses, speeds recovery and can stop without tapering. He can stay at home: he is alert and mobile, has support, and his saturation is at baseline."
+        }
+      ],
+      "keyPoint": "COPD exacerbation not settling with bronchodilator: prednisolone 30 to 50 mg daily for 5 days. Antibiotics only for more breathlessness plus more and purulent sputum. Never add ipratropium to a LAMA."
+    },
+    {
+      "id": "cr02-s09",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory",
+        "Infectious diseases"
+      ],
+      "subtopic": "Latent tuberculosis infection",
+      "source": "National Tuberculosis Advisory Committee: National position statement for the management of latent tuberculosis infection (2017)",
+      "stem": [
+        "Maricel Santos, 29, a registered nurse, moved to Australia from the Philippines 18 months ago. Pre-employment screening for a new hospital job found a positive interferon-gamma release assay (IGRA). She feels well, with no cough, fever, night sweats or weight loss, and knows of no contact with tuberculosis. She had BCG vaccination as a baby and has a scar on her left arm.",
+        "She has no medical conditions, takes no medicines and is not pregnant. Her HIV test, full blood count and liver function tests are normal. Her chest X-ray is normal, and so is her examination."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Collect three early-morning sputum samples for acid-fast bacilli microscopy and culture",
+          "why": "Sputum testing is for people with symptoms or an abnormal chest X-ray. She has neither, which excludes active pulmonary TB as far as is practical."
+        },
+        {
+          "text": "Exclude her from clinical work until tuberculosis is excluded",
+          "why": "Latent infection is not infectious. With no symptoms and a normal chest X-ray she can work."
+        },
+        {
+          "text": "Notify the public health unit of a case of tuberculosis",
+          "why": "Active tuberculosis is notifiable; latent infection is not, and she does not have active disease."
+        },
+        {
+          "text": "Offer treatment for latent TB infection, arranged with the state TB service",
+          "correct": true,
+          "why": "A positive IGRA with no symptoms and a normal chest X-ray is latent TB infection. About 5 to 10% of people with latent infection develop active TB in their lifetime, with the highest risk in the first years after infection, and she is a recent migrant from a high-incidence country who will care for vulnerable patients. Preventive treatment (for example 4 months of rifampicin, 3 months of weekly rifapentine and isoniazid, or 6 to 9 months of isoniazid) greatly reduces the risk. It is usually arranged with the state TB service."
+        },
+        {
+          "text": "Reassure her that the positive result reflects her BCG vaccination as a baby",
+          "why": "The common trap. IGRAs detect antigens that BCG does not contain, so infant BCG does not cause a positive result. That is why an IGRA is preferred over the skin test in people who have had BCG."
+        },
+        {
+          "text": "Repeat the IGRA in 3 months",
+          "why": "A clearly positive IGRA in someone from a high-incidence country is a true positive. Repeating it delays treatment and can give a discordant result that is no easier to interpret."
+        },
+        {
+          "text": "Start isoniazid, rifampicin, pyrazinamide and ethambutol",
+          "why": "This is treatment for active TB. For latent infection it exposes her to four drugs she does not need."
+        },
+        {
+          "text": "Tuberculin skin test to confirm the result",
+          "why": "The skin test is less specific after BCG and adds nothing to a positive IGRA."
+        }
+      ],
+      "keyPoint": "A positive IGRA with no symptoms and a normal chest X-ray is latent TB. BCG does not cause a positive IGRA. Offer preventive treatment, usually with the state TB service."
+    },
+    {
+      "id": "cr02-s10",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory"
+      ],
+      "subtopic": "Obstructive sleep apnoea: CPAP intolerance",
+      "source": "Therapeutic Guidelines: Respiratory (obstructive sleep apnoea in adults)",
+      "stem": [
+        "Andrew Hale, 47, a software developer, had obstructive sleep apnoea diagnosed on a home sleep study 4 months ago, after his partner noticed loud snoring and pauses in his breathing. He wakes unrefreshed and feels sleepy in afternoon meetings, but has never felt drowsy while driving. He drives a car only. He drinks 2 standard drinks a week and has never smoked.",
+        "He has tried CPAP for 3 months with support from his sleep physician, using two different masks and a desensitisation program. He still feels closed in and takes the mask off within an hour each night. He asks about other options.",
+        "His BMI is 24 kg/m², neck circumference 38 cm and BP 124/78 mmHg. His nasal passages are clear, his tonsils are small, and his jaw and bite are normal. He has all his own teeth and good dental health."
+      ],
+      "tables": [
+        {
+          "caption": "Home sleep study",
+          "head": [
+            "Measure",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Apnoea–hypopnoea index, overall",
+              "22 events/hour"
+            ],
+            [
+              "Apnoea–hypopnoea index, lying on back",
+              "24 events/hour"
+            ],
+            [
+              "Apnoea–hypopnoea index, lying on side",
+              "20 events/hour"
+            ],
+            [
+              "Sleep time with oxygen saturation below 90%",
+              "2%"
+            ],
+            [
+              "Epworth Sleepiness Scale score",
+              "11"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which treatment is MOST appropriate?",
+      "options": [
+        {
+          "text": "Bilevel positive airway pressure",
+          "why": "Bilevel pressure is for hypoventilation syndromes or for patients who fail CPAP at high pressures. It needs the same mask, which is his problem."
+        },
+        {
+          "text": "Mandibular advancement splint made and fitted by a dentist",
+          "correct": true,
+          "why": "A mandibular advancement splint is an effective alternative to CPAP in mild to moderate OSA. He has moderate OSA (index 22), good teeth and a normal bite, and he cannot tolerate CPAP despite good support. The splint must be custom-made and reviewed by a dentist, with a follow-up sleep study to check that it works."
+        },
+        {
+          "text": "Modafinil 100 mg each morning",
+          "why": "Modafinil is for sleepiness that persists despite effective CPAP. It does not treat the airway obstruction."
+        },
+        {
+          "text": "Nocturnal oxygen at 2 L/min",
+          "why": "Oxygen does not prevent obstructive events and can lengthen apnoeas. His desaturation is modest."
+        },
+        {
+          "text": "Over-the-counter mouthguard worn at night",
+          "why": "Often chosen. Simple mouthguards fitted without a dentist do not reliably advance the jaw, can damage the teeth and do not work."
+        },
+        {
+          "text": "Positional therapy with a vibrating device worn on the back",
+          "why": "Positional therapy is for OSA that occurs mainly when lying on the back. His index is almost the same on his side (20) as on his back (24)."
+        },
+        {
+          "text": "Uvulopalatopharyngoplasty",
+          "why": "Palatal surgery gives little reduction in the apnoea–hypopnoea index and is now only for carefully selected patients. His tonsils are small and his airway anatomy is normal."
+        },
+        {
+          "text": "Weight-loss program with a dietitian",
+          "why": "Weight loss helps patients who are overweight. His BMI is 24 kg/m²."
+        }
+      ],
+      "keyPoint": "For mild to moderate OSA when CPAP fails, offer a custom mandibular advancement splint from a dentist. Positional therapy is only for OSA that occurs mainly on the back, and over-the-counter mouthguards do not work."
+    },
+    {
+      "id": "cr02-s11",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory"
+      ],
+      "subtopic": "Incidental pulmonary nodule",
+      "source": "Fleischner Society guidelines for management of incidental pulmonary nodules detected on CT (2017)",
+      "stem": [
+        "Susan Whitlam, 56, a librarian, attends after an emergency department visit last week for left-sided pleuritic chest pain. A CT pulmonary angiogram showed no pulmonary embolism, and the pain settled within 2 days. The report also describes a 7 mm solid nodule with smooth margins in the right lower lobe. There are no other nodules, no enlarged lymph nodes and no emphysema. She has had no previous chest imaging.",
+        "She has never smoked and has had no work exposure to asbestos, silica or other dusts. Nobody in her family has had lung cancer. She has no history of cancer and is not immunosuppressed. She has no cough, haemoptysis or weight loss, and her examination is normal."
+      ],
+      "lead": "What is the MOST appropriate follow-up for the nodule?",
+      "options": [
+        {
+          "text": "Chest X-ray in 3 months",
+          "why": "A chest X-ray cannot reliably see or measure a 7 mm nodule, so it cannot show growth."
+        },
+        {
+          "text": "CT of the chest in 3 months",
+          "why": "A 3-month CT (or PET-CT or biopsy) is considered for solid nodules larger than 8 mm."
+        },
+        {
+          "text": "CT of the chest in 6 to 12 months",
+          "correct": true,
+          "why": "A single solid nodule of 6 to 8 mm in a low-risk person (never smoked, no other risk factors) has a low but real chance of being malignant. The Fleischner recommendation is a CT at 6 to 12 months, then considering another at 18 to 24 months if it is unchanged."
+        },
+        {
+          "text": "Low-dose CT under the National Lung Cancer Screening Program every 2 years",
+          "why": "The program is for people aged 50 to 70 with at least 30 pack-years of smoking. She has never smoked, and screening is not the pathway for following a known nodule."
+        },
+        {
+          "text": "No follow-up imaging",
+          "why": "Often chosen. No routine follow-up applies to solid nodules smaller than 6 mm in low-risk people. At 7 mm she needs a follow-up CT."
+        },
+        {
+          "text": "PET-CT now",
+          "why": "PET-CT is for solid nodules larger than 8 mm. Below that size it is unreliable and false negatives are common."
+        },
+        {
+          "text": "Referral for CT-guided biopsy",
+          "why": "Biopsy of a 7 mm nodule risks pneumothorax and often fails to get tissue. It is for larger or growing nodules."
+        }
+      ],
+      "keyPoint": "Incidental solid nodule in a low-risk adult: under 6 mm, no follow-up; 6 to 8 mm, CT at 6 to 12 months; over 8 mm, consider CT at 3 months, PET-CT or biopsy."
+    },
+    {
+      "id": "cr02-c01",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology",
+        "Emergency medicine"
+      ],
+      "subtopic": "STEMI in a remote setting: fibrinolysis",
+      "source": "National Heart Foundation of Australia and CSANZ: Australian clinical guideline for diagnosing and managing acute coronary syndromes (2025)",
+      "stem": [
+        "Clifford Martin, 54, an Aboriginal man who works as a ranger, presents to a remote community health clinic with 90 minutes of crushing central chest pain spreading to his left arm. He is sweaty and nauseated. He has hypercholesterolaemia treated with atorvastatin 40 mg daily, and he stopped smoking 5 years ago.",
+        "He has never had a stroke, bleeding problem, recent surgery or head injury, and he takes no anticoagulant. His BP is 142/88 mmHg in both arms, pulse 96/min and regular, and oxygen saturation 97% in room air. His chest is clear and he has no murmur. He weighs 84 kg. His point-of-care eGFR is 82 mL/min/1.73 m².",
+        "His ECG shows 3 mm ST elevation in V1 to V4, with ST depression in II, III and aVF. You have given aspirin 300 mg chewed and sublingual glyceryl trinitrate 400 micrograms, which eased his pain a little. He has two intravenous cannulas, cardiac monitoring and defibrillator pads in place. The retrieval service advises that the nearest hospital with a cardiac catheter laboratory is about 5 hours away."
+      ],
+      "lead": "Which FOUR further actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Arrange aeromedical retrieval for coronary angiography",
+          "score": 1,
+          "why": "After fibrinolysis, transfer to a PCI-capable centre for early angiography (a pharmaco-invasive strategy) reduces reinfarction, and allows rescue PCI if reperfusion fails."
+        },
+        {
+          "text": "Clopidogrel 300 mg orally",
+          "score": 1,
+          "why": "Aspirin plus clopidogrel is the dual antiplatelet therapy proven with fibrinolysis. The loading dose is 300 mg up to age 75."
+        },
+        {
+          "text": "Colchicine 500 micrograms daily",
+          "score": 0,
+          "why": "Colchicine may be considered from discharge after ACS. It has no role in reperfusion."
+        },
+        {
+          "text": "Enoxaparin 30 mg intravenously, then 1 mg/kg subcutaneously",
+          "score": 1,
+          "why": "Anticoagulation is recommended with fibrinolysis, and enoxaparin is preferred over unfractionated heparin unless the eGFR is under 30. The intravenous bolus is left out in people over 75."
+        },
+        {
+          "text": "Metoprolol 5 mg intravenously",
+          "score": 0,
+          "why": "Routine early intravenous beta blockade in STEMI increases cardiogenic shock and is not part of reperfusion."
+        },
+        {
+          "text": "Oxygen 6 L/min through a face mask",
+          "score": 0,
+          "why": "His saturation is 97%. Oxygen is not given in ACS without hypoxaemia, and saturation should not be pushed above 96%."
+        },
+        {
+          "text": "Prasugrel 60 mg orally",
+          "score": 0,
+          "why": "Prasugrel is not used with fibrinolysis and is not currently available in Australia."
+        },
+        {
+          "text": "Repeat the ECG and a point-of-care troponin in 3 hours before deciding on reperfusion",
+          "score": 0,
+          "why": "The common trap. His ECG already shows an anterior STEMI. Troponin plays no part in the reperfusion decision, and every minute of delay loses heart muscle."
+        },
+        {
+          "text": "Rivaroxaban 15 mg orally",
+          "score": 0,
+          "why": "Oral factor Xa inhibitors are not used as the anticoagulant for acute STEMI with fibrinolysis."
+        },
+        {
+          "text": "Tenecteplase 45 mg intravenously as a single bolus",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Primary PCI cannot be done within 120 minutes of first medical contact, so he needs fibrinolysis now, ideally within 30 minutes. He is within 12 hours of onset and has no contraindications. Tenecteplase is dosed by weight band, and 45 mg is the dose for 80 to 89 kg (a half dose is used in older people)."
+        },
+        {
+          "text": "Ticagrelor 180 mg orally",
+          "score": 0,
+          "why": "Often chosen. Ticagrelor is used with primary PCI, but clopidogrel is the P2Y12 inhibitor studied with fibrinolysis. He can be changed to ticagrelor after PCI."
+        },
+        {
+          "text": "Transfer by road to the hospital with a catheter laboratory for primary PCI, without fibrinolysis",
+          "score": 0,
+          "why": "Primary PCI is preferred only when it can be done within 120 minutes of first medical contact. A 5-hour transfer without fibrinolysis loses most of the benefit of reperfusion."
+        }
+      ],
+      "keyPoint": "STEMI with primary PCI more than 120 minutes away: fibrinolysis within 30 minutes (weight-based tenecteplase), aspirin plus clopidogrel, enoxaparin, then transfer for early angiography."
+    },
+    {
+      "id": "cr02-c02",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Cardiology",
+        "Paediatrics"
+      ],
+      "subtopic": "Exertional syncope in an adolescent",
+      "source": "Royal Children's Hospital Melbourne clinical practice guideline: Syncope; ESC Guidelines for the diagnosis and management of syncope (2018)",
+      "stem": [
+        "Noah Fitzgerald, 15, in year 10, is brought by his mother, Leanne, the day after he collapsed during a 400 metre race at the school athletics carnival. Teachers say he fell suddenly about 300 metres into the race, without slowing down first. He was unresponsive for about 20 seconds, had a few jerks of his arms, then woke and was fully alert within a minute. He did not bite his tongue or wet himself. He had no warning, chest pain or palpitations beforehand.",
+        "He has never fainted before and plays basketball twice a week. Leanne's brother died suddenly in his sleep at age 34, and no cause was found. Noah takes no medicines and says he does not use drugs or energy drinks.",
+        "He looks well. His pulse is 62/min and regular, and his BP is 114/68 mmHg lying and 112/70 mmHg standing. His heart sounds are normal, with no murmur lying, standing or during a Valsalva manoeuvre. His neurological examination is normal. He has a graze on one knee."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "12-lead ECG today",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Everyone with syncope needs an ECG, and collapse during exercise with a family history of unexplained sudden death in a young relative is a cardiac red flag. Look for long QT, pre-excitation, a Brugada pattern and signs of cardiomyopathy."
+        },
+        {
+          "text": "Advise more fluids and salt, and reassure him that this was a simple faint",
+          "score": 0,
+          "why": "The common trap. A reflex faint comes on with standing still, heat, pain or emotion, after a warning, and happens after exercise rather than during it. Collapsing mid-race with no warning is cardiac until proven otherwise."
+        },
+        {
+          "text": "Advise no sport or strenuous exercise until cardiology review",
+          "score": 1,
+          "why": "Syncope during exercise can be the first sign of an arrhythmia that causes sudden death during exercise. Restrict exercise until a cardiac cause is excluded."
+        },
+        {
+          "text": "CT of the brain",
+          "score": 0,
+          "why": "His neurological examination is normal and he has no significant head injury. Brain imaging does not explain the collapse."
+        },
+        {
+          "text": "Electroencephalogram",
+          "score": 0,
+          "why": "Often chosen. A few brief jerks are common in syncope from reduced blood flow to the brain and do not suggest epilepsy. He recovered quickly without confusion."
+        },
+        {
+          "text": "Exercise stress test in the practice today",
+          "score": 0,
+          "why": "Exercise testing without cardiology supervision is unsafe in possible arrhythmic syncope. It is arranged by the cardiologist."
+        },
+        {
+          "text": "Full blood count and iron studies",
+          "score": 0,
+          "why": "Anaemia does not cause sudden collapse during exercise without warning, and the results would not change the urgent plan."
+        },
+        {
+          "text": "Head-up tilt-table test",
+          "score": 0,
+          "why": "Tilt testing is for suspected reflex syncope. It is not the next step when there are cardiac red flags."
+        },
+        {
+          "text": "Referral to a paediatric neurologist",
+          "score": 0,
+          "why": "The features point to a cardiac cause, not a neurological one."
+        },
+        {
+          "text": "Start propranolol 10 mg twice daily",
+          "score": 0,
+          "why": "Beta blockers treat some inherited arrhythmias, such as long QT syndrome, but only once a cardiologist has made the diagnosis."
+        },
+        {
+          "text": "Urgent paediatric cardiology referral",
+          "score": 1,
+          "why": "Exertional syncope with a family history of sudden death needs urgent paediatric cardiology review, including an echocardiogram, whatever the ECG shows. Exercise testing and rhythm monitoring are arranged there."
+        }
+      ],
+      "keyPoint": "Syncope during exercise, without warning, or with a family history of sudden death is cardiac until proven otherwise: ECG, urgent cardiology review, and no sport until cleared."
+    },
+    {
+      "id": "cr02-c03",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory",
+        "Haematology"
+      ],
+      "subtopic": "Unprovoked pulmonary embolism: duration of anticoagulation",
+      "source": "Therapeutic Guidelines: Cardiovascular (duration of anticoagulant therapy for venous thromboembolism), 2023; ESC Guidelines for the diagnosis and management of acute pulmonary embolism (2019)",
+      "stem": [
+        "Stavros Pappas, 63, a café owner, attends 3 months after he was admitted with a pulmonary embolism. It came on without any surgery, injury, long travel or immobility beforehand, and he has no family history of thrombosis. He has taken apixaban 5 mg twice daily since the first week of treatment and has had no bleeding. He is no longer breathless and is back at work full time.",
+        "In hospital his full blood count, liver and kidney function tests and urinalysis were normal. Since then his history and examination have shown nothing to suggest cancer, and his bowel cancer screening test last year was negative. He takes no other medicines and drinks 4 standard drinks a week. He asks whether he can stop the \"blood thinner\" now.",
+        "His BP is 128/80 mmHg, pulse 70/min and oxygen saturation 98% in room air. His chest and legs are normal. His eGFR is 84 mL/min/1.73 m² and his haemoglobin is 148 g/L."
+      ],
+      "lead": "Which THREE actions are MOST appropriate?",
+      "options": [
+        {
+          "text": "Add aspirin 100 mg daily to apixaban",
+          "score": 0,
+          "why": "Adding aspirin increases bleeding without adding protection against venous thrombosis."
+        },
+        {
+          "text": "Change apixaban to aspirin 100 mg daily",
+          "score": 0,
+          "why": "Aspirin reduces recurrence far less than an anticoagulant. It is an option only for someone who will not take extended anticoagulation."
+        },
+        {
+          "text": "Continue anticoagulation with no planned stop date",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. After an unprovoked PE, the chance of recurrence once anticoagulation stops is about 10% in the first year and about 25% within 5 years, and a recurrence can be fatal. With a low bleeding risk he should continue anticoagulation indefinitely, with yearly review."
+        },
+        {
+          "text": "Measure D-dimer 1 month after stopping apixaban to decide whether to restart",
+          "score": 0,
+          "why": "Often chosen. In men with unprovoked VTE, a negative D-dimer after stopping does not lower the recurrence risk enough to justify stopping, and the strategy leaves him unprotected in the meantime."
+        },
+        {
+          "text": "Plan to reduce apixaban to 2.5 mg twice daily once he has completed 6 months of treatment",
+          "score": 1,
+          "why": "After 6 months, extended low-intensity apixaban (2.5 mg twice daily) prevents recurrence nearly as well as the full dose, with less bleeding."
+        },
+        {
+          "text": "Request CT of the chest, abdomen and pelvis to look for an occult cancer",
+          "score": 0,
+          "why": "Extensive imaging for cancer after unprovoked VTE has not improved survival. History, examination, basic tests and age-appropriate screening are enough."
+        },
+        {
+          "text": "Request inherited thrombophilia testing, including factor V Leiden and protein C and protein S levels",
+          "score": 0,
+          "why": "The common trap. An inherited thrombophilia does not change the plan after an unprovoked PE, which is already indefinite anticoagulation, and some of these assays are unreliable on anticoagulants."
+        },
+        {
+          "text": "Review his bleeding risk, kidney function and haemoglobin at least once a year",
+          "score": 1,
+          "why": "Extended anticoagulation needs at least yearly review of the balance of benefit and bleeding risk, and of kidney and liver function, to keep the drug and dose right."
+        },
+        {
+          "text": "Stop apixaban now that 3 months of treatment is complete",
+          "score": 0,
+          "why": "Three months is enough after a PE provoked by major surgery or trauma, not after an unprovoked PE."
+        },
+        {
+          "text": "Switch to warfarin, target INR 2.0 to 3.0",
+          "score": 0,
+          "why": "Warfarin has no advantage here and needs monitoring. It is preferred in situations such as antiphospholipid syndrome or severe kidney impairment."
+        },
+        {
+          "text": "Wear graduated compression stockings for 2 years",
+          "score": 0,
+          "why": "Stockings do not prevent recurrent PE and are not routinely recommended."
+        }
+      ],
+      "keyPoint": "After an unprovoked PE, anticoagulate indefinitely if the bleeding risk is acceptable, consider apixaban 2.5 mg twice daily after 6 months, and review every year. Thrombophilia screens and CT for cancer add nothing."
+    },
+    {
+      "id": "cr02-c04",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory"
+      ],
+      "subtopic": "Acute severe asthma in an adult",
+      "source": "National Asthma Council Australia: Australian Asthma Handbook (managing acute asthma in adults and adolescents in primary care)",
+      "stem": [
+        "Jessica Moore, 34, a florist, walks into your practice without an appointment. She has asthma and has been more wheezy for 2 days with a cold. Over the past 3 hours she has become very short of breath despite 6 inhalations of her budesonide+formoterol 200/6 microgram inhaler, which she uses as needed as her only asthma medicine. She has had two courses of prednisolone in the past year. She has no allergies and takes no other medicines.",
+        "She is sitting upright, can say only a few words at a time and is using her neck muscles to breathe. She is alert and talking sensibly. Her respiratory rate is 30/min, pulse 122/min, BP 124/82 mmHg, temperature 37.4°C and oxygen saturation 93% in room air. She has widespread expiratory wheeze with good air entry. There is no rash, lip or tongue swelling, or stridor. Your nurse is staying with her and recording her observations."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Adrenaline 0.5 mg intramuscularly",
+          "score": 0,
+          "why": "Adrenaline is for anaphylaxis or cardiac arrest. She has no features of anaphylaxis."
+        },
+        {
+          "text": "Amoxicillin 1 g orally, 8-hourly for 5 days",
+          "score": 0,
+          "why": "A viral trigger is typical and there are no signs of pneumonia. Antibiotics do not help acute asthma."
+        },
+        {
+          "text": "Arrange ambulance transfer to the emergency department",
+          "score": 1,
+          "why": "She has severe acute asthma: she cannot speak in sentences, is using accessory muscles and her saturation is 94% or less. Severe asthma is managed in an acute care setting, with treatment started while the ambulance comes."
+        },
+        {
+          "text": "Chest X-ray to exclude a pneumothorax before arranging transfer",
+          "score": 0,
+          "why": "A chest X-ray is needed only if pneumothorax, pneumonia or another diagnosis is suspected, and must not delay treatment or transfer."
+        },
+        {
+          "text": "Measure peak expiratory flow before giving any bronchodilator",
+          "score": 0,
+          "why": "Often chosen. Forced manoeuvres add little in severe asthma, can worsen bronchospasm and must not delay treatment. Severity is judged clinically and by oximetry."
+        },
+        {
+          "text": "Montelukast 10 mg orally",
+          "score": 0,
+          "why": "Montelukast has no role in acute asthma."
+        },
+        {
+          "text": "Nebulised magnesium sulfate",
+          "score": 0,
+          "why": "Nebulised magnesium is not recommended. Intravenous magnesium is an emergency department option for a poor response to initial treatment."
+        },
+        {
+          "text": "Oxygen 8 L/min through a Hudson mask to keep her saturation above 98%",
+          "score": 0,
+          "why": "The common trap. Oxygen is started only if saturation falls below 92% and is then titrated to 92 to 96%. Over-oxygenation can hide deterioration and cause hypercapnia."
+        },
+        {
+          "text": "Prednisolone 50 mg orally now",
+          "score": 1,
+          "why": "Give a systemic corticosteroid within the first hour (prednisolone 37.5 to 50 mg in adults). It reduces admission and relapse, and because it takes hours to act it should be given early."
+        },
+        {
+          "text": "Promethazine 25 mg orally to settle her anxiety while the ambulance comes",
+          "score": 0,
+          "why": "Sedatives are contraindicated in acute asthma. Her distress comes from her work of breathing and settles with treatment."
+        },
+        {
+          "text": "Salbutamol 12 puffs through a spacer every 20 minutes for the first hour",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. In severe acute asthma give salbutamol (100 micrograms per puff) 12 puffs through a spacer straight away, one at a time with several breaths each, and repeat at least every 20 minutes for the first hour. Use salbutamol, not her budesonide+formoterol, for acute treatment in the practice."
+        }
+      ],
+      "keyPoint": "Severe acute asthma in general practice: salbutamol 12 puffs through a spacer every 20 minutes, oral prednisolone 37.5 to 50 mg, oxygen only if saturation is below 92%, and ambulance transfer."
+    },
+    {
+      "id": "cr02-c05",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Respiratory",
+        "Oncology"
+      ],
+      "subtopic": "Unilateral pleural effusion",
+      "source": "Cancer Australia: Investigating symptoms of lung cancer, a guide for all health professionals (2020); British Thoracic Society Guideline for pleural disease (2023)",
+      "stem": [
+        "Desmond Riley, 74, a retired plumber, has had 6 weeks of increasing breathlessness and a dull ache in the left side of his chest. He has lost 5 kg without trying. He has no fever, productive cough or haemoptysis. He smoked for 40 pack-years and stopped 10 years ago. In the 1970s and 1980s he worked with asbestos lagging and pipe insulation.",
+        "He has hypertension treated with amlodipine 5 mg daily, and no history of heart, liver or kidney disease.",
+        "His temperature is 36.8°C, respiratory rate 20/min, pulse 88/min, BP 134/80 mmHg and oxygen saturation 94% in room air. His JVP is not raised and he has no ankle oedema. The left lower chest is stony dull to percussion, with absent breath sounds up to the mid-zone. He has no finger clubbing or enlarged lymph nodes. A chest X-ray you requested shows a large left pleural effusion with no mediastinal shift; the right lung is clear and the heart size is normal."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Haemoglobin",
+              "131 g/L",
+              "130–180"
+            ],
+            [
+              "White cell count",
+              "8.2 × 10⁹/L",
+              "4.0–11.0"
+            ],
+            [
+              "Platelets",
+              "512 × 10⁹/L",
+              "150–400"
+            ],
+            [
+              "CRP",
+              "14 mg/L",
+              "< 5"
+            ],
+            [
+              "Albumin",
+              "37 g/L",
+              "35–50"
+            ],
+            [
+              "Creatinine",
+              "82 micromol/L",
+              "60–110"
+            ],
+            [
+              "NT-proBNP",
+              "110 ng/L",
+              "< 125"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Amoxicillin+clavulanate 875/125 mg twice daily for 7 days, then repeat the chest X-ray",
+          "score": 0,
+          "why": "He has no fever or other features of infection. Treating a presumed parapneumonic effusion delays the diagnosis of cancer."
+        },
+        {
+          "text": "CT of the chest with intravenous contrast",
+          "score": 1,
+          "why": "Contrast CT, ideally before the fluid is fully drained, shows pleural thickening or nodules, an underlying lung mass and lymph nodes, and guides biopsy."
+        },
+        {
+          "text": "Drain as much fluid as possible today in the practice through an intravenous cannula",
+          "score": 0,
+          "why": "Unsafe. Large-volume drainage without imaging guidance risks pneumothorax, bleeding and re-expansion pulmonary oedema, and he is not in respiratory distress."
+        },
+        {
+          "text": "Frusemide 40 mg daily, with a repeat chest X-ray in 2 weeks",
+          "score": 0,
+          "why": "The common trap. A diuretic trial suits bilateral effusions in typical heart failure. A large effusion on one side, with weight loss, a normal heart size and a normal NT-proBNP, is an exudate until proven otherwise."
+        },
+        {
+          "text": "Low-dose CT through the National Lung Cancer Screening Program",
+          "score": 0,
+          "why": "The program is only for people without symptoms. People with symptoms are investigated, not screened."
+        },
+        {
+          "text": "PET-CT as the first test",
+          "score": 0,
+          "why": "PET-CT is used for staging once a diagnosis is made. It is not the first test and does not reliably tell malignant from inflammatory pleural disease."
+        },
+        {
+          "text": "Repeat the chest X-ray in 6 weeks",
+          "score": 0,
+          "why": "An unsafe delay. A pleural effusion with these risk factors needs urgent investigation and referral."
+        },
+        {
+          "text": "Serum CEA and CA 19-9",
+          "score": 0,
+          "why": "Tumour markers are neither sensitive nor specific here and do not change the pathway."
+        },
+        {
+          "text": "Sputum cytology on three samples",
+          "score": 0,
+          "why": "Low yield without a productive cough, and it does not sample the pleura."
+        },
+        {
+          "text": "Ultrasound-guided diagnostic pleural tap for cytology, biochemistry and culture",
+          "score": 1,
+          "why": "A diagnostic tap under ultrasound guidance is safer and more successful than a blind tap. Send fluid for cytology, protein, LDH, pH, and microscopy and culture. Protein and LDH (with serum levels) separate an exudate from a transudate, cytology diagnoses most malignant effusions, and pH and culture look for infection. A negative cytology does not exclude mesothelioma."
+        },
+        {
+          "text": "Urgent referral to a respiratory physician in a lung cancer multidisciplinary team",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. An unexplained pleural effusion with weight loss, a raised platelet count, a heavy smoking history and asbestos exposure strongly suggests lung cancer or mesothelioma. The pathway is urgent referral, to be seen within 2 weeks, to a specialist linked to a lung cancer multidisciplinary team, by phone if needed to avoid delay."
+        }
+      ],
+      "keyPoint": "A pleural effusion on one side with weight loss, smoking or asbestos exposure is malignant until proven otherwise: contrast CT, an ultrasound-guided diagnostic tap, and urgent referral to a lung cancer team within 2 weeks."
+    }
+  ]
+}
