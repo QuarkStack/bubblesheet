@@ -23,7 +23,8 @@ Bubblesheet is a static quiz app published to GitHub Pages from `main`. Most req
    - Therapeutic Guidelines doses.
    - `exams: ["RACGP"]` for RACGP study.
    - About 2 SBA for every 1 CDP. The app labels these AKT and KFP in its RACGP style.
-5. Save the bank as a new file `bank/<bank-id>.json`. Never edit `index.html`, `assets/` or `.github/` for a question request.
+   - No images unless the user asks. Then follow "Images" in `docs/QUESTION-SCHEMA.md`.
+5. Save the bank as a new file `bank/<bank-id>.json`, and any code-drawn images in `bank/img/`. Never edit `index.html`, `assets/` or `.github/` for a question request.
 6. Run `node scripts/build.mjs --check` and fix every ERROR. Warnings about option order should also be fixed.
 7. Commit to `main` and push. Use a neutral author identity in the clone:
    ```
@@ -39,6 +40,7 @@ Bubblesheet is a static quiz app published to GitHub Pages from `main`. Most req
    - The topics covered.
    - Anything you weren't sure about.
    - The private references file, if there is one, for the user to upload.
+   - The questions the user should check by hand: every question with an image (with the image list from "Images" in `docs/QUESTION-SCHEMA.md`), and any you're unsure about. Give them as IDs separated by commas, ready to paste into **Build a paper**, then **Specific questions**.
 
 ## Never
 

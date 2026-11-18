@@ -180,4 +180,6 @@ Once Claude has the repository, it reads `CLAUDE.md` (the rules for AI assistant
 - For any change in meaning, ask for a new question rather than an edit. Saved answers record option positions, so editing a question's meaning would misalign them.
 - If a question has changed since someone answered it, the app shows "This question has been edited since you answered it".
 
+**A question with an image doesn't appear.** It's held back until its image file is in `bank/img/`, named exactly as the question's `images` entry says (for example `cr02-s04-1.jpg`). Open `bank/img` in the repository, then **Add file**, then **Upload files**. The **Actions** run lists held-back questions as warnings.
+
 **The site didn't update after new questions were added.** Check the **Actions** tab. A red run lists every problem in the new bank, and the live site is untouched.

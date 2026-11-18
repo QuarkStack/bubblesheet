@@ -11,6 +11,7 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const BANK_DIR = path.join(ROOT, 'bank');
+const IMG_DIR = path.join(BANK_DIR, 'img');
 const OUT = path.join(ROOT, '_site');
 const CHECK_ONLY = process.argv.includes('--check');
 
@@ -22,6 +23,58 @@ const err = (where, msg) => errors.push(`${where}: ${msg}`);
 const warn = (where, msg) => warnings.push(`${where}: ${msg}`);
 const isStr = (v) => typeof v === 'string' && v.trim().length > 0;
 const isDate = (v) => typeof v === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(v);
+const isHttps = (v) => typeof v === 'string' && /^https:\/\/[^\s]+$/.test(v);
+
+// ---- images (see "Images" in docs/QUESTION-SCHEMA.md)
+const IMG_EXT = /\.(jpe?g|png|webp|svg)$/i;
+const IMG_MAX = 1024 * 1024, IMG_WARN = 400 * 1024;
+const LICENCE_RE = /^(Original|Public domain|CC0 1\.0|CC BY(-NC)?(-SA|-ND)? (2\.0|2\.5|3\.0|4\.0)( [A-Z]{2,3})?( \(modified\))?)$/;
+const NO_URL_LICENCES = new Set(['Original', 'Public domain']);
+const STOP = new Set('about above after again against along among another around because before being below between both cannot could during every first from further have having into itself might more most never other over same should since some such than that their them then there these they this those through under until upon very were what when where which while with within without would your years'.split(' '));
+const usedImages = new Set();
+const held = new Map(); // question id -> missing image files (held back from the live site)
+const words = (t) => (String(t || '').toLowerCase().match(/[a-z][a-z-]{4,}/g) || []).filter((w) => !STOP.has(w));
+const visibleCredit = (t) => String(t || '').replace(/\[([^\]]*)\]\([^)]*\)/g, '$1');
+
+function checkImages(q, where) {
+  if (q.images === undefined) return;
+  if (!Array.isArray(q.images) || !q.images.length || q.images.length > 4) return err(where, 'images must be an array of 1-4 images');
+  // words of the answer that the stem and lead don't already give away
+  const keyText = q.options.filter((o) => o && (q.format === 'sba' ? o.correct === true : o.score > 0)).map((o) => o.text).join(' ');
+  const given = new Set(words([...(q.stem || []), q.lead].join(' ')));
+  const answer = new Set(words(keyText).filter((w) => !given.has(w)));
+  q.images.forEach((im, i) => {
+    const w = `${where} image ${i + 1}`;
+    if (!im || typeof im !== 'object') return err(w, 'must be an object');
+    const nameRe = new RegExp(`^${q.id}-[1-4]\\.(jpg|jpeg|png|webp|svg)$`);
+    if (!isStr(im.file) || !nameRe.test(im.file)) err(w, `file must be named "${q.id}-${i + 1}" plus .jpg, .png, .webp or .svg (lowercase), and stored in bank/img/`);
+    if (!isStr(im.alt) || im.alt.trim().length < 10 || im.alt.length > 300) err(w, 'alt is required: 10-300 characters describing what the image shows, without naming the diagnosis');
+    if (!isStr(im.credit)) err(w, 'credit is required, worded as the image\'s licence or source asks');
+    else {
+      for (const m of im.credit.matchAll(/\[([^\]]*)\]\(([^)]*)\)/g)) if (!isHttps(m[2])) err(w, `credit link "${m[1]}" must use an https:// address`);
+    }
+    if (!isStr(im.licence) || !LICENCE_RE.test(im.licence)) err(w, 'licence must be one of: Original, Public domain, CC0 1.0, or a CC licence written like "CC BY 4.0", "CC BY-NC-SA 3.0 (modified)" or "CC BY-NC-ND 4.0"');
+    else {
+      if (!NO_URL_LICENCES.has(im.licence) && !isHttps(im.licenceUrl)) err(w, 'licenceUrl (https://) is required for this licence');
+      if (im.licence !== 'Original' && !isHttps(im.source)) err(w, 'source (https://) is required: the page the image came from');
+    }
+    if (im.licenceUrl !== undefined && !isHttps(im.licenceUrl)) err(w, 'licenceUrl must be an https:// address');
+    if (im.source !== undefined && !isHttps(im.source)) err(w, 'source must be an https:// address');
+    if (im.caption !== undefined && !isStr(im.caption)) err(w, 'caption must be a non-empty string (shown after answering)');
+    const shown = [...words(im.alt), ...words(visibleCredit(im.credit))].filter((x) => answer.has(x));
+    if (shown.length) warn(w, `alt or credit text shares "${[...new Set(shown)].join('", "')}" with the answer, which may give it away`);
+    if (isStr(im.file) && IMG_EXT.test(im.file)) {
+      usedImages.add(im.file);
+      const f = path.join(IMG_DIR, im.file);
+      if (!fs.existsSync(f)) { held.set(q.id, [...(held.get(q.id) || []), im.file]); }
+      else {
+        const size = fs.statSync(f).size;
+        if (size > IMG_MAX) err(w, `${im.file} is ${Math.round(size / 1024)} KB; keep images under 1024 KB (about 400 KB is plenty)`);
+        else if (size > IMG_WARN) warn(w, `${im.file} is ${Math.round(size / 1024)} KB; under 400 KB loads faster on phones`);
+      }
+    }
+  });
+}
 
 function checkTable(t, where) {
   if (!t || typeof t !== 'object') return err(where, 'table must be an object');
@@ -54,6 +107,7 @@ function checkQuestion(q, where, seenIds) {
   if (!isStr(q.keyPoint)) err(where, 'keyPoint must be a non-empty string');
   if (q.reviewBy !== undefined && !isDate(q.reviewBy)) err(where, 'reviewBy must be YYYY-MM-DD');
   if (!Array.isArray(q.options)) return err(where, 'options must be an array');
+  checkImages(q, where);
   const texts = new Set();
   q.options.forEach((o, i) => {
     const w = `${where} option ${i + 1}`;
@@ -142,6 +196,14 @@ function copyDir(src, dest) {
 }
 
 const banks = loadBanks();
+if (fs.existsSync(IMG_DIR)) {
+  for (const f of fs.readdirSync(IMG_DIR)) {
+    if (f === 'README.md' || f.startsWith('.')) continue;
+    if (!IMG_EXT.test(f)) warn(`bank/img/${f}`, 'not an image this app can show (.jpg, .png, .webp or .svg)');
+    else if (!usedImages.has(f)) warn(`bank/img/${f}`, 'no question uses this image');
+  }
+}
+for (const [id, files] of held) warn(`question ${id}`, `held back from the live site until ${files.map((f) => 'bank/img/' + f).join(' and ')} ${files.length > 1 ? 'are' : 'is'} uploaded`);
 for (const w of warnings) console.log(`warning  ${w}`);
 if (errors.length) {
   for (const e of errors) console.error(`ERROR    ${e}`);
@@ -149,7 +211,7 @@ if (errors.length) {
   process.exit(1);
 }
 const total = banks.reduce((n, b) => n + b.count, 0);
-console.log(`OK: ${banks.length} bank(s), ${total} question(s), ${warnings.length} warning(s).`);
+console.log(`OK: ${banks.length} bank(s), ${total} question(s)${held.size ? `, ${held.size} held back waiting for an image` : ''}, ${warnings.length} warning(s).`);
 if (CHECK_ONLY) process.exit(0);
 
 fs.rmSync(OUT, { recursive: true, force: true });
@@ -168,7 +230,20 @@ const html = fs.readFileSync(path.join(ROOT, 'index.html'), 'utf8')
   .replace('"assets/styles.css"', `"${stamp('assets/styles.css')}"`);
 fs.writeFileSync(path.join(OUT, 'index.html'), html);
 fs.mkdirSync(path.join(OUT, 'bank'), { recursive: true });
-for (const b of banks) fs.copyFileSync(path.join(BANK_DIR, b.file), path.join(OUT, 'bank', b.file));
-const manifest = { generated: new Date().toISOString(), banks };
+const published = [];
+for (const b of banks) {
+  const src = path.join(BANK_DIR, b.file);
+  const data = JSON.parse(fs.readFileSync(src, 'utf8'));
+  const keep = data.questions.filter((q) => !held.has(q.id));
+  if (keep.length === data.questions.length) fs.copyFileSync(src, path.join(OUT, 'bank', b.file));
+  else if (keep.length) fs.writeFileSync(path.join(OUT, 'bank', b.file), JSON.stringify({ ...data, questions: keep }, null, 2) + '\n');
+  if (!keep.length) continue; // every question is waiting for an image
+  published.push({ ...b, count: keep.length, sba: keep.filter((q) => q.format === 'sba').length, cdp: keep.filter((q) => q.format === 'cdp').length });
+}
+if (usedImages.size) {
+  fs.mkdirSync(path.join(OUT, 'bank', 'img'), { recursive: true });
+  for (const f of usedImages) if (fs.existsSync(path.join(IMG_DIR, f))) fs.copyFileSync(path.join(IMG_DIR, f), path.join(OUT, 'bank', 'img', f));
+}
+const manifest = { generated: new Date().toISOString(), banks: published };
 fs.writeFileSync(path.join(OUT, 'bank', 'manifest.json'), JSON.stringify(manifest, null, 2) + '\n');
 console.log(`Built ${path.relative(ROOT, OUT)}/`);

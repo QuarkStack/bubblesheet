@@ -58,6 +58,8 @@ Timed practice papers in two formats: single best answer (SBA) and clinical deci
   - An explanation for every option.
   - A personal note per question.
   - Underlines are kept, and come back the next time the question appears.
+- **Images:** questions that need one (a rash, an ECG, an X-ray) show it below the stem with its credit. Tap to enlarge. The credit's source and any caption appear after answering.
+- **Specific questions:** in **Build a paper**, switch on **Specific questions** and paste a list of question IDs to sit exactly those, in that order.
 - **Private references:** citations that can't be public, such as course slides or page numbers, live in the private answers repository (`refs/<bank-id>.json`). Signed-in profiles see them after answering, under "Your reference".
 - **Staying up to date:** an app opened from the Home Screen reloads itself when it returns to the screen after more than 72 hours, or when a new version or new questions are found after 30 minutes away. It waits until you're not in the middle of a paper.
 - **Dashboard:** coverage, average score, accuracy by topic, recent papers, notes and flags.

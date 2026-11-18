@@ -6,7 +6,7 @@
 'use strict';
 
 /* =========================================================== CONSTANTS */
-var APP_VERSION = '1.5.1';
+var APP_VERSION = '1.6.0';
 var API = 'https://api.github.com';
 var API_VERSION = '2022-11-28';
 // Paper style changes the names of the two formats only. Questions, scoring and timing are identical.
@@ -31,7 +31,7 @@ var STATUS_FILTERS = [
 ];
 var DEFAULT_BUILDER = {
   style: 'racgp', by: 'time', minutes: 30, share: 50, nSba: 10, nCdp: 5, pace: 'working', mode: 'exam',
-  status: [], topics: [], exams: [], banks: [], staleDays: 30, priority: 'unseen'
+  status: [], topics: [], exams: [], banks: [], staleDays: 30, priority: 'unseen', useIds: false, ids: ''
 };
 
 /* =========================================================== HELPERS */
@@ -832,8 +832,25 @@ function builderLabel(b, counts) {
   if (counts.sba) parts.push(counts.sba + ' ' + fmtName('sba', b.style)); if (counts.cdp) parts.push(counts.cdp + ' ' + fmtName('cdp', b.style));
   return parts.join(' + ') + (bits.length ? ' · ' + bits.join(' · ') : '');
 }
+// "Specific questions": a typed or pasted list of question IDs, used in the order given.
+function parseIdList(text) {
+  var seen = {}, found = [], unknown = [];
+  String(text || '').toLowerCase().split(/[\s,;]+/).forEach(function (id) {
+    if (!id || seen[id]) return; seen[id] = 1;
+    var q = S.qs.get(id); if (q) found.push(q); else unknown.push(id);
+  });
+  return { found: found, unknown: unknown };
+}
 function buildFromBuilder(custom) {
-  var b = custom || S.builder; var want = plannedCounts(b); var list = pool(b);
+  var b = custom || S.builder;
+  if (b.useIds) {
+    var r = parseIdList(b.ids);
+    if (!r.found.length) { toast(r.unknown.length ? 'None of those question IDs are in the bank' : 'Type or paste at least one question ID'); return; }
+    if (r.unknown.length) toast('Not found, so left out: ' + r.unknown.slice(0, 4).join(', ') + (r.unknown.length > 4 ? '…' : ''));
+    createPaper(r.found, b.mode, b.pace, r.found.length === 1 ? 'Question ' + r.found[0].id : r.found.length + ' chosen questions', b.style);
+    return;
+  }
+  var want = plannedCounts(b); var list = pool(b);
   var sba = pickQuestions(list.filter(function (q) { return q.format === 'sba'; }), want.sba, b.priority);
   var cdp = pickQuestions(list.filter(function (q) { return q.format === 'cdp'; }), want.cdp, b.priority);
   if (!sba.length && !cdp.length) { toast('No questions match those choices'); return; }
@@ -888,7 +905,7 @@ function route() {
   else if (name === 'question') v.qid = rest;
   else if (['home', 'build', 'paper', 'history', 'notes', 'prefs', 'welcome', 'device'].indexOf(name) === -1) v = { name: 'home' };
   if (S.firstRun && (v.name === 'home' || v.name === 'device')) v = { name: 'welcome' };
-  S.view = v; S.ui.sheet = null; S.ui.ulPending = null; S.ui.armed = null; S.ui.confirm = null; S.ui.share = null; S.ui.code.msg = null;
+  S.view = v; S.ui.sheet = null; S.ui.ulPending = null; S.ui.armed = null; S.ui.confirm = null; S.ui.share = null; S.ui.code.msg = null; closeZoom();
   if (v.name !== 'prefs') S.ui.focusLink = false;
 }
 
@@ -1132,18 +1149,24 @@ VIEWS.build = function () {
   return topbar('Build a paper', 'home') + '<main class="wrap narrow">' + notice + '<div class="card">' + codeSec +
     '<div class="builder-sec"><span class="eyebrow">Or build a new one</span><h2>Paper style</h2>' + seg('style', Object.keys(STYLES).map(function (k) { return [k, STYLES[k].label]; })) +
       '<p class="hint small muted">' + (b.style === 'racgp' ? 'Questions are labelled AKT and KFP, as in the RACGP papers.' : 'Questions are labelled SBA and CDP.') + ' The questions, timing and marking are the same in both.</p></div>' +
-    '<div class="builder-sec"><h2>Length</h2>' + seg('by', [['time', 'By time'], ['number', 'By number']]) + length +
+    '<div class="builder-sec"><h2>Length</h2>' + (b.useIds ? '<p class="hint small muted">Set by your list of questions.</p>' : seg('by', [['time', 'By time'], ['number', 'By number']]) + length) +
       '<div class="field"><span class="label">Pace</span>' + seg('pace', Object.keys(PACES).map(function (k) { return [k, PACES[k].label]; })) +
       '<span class="hint">' + esc(pace.note) + ': ' + fmtClock(pace.sba) + ' per ' + A + ', ' + fmtClock(pace.cdp) + ' per ' + K + '.</span></div></div>' +
     '<div class="builder-sec"><h2>Mode</h2>' + seg('mode', [['exam', 'Exam'], ['tutor', 'Tutor']]) +
       '<p class="hint small muted">' + (b.mode === 'exam' ? 'Timed. Answers and explanations appear when you finish the paper.' : 'Untimed. Check each answer as you go and see the explanation straight away.') + '</p></div>' +
-    '<div class="builder-sec"><h2>Which questions</h2><p class="small muted">Leave a group empty to include everything. Within a group, any ticked choice counts.</p>' +
+    '<div class="builder-sec"><h2>Which questions</h2>' +
+      '<div class="switch-row"><button class="switch" role="switch" aria-checked="' + !!b.useIds + '" aria-labelledby="idsLbl" data-act="ids-toggle"><span class="switch-knob"></span></button>' +
+      '<span id="idsLbl"><b>Specific questions</b><span class="small muted">Build the paper from a list of question IDs</span></span></div>' +
+      (b.useIds
+        ? '<div class="field"><label for="qids">Question IDs</label><textarea class="input mono ids-input" id="qids" data-input="ids" rows="3" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="rr01-s01, cr02-c03">' + esc(b.ids || '') + '</textarea>' +
+          '<span class="hint">Separate them with commas, spaces or new lines. The paper uses them in this order. A question\u2019s ID is shown after answering it.</span></div></div>'
+        : '<p class="small muted">Leave a group empty to include everything. Within a group, any ticked choice counts.</p>' +
       '<div class="field"><span class="label">Topics</span><div class="chips">' + chipList('topics', S.topics) + '</div></div>' +
       '<div class="field"><span class="label">Based on your answers</span><div class="chips">' + statusChips + '</div>' +
       (b.status.indexOf('stale') !== -1 ? '<div class="row small" style="margin-top:6px"><span>Not seen for at least</span>' + seg('staleDays', [[14, '14 days'], [30, '30 days'], [60, '60 days'], [90, '90 days']]) + '</div>' : '') + '</div>' +
       (S.exams.length > 1 ? '<div class="field"><span class="label">Exam</span><div class="chips">' + chipList('exams', S.exams) + '</div></div>' : '') +
       (S.banks.length > 1 ? '<div class="field"><span class="label">Question banks</span><div class="chips">' + chipList('banks', S.banks, function (x) { return x.title; }) + '</div></div>' : '') +
-      '<div class="field"><span class="label">Choose first</span>' + seg('priority', [['unseen', 'Unseen and wrong'], ['weak', 'Weakest topics'], ['random', 'Random']]) + '</div></div>' +
+      '<div class="field"><span class="label">Choose first</span>' + seg('priority', [['unseen', 'Unseen and wrong'], ['weak', 'Weakest topics'], ['random', 'Random']]) + '</div></div>') +
     '<div class="builder-sec"><div class="summary-box" id="buildSummary">' + builderSummary() + '</div>' +
       '<div class="pop-anchor"><div class="row"><button class="btn btn-ghost btn-sm" data-act="builder-reset">Reset choices</button><button class="btn btn-primary grow" data-act="build-go">Start paper</button></div>' + discardPop('build', '68%') + '</div></div>' +
     '<div class="builder-sec"><p class="tiny muted defs"><b>AKT</b> Applied Knowledge Test: single best answer, one mark each. ' +
@@ -1152,8 +1175,14 @@ VIEWS.build = function () {
     '</div></main>';
 };
 function builderSummary() {
-  var b = S.builder; var want = plannedCounts(b); var list = pool(b);
-  var A = fmtName('sba', b.style), K = fmtName('cdp', b.style);
+  var b = S.builder; var A = fmtName('sba', b.style), K = fmtName('cdp', b.style);
+  if (b.useIds) {
+    var r = parseIdList(b.ids); var s1 = r.found.filter(function (q) { return q.format === 'sba'; }).length, c1 = r.found.length - s1;
+    return '<span class="eyebrow">Your paper</span><b>' + (r.found.length ? s1 + ' ' + A + ' + ' + c1 + ' ' + K + ' · ' + (b.mode === 'exam' ? fmtMins(s1 * PACES[b.pace].sba + c1 * PACES[b.pace].cdp) : 'untimed') : 'No questions yet') + '</b>' +
+      '<span class="small muted">' + (r.found.length ? 'In the order listed.' : 'Type or paste question IDs above.') + '</span>' +
+      (r.unknown.length ? '<span class="small" style="color:var(--bad)">Not found: <span class="mono">' + r.unknown.map(esc).join(', ') + '</span></span>' : '');
+  }
+  var want = plannedCounts(b); var list = pool(b);
   var haveS = list.filter(function (q) { return q.format === 'sba'; }).length, haveC = list.filter(function (q) { return q.format === 'cdp'; }).length;
   var gotS = Math.min(want.sba, haveS), gotC = Math.min(want.cdp, haveC);
   var secs = gotS * PACES[b.pace].sba + gotC * PACES[b.pace].cdp;
@@ -1182,6 +1211,7 @@ function qCard(q, c) {
     '<button class="icon-btn" data-act="flag" aria-pressed="' + isFlagged(q.id) + '" aria-label="' + (isFlagged(q.id) ? 'Unflag question' : 'Flag question') + '" title="Flag to revisit">' + I.flag + '</button></div>';
   if (c.attempt && c.attempt.h && c.attempt.h !== q._hash) h += '<p class="callout warn edited">This question has been edited since you answered it, so your marked choices may not line up.</p>';
   h += '<div class="stem selectable">' + q.stem.map(function (p, i) { return '<p>' + ulHTML('s' + i, p, ul['s' + i]) + '</p>'; }).join('') + '</div>';
+  h += imagesHTML(q, c.revealed);
   (q.tables || []).forEach(function (t, ti) {
     h += '<div class="tbl-wrap selectable"><table class="res">' + (t.caption ? '<caption>' + esc(t.caption) + '</caption>' : '') +
       '<thead><tr>' + t.head.map(function (x) { return '<th scope="col">' + esc(x) + '</th>'; }).join('') + '</tr></thead><tbody>' +
@@ -1218,6 +1248,43 @@ function qCard(q, c) {
   if (c.revealed) h += revealBlock(q, sel, c);
   h += '</article>';
   return h;
+}
+/* ---------- images: files in bank/img/, credit always shown, caption and source after answering ---------- */
+function creditHTML(text) { // plain text, with [link text](https://…) links as the licence asks
+  var out = '', re = /\[([^\]]{1,120})\]\((https:\/\/[^\s)]{1,400})\)/g, last = 0, m;
+  text = String(text || '');
+  while ((m = re.exec(text))) { out += esc(text.slice(last, m.index)) + '<a href="' + esc(m[2]) + '" target="_blank" rel="noopener noreferrer">' + esc(m[1]) + '</a>'; last = re.lastIndex; }
+  return out + esc(text.slice(last));
+}
+function imagesHTML(q, revealed) {
+  if (!Array.isArray(q.images) || !q.images.length) return '';
+  return '<div class="qimgs">' + q.images.map(function (im, i) {
+    if (!im || typeof im.file !== 'string' || !/^[a-z0-9-]+\.(jpe?g|png|webp|svg)$/i.test(im.file)) return '';
+    var src = 'bank/img/' + im.file, lic = esc(im.licence || '');
+    if (im.licenceUrl && /^https:\/\//.test(im.licenceUrl)) lic = '<a href="' + esc(im.licenceUrl) + '" target="_blank" rel="noopener noreferrer">' + lic + '</a>';
+    return '<figure class="qimg"><button type="button" class="qimg-open" data-act="img-zoom" data-src="' + esc(src) + '" data-alt="' + esc(im.alt || '') + '" aria-label="Enlarge image ' + (i + 1) + '">' +
+      '<img src="' + esc(src) + '" alt="' + esc(im.alt || '') + '" loading="lazy" decoding="async"></button>' +
+      '<figcaption><span class="credit">' + (im.credit ? creditHTML(im.credit) : '') + (lic ? ' · ' + lic : '') + '</span>' +
+      (revealed && (im.caption || im.source) ? '<span class="cap">' + (im.caption ? esc(im.caption) : '') + (im.source && /^https:\/\//.test(im.source) ? (im.caption ? ' · ' : '') + '<a href="' + esc(im.source) + '" target="_blank" rel="noopener noreferrer">Image source</a>' : '') + '</span>' : '') +
+      '</figcaption></figure>';
+  }).join('') + '</div>';
+}
+// Full-screen view of an image. It sits outside the page, so the question underneath is untouched.
+function openZoom(src, alt) {
+  closeZoom();
+  var layer = document.createElement('div'); layer.className = 'zoom-layer'; layer.setAttribute('role', 'dialog'); layer.setAttribute('aria-label', 'Enlarged image');
+  layer.innerHTML = '<button type="button" class="icon-btn zoom-x" aria-label="Close">' + I.close + '</button><div class="zoom-scroll"><img alt="' + esc(alt) + '" src="' + esc(src) + '"></div><p class="zoom-hint">Tap the image to see it at full size. Tap outside it to close.</p>';
+  layer.addEventListener('click', function (e) {
+    var img = e.target.closest('.zoom-scroll img');
+    if (img) { layer.classList.toggle('full'); return; }
+    closeZoom();
+  });
+  document.body.appendChild(layer); S.ui.zoom = true; document.body.classList.add('zoom-open');
+  layer.querySelector('.zoom-x').focus();
+}
+function closeZoom() {
+  var l = document.querySelector('.zoom-layer'); if (l) l.remove();
+  if (S.ui.zoom) { S.ui.zoom = false; document.body.classList.remove('zoom-open'); var b = app.querySelector('.qimg-open'); if (b) b.focus({ preventScroll: true }); }
 }
 function revealBlock(q, sel, c) {
   var r = scoreItem(q, sel);
@@ -1577,7 +1644,7 @@ function pasteSetup(srcId) {
 function stepQuestion(d) {
   var v = S.view;
   if (v.name === 'paper') {
-    var p = S.log.current; if (!p || p.paused || S.ui.sheet || S.ui.share || S.ui.tip) return;
+    var p = S.log.current; if (!p || p.paused || S.ui.sheet || S.ui.share || S.ui.tip || S.ui.zoom) return;
     var to = p.idx + d;
     if (to < 0) return;
     if (to >= p.items.length) { toast('Last question. Tap Finish when you’re ready.'); return; }
@@ -1629,6 +1696,8 @@ var ACT = {
     var k = el.getAttribute('data-k'), v = el.getAttribute('data-v'); var arr = S.builder[k]; var i = arr.indexOf(v);
     if (i === -1) arr.push(v); else arr.splice(i, 1); saveBuilder(); rerender();
   },
+  'img-zoom': function (el) { openZoom(el.getAttribute('data-src'), el.getAttribute('data-alt') || ''); },
+  'ids-toggle': function () { S.builder.useIds = !S.builder.useIds; saveBuilder(); rerender(); if (S.builder.useIds) { var t = document.getElementById('qids'); if (t && !t.value) t.focus(); } },
   'builder-reset': function () { S.builder = JSON.parse(JSON.stringify(DEFAULT_BUILDER)); saveBuilder(); rerender(); },
   'build-go': function () { guardNewPaper('build', function () { buildFromBuilder(); }); },
   quick: function (el) {
@@ -1741,6 +1810,7 @@ app.addEventListener('input', function (e) {
     var s = document.getElementById('buildSummary'); if (s) s.innerHTML = builderSummary();
   }
   if (t.getAttribute('data-input') === 'code') S.ui.code.val = t.value;
+  if (t.getAttribute('data-input') === 'ids') { S.builder.ids = t.value.slice(0, 4000); saveBuilder(); var bs = document.getElementById('buildSummary'); if (bs) bs.innerHTML = builderSummary(); }
   if (t.hasAttribute('data-note')) saveNote(t);
 });
 var saveNote = debounce(function (t) {
@@ -1752,12 +1822,13 @@ var saveNote = debounce(function (t) {
 document.addEventListener('selectionchange', onSelection);
 document.addEventListener('keydown', function (e) {
   if (e.key === 'Escape') {
+    if (S.ui.zoom) { closeZoom(); return; }
     if (S.ui.tip) { ACT['tip-close'](); return; }
     if (S.ui.confirm) { S.ui.confirm = null; rerender(); return; }
     if (S.ui.share) { S.ui.share = null; rerender(); return; }
   }
   var tag = (e.target.tagName || '').toLowerCase(); if (tag === 'input' || tag === 'textarea' || e.metaKey || e.ctrlKey || e.altKey) return;
-  if (S.ui.share || S.ui.tip) return;
+  if (S.ui.share || S.ui.tip || S.ui.zoom) return;
   if (S.view.name === 'review' && (e.key === 'ArrowRight' || e.key === 'ArrowLeft')) { stepQuestion(e.key === 'ArrowRight' ? 1 : -1); return; }
   if (S.view.name !== 'paper' || !S.log.current || S.log.current.paused) return;
   if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') { if (!S.ui.sheet) stepQuestion(e.key === 'ArrowRight' ? 1 : -1); }

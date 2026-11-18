@@ -24,6 +24,8 @@ No list or index needs updating: the build finds every `bank/*.json` file.
   - The JSON is valid.
   - No field names an attached file, gives its page or slide numbers, or quotes it (see "Citing attached references").
 - **Private references:** if reference files were attached, give a second code block after the bank: the private references file `refs/<bank-id>.json` (format under "Citing attached references"). The user uploads it to the private answers repository, not to this one.
+- **Images:** only if the user asks for them. Follow "Images" below, and give the image list it describes.
+- **Questions to check:** finish with a list of question IDs the user should check by hand: every question with an image, and any you're unsure about.
 
 ## Rules that protect people's saved answers
 
@@ -70,6 +72,7 @@ No list or index needs updating: the build finds every `bank/*.json` file.
 | `source` | optional | optional | The published guideline or reference that supports the answer, with its year. Shown after answering. Public: never a private file, page number or quote. |
 | `stem` | yes | yes | Array of paragraph strings. |
 | `tables` | optional | optional | `[{ "caption": "optional", "head": ["Test","Result","Reference"], "rows": [["Sodium","134 mmol/L","135–145"]] }]`. Every row has as many cells as `head`. |
+| `images` | optional | optional | Only when the answer depends on seeing an image. 1–4 entries, shown below the stem. See "Images". |
 | `lead` | yes | yes | The question sentence, e.g. "What is the MOST appropriate next step?" For CDP, don't write "Select 3" in the lead; the app adds it. |
 | `options` | 4–12 | 6–20 | In alphabetical order (numeric order where options differ only by a number). Each option is `{ "text": "...", "why": "..." }`. |
 | `options[].correct` | exactly one `true` | – | SBA only. |
@@ -121,6 +124,64 @@ Topics drive the app's filters and the question tracker, which counts each quest
 | Bronchiolitis in a 7-week-old | `["Respiratory", "Paediatrics"]` |
 | Bruising in a non-mobile infant | `["Paediatrics"]` |
 | Acute rheumatic fever in a 17-year-old (RACP bank) | `["Infectious diseases", "Young adult medicine", "Paediatrics"]` |
+
+## Images
+
+Add an image only when the question can't be answered correctly without seeing it, such as a rash, an ECG or an X-ray. No other question has an image. Add images only when the user asks for them.
+
+**Allowed images. Use only these:**
+- **A copy of a published image whose licence allows sharing it in a public repository:** public domain, CC0, or a Creative Commons licence. Non-commercial (NC) licences are allowed, because Bubblesheet is free and non-commercial.
+- **An image drawn by code from real or defined data**, such as an ECG drawn from a recorded waveform, a spirometry loop, a growth chart or a graph of results. If the data come from a published dataset, credit it and use its licence. If you defined the numbers yourself, use `"Original"`.
+
+**Never use:**
+- An AI-generated picture of a patient, lesion, scan or tracing.
+- An image with no licence, or one that doesn't allow sharing.
+- A photo of a patient that isn't already published under an allowed licence.
+
+**Follow the licence and the source's own terms exactly:**
+- Word the `credit` as they ask, with the links they ask for.
+- Keep any watermark.
+- With a "no derivatives" (ND) licence, don't crop, annotate or otherwise edit the image. Resizing and changing the file format are fine.
+- With a "share alike" (SA) licence, nothing extra is needed. Bubblesheet shares the image under the same licence.
+
+**Nothing shown before answering may give the answer away.**
+- The file name, `alt` and the visible text of `credit` must not name or hint at the diagnosis.
+- A link's address may contain it, because only the short link text is shown.
+- Put the diagnosis in `caption`, which appears only after answering.
+
+**Fields** (each entry in `images`):
+
+| Field | Required | Notes |
+|---|---|---|
+| `file` | yes | `<question id>-<n>.<ext>`, such as `cr02-s04-1.jpg`. Allowed types: jpg, png, webp or svg. Stored in `bank/img/`. Under 400 KB is best; the limit is 1 MB. |
+| `alt` | yes | 10–300 characters describing what the image shows, without the diagnosis, such as "Photo of a raised, scaly plaque on an elbow". |
+| `credit` | yes | Shown under the image at all times. Write links as `[link text](https://…)`; they appear as short hyperlinks. |
+| `licence` | yes | One of: `CC BY 4.0`, `CC BY-SA 4.0`, `CC BY-NC 4.0`, `CC BY-NC-SA 4.0`, `CC BY-NC-ND 4.0` (or the 3.0 versions, with a country code such as `NZ` if the licence has one), `CC0 1.0`, `Public domain` or `Original`. Add ` (modified)` when the source says it changed the standard licence terms, such as `CC BY-NC-SA 3.0 (modified)`. |
+| `licenceUrl` | yes, except for `Public domain` and `Original` | The licence's web page. |
+| `source` | yes, except for `Original` | The page the image was taken from. Shown as a link after answering. |
+| `caption` | optional | Shown after answering, such as "Erythema migrans, 6 days after a tick bite". |
+
+```json
+"images": [{
+  "file": "cr02-s04-1.jpg",
+  "alt": "Photo of a round red patch with a paler centre on the back of a thigh",
+  "credit": "Case courtesy of Dr A Smith, [Example Atlas](https://example.org), [case 12345](https://example.org/cases/12345)",
+  "licence": "CC BY-NC-SA 3.0 (modified)",
+  "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "source": "https://example.org/cases/12345",
+  "caption": "Erythema migrans, 6 days after a tick bite"
+}]
+```
+
+**Getting the file in.** An AI usually can't download images. Write the question with its `images` entry, then give the user this image list, one line per image:
+- The question ID.
+- The file name to save it as.
+- The exact page to download it from.
+- What to check: that it shows the finding the question depends on, and that the credit and licence match the page.
+
+The user uploads each file to `bank/img/`. Until a file is there, the build holds that question back from the live site with a warning, so the rest of the bank still publishes. Code-drawn images can be committed directly.
+
+**What the build checks:** the file name and type, the size, the required fields, the licence wording, that links use https, images that no question uses, and a warning when `alt` or `credit` text shares a word with the answer.
 
 ## Minimal examples
 
