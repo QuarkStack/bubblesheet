@@ -1,0 +1,774 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "dermatology-01",
+    "title": "Dermatology, set 1",
+    "description": "RACGP AKT and KFP practice on dermatological presentations: 7 AKT and 3 KFP items, about 21 minutes at working pace. Eight items need the photo: blistering, follicular, scalp, facial, shin and leg presentations, plus melanoma and keratinocyte cancer decisions.",
+    "created": "2026-11-19",
+    "reviewBy": "2027-11-19",
+    "sources": [
+      "Therapeutic Guidelines: Dermatology",
+      "Therapeutic Guidelines (herpes zoster ophthalmicus)",
+      "Cancer Council Australia: Clinical practice guidelines for the diagnosis and management of melanoma",
+      "Royal Children's Hospital Melbourne clinical practice guideline: Eczema",
+      "Turner LM et al. The older patient presenting with itch and a recent medication change. Aust J Gen Pract 2020;49(5)",
+      "Chen AC et al. A phase 3 randomized trial of nicotinamide for skin-cancer chemoprevention. N Engl J Med 2015;373:1618-26",
+      "Allen NC et al. Nicotinamide for skin-cancer chemoprevention in transplant recipients. N Engl J Med 2023",
+      "DermNet: bullous pemphigoid; necrobiosis lipoidica; venous eczema",
+      "Primary Care Dermatology Society: gravitational eczema"
+    ]
+  },
+  "questions": [
+    {
+      "id": "derm01-s01",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology"
+      ],
+      "subtopic": "Bullous pemphigoid: drug trigger",
+      "source": "Australian Journal of General Practice 2020;49(5): drug-induced bullous pemphigoid; DermNet: bullous pemphigoid",
+      "stem": [
+        "Arjun Mehta, 79, a retired engineer, has had generalised itch for 2 months. Over the past week, blisters have appeared on his legs (see image). He feels well and has no soreness of his mouth, eyes or genitals.",
+        "He has type 2 diabetes, hypertension and gout. He takes metformin 1 g twice daily, linagliptin 5 mg daily (started 8 months ago), perindopril 5 mg daily, amlodipine 5 mg daily, atorvastatin 40 mg daily and allopurinol 100 mg daily (started 6 weeks ago after a gout flare). He has taken metformin, perindopril, amlodipine and atorvastatin for more than 5 years. He has not changed soap or laundry products.",
+        "His temperature is 36.8°C. His mouth and conjunctivae are normal, and the skin is not tender."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Haemoglobin",
+              "138 g/L",
+              "130–180"
+            ],
+            [
+              "White cell count",
+              "8.9 × 10⁹/L",
+              "4.0–11.0"
+            ],
+            [
+              "Eosinophils",
+              "1.4 × 10⁹/L",
+              "< 0.5"
+            ],
+            [
+              "ALT",
+              "24 U/L",
+              "< 40"
+            ],
+            [
+              "eGFR",
+              "68 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "HbA1c",
+              "7.1%",
+              "4.0–6.0"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "derm01-s01-1.jpg",
+          "alt": "Photo of blisters on red skin on the inner side of the legs",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/14502)",
+          "licence": "CC BY-NC-ND 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "source": "https://dermnetnz.org/imagedetail/14502-bullous-pemphigoid",
+          "caption": "Tense blisters of bullous pemphigoid on the inner legs"
+        }
+      ],
+      "lead": "Which of his medicines is the MOST likely trigger?",
+      "options": [
+        {
+          "text": "Allopurinol",
+          "why": "Often chosen, because it is the newest drug. Allopurinol is a classic trigger of Stevens-Johnson syndrome, toxic epidermal necrolysis and DRESS, usually within 8 weeks of starting. He is afebrile and well, with no mucosal involvement, skin pain, liver or kidney injury, and the blisters arose on itchy skin. Allopurinol is not an established cause of pemphigoid."
+        },
+        {
+          "text": "Amlodipine",
+          "why": "Calcium channel blockers cause ankle oedema and occasional rashes. Pemphigoid has been reported with antihypertensives, but he has taken amlodipine for years, and the evidence is far weaker than for gliptins."
+        },
+        {
+          "text": "Atorvastatin",
+          "why": "Statins rarely cause skin eruptions, and he has taken this one for more than 5 years."
+        },
+        {
+          "text": "Linagliptin",
+          "correct": true,
+          "why": "Itch for weeks, then tense blisters on a red base in an older adult, with eosinophilia and no mucosal disease, is bullous pemphigoid. Dipeptidyl peptidase-4 inhibitors (gliptins) are the best-established drug trigger, and onset months after starting is typical. Cease the linagliptin and use another diabetes medicine. Confirm the diagnosis with two punch biopsies: the edge of a fresh blister for histology and perilesional skin for direct immunofluorescence. Start a potent topical corticosteroid, and refer to a dermatologist if the disease is widespread, he is unwell, or the mucosa is involved."
+        },
+        {
+          "text": "Metformin",
+          "why": "Metformin causes gastrointestinal upset and vitamin B12 deficiency, not pemphigoid. He has taken it for years."
+        },
+        {
+          "text": "Perindopril",
+          "why": "The common trap. ACE inhibitors are linked to pemphigus (flaccid blisters and erosions, often in the mouth) and to angioedema. Tense blisters after weeks of itch, with normal mucosa, point to pemphigoid, where gliptins have much stronger evidence. He has also taken perindopril for years."
+        }
+      ],
+      "keyPoint": "Itch followed by tense blisters in an older person is bullous pemphigoid until proven otherwise. Look for a gliptin and cease it, confirm with biopsies for histology and direct immunofluorescence, and start a potent topical corticosteroid."
+    },
+    {
+      "id": "derm01-s02",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology"
+      ],
+      "subtopic": "Hidradenitis suppurativa",
+      "source": "Therapeutic Guidelines: Dermatology (hidradenitis suppurativa)",
+      "stem": [
+        "Kylie Brennan, 27, a childcare worker, has had recurrent painful lumps in both armpits for 4 years (see image). New ones come up every few weeks and some discharge. She has had three courses of flucloxacillin in the past year, and each time the lumps came back within a month. A swab last time grew mixed skin flora.",
+        "She smokes 10 cigarettes a day and her BMI is 34 kg/m². She has an etonogestrel implant and takes no other medicines.",
+        "Today she is afebrile. Both armpits look like the image, with three tender nodules and no fluctuant abscess."
+      ],
+      "images": [
+        {
+          "file": "derm01-s02-1.jpg",
+          "alt": "Photo of an armpit with several red lumps and areas of changed skin",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/5111)",
+          "licence": "CC BY-NC-ND 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "source": "https://dermnetnz.org/imagedetail/5111-hidradenitis-suppurativa",
+          "caption": "Hidradenitis suppurativa (Hurley stage II): nodules, sinus tracts and scars in the axilla"
+        }
+      ],
+      "lead": "What is the MOST appropriate treatment now?",
+      "options": [
+        {
+          "text": "Cefalexin 500 mg orally four times daily for 7 days",
+          "why": "Treats the lumps as staphylococcal boils, which they are not. Another short antistaphylococcal course will not change the pattern of recurrence."
+        },
+        {
+          "text": "Clindamycin 1% lotion topically twice daily",
+          "why": "Correct only for mild disease with occasional lesions, with an antiseptic wash. She has frequent recurrent nodules with sinus tracts and scarring (moderate disease), which needs systemic treatment."
+        },
+        {
+          "text": "Doxycycline 100 mg orally once daily for 6 weeks, then review",
+          "correct": true,
+          "why": "Recurrent painful nodules in both axillae with sinus tracts and rope-like scars, relapse after every antibiotic course and swabs growing only skin flora: this is hidradenitis suppurativa (Hurley stage II). Therapeutic Guidelines suggests doxycycline 50 to 100 mg once daily for 6 weeks, then review, while waiting for dermatologist assessment. It is used for its anti-inflammatory effect. Add an antiseptic wash, analgesia, and support to stop smoking and lose weight."
+        },
+        {
+          "text": "Flucloxacillin 500 mg orally four times daily for 14 days",
+          "why": "The common trap. A longer course of the same antibiotic repeats the misdiagnosis. Hidradenitis suppurativa is an inflammatory disease of the follicle, not an infection, which is why her swabs grow only commensals."
+        },
+        {
+          "text": "Incision and drainage of each tender nodule",
+          "why": "Incision and drainage gives short-term relief of a fluctuant abscess only. It does not prevent recurrence, and these nodules are not fluctuant."
+        },
+        {
+          "text": "Isotretinoin 20 mg orally once daily",
+          "why": "Despite the old name \"acne inversa\", isotretinoin works poorly in hidradenitis suppurativa. Oral retinoids are specialist treatments, used only in selected patients."
+        },
+        {
+          "text": "Mupirocin 2% nasal ointment and chlorhexidine body wash for 5 days",
+          "why": "Often chosen. Decolonisation is for recurrent staphylococcal boils in a carrier. Her swabs grew skin flora only and the lesions are confined to apocrine areas with scarring, which fits hidradenitis suppurativa."
+        }
+      ],
+      "keyPoint": "Recurrent \"boils\" in the axillae or groin with sinus tracts and scarring are hidradenitis suppurativa, not infection. Treat moderate disease with a tetracycline for at least 6 weeks and refer to a dermatologist, rather than repeating short antistaphylococcal courses."
+    },
+    {
+      "id": "derm01-s03",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology",
+        "Ophthalmology"
+      ],
+      "subtopic": "Herpes zoster ophthalmicus",
+      "source": "Therapeutic Guidelines (herpes zoster ophthalmicus)",
+      "stem": [
+        "Margaret Doyle, 74, a retired librarian, has had a sore rash on her face for 5 days (see image). New blisters appeared this morning. Her eyes feel normal.",
+        "She has hypertension and osteoarthritis, and takes perindopril 4 mg daily and paracetamol as needed. Her eGFR is 72 mL/min/1.73 m².",
+        "Her visual acuity is 6/9 in each eye with her glasses, the same as at her optometrist last year. Both eyes look white."
+      ],
+      "images": [
+        {
+          "file": "derm01-s03-1.jpg",
+          "alt": "Photo of a rash on the upper part of the face",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/2385)",
+          "licence": "CC BY-NC-ND 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "source": "https://dermnetnz.org/imagedetail/2385-herpes-zoster",
+          "caption": "Herpes zoster in the ophthalmic dermatome"
+        }
+      ],
+      "lead": "What is the MOST appropriate management?",
+      "options": [
+        {
+          "text": "Aciclovir 3% eye ointment five times daily and oral valaciclovir 1 g three times daily for 7 days",
+          "why": "Topical aciclovir has no role in the initial treatment of herpes zoster ophthalmicus. Any eye treatment is decided by the ophthalmologist after slit-lamp examination."
+        },
+        {
+          "text": "No antiviral as the rash began more than 72 hours ago, and ophthalmology review within 24 hours",
+          "why": "Often chosen. The 72-hour window does not apply here. Therapeutic Guidelines advises starting antiviral treatment at any time while new vesicles are still forming, or in older or immunocompromised patients, to reduce the risk of eye complications."
+        },
+        {
+          "text": "Oral valaciclovir 1 g three times daily for 7 days and ophthalmology review only if she develops a red eye or blurred vision",
+          "why": "The common trap. A white eye and normal acuity do not exclude early keratitis or uveitis, which can be painless and may appear weeks later. Therapeutic Guidelines advises consulting an ophthalmologist in every case of herpes zoster ophthalmicus."
+        },
+        {
+          "text": "Oral valaciclovir 1 g three times daily for 7 days and ophthalmology review within 24 hours",
+          "correct": true,
+          "why": "Grouped vesicles and crusts on one side of the forehead and upper face, in the ophthalmic division of the trigeminal nerve, are herpes zoster ophthalmicus. Therapeutic Guidelines: valaciclovir 1 g 8-hourly for 7 days (or famciclovir 500 mg 8-hourly), started even after 72 hours while new vesicles appear or in older patients, and consult an ophthalmologist in all cases. Vesicles on the side or tip of the nose (Hutchinson sign) mean the nasociliary branch is involved and raise the risk of eye disease further."
+        },
+        {
+          "text": "Oral valaciclovir 1 g three times daily for 7 days with oral prednisolone 50 mg daily and ophthalmology review within 24 hours",
+          "why": "Routine systemic corticosteroid is not recommended. It slightly shortens acute pain, does not prevent postherpetic neuralgia, and has more adverse effects in older people."
+        },
+        {
+          "text": "Oral valaciclovir 500 mg twice daily for 3 days and ophthalmology review within 24 hours",
+          "why": "Right plan, wrong dose and duration. This is a recurrent herpes simplex regimen, far too little for zoster."
+        }
+      ],
+      "keyPoint": "Every case of herpes zoster ophthalmicus needs oral antiviral treatment and ophthalmology assessment, even with a white eye and normal vision. The 72-hour cut-off does not apply while new vesicles are forming or in older patients."
+    },
+    {
+      "id": "derm01-s04",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology",
+        "Paediatrics"
+      ],
+      "subtopic": "Tinea capitis",
+      "source": "Therapeutic Guidelines: Dermatology (tinea of the scalp)",
+      "stem": [
+        "Noah Tran, 7, in Year 2 at school, is brought in by his mother, Linh, with a patch of hair loss on his scalp that she noticed 5 weeks ago (see image). It is mildly itchy. He is otherwise well.",
+        "He has no past medical history, takes no medicines and has had no treatment for the scalp. He weighs 23 kg.",
+        "The rest of his skin, nails and general examination are normal."
+      ],
+      "images": [
+        {
+          "file": "derm01-s04-1.jpg",
+          "alt": "Photo of a patch of hair loss on the scalp",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/2115)",
+          "licence": "CC BY-NC-ND 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "source": "https://dermnetnz.org/imagedetail/2115-tinea-capitis",
+          "caption": "Tinea capitis: a scaly patch with short broken hairs"
+        }
+      ],
+      "lead": "What is the MOST appropriate treatment?",
+      "options": [
+        {
+          "text": "Clobetasol propionate 0.05% scalp lotion once daily",
+          "why": "Often chosen. A potent topical corticosteroid suits alopecia areata, which gives smooth patches with exclamation-mark hairs. This patch has scale and broken hairs, and a steroid on tinea makes it worse."
+        },
+        {
+          "text": "Intralesional triamcinolone every 4 to 6 weeks",
+          "why": "A treatment for alopecia areata in adults and older adolescents. Wrong diagnosis, and too painful for a 7-year-old."
+        },
+        {
+          "text": "Ketoconazole 2% shampoo twice weekly as the only treatment",
+          "why": "Antifungal shampoo reduces spore shedding and is a useful addition for the child and household, but on its own it does not reach the infected hair follicles and will not cure tinea capitis."
+        },
+        {
+          "text": "Miconazole 2% cream twice daily for 4 weeks",
+          "why": "The common trap. Topical antifungals are ineffective in tinea capitis, because the fungus is in the hair shaft and follicle."
+        },
+        {
+          "text": "Terbinafine 62.5 mg orally once daily for 4 weeks",
+          "why": "Right drug and duration, wrong dose. 62.5 mg is for children under 20 kg, and Noah weighs 23 kg."
+        },
+        {
+          "text": "Terbinafine 125 mg orally once daily for 4 weeks",
+          "correct": true,
+          "why": "A scaly patch of hair loss with short broken hairs in a child is tinea capitis. Take scrapings and plucked hairs for microscopy and culture, then start oral treatment without waiting for the result. Therapeutic Guidelines: terbinafine 250 mg (child under 20 kg: 62.5 mg; 20 to 40 kg: 125 mg) once daily for 4 weeks, adjusted when culture identifies the species. Check siblings and pets."
+        },
+        {
+          "text": "Terbinafine 250 mg orally once daily for 2 weeks",
+          "why": "The adult dose, for over 40 kg, and too short. Scalp infection needs at least 4 weeks."
+        }
+      ],
+      "keyPoint": "Hair loss with scale and broken hairs in a child is tinea capitis until proven otherwise. It needs oral antifungal treatment at a weight-based dose for at least 4 weeks; topical antifungals and corticosteroids do not work."
+    },
+    {
+      "id": "derm01-s05",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology",
+        "Oncology"
+      ],
+      "subtopic": "Suspected melanoma: the first biopsy",
+      "source": "Therapeutic Guidelines: Dermatology (melanoma); Cancer Council Australia: Clinical practice guidelines for the diagnosis and management of melanoma",
+      "stem": [
+        "Graham Fletcher, 66, a retired builder, comes in because his daughter noticed a spot on his upper back (see image). He cannot see it himself and does not know how long it has been there.",
+        "He has had two basal cell carcinomas removed from his face. He takes rosuvastatin 10 mg daily and no anticoagulant.",
+        "The rest of his skin check shows solar lentigines and seborrhoeic keratoses."
+      ],
+      "images": [
+        {
+          "file": "derm01-s05-1.jpg",
+          "alt": "Photo of a pigmented lesion on the upper back",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/23491)",
+          "licence": "CC BY-NC-ND 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "source": "https://dermnetnz.org/imagedetail/23491-superficial-spreading-melanoma",
+          "caption": "Nodular melanoma arising within a superficial spreading melanoma"
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Cryotherapy",
+          "why": "Destroys the lesion with no tissue for histology. Never use it on a lesion that could be melanoma."
+        },
+        {
+          "text": "Curettage and cautery",
+          "why": "Used for some superficial keratinocyte cancers. It gives fragmented tissue, so the melanoma could be missed and Breslow thickness cannot be measured."
+        },
+        {
+          "text": "Excision biopsy with a 2 mm margin",
+          "correct": true,
+          "why": "An asymmetrical lesion with irregular colour and a raised nodule on an older man's back must be managed as melanoma. Therapeutic Guidelines and the Cancer Council guidelines: excise it completely with a 2 mm lateral margin, as an ellipse into subcutaneous fat, closed directly. The wide excision margin and the sentinel node decision follow the histology."
+        },
+        {
+          "text": "Excision with a 1 cm margin",
+          "why": "The common trap. Definitive margins are chosen from the Breslow thickness, after histology. A wide first excision can disturb lymphatic drainage, making sentinel node biopsy less reliable, and may be the wrong margin."
+        },
+        {
+          "text": "Punch biopsy of the most raised area",
+          "why": "Often chosen. Partial biopsy risks sampling error, a false negative and understaging. It is reserved for large lesions where complete excision is difficult, such as on the face, usually by a specialist."
+        },
+        {
+          "text": "Sequential digital dermoscopy review in 3 months",
+          "why": "Monitoring suits flat, featureless lesions with mild change in people with many naevi. A raised, multicoloured lesion with a nodule needs excision now."
+        },
+        {
+          "text": "Shave biopsy",
+          "why": "A shave can cut through the base of the tumour, so the Breslow thickness, the main prognostic factor, cannot be measured."
+        }
+      ],
+      "keyPoint": "Excise any lesion that could be melanoma completely, with a 2 mm margin. Avoid partial biopsies, destructive treatments and wide margins until the diagnosis and Breslow thickness are known."
+    },
+    {
+      "id": "derm01-s06",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology",
+        "Endocrinology"
+      ],
+      "subtopic": "Necrobiosis lipoidica",
+      "source": "DermNet: necrobiosis lipoidica",
+      "stem": [
+        "Hannah Clarke, 34, a primary school teacher, has had slowly enlarging patches on both shins for 18 months (see image). They do not itch. A minor knock on one of them 2 months ago left a sore that is slow to heal.",
+        "She has no known medical conditions and takes a combined oral contraceptive pill. Her BMI is 31 kg/m² and her blood pressure is 124/78 mmHg.",
+        "The rest of her skin, nails and hair are normal, and she has no other symptoms."
+      ],
+      "images": [
+        {
+          "file": "derm01-s06-1.jpg",
+          "alt": "Photo of patches on the front of the lower legs",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/20382)",
+          "licence": "CC BY-NC-ND 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "source": "https://dermnetnz.org/imagedetail/20382-necrobiosis-lipoidica",
+          "caption": "Necrobiosis lipoidica on the shins"
+        }
+      ],
+      "lead": "Which blood test is MOST likely to identify an associated condition?",
+      "options": [
+        {
+          "text": "Antinuclear antibody",
+          "why": "Morphoea and lupus can cause plaques on the legs, but not waxy yellow plaques with visible vessels. ANA is not useful in morphoea anyway."
+        },
+        {
+          "text": "Fasting lipid profile",
+          "why": "Eruptive xanthomas, from very high triglycerides, are crops of small yellow papules on the buttocks and extensor limbs, not atrophic plaques."
+        },
+        {
+          "text": "Glycated haemoglobin (HbA1c)",
+          "correct": true,
+          "why": "Yellow-brown waxy plaques on the shins with a red-brown edge, central atrophy and visible vessels are necrobiosis lipoidica. It is most common in young and middle-aged women and is strongly associated with diabetes (11 to 65% have diabetes or prediabetes in published series), which it can precede. Test for diabetes, and repeat if normal. Minor trauma causes slow-healing ulcers, so protect the shins and refer to a dermatologist."
+        },
+        {
+          "text": "Hepatitis C antibody",
+          "why": "Hypertrophic lichen planus on the shins is linked to hepatitis C. It is very itchy, thick and violaceous, unlike these painless atrophic plaques."
+        },
+        {
+          "text": "Serum angiotensin-converting enzyme",
+          "why": "Often chosen. Sarcoidosis can cause shin lesions (erythema nodosum, or red-brown plaques), but not yellow atrophic plaques with telangiectasia. ACE is also neither sensitive nor specific."
+        },
+        {
+          "text": "Thyroid function tests",
+          "why": "The common trap. Pretibial myxoedema of Graves disease gives firm, non-pitting, skin-coloured to brown plaques with an orange-peel surface, usually with eye signs. It is thickened, not atrophic."
+        },
+        {
+          "text": "Tissue transglutaminase IgA",
+          "why": "Coeliac serology goes with dermatitis herpetiformis: intensely itchy grouped vesicles on the elbows, knees and buttocks."
+        }
+      ],
+      "keyPoint": "Necrobiosis lipoidica on the shins should prompt testing for diabetes, even in a young adult with no symptoms."
+    },
+    {
+      "id": "derm01-s07",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology",
+        "Oncology"
+      ],
+      "subtopic": "Keratinocyte cancer prevention",
+      "source": "ONTRAC trial: Chen AC et al, N Engl J Med 2015; nicotinamide in transplant recipients: Allen NC et al, N Engl J Med 2023",
+      "stem": [
+        "Brian Kowalski, 72, a retired dairy farmer, attends for his 6-monthly skin check. He has had four squamous cell carcinomas and two basal cell carcinomas excised in the past 3 years, and has many actinic keratoses on his forearms and scalp. Fluorouracil 5% cream to the forearms last year cleared them for a few months.",
+        "He now applies SPF 50+ sunscreen every morning, wears a broad-brimmed hat and avoids the midday sun. He has never had an organ transplant or taken immunosuppressants. His eGFR is 78 mL/min/1.73 m².",
+        "He asks whether a tablet could reduce the number of new skin cancers."
+      ],
+      "lead": "Which oral treatment is MOST appropriate to recommend?",
+      "options": [
+        {
+          "text": "Acitretin 25 mg daily",
+          "why": "Systemic retinoids reduce new squamous cell carcinomas in organ transplant recipients, but they are prescribed by dermatologists, have frequent adverse effects (dry skin and lips, raised lipids, liver toxicity) and the benefit stops when they are ceased. Not the first step for an immunocompetent patient."
+        },
+        {
+          "text": "Beta-carotene 30 mg daily",
+          "why": "The Australian Nambour trial found no reduction in skin cancer with beta-carotene, and in smokers it increases the risk of lung cancer."
+        },
+        {
+          "text": "Celecoxib 200 mg twice daily",
+          "why": "A COX-2 inhibitor trial suggested fewer keratinocyte cancers, but cardiovascular, renal and gastrointestinal risks outweigh the benefit, so it is not recommended."
+        },
+        {
+          "text": "Nicotinamide 500 mg twice daily",
+          "correct": true,
+          "why": "He is immunocompetent with at least two keratinocyte cancers in the past 5 years, the group studied in the Australian ONTRAC trial. Nicotinamide 500 mg twice daily for 12 months reduced new keratinocyte cancers by about 23% and also reduced actinic keratoses, with adverse effects similar to placebo. The benefit is lost when it is stopped, so it is continued while the risk stays high. It adds to, and does not replace, sun protection and skin checks. A later trial in organ transplant recipients showed no benefit."
+        },
+        {
+          "text": "Nicotinic acid (niacin) 500 mg twice daily",
+          "why": "The common trap. Nicotinic acid is a different form of vitamin B3. It causes flushing, headache and low blood pressure, and has no evidence for skin cancer prevention."
+        },
+        {
+          "text": "Selenium 200 micrograms daily",
+          "why": "Selenium supplements did not prevent skin cancer in a large randomised trial, and squamous cell carcinoma was more common in the selenium group."
+        },
+        {
+          "text": "Vitamin D (cholecalciferol) 1000 units daily",
+          "why": "There is no evidence that vitamin D supplements prevent keratinocyte cancer. Correct a deficiency if present, for bone health."
+        }
+      ],
+      "keyPoint": "For immunocompetent people with two or more keratinocyte cancers in 5 years, nicotinamide 500 mg twice daily reduces new cancers. It is nicotinamide, not nicotinic acid, and the benefit stops when it is ceased."
+    },
+    {
+      "id": "derm01-c01",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology",
+        "Paediatrics"
+      ],
+      "subtopic": "Eczema herpeticum",
+      "source": "Therapeutic Guidelines: Dermatology (eczema herpeticum); Royal Children's Hospital Melbourne clinical practice guideline: Eczema",
+      "stem": [
+        "Isla Watson, 3, is brought in by her father, Sam, with a sore rash on her face that started 2 days ago and is spreading (see image). She has atopic dermatitis, usually controlled with emollients and methylprednisolone aceponate 0.1% cream during flares.",
+        "Since yesterday she has been irritable and drinking less. She has passed urine three times in the past 24 hours, less than usual. She weighs 14 kg.",
+        "Her temperature is 38.6°C, heart rate 140/min and capillary refill 2 seconds. Lesions extend onto her left upper eyelid, and the eye itself looks white."
+      ],
+      "images": [
+        {
+          "file": "derm01-c01-1.jpg",
+          "alt": "Photo of the facial rash",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/10153)",
+          "licence": "CC BY-NC-ND 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "source": "https://dermnetnz.org/imagedetail/10153-eczema-herpeticum",
+          "caption": "Eczema herpeticum: clustered, punched-out erosions on eczematous skin"
+        }
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Apply aciclovir 5% cream to the lesions",
+          "score": 0,
+          "why": "Topical aciclovir does not treat a spreading infection and has no role in eczema herpeticum."
+        },
+        {
+          "text": "Arrange same-day hospital assessment for intravenous aciclovir",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Clustered, uniform, punched-out erosions on eczematous skin are eczema herpeticum. Fever, irritability, poor intake and rapid spread make this at least moderate. Therapeutic Guidelines: refer moderate to severe cases to hospital for prompt intravenous aciclovir and assessment for bacterial superinfection. Eyelid involvement adds urgency."
+        },
+        {
+          "text": "Request ophthalmology assessment of the eyelid lesions",
+          "score": 1,
+          "why": "Herpes simplex on the eyelid can spread to the cornea, which may look white early. Periocular eczema herpeticum needs ophthalmology review, usually arranged in hospital, and is a reason for inpatient care."
+        },
+        {
+          "text": "Start bleach baths twice weekly",
+          "score": 0,
+          "why": "Dilute bleach baths reduce staphylococcal flares in chronic eczema. They do not treat herpes simplex, and they sting eroded skin."
+        },
+        {
+          "text": "Start oral flucloxacillin",
+          "score": 0,
+          "why": "The common trap. Treating this as impetiginised eczema delays antiviral treatment. Antibiotics are added only for signs of secondary bacterial infection, which hospital assessment will look for."
+        },
+        {
+          "text": "Start oral prednisolone 1 mg/kg daily",
+          "score": 0,
+          "why": "Systemic corticosteroids can worsen the spread of herpes simplex and have no role here."
+        },
+        {
+          "text": "Start oral valaciclovir at home and review her in 48 hours",
+          "score": 0,
+          "why": "Often chosen. Oral treatment at home suits mild, localised disease in a well child. Isla is febrile, irritable, drinking less and has eyelid lesions."
+        },
+        {
+          "text": "Swab a lesion for herpes simplex PCR",
+          "score": 1,
+          "why": "Confirms the diagnosis. Swab the base of a fresh vesicle or erosion now, but do not wait for the result before treating."
+        },
+        {
+          "text": "Switch to a potent topical corticosteroid on the affected facial skin",
+          "score": 0,
+          "why": "Stepping up the steroid treats the wrong problem and can help the virus spread."
+        }
+      ],
+      "keyPoint": "Clustered, punched-out erosions on eczematous skin are eczema herpeticum. A febrile or unwell child, or any eyelid involvement, needs same-day hospital care for intravenous aciclovir and ophthalmology review. Swab for herpes simplex PCR but do not wait for the result."
+    },
+    {
+      "id": "derm01-c02",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology"
+      ],
+      "subtopic": "Venous eczema mistaken for cellulitis",
+      "source": "DermNet: venous eczema; Primary Care Dermatology Society: gravitational eczema",
+      "stem": [
+        "Dorothy Pearce, 81, a retired school secretary, has had red, itchy lower legs for 6 weeks (see image). Three days ago an after-hours doctor diagnosed bilateral cellulitis and started cefalexin 500 mg four times daily. There has been no change.",
+        "She has varicose veins, hypertension and osteoarthritis. She takes amlodipine 5 mg daily and paracetamol 1 g three times daily. She washes her legs with soap and applies nothing to the skin.",
+        "She is afebrile and feels well. Both lower legs have pitting oedema to mid-calf. The skin is warm, scaly and not tender, with no spreading edge. Foot pulses are present."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "C-reactive protein",
+              "4 mg/L",
+              "< 5"
+            ],
+            [
+              "White cell count",
+              "7.2 × 10⁹/L",
+              "4.0–11.0"
+            ],
+            [
+              "eGFR",
+              "64 mL/min/1.73 m²",
+              "> 90"
+            ]
+          ]
+        }
+      ],
+      "images": [
+        {
+          "file": "derm01-c02-1.jpg",
+          "alt": "Photo of both lower legs",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/7619)",
+          "licence": "CC BY-NC-ND 4.0",
+          "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+          "source": "https://dermnetnz.org/imagedetail/7619-venous-eczema",
+          "caption": "Venous (stasis) eczema of both lower legs"
+        }
+      ],
+      "lead": "Which FOUR actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Admit for intravenous cefazolin",
+          "score": 0,
+          "why": "Often chosen. Bilateral red legs that have not responded to antibiotics point to the wrong diagnosis, not the wrong antibiotic."
+        },
+        {
+          "text": "Apply a topical corticosteroid ointment to the inflamed skin once daily",
+          "score": 1,
+          "why": "A moderate-potency to potent corticosteroid ointment, such as methylprednisolone aceponate 0.1% ointment, for 1 to 2 weeks settles the inflammation and itch. Ointments are less likely than creams to cause contact allergy, which is common in venous eczema."
+        },
+        {
+          "text": "Arrange a duplex ultrasound of both legs to exclude deep vein thrombosis",
+          "score": 0,
+          "why": "Symmetrical change over 6 weeks with varicose veins is venous disease. Bilateral deep vein thrombosis is uncommon and nothing here suggests it."
+        },
+        {
+          "text": "Arrange patch testing",
+          "score": 0,
+          "why": "Correct but premature. Consider it if the eczema fails to settle or flares with a topical product."
+        },
+        {
+          "text": "Cease cefalexin",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. Itchy, scaly, warm but non-tender redness of both lower legs with oedema and varicose veins, in a well, afebrile woman with a normal CRP, is venous (stasis) eczema. Cellulitis is almost always one-sided. Continuing antibiotics adds risk (diarrhoea, Clostridioides difficile, resistance) and no benefit."
+        },
+        {
+          "text": "Change to oral clindamycin",
+          "score": 0,
+          "why": "The common trap. Switching antibiotics repeats the misdiagnosis."
+        },
+        {
+          "text": "Measure the ankle-brachial pressure index",
+          "score": 1,
+          "why": "Compression treats the cause, but measure the ABPI first. An ABPI between 0.8 and 1.3 means compression is safe. Palpable pulses do not exclude arterial disease at 81."
+        },
+        {
+          "text": "Replace soap with a soap-free wash and apply an emollient twice daily",
+          "score": 1,
+          "why": "Soap strips the damaged barrier. A soap substitute and a bland emollient reduce dryness and itch. Choose one with few sensitisers."
+        },
+        {
+          "text": "Start oral prednisolone 25 mg daily",
+          "score": 0,
+          "why": "Not needed. Topical treatment, emollients and compression control venous eczema."
+        },
+        {
+          "text": "Swab the skin for microscopy and culture",
+          "score": 0,
+          "why": "Swabs of intact skin grow colonising bacteria and lead to more unnecessary antibiotics."
+        }
+      ],
+      "keyPoint": "Bilateral red legs in an older person are rarely cellulitis. Venous eczema is itchy, scaly and symmetrical, with oedema. Stop the antibiotic, and treat with soap substitutes, emollients, a topical corticosteroid and compression once the ABPI is known."
+    },
+    {
+      "id": "derm01-c03",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Dermatology",
+        "Oncology"
+      ],
+      "subtopic": "Melanoma: after the histology report",
+      "source": "Cancer Council Australia: Clinical practice guidelines for the diagnosis and management of melanoma; Therapeutic Guidelines: Dermatology (melanoma)",
+      "stem": [
+        "Sophie Nguyen, 45, an accountant, returns to discuss the histology of a pigmented lesion you excised from her left calf, with a 2 mm margin, last week. She is well and takes no regular medicines. Her last full skin check was 3 years ago."
+      ],
+      "tables": [
+        {
+          "caption": "Histology report",
+          "head": [
+            "Feature",
+            "Result"
+          ],
+          "rows": [
+            [
+              "Diagnosis",
+              "Invasive melanoma, superficial spreading type"
+            ],
+            [
+              "Breslow thickness",
+              "1.3 mm"
+            ],
+            [
+              "Ulceration",
+              "Absent"
+            ],
+            [
+              "Mitotic rate",
+              "2 per mm²"
+            ],
+            [
+              "Lymphovascular invasion",
+              "Not identified"
+            ],
+            [
+              "Margins",
+              "Clear: 2 mm peripheral, 1.5 mm deep"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Arrange CT of the chest, abdomen and pelvis",
+          "score": 0,
+          "why": "Routine imaging is not recommended for clinically localised (stage I to II) melanoma. The yield is low and false positives are common."
+        },
+        {
+          "text": "Arrange PET-CT for staging",
+          "score": 0,
+          "why": "Often chosen. The melanoma guidelines advise against PET-CT for initial staging of thin or intermediate-thickness melanoma with no clinical evidence of spread."
+        },
+        {
+          "text": "Book re-excision with a 1 cm margin under local anaesthetic in the practice next week",
+          "score": 0,
+          "why": "Wrong margin and wrong order. For melanoma 1 to 4 mm thick the definitive margin is 1 to 2 cm, and sentinel node biopsy, if chosen, is done at the same operation as the wide excision."
+        },
+        {
+          "text": "Book re-excision with a 2 cm margin under local anaesthetic in the practice next week",
+          "score": 0,
+          "why": "The common trap. The margin is within range, but a wide excision before she has discussed sentinel node biopsy with a melanoma surgeon can alter lymphatic drainage and lose that option."
+        },
+        {
+          "text": "Examine her whole skin surface and regional lymph nodes",
+          "score": 1,
+          "why": "Clinical staging needs a nodal examination (popliteal and inguinal for a calf primary), and a full skin check looks for other primary melanomas."
+        },
+        {
+          "text": "Refer to a medical oncologist for adjuvant immunotherapy",
+          "score": 0,
+          "why": "Premature. Adjuvant treatment is considered after full staging, for stage III and some high-risk stage II disease. A 1.3 mm non-ulcerated melanoma with no nodal disease is stage I."
+        },
+        {
+          "text": "Refer to a melanoma surgeon to discuss sentinel node biopsy with wide excision",
+          "score": 2,
+          "critical": true,
+          "why": "Critical. A melanoma thicker than 1 mm (or thinner with high-risk features) meets the threshold for considering sentinel node biopsy. It gives staging and prognostic information and guides adjuvant treatment, and it is done at the same time as the wide local excision (margin 1 to 2 cm for 1 to 4 mm thickness)."
+        },
+        {
+          "text": "Request BRAF mutation testing of the specimen",
+          "score": 0,
+          "why": "BRAF testing guides targeted treatment in stage III to IV disease. It is not needed now."
+        },
+        {
+          "text": "Request serum lactate dehydrogenase",
+          "score": 0,
+          "why": "LDH is a prognostic marker in stage IV disease and is not part of staging a localised primary."
+        },
+        {
+          "text": "Teach her skin self-examination",
+          "score": 1,
+          "why": "Self-examination is essential: patients find many recurrences and new primaries themselves. She also needs lifelong skin surveillance for new primary melanoma."
+        }
+      ],
+      "keyPoint": "When histology shows melanoma over 1 mm thick, examine the skin and regional nodes, teach skin self-examination and refer to a melanoma surgeon before any re-excision, so sentinel node biopsy can be done with the wide excision. Routine imaging is not needed for stage I to II disease."
+    }
+  ]
+}
