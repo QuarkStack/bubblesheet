@@ -66,6 +66,8 @@ function checkImages(q, where) {
     // a computer shows a link's address on hover, so credit links shouldn't name the answer either
     const answerParts = new Set([...answer].flatMap((x) => x.split('-')).filter((x) => x.length >= 5));
     const inLinks = [...String(im.credit || '').matchAll(/\]\(([^)]*)\)/g)].flatMap((m) => m[1].toLowerCase().split(/[^a-z]+/)).filter((x) => answerParts.has(x));
+    const deep = [...String(im.credit || '').matchAll(/\]\(([^)]*)\)/g)].map((m) => m[1]).filter((u) => { try { const x = new URL(u); return x.pathname.replace(/\/+$/, '') !== '' || x.search || x.hash; } catch (e) { return false; } });
+    if (deep.length) warn(w, `credit links should be a site's home page (${deep.join(', ')}); put the image's own page, copied in full, in source (shown after answering)`);
     if (inLinks.length) warn(w, `a credit link's address contains "${[...new Set(inLinks)].join('", "')}", which shows on hover; link credit to a neutral page and put the image's page in source (shown after answering)`);
     if (isStr(im.file) && IMG_EXT.test(im.file)) {
       usedImages.add(im.file);

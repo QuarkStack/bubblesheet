@@ -146,7 +146,8 @@ Add an image only when the question can't be answered correctly without seeing i
 
 **Nothing shown before answering may give the answer away.**
 - The file name, `alt` and the visible text of `credit` must not name or hint at the diagnosis.
-- Nor may the address of a link in `credit`, because a computer shows it on hover. Link `credit` to neutral pages, such as the site's home page, and put the page the image came from in `source`, which appears as a link only after answering.
+- Nor may the address of a link in `credit`, because a computer shows it on hover. Link `credit` only to a site's home page (such as `https://example.org`), even when the source's terms ask for a link to the image's own page. That link goes in `source`, which appears only after answering, so every requested link is still on screen once the question is answered.
+- Copy `source` exactly as the page's address bar shows it. Never shorten or edit a page address to hide the diagnosis: a shortened address may not open the same page. The build warns when a `credit` link isn't a home page.
 - Put the diagnosis in `caption`, which also appears only after answering.
 
 **Fields** (each entry in `images`):
@@ -182,7 +183,7 @@ Add an image only when the question can't be answered correctly without seeing i
 
 The user uploads each file to `bank/img/`. Until a file is there, the build holds that question back from the live site with a warning, so the rest of the bank still publishes. Code-drawn images can be committed directly.
 
-**What the build checks:** the file name and type, the size, the required fields, the licence wording, that links use https, images that no question uses, and a warning when `alt`, the `credit` text or a `credit` link's address shares a word with the answer.
+**What the build checks:** the file name and type, the size, the required fields, the licence wording, that links use https, images that no question uses, and warnings when `alt`, the `credit` text or a `credit` link's address shares a word with the answer, or when a `credit` link isn't a site's home page.
 
 ## Minimal examples
 
