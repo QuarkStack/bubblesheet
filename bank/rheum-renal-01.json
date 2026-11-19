@@ -674,7 +674,7 @@
         "Renal"
       ],
       "subtopic": "UTI in men",
-      "source": "Therapeutic Guidelines: Antibiotic (urinary tract infections)",
+      "source": "Therapeutic Guidelines: Antibiotic, Acute cystitis in adults (2025)",
       "stem": [
         "Robert Sutherland, 58, presents with 2 days of dysuria, frequency and urgency. He has no fever, rigors, loin or perineal pain, difficulty passing urine or urethral discharge. He is in a long-term monogamous relationship, has had no recent antibiotics or hospital admissions, and takes no regular medicines.",
         "His temperature is 37.1 °C, there is no renal angle tenderness, and on digital rectal examination the prostate is normal-sized and non-tender. You send a midstream urine sample for culture."
@@ -721,7 +721,7 @@
         },
         {
           "text": "Nitrofurantoin 100 mg orally, 6-hourly for 5 days",
-          "why": "The right drug for the female duration. The TG alternative for men is nitrofurantoin for 7 days."
+          "why": "Often chosen. Nitrofurantoin is now the TG first-line drug for cystitis in men, but for 7 days. Five days is the course for non-pregnant women."
         },
         {
           "text": "Trimethoprim 300 mg orally, daily for 3 days",
@@ -730,10 +730,10 @@
         {
           "text": "Trimethoprim 300 mg orally, daily for 7 days",
           "correct": true,
-          "why": "TG first-line empirical therapy for cystitis in men when prostatitis is unlikely. Cystitis in men often reflects a urinary tract abnormality, so review the culture and consider further assessment if it recurs."
+          "why": "The best of these options for cystitis in men when prostatitis is unlikely. Since 2025 TG lists nitrofurantoin 100 mg 6-hourly for 7 days first and trimethoprim second, because more than 20% of E. coli urine isolates are now resistant to trimethoprim, so check the culture result and change only if symptoms aren't improving on a resistant isolate. Cystitis in men often reflects a urinary tract abnormality, so refer to a urologist if symptoms persist after treatment."
         }
       ],
-      "keyPoint": "Male cystitis: trimethoprim 300 mg daily or nitrofurantoin 100 mg 6-hourly, both for 7 days. Think prostatitis if there's fever, obstructive symptoms or a tender prostate."
+      "keyPoint": "Male cystitis: send an MSU, then nitrofurantoin 100 mg 6-hourly (first line) or trimethoprim 300 mg daily, both for 7 days. Think prostatitis if there's fever, obstructive symptoms or a tender prostate, and don't use nitrofurantoin if it's possible."
     },
     {
       "id": "rr01-s10",
