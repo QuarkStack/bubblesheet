@@ -312,6 +312,9 @@ table.res td + td { font-family: var(--mono); font-variant-numeric: tabular-nums
 .w.ul { text-decoration: underline; text-decoration-color: var(--ul); text-decoration-thickness: 3px; text-underline-offset: 4px; text-decoration-skip-ink: none; }
 .q-tools { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-top: 14px; font-size: 13px; color: var(--muted); }
 .reveal { margin-top: 16px; display: grid; gap: 12px; }
+.q-id { margin: 14px 0 0; font-size: 12px; color: var(--muted); text-align: right; }
+.q-id .linkish { font-size: 12px; font-weight: 500; padding: 6px 0 6px 4px; color: var(--muted); }
+.q-id .linkish:hover, .q-id .linkish:focus-visible { color: var(--pen); }
 .score-line { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
 .keypoint { border-left: 4px solid var(--pen); background: var(--pen-soft); border-radius: 0 12px 12px 0; padding: 12px 14px; font-size: 15px; }
 .keypoint b { display: block; font-size: 13px; text-transform: uppercase; letter-spacing: .06em; margin-bottom: 2px; color: var(--pen); }

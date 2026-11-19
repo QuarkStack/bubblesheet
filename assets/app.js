@@ -6,7 +6,7 @@
 'use strict';
 
 /* =========================================================== CONSTANTS */
-var APP_VERSION = '1.6.0';
+var APP_VERSION = '1.6.1';
 var API = 'https://api.github.com';
 var API_VERSION = '2022-11-28';
 // Paper style changes the names of the two formats only. Questions, scoring and timing are identical.
@@ -1159,7 +1159,7 @@ VIEWS.build = function () {
       '<span id="idsLbl"><b>Specific questions</b><span class="small muted">Build the paper from a list of question IDs</span></span></div>' +
       (b.useIds
         ? '<div class="field"><label for="qids">Question IDs</label><textarea class="input mono ids-input" id="qids" data-input="ids" rows="3" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="rr01-s01, cr02-c03">' + esc(b.ids || '') + '</textarea>' +
-          '<span class="hint">Separate them with commas, spaces or new lines. The paper uses them in this order. A question\u2019s ID is shown after answering it.</span></div></div>'
+          '<span class="hint">Separate them with commas, spaces or new lines. The paper uses them in this order. Each question\u2019s ID is in small print at the bottom of the question: tap it to copy.</span></div></div>'
         : '<p class="small muted">Leave a group empty to include everything. Within a group, any ticked choice counts.</p>' +
       '<div class="field"><span class="label">Topics</span><div class="chips">' + chipList('topics', S.topics) + '</div></div>' +
       '<div class="field"><span class="label">Based on your answers</span><div class="chips">' + statusChips + '</div>' +
@@ -1246,6 +1246,7 @@ function qCard(q, c) {
   h += '<div class="q-tools">' + (c.editable ? '<span>Select words, then tap <b>Underline</b>.</span>' + (hasUl ? '<button class="linkish" data-act="ul-clear">Clear underlines</button>' : '') : '') +
     (c.swipe ? '<span class="touch-only">Swipe left or right to change question.</span>' : '') + '</div>';
   if (c.revealed) h += revealBlock(q, sel, c);
+  h += '<p class="q-id">Question ID <button type="button" class="linkish mono" data-act="copy-qid" data-qid="' + esc(q.id) + '" title="Copy this question ID" aria-label="Copy question ID ' + esc(q.id) + '">' + esc(q.id) + '</button></p>';
   h += '</article>';
   return h;
 }
@@ -1300,7 +1301,7 @@ function revealBlock(q, sel, c) {
   var note = S.log.notes[q.id];
   return '<div class="reveal"><div class="score-line">' + line + '</div>' +
     '<div class="keypoint"><b>Key point</b>' + esc(q.keyPoint) + '</div>' +
-    '<p class="meta-line">' + meta.map(esc).join(' · ') + hist + due + ' · <span class="mono">' + esc(q.id) + '</span></p>' + refBlock(q) +
+    '<p class="meta-line">' + meta.map(esc).join(' · ') + hist + due + '</p>' + refBlock(q) +
     '<div class="note-box"><label for="note">My note for this question</label><textarea class="input" id="note" data-note="' + esc(q.id) + '" placeholder="A mnemonic, a reminder, what tripped you up…">' + esc(note && note.text ? note.text : '') + '</textarea><span class="note-status" id="noteStatus">' + (note && note.text ? 'Saved ' + fmtDateTime(new Date(note.at).toISOString()) : '') + '</span></div></div>';
 }
 
@@ -1746,6 +1747,11 @@ var ACT = {
   },
   'ul-apply': applyUnderline,
   'ul-clear': clearUnderlines,
+  'copy-qid': function (el) {
+    var id = el.getAttribute('data-qid');
+    function fallback() { var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); toast('Selected. Use your device’s Copy.'); }
+    try { navigator.clipboard.writeText(id).then(function () { toast('Copied ' + id + '. Paste it into Build a paper, then Specific questions.'); }, fallback); } catch (e) { fallback(); }
+  },
   'retry-wrong': function (el) { var pid = el.getAttribute('data-v'); guardNewPaper('retry', function () { retryWrong(pid); }); },
   'practise-local': function () { saveProfiles(); go('home', true); },
   'paste-setup': function (el) { pasteSetup(el.getAttribute('data-src')); },

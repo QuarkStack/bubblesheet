@@ -381,10 +381,10 @@
         {
           "file": "derm01-s06-1.jpg",
           "alt": "Photo of patches on the front of the lower legs",
-          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/20382)",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org)",
           "licence": "CC BY-NC-ND 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-          "source": "https://dermnetnz.org/imagedetail/20382-necrobiosis-lipoidica",
+          "source": "https://dermnetnz.org/topics/necrobiosis-lipoidica",
           "caption": "Necrobiosis lipoidica on the shins"
         }
       ],
@@ -495,10 +495,10 @@
         {
           "file": "derm01-c01-1.jpg",
           "alt": "Photo of the facial rash",
-          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/10153)",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org)",
           "licence": "CC BY-NC-ND 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-          "source": "https://dermnetnz.org/imagedetail/10153-eczema-herpeticum",
+          "source": "https://dermnetnz.org/images?query=Eczema%20herpeticum",
           "caption": "Eczema herpeticum: clustered, punched-out erosions on eczematous skin"
         }
       ],
@@ -600,10 +600,10 @@
         {
           "file": "derm01-c02-1.jpg",
           "alt": "Photo of both lower legs",
-          "credit": "Image sourced from [DermNet](https://dermnetnz.org/imagedetail/7619)",
+          "credit": "Image sourced from [DermNet](https://dermnetnz.org)",
           "licence": "CC BY-NC-ND 4.0",
           "licenceUrl": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-          "source": "https://dermnetnz.org/imagedetail/7619-venous-eczema",
+          "source": "https://dermnetnz.org/images?query=Venous%20eczema",
           "caption": "Venous (stasis) eczema of both lower legs"
         }
       ],
