@@ -1226,7 +1226,7 @@
         "Renal"
       ],
       "subtopic": "Lupus nephritis",
-      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition; Therapeutic Guidelines: Rheumatology",
+      "source": "Kidney Health Australia, CKD Management in Primary Care, 5th edition (2024); KDIGO Clinical Practice Guideline for the Management of Lupus Nephritis (2024); Therapeutic Guidelines: Rheumatology",
       "stem": [
         "Priya Nair, 29, was diagnosed with SLE 3 years ago (arthritis, malar rash, positive ANA and anti-dsDNA) and has been stable on hydroxychloroquine 200 mg twice daily. She weighs 82 kg. Her urinalysis at review 12 months ago was normal.",
         "She now has 3 weeks of ankle swelling and frothy urine, with mild hand arthralgia. She is sexually active with a male partner and uses condoms inconsistently. Her last menstrual period was 3 weeks ago.",
@@ -1334,7 +1334,7 @@
           "text": "Urgent nephrology referral, discussed by phone today",
           "score": 2,
           "critical": true,
-          "why": "Critical. New nephrotic-range albuminuria with haematuria, new hypertension, oedema, a rising creatinine, low complement and rising dsDNA mean lupus nephritis until proven otherwise. KHA: refer signs of acute nephritis without delay. A biopsy will decide induction therapy."
+          "why": "Critical. New severely increased albuminuria with haematuria, new hypertension, oedema, a rising creatinine, low complement and rising dsDNA mean lupus nephritis until proven otherwise. KHA: refer signs of acute nephritis without delay. A biopsy will decide induction therapy."
         },
         {
           "text": "Urine cytology",

@@ -437,7 +437,7 @@
         "Rachel Kim, 39, a retail manager, takes adjuvant tamoxifen 20 mg daily following breast-conserving surgery and radiotherapy for oestrogen-receptor-positive, HER2-negative invasive ductal carcinoma.",
         "She develops moderate major depressive disorder and troublesome vasomotor hot flushes, and asks for pharmacological therapy."
       ],
-      "lead": "Which antidepressant should be AVOIDED because it reduces the clinical efficacy of tamoxifen?",
+      "lead": "Which antidepressant is MOST likely to reduce the effectiveness of her tamoxifen?",
       "options": [
         {
           "text": "Citalopram",
@@ -454,14 +454,14 @@
         {
           "text": "Paroxetine",
           "correct": true,
-          "why": "Paroxetine is a potent irreversible CYP2D6 inhibitor that blocks hepatic conversion of the prodrug tamoxifen to its active metabolite endoxifen, increasing breast cancer recurrence risk."
+          "why": "Paroxetine is a potent irreversible CYP2D6 inhibitor that blocks hepatic conversion of the prodrug tamoxifen to its active metabolite endoxifen. In a large cohort, longer overlap with tamoxifen was linked to higher breast cancer mortality, and regulators advise avoiding it where possible."
         },
         {
           "text": "Venlafaxine",
           "why": "Venlafaxine is a minimal CYP2D6 inhibitor and is frequently used alongside tamoxifen to treat depression and hot flushes."
         }
       ],
-      "keyPoint": "Potent CYP2D6 inhibitors such as paroxetine and fluoxetine impair bioactivation of tamoxifen to endoxifen and must be avoided in patients receiving tamoxifen."
+      "keyPoint": "Potent CYP2D6 inhibitors such as paroxetine and fluoxetine impair bioactivation of tamoxifen to endoxifen and should be avoided where possible in patients receiving tamoxifen."
     },
     {
       "id": "whya1113-c01",
