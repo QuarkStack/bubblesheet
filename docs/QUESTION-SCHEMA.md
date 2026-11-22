@@ -105,11 +105,11 @@ Topics drive the app's filters and the question tracker, which counts each quest
 - `Young adult medicine`, in RACP banks only, for patients aged 16 to 24.
 - Never more than 3 topics. Never repeat the first topic in other words (for example, no `Obstetric medicine` after `Pregnancy and reproductive health`).
 
-**Topic names.** Use exactly these spellings. Add a name only for an area none of them covers, and tell the user so it can be added to the tracker.
+**Topic names.** Use exactly these spellings. `Musculoskeletal` covers injuries, fractures, sports and overuse problems, back and neck pain, bone disease and childhood hip and limb problems; `Rheumatology` covers inflammatory, crystal and autoimmune joint and connective tissue disease. Add a name only for an area none of them covers, and tell the user so it can be added to the tracker.
 
 | Group | Names |
 |---|---|
-| Body systems and disciplines | `Addiction medicine`, `Cardiology`, `Dermatology`, `Ear, nose and throat`, `Emergency medicine`, `Endocrinology`, `Gastroenterology`, `Genetics`, `Haematology`, `Immunology`, `Infectious diseases`, `Men's health`, `Mental health`, `Neurology`, `Older persons' health`, `Oncology`, `Ophthalmology`, `Palliative care`, `Renal`, `Respiratory`, `Resuscitation`, `Rheumatology` |
+| Body systems and disciplines | `Addiction medicine`, `Cardiology`, `Dermatology`, `Ear, nose and throat`, `Emergency medicine`, `Endocrinology`, `Gastroenterology`, `Genetics`, `Haematology`, `Immunology`, `Infectious diseases`, `Men's health`, `Mental health`, `Musculoskeletal`, `Neurology`, `Older persons' health`, `Oncology`, `Ophthalmology`, `Palliative care`, `Renal`, `Respiratory`, `Resuscitation`, `Rheumatology` |
 | Female-specific and sexual health | `Pregnancy and reproductive health`, `Sexual health`, `Women's health` |
 | Patient group | `Paediatrics`, `Young adult medicine` (RACP banks only) |
 
@@ -121,6 +121,7 @@ Topics drive the app's filters and the question tracker, which counts each quest
 | Cervical screening after a transplant | `["Women's health"]` |
 | Chlamydia in a 20-year-old man | `["Sexual health"]` |
 | Gout in a 60-year-old woman | `["Rheumatology"]` |
+| Slipped upper femoral epiphysis in a 12-year-old | `["Musculoskeletal", "Paediatrics"]` |
 | Bronchiolitis in a 7-week-old | `["Respiratory", "Paediatrics"]` |
 | Bruising in a non-mobile infant | `["Paediatrics"]` |
 | Acute rheumatic fever in a 17-year-old (RACP bank) | `["Infectious diseases", "Young adult medicine", "Paediatrics"]` |
