@@ -1,0 +1,910 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "musculoskeletal-01",
+    "title": "Musculoskeletal, set 1",
+    "description": "RACGP AKT and KFP practice on musculoskeletal presentations: 9 AKT and 4 KFP items, about 28 minutes at full exam time (25 at working pace). Four items need the X-ray (adolescent hip, adult elbow, knee lesion, knee injury). The rest cover osteomalacia, atypical femoral fracture, thumb ligament injury, shoulder dislocation, cervical myelopathy, septic hip, compartment syndrome, Achilles rupture and hip fracture.",
+    "created": "2026-11-22",
+    "reviewBy": "2027-11-22",
+    "sources": [
+      "Royal Children's Hospital Melbourne clinical practice guidelines: Slipped upper femoral epiphysis; Bone and joint infection; The limping or non-weight bearing child",
+      "Cancer Council Australia: Optimal care pathway for people with sarcoma (2020)",
+      "Ridley U, Ridley L. Imaging of the knee: common acute presentations to general practice. Aust J Gen Pract 2020;49(6)",
+      "Strelan V, Crowley R. Doctor, why does my thumb hurt? Aust J Gen Pract 2022;51(7)",
+      "Therapeutic Guidelines: Rheumatology (vitamin D deficiency; osteoporosis; tendinopathy)",
+      "ASBMR Task Force report on atypical subtrochanteric and diaphyseal femoral fractures (2014)",
+      "Fehlings MG et al. Clinical practice guideline for degenerative cervical myelopathy. Global Spine J 2017",
+      "British Orthopaedic Association Standard: compartment syndrome of the extremities (revised 2025)",
+      "Costa ML et al. UKSTAR trial of non-surgical treatment of Achilles tendon rupture. Lancet 2020",
+      "Australian Commission on Safety and Quality in Health Care: Hip Fracture Clinical Care Standard (2023)",
+      "Common forearm fractures in adults. Am Fam Physician 2009"
+    ]
+  },
+  "questions": [
+    {
+      "id": "msk01-s01",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal",
+        "Paediatrics"
+      ],
+      "subtopic": "Slipped upper femoral epiphysis",
+      "source": "Royal Children's Hospital Melbourne clinical practice guidelines: Slipped upper femoral epiphysis (SUFE), emergency department; The limping or non-weight bearing child",
+      "stem": [
+        "Chloe Bennett, 12, in Year 7, is brought by her mother, Rachel, with a limp for 3 weeks. It started after a school cross-country run. She has an ache in the front of her right thigh and knee that is worse after sport. She has had no fever, night pain or weight loss, and is otherwise well.",
+        "She walks with a limp but can bear weight. Her right knee looks normal, with no effusion or tenderness and a full range of movement. Internal rotation and abduction of the right hip are reduced and painful compared with the left. Her weight and height are both on the 60th centile.",
+        "You arrange X-rays of the pelvis. On the anteroposterior view you see no abnormality. The frog-leg lateral view is shown (see image)."
+      ],
+      "images": [
+        {
+          "file": "msk01-s01-1.jpg",
+          "alt": "Frog-leg lateral X-ray of the pelvis showing both hips of an adolescent",
+          "credit": "Case courtesy of Radswiki, [Radiopaedia.org](https://radiopaedia.org), rID: 11938",
+          "licence": "CC BY-NC-SA 3.0 (modified)",
+          "licenceUrl": "https://radiopaedia.org/licence",
+          "source": "https://radiopaedia.org/cases/11938",
+          "caption": "Right slipped upper femoral epiphysis, clear on the frog-leg lateral view. The anteroposterior view looked normal."
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Arrange a hip ultrasound to look for an effusion",
+          "why": "An effusion would suggest transient synovitis or septic arthritis. Neither fits 3 weeks of limp in a well, afebrile child, and the X-ray already shows the problem. Ultrasound only delays the orthopaedic assessment she needs today."
+        },
+        {
+          "text": "Arrange a referral to a paediatric orthopaedic clinic and advise her to avoid running sports until seen",
+          "why": "Common trap: the plan for Perthes disease applied to a slipped epiphysis. The frog-leg view shows the right femoral epiphysis displaced off the metaphysis, a slipped upper femoral epiphysis (SUFE), not the flattened, fragmented femoral head of Perthes disease. A stable slip can become unstable while she keeps walking on it, with a high risk of avascular necrosis, so a clinic appointment weeks away is unsafe."
+        },
+        {
+          "text": "Arrange physiotherapy for patellofemoral pain",
+          "why": "Common trap: knee pain coming from the hip. A normal knee examination with painful, restricted hip rotation points to the hip. Blaming the knee is a well-known cause of delayed diagnosis of SUFE."
+        },
+        {
+          "text": "Check thyroid function and growth hormone levels before referral",
+          "why": "Correct but premature: endocrine causes are looked for in atypical slips (younger than 10, short stature, or both hips at once), and the orthopaedic team arranges this. Tests must not delay the referral."
+        },
+        {
+          "text": "Keep her non-weight bearing and send her to the emergency department today for orthopaedic assessment",
+          "correct": true,
+          "why": "The frog-leg lateral view shows the right capital femoral epiphysis slipped off the femoral neck: a SUFE. She can still walk, so the slip is stable, but every suspected or confirmed SUFE needs urgent orthopaedic assessment, and she must stop bearing weight now (wheelchair or crutches), because the slip can progress. Treatment is surgical fixation. The anteroposterior view can look normal, which is why both views of both hips are ordered in a limping adolescent."
+        },
+        {
+          "text": "Prescribe ibuprofen and review in 1 week if the limp persists",
+          "why": "Unsafe delay: a review plan suits a well child with a short-lived limp and no X-ray abnormality. She has had 3 weeks of symptoms and an abnormal X-ray."
+        },
+        {
+          "text": "Repeat the X-rays in 2 weeks",
+          "why": "Unsafe delay: the diagnosis is already visible. Waiting while she bears weight risks progression to an unstable slip."
+        }
+      ],
+      "keyPoint": "In a limping child aged 10 to 15 with thigh or knee pain and reduced hip internal rotation, order anteroposterior and frog-leg lateral X-rays of both hips, because the anteroposterior view alone can look normal. Suspected or confirmed SUFE means non-weight bearing and same-day orthopaedic assessment, even if the child can walk."
+    },
+    {
+      "id": "msk01-s02",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal"
+      ],
+      "subtopic": "Occult radial head fracture",
+      "source": "Common forearm fractures in adults. Am Fam Physician 2009; Radiopaedia: radial head fracture",
+      "stem": [
+        "Ella Fraser, 30, a dental nurse, fell off her bicycle yesterday and landed on her outstretched left hand. She has pain on the outer side of her left elbow, and it hurts to turn a door handle. She is right-handed and otherwise well.",
+        "There is mild swelling over the lateral elbow and tenderness over the radial head. Elbow extension lacks 20 degrees and flexion reaches 120 degrees. Pronation and supination are painful but full, with no mechanical block. Her wrist, anatomical snuffbox and shoulder are not tender. Sensation and hand power are normal.",
+        "You arrange elbow X-rays. The frontal view shows no fracture. The lateral view is shown (see image)."
+      ],
+      "images": [
+        {
+          "file": "msk01-s02-1.jpg",
+          "alt": "Lateral X-ray of the left elbow of an adult after a fall",
+          "credit": "Case courtesy of Derek Smith, [Radiopaedia.org](https://radiopaedia.org), rID: 47448",
+          "licence": "CC BY-NC-SA 3.0 (modified)",
+          "licenceUrl": "https://radiopaedia.org/licence",
+          "source": "https://radiopaedia.org/cases/47448",
+          "caption": "Elevated anterior fat pad (sail sign) from a joint effusion, with no visible fracture line: an occult radial head fracture. X-rays 6 weeks later showed a minimally displaced radial head fracture."
+        }
+      ],
+      "lead": "What is the MOST appropriate management?",
+      "options": [
+        {
+          "text": "Above-elbow backslab at 90 degrees for 4 weeks",
+          "why": "Common trap: the approach to an occult supracondylar fracture in a child, applied to an adult. Immobilising an adult elbow for weeks causes stiffness and loss of extension without helping an undisplaced radial head fracture heal."
+        },
+        {
+          "text": "Collar and cuff for 6 weeks, then physiotherapy",
+          "why": "Six weeks of immobilisation is far longer than an undisplaced radial head fracture needs and leaves a stiff elbow."
+        },
+        {
+          "text": "CT of the elbow before deciding on treatment",
+          "why": "Not needed: CT helps plan surgery for displaced or comminuted fractures, or when rotation is blocked. With full rotation and no visible fracture, it would not change management."
+        },
+        {
+          "text": "Reassurance that no fracture is seen, with no follow-up",
+          "why": "Common trap: missing the fat pad sign. The bones look intact, but the effusion is the clue to an occult fracture that needs treatment and review."
+        },
+        {
+          "text": "Same-day orthopaedic referral for internal fixation",
+          "why": "Fixation is for displaced fractures, a mechanical block to rotation or associated elbow instability. None is present."
+        },
+        {
+          "text": "Sling for comfort and early active elbow movement",
+          "correct": true,
+          "why": "The lateral view shows a raised anterior fat pad (the sail sign) from a joint effusion, with no visible fracture. After a fall in an adult, an elbow effusion means an occult radial head fracture until proven otherwise, so treat it as an undisplaced fracture: a sling for comfort for a few days, analgesia, and early active movement, which gives a better range than splinting. Review in 1 to 2 weeks, and refer if a block to rotation develops or pain persists."
+        }
+      ],
+      "keyPoint": "After a fall onto the outstretched hand, an elevated anterior fat pad or any visible posterior fat pad on the lateral elbow X-ray means an effusion. In an adult, treat it as an undisplaced radial head fracture: a sling for comfort and early active movement."
+    },
+    {
+      "id": "msk01-s03",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal",
+        "Oncology"
+      ],
+      "subtopic": "Suspected bone sarcoma",
+      "source": "Cancer Council Australia: Optimal care pathway for people with sarcoma (bone and soft tissue sarcoma), 2020",
+      "stem": [
+        "Sienna Morrison, 18, a first-year university student, has had pain around her right knee for 2 months. She first noticed it after a netball game and assumed it was a bruise. The pain now wakes her at night, and over the past 3 weeks the area has become swollen. She has had no fever.",
+        "There is a firm, tender, slightly warm swelling around the right knee. Knee flexion is limited to 100 degrees. She is afebrile and the rest of the examination is normal.",
+        "You arrange X-rays of the right knee (see image). The radiology report is not yet available."
+      ],
+      "images": [
+        {
+          "file": "msk01-s03-1.jpg",
+          "alt": "X-ray of the right knee of a young adult",
+          "credit": "Case courtesy of Paresh K Desai, [Radiopaedia.org](https://radiopaedia.org), rID: 6050",
+          "licence": "CC BY-NC-SA 3.0 (modified)",
+          "licenceUrl": "https://radiopaedia.org/licence",
+          "source": "https://radiopaedia.org/cases/6050",
+          "caption": "Osteosarcoma: an aggressive bone-forming lesion with a sunburst periosteal reaction and a large soft tissue mass"
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Arrange MRI of the knee and review her with the result",
+          "why": "Unsafe delay: MRI of the whole bone is part of staging, but the sarcoma team should plan it alongside the biopsy. Waiting to review the result adds weeks to a time-critical referral."
+        },
+        {
+          "text": "Arrange ultrasound-guided core biopsy at a local radiology practice",
+          "why": "Common trap: biopsy before referral. A biopsy track in the wrong place contaminates tissue that must then be removed with the tumour, and can cost the patient a limb-sparing operation. The biopsy is planned and done by, or with, the specialist sarcoma team."
+        },
+        {
+          "text": "Aspirate the swelling to look for a haematoma",
+          "why": "Unsafe: needling a suspected bone sarcoma risks seeding tumour along the needle track, and the X-ray does not show a haematoma."
+        },
+        {
+          "text": "Check alkaline phosphatase and LDH, and refer if they are raised",
+          "why": "Common trap: these markers may be raised in osteosarcoma but are often normal. A normal result must not delay referral of an aggressive bone lesion."
+        },
+        {
+          "text": "Physiotherapy and naproxen, with review in 4 weeks",
+          "why": "Unsafe delay: the plan for a soft tissue injury. Night pain and a growing swelling around the knee in a young person are red flags, and the X-ray shows an aggressive lesion."
+        },
+        {
+          "text": "Refer to the next available general orthopaedic outpatient clinic",
+          "why": "Wrong urgency and wrong service: suspected bone sarcoma should reach a specialist sarcoma team within 2 weeks, not wait for a routine appointment in a non-specialist unit."
+        },
+        {
+          "text": "Refer urgently to a specialist sarcoma service",
+          "correct": true,
+          "why": "The X-ray shows an aggressive bone lesion: ill-defined, bone-forming, with a sunburst periosteal reaction and a soft tissue mass, typical of osteosarcoma. Night pain and swelling around the knee in an adolescent or young adult are its classic presentation, often first blamed on sport. The Australian optimal care pathway asks for every suspected sarcoma to be referred to a specialist sarcoma multidisciplinary team within 2 weeks and before biopsy. Phone the team to expedite."
+        },
+        {
+          "text": "Request a whole-body bone scan to look for other lesions",
+          "why": "Correct but premature: staging (chest CT, bone scan or PET) is arranged by the sarcoma team after referral."
+        }
+      ],
+      "keyPoint": "A young person with persistent night pain or swelling around the knee needs an X-ray. If it shows an aggressive bone lesion, refer urgently to a specialist sarcoma service, within 2 weeks and before any biopsy."
+    },
+    {
+      "id": "msk01-s04",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal"
+      ],
+      "subtopic": "Lipohaemarthrosis after knee injury",
+      "source": "Ridley U, Ridley L. Imaging of the knee: common acute presentations to general practice. Aust J Gen Pract 2020;49(6)",
+      "stem": [
+        "Luke Harrington, 40, a removalist, twisted his left knee and fell when he missed the bottom of a truck ramp this morning. The knee swelled within an hour. He could not take four steps at the scene and has come in on crutches.",
+        "There is a large, tense effusion, and he is tender all around the knee. Flexion is limited to 40 degrees by pain, and the ligaments cannot be assessed. He can just lift his straight leg off the couch. The patella is central and not tender. The foot is warm, with normal pulses and sensation.",
+        "You arrange X-rays. The frontal view shows no definite fracture. The horizontal-beam lateral view is shown (see image)."
+      ],
+      "images": [
+        {
+          "file": "msk01-s04-1.jpg",
+          "alt": "Horizontal-beam lateral X-ray of an adult knee after an injury",
+          "credit": "Case courtesy of Andrew Dixon, [Radiopaedia.org](https://radiopaedia.org), rID: 36602",
+          "licence": "CC BY-NC-SA 3.0 (modified)",
+          "licenceUrl": "https://radiopaedia.org/licence",
+          "source": "https://radiopaedia.org/cases/knee-lipohaemarthrosis-due-to-tibial-plateau-fracture",
+          "caption": "Lipohaemarthrosis: fat floating on blood in the suprapatellar pouch. CT showed a depressed fracture of the lateral tibial plateau."
+        }
+      ],
+      "lead": "What is the MOST likely diagnosis?",
+      "options": [
+        {
+          "text": "Anterior cruciate ligament rupture",
+          "why": "Common trap: a rapid haemarthrosis after a twisting injury is most often an ACL tear. But blood alone forms a uniform effusion. A layer of fat floating on the blood means bone marrow is leaking into the joint through a fracture."
+        },
+        {
+          "text": "Bucket-handle tear of the medial meniscus",
+          "why": "Meniscal tears cause locking and an effusion that usually builds over hours, without fat in the joint."
+        },
+        {
+          "text": "Medial collateral ligament sprain",
+          "why": "An isolated MCL sprain is extra-articular and causes little effusion."
+        },
+        {
+          "text": "Posterior cruciate ligament rupture",
+          "why": "Usually follows a blow to the front of the flexed knee or hyperextension, often with modest swelling. It does not put marrow fat into the joint."
+        },
+        {
+          "text": "Prepatellar bursitis",
+          "why": "Causes swelling in front of the patella, not a joint effusion, and does not follow a twisting fall."
+        },
+        {
+          "text": "Quadriceps tendon rupture",
+          "why": "He can lift his straight leg, so the extensor mechanism is intact."
+        },
+        {
+          "text": "Tibial plateau fracture",
+          "correct": true,
+          "why": "The horizontal-beam lateral view shows a fat-fluid level in the suprapatellar pouch: a lipohaemarthrosis. Marrow fat has entered the joint, a specific sign of an intra-articular fracture even when no fracture line is visible. After a twisting fall in an adult, the tibial plateau is the usual site, and plateau fractures are often subtle on plain films. Keep him non-weight bearing, arrange CT to show and characterise the fracture, and refer to orthopaedics."
+        }
+      ],
+      "keyPoint": "A fat-fluid level on a horizontal-beam lateral knee X-ray (lipohaemarthrosis) means an intra-articular fracture, most often of the tibial plateau, even if no fracture line is visible. CT is the next test."
+    },
+    {
+      "id": "msk01-s05",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal",
+        "Endocrinology"
+      ],
+      "subtopic": "Osteomalacia",
+      "source": "Therapeutic Guidelines: Rheumatology (vitamin D deficiency); Nowson CA et al. Vitamin D and health in adults in Australia and New Zealand: a position statement. Med J Aust 2012",
+      "stem": [
+        "Shabnam Rahimi, 34, arrived in Australia from Afghanistan 18 months ago. She has had 8 months of aching in her hips, thighs, ribs and lower back, and now struggles to climb stairs and to get up from a low chair. She works night shifts in a bakery and usually wears clothing that covers her arms and legs. Her youngest child is 10 months old and breastfed. She takes no medicines.",
+        "She has a waddling gait. Hip flexion and abduction power is 4/5 on both sides, with normal distal power and reflexes. Her ribs and shins are tender when pressed. There is no joint swelling."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Corrected calcium",
+              "2.13 mmol/L",
+              "2.10–2.60"
+            ],
+            [
+              "Phosphate",
+              "0.62 mmol/L",
+              "0.75–1.50"
+            ],
+            [
+              "Alkaline phosphatase",
+              "284 U/L",
+              "30–110"
+            ],
+            [
+              "GGT",
+              "18 U/L",
+              "< 40"
+            ],
+            [
+              "Parathyroid hormone",
+              "16.8 pmol/L",
+              "1.6–6.9"
+            ],
+            [
+              "25-hydroxyvitamin D",
+              "11 nmol/L",
+              "≥ 50"
+            ],
+            [
+              "eGFR",
+              "> 90 mL/min/1.73 m²",
+              "> 90"
+            ],
+            [
+              "Creatine kinase",
+              "110 U/L",
+              "< 170"
+            ],
+            [
+              "ESR",
+              "12 mm/h",
+              "< 20"
+            ],
+            [
+              "TSH",
+              "1.6 mU/L",
+              "0.4–4.0"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST likely diagnosis?",
+      "options": [
+        {
+          "text": "Fibromyalgia",
+          "why": "Widespread pain and tenderness fit, but fibromyalgia does not cause objective proximal weakness, bone tenderness or abnormal bone biochemistry."
+        },
+        {
+          "text": "Hypothyroid myopathy",
+          "why": "Can cause proximal weakness, but her TSH is normal."
+        },
+        {
+          "text": "Inflammatory myositis",
+          "why": "Proximal weakness fits, but creatine kinase and ESR are normal, and bone pain is not a feature."
+        },
+        {
+          "text": "Metastatic bone disease",
+          "why": "Bone pain with a raised alkaline phosphatase raises this concern in older adults. At 34, with low phosphate, low-normal calcium, raised PTH and a very low vitamin D, the pattern is a mineralisation defect, not malignancy."
+        },
+        {
+          "text": "Osteomalacia",
+          "correct": true,
+          "why": "Bone pain and tenderness with proximal myopathy and a waddling gait, plus a very low 25-hydroxyvitamin D, raised alkaline phosphatase, low phosphate, low-normal calcium and secondary hyperparathyroidism, is osteomalacia from vitamin D deficiency. Her risks are little sun exposure (covering clothing, night work) and lactation. Therapeutic Guidelines: for moderate to severe deficiency, colecalciferol 3000 to 5000 units daily for 6 to 12 weeks, then 1000 to 2000 units daily, with adequate calcium intake. Her breastfed baby is also at risk of vitamin D deficiency."
+        },
+        {
+          "text": "Paget disease of bone",
+          "why": "Raises alkaline phosphatase, but calcium, phosphate and PTH are usually normal, it rarely presents before 50, and it does not cause proximal weakness."
+        },
+        {
+          "text": "Primary hyperparathyroidism",
+          "why": "Common trap: a raised PTH with low phosphate also fits primary hyperparathyroidism, but there the calcium is high or high-normal. Here the calcium is low-normal and vitamin D is very low, so the PTH is a secondary response to vitamin D deficiency."
+        },
+        {
+          "text": "X-linked hypophosphataemia",
+          "why": "Causes low phosphate and osteomalacia, but it is inherited, usually with rickets and short stature from childhood, and vitamin D levels are normal."
+        }
+      ],
+      "keyPoint": "Bone pain, proximal weakness and a waddling gait with low vitamin D, raised alkaline phosphatase, low phosphate, low-normal calcium and raised PTH is osteomalacia. Calcium separates it from primary hyperparathyroidism: low-normal in osteomalacia, high in primary hyperparathyroidism."
+    },
+    {
+      "id": "msk01-s06",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal"
+      ],
+      "subtopic": "Atypical femoral fracture",
+      "source": "ASBMR Task Force report on atypical subtrochanteric and diaphyseal femoral fractures (2014); Therapeutic Guidelines: Rheumatology (osteoporosis)",
+      "stem": [
+        "Patricia Nolan, 72, a retired bank officer, has had a dull ache in her right thigh for 6 weeks. It is worse when she walks and eases with rest. In the past week she has noticed a milder ache in the left thigh too. She has not fallen or injured herself.",
+        "She has taken alendronate 70 mg weekly for 9 years, started after a wrist fracture at 63. She also takes candesartan 16 mg daily and atorvastatin 40 mg daily, both unchanged for 6 years.",
+        "She walks with a slight limp. Both hips have a full, painless range of movement, and the greater trochanters are not tender. There is mild tenderness over the outer right thigh, below the hip. Straight leg raise is negative, and power, reflexes and sensation in the legs are normal."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Bone scan",
+          "why": "Correct but premature: a bone scan or MRI is the next step if X-rays are normal and suspicion remains, but plain films come first."
+        },
+        {
+          "text": "Cease alendronate and start denosumab",
+          "why": "Common trap: stopping the bisphosphonate is right if an atypical fracture is found, but the fracture has to be looked for first, and denosumab has also been linked to atypical femoral fractures."
+        },
+        {
+          "text": "DXA scan",
+          "why": "Bone density does not show a stress fracture and will not explain the pain."
+        },
+        {
+          "text": "MRI of the lumbar spine",
+          "why": "Upper lumbar radiculopathy can refer pain to the thigh, but her straight leg raise and neurological examination are normal, and weight-bearing pain in both thighs on long-term alendronate points to the femurs."
+        },
+        {
+          "text": "Serum creatine kinase",
+          "why": "Statin muscle symptoms are usually symmetrical aching not tied to weight bearing. Her dose has been stable for 6 years and her power is normal."
+        },
+        {
+          "text": "Ultrasound of the right greater trochanteric region",
+          "why": "Common trap: greater trochanteric pain syndrome is common at this age, but her trochanters are not tender and the pain is in the thigh on weight bearing."
+        },
+        {
+          "text": "X-ray of both femurs, full length",
+          "correct": true,
+          "why": "Thigh or groin pain on weight bearing in someone taking a bisphosphonate long term is an atypical femoral fracture until proven otherwise. These are stress fractures of the lateral cortex in the subtrochanteric region or shaft. Most are preceded by weeks of prodromal pain, and they can be bilateral. Image both femurs along their full length. If an incomplete fracture is seen, stop the alendronate, limit weight bearing and refer urgently to orthopaedics, as prophylactic fixation may prevent a complete fracture. If X-rays are normal and suspicion remains, arrange MRI or a bone scan."
+        },
+        {
+          "text": "X-ray of the right hip and pelvis",
+          "why": "Common trap: hip and pelvis films may miss the femoral shaft, where most atypical fractures occur, and ignore the other leg."
+        }
+      ],
+      "keyPoint": "New thigh or groin pain in a person on long-term bisphosphonate (or denosumab) needs full-length X-rays of both femurs to look for an atypical femoral fracture. If one is found, stop the antiresorptive and refer urgently to orthopaedics."
+    },
+    {
+      "id": "msk01-s07",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal"
+      ],
+      "subtopic": "Thumb ulnar collateral ligament injury",
+      "source": "Strelan V, Crowley R. Doctor, why does my thumb hurt? Aust J Gen Pract 2022;51(7)",
+      "stem": [
+        "Tom Gallagher, 38, an IT project manager, fell while skiing at Mount Hotham 2 days ago, with his ski pole strap around his right hand. He has pain at the base of his right thumb, on the side next to the index finger, and cannot grip a jar lid or turn a key. He is right-handed.",
+        "There is swelling and bruising over the ulnar side of the thumb metacarpophalangeal (MCP) joint, with a tender, firm lump there. X-rays show no fracture.",
+        "With the MCP joint in 30 degrees of flexion, a radial stress opens the joint 45 degrees with no firm end point. The left thumb opens 10 degrees with a firm end point."
+      ],
+      "lead": "What is the MOST appropriate management?",
+      "options": [
+        {
+          "text": "Buddy strap the thumb to the index finger and review in 2 weeks",
+          "why": "Buddy strapping does not protect the ulnar collateral ligament, and a complete tear needs a surgical opinion now."
+        },
+        {
+          "text": "Custom thumb orthosis worn full time for 6 weeks, then supervised weaning",
+          "why": "Common trap: the plan for a partial (grade 2) tear applied to a complete tear. Partial tears heal in a splint. A complete tear with the adductor aponeurosis caught between the torn ligament and its insertion (a Stener lesion) cannot heal, whatever the splint."
+        },
+        {
+          "text": "Early active movement with simple analgesia",
+          "why": "Suits a minor sprain with a firm end point. Here the ligament is torn and the joint unstable."
+        },
+        {
+          "text": "Injection of corticosteroid into the ulnar side of the MCP joint",
+          "why": "Has no role in an acute ligament tear and may weaken healing tissue."
+        },
+        {
+          "text": "Repeat X-rays with stress views in 2 weeks",
+          "why": "Unsafe delay: the clinical test has already shown a complete tear, and stress films add nothing."
+        },
+        {
+          "text": "Thumb splint and referral to a hand surgeon",
+          "correct": true,
+          "why": "This is skier's thumb, a tear of the ulnar collateral ligament of the thumb MCP joint. Laxity of more than 30 degrees, or 15 degrees more than the other thumb, with no end point in 30 degrees of flexion is a complete (grade 3) tear. A palpable lump on the ulnar side of the joint suggests a Stener lesion: the torn ligament lies outside the adductor aponeurosis and will not heal without surgery. Splint the thumb and refer to a hand surgeon, who may confirm the lesion with ultrasound or MRI. Untreated, the thumb is left with a weak, unstable pinch."
+        }
+      ],
+      "keyPoint": "After a fall onto an abducted thumb, test the ulnar collateral ligament in 30 degrees of MCP flexion once X-rays exclude a fracture. Laxity over 30 degrees (or 15 degrees more than the other side) with no end point is a complete tear, often with a Stener lesion, and needs a hand surgeon."
+    },
+    {
+      "id": "msk01-s08",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal"
+      ],
+      "subtopic": "Rotator cuff tear after shoulder dislocation",
+      "source": "Rotator cuff tears after anterior shoulder dislocation. Curr Rev Musculoskelet Med 2025",
+      "stem": [
+        "Glenys Porter, 66, a retired travel agent, fell onto her outstretched right arm while gardening 3 weeks ago. An anterior shoulder dislocation was reduced in the emergency department, and X-rays after reduction showed a normal joint with no fracture. She wore a sling for a week.",
+        "She still cannot lift her arm away from her side, and the shoulder aches at night. She is right-handed.",
+        "She cannot actively abduct the arm beyond 30 degrees, and when you raise it to 90 degrees and let go, it drops. Passive abduction and forward flexion are almost full. Resisted external rotation is weak, and when you place the arm in external rotation and let go, it drifts back towards her abdomen. The deltoid contracts visibly when she tries to abduct. Sensation over the outer upper arm is normal. Neck movements are full and painless, and the rest of the neurological examination of the arm is normal."
+      ],
+      "lead": "What is the MOST likely cause of her weakness?",
+      "options": [
+        {
+          "text": "Adhesive capsulitis",
+          "why": "Causes loss of both active and passive movement, especially external rotation. Her passive range is almost full."
+        },
+        {
+          "text": "Anterior labral (Bankart) tear",
+          "why": "Bankart tears are common after anterior dislocation, especially in younger people, but they cause instability and apprehension, not an inability to lift the arm with a drop arm sign and an external rotation lag."
+        },
+        {
+          "text": "Axillary nerve injury",
+          "why": "Common trap: the classic nerve injury of anterior dislocation and the usual explanation offered for weakness afterwards. But the deltoid contracts and sensation over the regimental badge area (outer upper arm) is normal. Blaming the nerve is a common reason a cuff tear is missed."
+        },
+        {
+          "text": "Brachial plexus injury",
+          "why": "Would usually cause weakness and numbness beyond the shoulder. The rest of the arm is normal."
+        },
+        {
+          "text": "C5 radiculopathy",
+          "why": "Neck movements are normal, there is no radicular pain, and the weakness began with the dislocation."
+        },
+        {
+          "text": "Recurrent anterior dislocation",
+          "why": "There is no deformity, and passive movement is almost full."
+        },
+        {
+          "text": "Rotator cuff tear",
+          "correct": true,
+          "why": "After 40, a first anterior dislocation often tears the rotator cuff, in at least a third of patients and more with age. A drop arm sign, weak external rotation with an external rotation lag, and preserved passive movement point to a supraspinatus and infraspinatus tear. Arrange ultrasound (or MRI) and refer early to a shoulder surgeon, because repair is more successful before the tendon retracts and the muscle wastes."
+        },
+        {
+          "text": "Suprascapular nerve injury",
+          "why": "Can weaken supraspinatus and infraspinatus after trauma, but it is far less common than a cuff tear at this age, and the cuff should be imaged first."
+        }
+      ],
+      "keyPoint": "Persistent weakness after a shoulder dislocation in someone over 40 is a rotator cuff tear until proven otherwise. Check deltoid contraction and regimental badge sensation to exclude axillary nerve injury, then image the cuff and refer early."
+    },
+    {
+      "id": "msk01-s09",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal",
+        "Neurology"
+      ],
+      "subtopic": "Degenerative cervical myelopathy",
+      "source": "Fehlings MG et al. A clinical practice guideline for the management of patients with degenerative cervical myelopathy. Global Spine J 2017;7(3 Suppl)",
+      "stem": [
+        "Ross Penhaligon, 68, a retired bricklayer, has had numb, clumsy hands for 9 months. He drops cups, fumbles with shirt buttons, and his handwriting has become untidy. For 3 months he has felt unsteady on his feet and now holds the rail on stairs. He has had a stiff neck for years. He has no arm pain and no bladder or bowel symptoms.",
+        "He has type 2 diabetes, treated with metformin 1 g twice daily for 10 years, and hypertension treated with perindopril.",
+        "There is wasting of the small muscles of both hands, with numbness of all the fingers. Biceps, triceps, knee and ankle reflexes are brisk on both sides, Hoffmann sign is present bilaterally, and both plantar responses are extensor. Tandem gait is unsteady. No fasciculations are seen."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "HbA1c",
+              "7.2%",
+              "4.0–6.0"
+            ],
+            [
+              "Vitamin B12",
+              "380 pmol/L",
+              "> 150"
+            ],
+            [
+              "TSH",
+              "2.1 mU/L",
+              "0.4–4.0"
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST likely diagnosis?",
+      "options": [
+        {
+          "text": "Bilateral carpal tunnel syndrome",
+          "why": "Common trap: numb, clumsy hands in an older adult are often put down to carpal tunnel syndrome. It spares the little finger and does not cause brisk reflexes, a Hoffmann sign or unsteady gait."
+        },
+        {
+          "text": "Cervical radiculopathy",
+          "why": "A single compressed root causes arm pain, dermatomal sensory loss and a reduced reflex at that level, not upper motor neurone signs in all four limbs."
+        },
+        {
+          "text": "Degenerative cervical myelopathy",
+          "correct": true,
+          "why": "Numb, clumsy hands, gait imbalance and upper motor neurone signs in the arms and legs (brisk reflexes, Hoffmann sign, extensor plantars) in an older adult with long-standing neck stiffness is degenerative cervical myelopathy, the commonest cause of spinal cord dysfunction in adults. Hand wasting reflects compression at cervical levels. Arrange MRI of the cervical spine and refer to a spinal surgeon. Surgical decompression is recommended for moderate and severe myelopathy, ideally before further loss of function, which is often permanent."
+        },
+        {
+          "text": "Diabetic peripheral neuropathy",
+          "why": "Causes distal sensory loss with reduced or absent ankle reflexes, not brisk reflexes and extensor plantars."
+        },
+        {
+          "text": "Motor neurone disease",
+          "why": "Can combine wasting with brisk reflexes, but it does not cause numbness, and fasciculations are usual."
+        },
+        {
+          "text": "Multiple sclerosis",
+          "why": "Can cause upper motor neurone signs and sensory symptoms, but a progressive cervical pattern starting at 68 with long-standing neck stiffness makes degenerative disease far more likely."
+        },
+        {
+          "text": "Subacute combined degeneration of the cord",
+          "why": "Common trap: metformin can cause B12 deficiency, which damages the dorsal columns and corticospinal tracts. But his B12 is normal, and the classic picture is extensor plantars with absent ankle reflexes and loss of joint position sense."
+        },
+        {
+          "text": "Ulnar neuropathy at the elbow",
+          "why": "Causes numbness of the little and ring fingers and intrinsic wasting in one hand, without upper motor neurone signs."
+        }
+      ],
+      "keyPoint": "Clumsy, numb hands with gait disturbance and upper motor neurone signs (Hoffmann sign, brisk reflexes, extensor plantars) in an older adult is degenerative cervical myelopathy until proven otherwise. Arrange MRI of the cervical spine and refer to a spinal surgeon."
+    },
+    {
+      "id": "msk01-c01",
+      "format": "cdp",
+      "select": 4,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal",
+        "Infectious diseases",
+        "Paediatrics"
+      ],
+      "subtopic": "Septic arthritis of the hip",
+      "source": "Royal Children's Hospital Melbourne clinical practice guidelines: Bone and joint infection; The limping or non-weight bearing child",
+      "stem": [
+        "Ava Thompson, 3, is brought by her mother, Hayley, to the urgent care centre of a small rural hospital in western Victoria, where you are the GP on call. Since yesterday afternoon Ava has refused to walk and cries whenever her legs are moved. She has had a fever. There has been no injury or recent illness, and her immunisations are up to date. She weighs 14 kg.",
+        "Her temperature is 39.2°C, heart rate 150/min, respiratory rate 28/min and capillary refill 2 seconds. She is miserable but alert. She holds her right hip flexed, abducted and externally rotated, and screams with any passive movement of it. Her knees, ankles and spine are normal, and there is no rash.",
+        "The nearest hospital with paediatric orthopaedic surgery is 3 hours away by road. You give paracetamol 210 mg orally and insert an intravenous cannula."
+      ],
+      "lead": "Which FOUR actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Arrange urgent transfer to the paediatric orthopaedic team",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: fever above 38.5°C, refusal to bear weight and a hip held flexed, abducted and externally rotated, with pain on any movement, is septic arthritis until proven otherwise. Pus in the hip destroys cartilage and can compromise the blood supply to the femoral head, so she needs urgent aspiration and usually washout by the orthopaedic team. Discuss her with them and arrange retrieval now for aspiration and washout."
+        },
+        {
+          "text": "Aspirate the hip in the urgent care centre under ultrasound guidance",
+          "score": 0,
+          "why": "Correct only in another setting: hip aspiration in a young child is a specialist procedure, usually under anaesthetic and often followed by washout in the same session. Attempting it here risks a failed or contaminated tap and delays definitive care."
+        },
+        {
+          "text": "Check antistreptolysin O and anti-DNase B titres",
+          "score": 0,
+          "why": "Not needed: acute rheumatic fever is uncommon at 3 and usually causes a migratory arthritis of large joints, not a single, exquisitely painful hip. These tests would not change today's management."
+        },
+        {
+          "text": "Collect a bag urine specimen before antibiotics",
+          "score": 0,
+          "why": "Not needed: the source is the hip, and bag specimens are often contaminated."
+        },
+        {
+          "text": "Prescribe ibuprofen and review in 24 hours if she still will not walk",
+          "score": 0,
+          "why": "Unsafe delay: watchful waiting suits transient synovitis in a well child who weight-bears with a limp and has little or no fever. Ava is febrile, tachycardic and will not let the hip be moved."
+        },
+        {
+          "text": "Request an outpatient MRI of the pelvis",
+          "score": 0,
+          "why": "MRI helps when osteomyelitis is suspected, but it must not delay management of a probable septic hip, and an outpatient scan is far too slow."
+        },
+        {
+          "text": "Send blood for full blood examination and C-reactive protein",
+          "score": 1,
+          "why": "Supports the diagnosis and gives a baseline for monitoring. A raised white cell count, ESR or CRP adds weight, but normal results early on do not exclude infection, so they must not delay transfer."
+        },
+        {
+          "text": "Start intravenous cefazolin 700 mg 8-hourly",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: start empirical intravenous antibiotics as soon as blood cultures are taken. Cefazolin 50 mg/kg (maximum 2 g) 8-hourly covers Staphylococcus aureus and Kingella kingae. Antibiotics should not wait for aspiration, especially before a 3-hour transfer."
+        },
+        {
+          "text": "Start oral cefalexin and review her in the morning",
+          "score": 0,
+          "why": "Common trap: oral antibiotics and review treat this as a minor infection. A septic joint needs intravenous antibiotics and urgent surgical assessment."
+        },
+        {
+          "text": "Take blood cultures",
+          "score": 1,
+          "why": "Take them before the first antibiotic dose if possible. They often identify the organism and guide later treatment."
+        }
+      ],
+      "keyPoint": "A febrile child who will not bear weight and guards a hip has septic arthritis until proven otherwise. Take blood cultures, start intravenous cefazolin 50 mg/kg 8-hourly without waiting for aspiration, and arrange urgent orthopaedic care for aspiration and washout."
+    },
+    {
+      "id": "msk01-c02",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal",
+        "Emergency medicine"
+      ],
+      "subtopic": "Acute compartment syndrome after a tibial fracture",
+      "source": "British Orthopaedic Association Standard: Diagnosis and management of compartment syndrome of the extremities (BOAST, revised 2025)",
+      "stem": [
+        "Jayden Walker, 24, an Aboriginal man who works as a landscaper, comes to your metropolitan after-hours clinic at 9 pm with his partner. Last night he broke his left tibia in a football tackle. The emergency department applied an above-knee backslab, gave him oxycodone 5 mg tablets and booked him into the fracture clinic in 3 days.",
+        "Over the past 4 hours the pain in his calf has become severe and constant, despite two doses of oxycodone this evening. His foot feels tingly.",
+        "His heart rate is 104/min and blood pressure 132/80 mmHg. The backslab is held on with a crepe bandage. His toes are warm and pink, capillary refill is 2 seconds and the dorsalis pedis pulse is palpable. Passive extension of his toes causes severe pain in the calf. Sensation is reduced between the first and second toes."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Apply ice packs to the calf and review in 30 minutes",
+          "score": 0,
+          "why": "Unsafe delay: ice does not lower compartment pressure, and every delay worsens muscle and nerve ischaemia."
+        },
+        {
+          "text": "Arrange a Doppler ultrasound tomorrow to look for deep vein thrombosis",
+          "score": 0,
+          "why": "Common trap: the right test for the wrong diagnosis. DVT does not cause severe pain on passive stretch with sensory loss a day after a fracture, and waiting until tomorrow could cost him the muscles of his leg."
+        },
+        {
+          "text": "Call an ambulance to take him to the emergency department now",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: pain out of proportion to the injury, rising despite opioids, with pain on passive stretch of the toes and early sensory change in the deep peroneal nerve territory, is acute compartment syndrome. It is a surgical emergency, and fasciotomy should follow the diagnosis without delay. Phone the orthopaedic registrar so theatre can be arranged. A palpable pulse and warm toes do not exclude it, because pulses are lost late, if at all."
+        },
+        {
+          "text": "Give oxycodone 10 mg now and review him in an hour",
+          "score": 0,
+          "why": "Unsafe delay: a rising opioid requirement is itself a warning sign, and more opioid masks the main symptom."
+        },
+        {
+          "text": "Keep him nil by mouth",
+          "score": 1,
+          "why": "He is likely to need theatre within hours, so fasting from now avoids delaying the anaesthetic."
+        },
+        {
+          "text": "Reassure him that his circulation is normal and keep the fracture clinic appointment",
+          "score": 0,
+          "why": "Common trap: normal pulses and capillary refill are expected in early compartment syndrome."
+        },
+        {
+          "text": "Remove the backslab and apply a circumferential plaster cast",
+          "score": 0,
+          "why": "Unsafe: a circumferential cast is exactly what a swelling limb must not have."
+        },
+        {
+          "text": "Split the bandage and padding down to the skin",
+          "score": 1,
+          "why": "Release every circumferential layer (the crepe bandage and the padding under it) down to the skin along the length of the backslab while you arrange transfer. This removes any external cause and may lower the pressure a little, but it does not replace urgent surgical review."
+        },
+        {
+          "text": "Start enoxaparin 40 mg subcutaneously daily",
+          "score": 0,
+          "why": "Not needed now: thromboprophylaxis is a decision for the treating team and does nothing for the emergency."
+        }
+      ],
+      "keyPoint": "Pain out of proportion, a rising opioid requirement and pain on passive stretch after a tibial fracture is compartment syndrome until proven otherwise, even with normal pulses. Release dressings to the skin, keep the patient nil by mouth and transfer immediately for orthopaedic review and fasciotomy."
+    },
+    {
+      "id": "msk01-c03",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal"
+      ],
+      "subtopic": "Achilles tendon rupture",
+      "source": "Costa ML et al. Plaster cast versus functional brace for non-surgical treatment of Achilles tendon rupture (UKSTAR). Lancet 2020; Therapeutic Guidelines: Rheumatology (tendinopathy); ciprofloxacin product information",
+      "stem": [
+        "Peter Vasilakis, 47, an accountant, comes in the morning after a squash game. As he lunged for a shot he felt as if someone had kicked the back of his right ankle, and he heard a snap. He has been limping since.",
+        "Five days ago you diagnosed acute bacterial prostatitis and prescribed ciprofloxacin 500 mg twice daily for 14 days. The urine culture has since grown Escherichia coli sensitive to amoxicillin+clavulanate, trimethoprim and ciprofloxacin. Two weeks ago he finished a 5-day course of prednisolone 50 mg daily for an asthma flare.",
+        "With him lying prone and both feet over the end of the couch, his right foot hangs in more dorsiflexion than the left. There is a palpable gap 4 cm above the heel, and squeezing his right calf produces no plantarflexion. Pulses and sensation in the foot are normal.",
+        "You explain the diagnosis and lend him crutches."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Arrange an ultrasound of the tendon before deciding whether to immobilise",
+          "score": 0,
+          "why": "Not needed now: the diagnosis is clinical, and the ankle should go into equinus straight away. The fracture clinic may use ultrasound, with the foot plantarflexed, to measure the gap and guide treatment."
+        },
+        {
+          "text": "Arrange MRI of the ankle",
+          "score": 0,
+          "why": "Not needed: it adds cost and delay without changing initial management."
+        },
+        {
+          "text": "Fit a walking boot with the ankle at a right angle and allow full weight bearing",
+          "score": 0,
+          "why": "Common trap: a neutral ankle pulls the tendon ends apart. Functional rehabilitation in a boot is used, but it starts in equinus, with heel wedges removed in stages."
+        },
+        {
+          "text": "Immobilise the ankle in equinus (full plantarflexion)",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: a palpable gap, increased resting dorsiflexion and a positive calf squeeze (Simmonds) test confirm a complete Achilles tendon rupture. A backslab or a boot with heel wedges holding the foot in equinus brings the tendon ends together, and both non-operative and operative treatment start this way. For most people, non-operative care with early functional rehabilitation gives results similar to surgery, and the choice is made with the orthopaedic team."
+        },
+        {
+          "text": "Inject corticosteroid around the tendon",
+          "score": 0,
+          "why": "Unsafe: corticosteroid around a major weight-bearing tendon impairs healing and has no role in a rupture."
+        },
+        {
+          "text": "Refer to a fracture clinic within the next few days",
+          "score": 1,
+          "why": "Early review in a fracture clinic or by an orthopaedic surgeon confirms the plan (non-operative or surgical), starts the rehabilitation protocol and assesses the risk of venous thromboembolism."
+        },
+        {
+          "text": "Rest, ice, compression, elevation and naproxen, with review in 2 weeks",
+          "score": 0,
+          "why": "Unsafe delay: treating this as a strain leaves the tendon ends apart. Ruptures that present late do worse and are more likely to need reconstruction."
+        },
+        {
+          "text": "Start an eccentric calf-loading program with a physiotherapist",
+          "score": 0,
+          "why": "The right treatment for Achilles tendinopathy, not for a rupture."
+        },
+        {
+          "text": "Stop ciprofloxacin and use another antibiotic",
+          "score": 1,
+          "why": "Fluoroquinolones cause tendinopathy and tendon rupture, especially in older people and those taking corticosteroids. Stop ciprofloxacin at the first sign of a tendon problem and complete the prostatitis treatment with another antibiotic the organism is sensitive to, such as trimethoprim or amoxicillin+clavulanate."
+        }
+      ],
+      "keyPoint": "A palpable gap, increased resting dorsiflexion and a positive calf squeeze test mean a complete Achilles rupture. Immobilise in equinus straight away and refer within days. Stop any fluoroquinolone, a recognised cause of tendon rupture."
+    },
+    {
+      "id": "msk01-c04",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Musculoskeletal",
+        "Older persons' health"
+      ],
+      "subtopic": "Hip fracture in a rural hospital",
+      "source": "Australian Commission on Safety and Quality in Health Care: Hip Fracture Clinical Care Standard (2023); Australian and New Zealand Guideline for Hip Fracture Care (2014)",
+      "stem": [
+        "Edith Rowe, 86, is brought by ambulance from her residential aged care facility to the urgent care centre of a rural hospital, where you are the GP on call. She fell in her room 2 hours ago and has not been able to stand since. A carer saw the fall: she slipped onto her right side and did not hit her head. The facility nurse says she has been more muddled than usual since the fall.",
+        "She has Alzheimer disease, atrial fibrillation, hypertension and chronic kidney disease (eGFR 38 mL/min/1.73 m² last month). Her medicines are apixaban 2.5 mg twice daily (last dose at 8 am today), donepezil 10 mg daily, amlodipine 5 mg daily and paracetamol 1 g three times daily.",
+        "Her right leg is shortened and externally rotated. Her heart rate is 88/min and irregular, blood pressure 146/84 mmHg and oxygen saturation 95% on room air. Her pain is still severe despite intranasal fentanyl from the paramedics. X-rays show a displaced intracapsular fracture of the right femoral neck.",
+        "The regional hospital that provides hip fracture surgery is 2 hours away by road. You are trained in fascia iliaca block, and you have sent blood tests and recorded an ECG."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Apply skin traction to the right leg",
+          "score": 0,
+          "why": "Common trap: preoperative skin or skeletal traction does not reduce pain or help the operation, and hip fracture guidelines advise against it. It also risks skin injury in frail older people."
+        },
+        {
+          "text": "Arrange a CT of the right hip before transfer",
+          "score": 0,
+          "why": "Not needed: the X-ray already shows a displaced femoral neck fracture. CT or MRI is for a suspected fracture with normal X-rays."
+        },
+        {
+          "text": "Arrange transfer today for surgery",
+          "score": 1,
+          "why": "The national standard is surgery within 36 hours of first presentation, wherever the patient first presents. Start the hip fracture pathway here and arrange transfer without waiting. Withhold apixaban: surgery is usually possible within 1 to 2 days of the last dose, depending on kidney function and the anaesthetic plan, so it is not a reason to delay transfer."
+        },
+        {
+          "text": "Give ibuprofen 400 mg three times daily",
+          "score": 0,
+          "why": "Unsafe: an NSAID risks acute kidney injury and bleeding at 86 with an eGFR of 38 on apixaban."
+        },
+        {
+          "text": "Give intramuscular morphine 10 mg",
+          "score": 0,
+          "why": "Unsafe: too large a dose for a frail 86-year-old with reduced kidney function, by a route with unpredictable absorption. If more opioid is needed, small titrated intravenous doses are safer."
+        },
+        {
+          "text": "Give intravenous vitamin K to reverse the apixaban",
+          "score": 0,
+          "why": "Vitamin K reverses warfarin, not apixaban."
+        },
+        {
+          "text": "Insert an indwelling urinary catheter",
+          "score": 0,
+          "why": "Not needed routinely: catheters increase the risk of infection and delirium. Use one only for retention or another specific need."
+        },
+        {
+          "text": "Perform a fascia iliaca block",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: her pain is uncontrolled, and the standard expects multimodal analgesia including a nerve block unless contraindicated, ideally before a long transfer. A fascia iliaca block reduces pain and opioid use and may lower the risk of delirium. It is a superficial, compressible block, so apixaban is not usually a reason to withhold it."
+        },
+        {
+          "text": "Screen for delirium with the 4AT",
+          "score": 1,
+          "why": "She has dementia and is more confused since the fall, so delirium is likely. A cognitive screen at presentation guides delirium prevention and is handed over with her, as the standard requires."
+        },
+        {
+          "text": "Start controlled-release oxycodone 10 mg twice daily",
+          "score": 0,
+          "why": "Unsafe: modified-release opioids are not recommended for acute pain. They are hard to titrate and increase the risk of oversedation and delirium in a frail older person with reduced kidney function."
+        }
+      ],
+      "keyPoint": "In hip fracture, treat pain on arrival with multimodal analgesia and a nerve block such as a fascia iliaca block, screen cognition for delirium, and aim for surgery within 36 hours of first presentation, transferring early if your hospital does not operate. Avoid traction, NSAIDs and routine catheters."
+    }
+  ]
+}
