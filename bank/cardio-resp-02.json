@@ -82,7 +82,7 @@
         },
         {
           "text": "Exercise ankle-brachial index on a treadmill",
-          "why": "Often chosen. Exercise testing helps when the resting index is normal (1.00 to 1.40) but the symptoms suggest PAD. His resting index is above 1.40 because the arteries are calcified, so ankle pressures after exercise are just as unreliable."
+          "why": "Common trap: Exercise testing helps when the resting index is normal (1.00 to 1.40) but the symptoms suggest PAD. His resting index is above 1.40 because the arteries are calcified, so ankle pressures after exercise are just as unreliable."
         },
         {
           "text": "MRI of the lumbar spine",
@@ -185,7 +185,7 @@
       "options": [
         {
           "text": "Cefalexin orally for a urinary tract infection, with review in 48 hours",
-          "why": "The common trap. The pyuria is sterile, which is a recognised feature of Kawasaki disease. Treating a UTI that the culture has excluded delays treatment that prevents coronary aneurysms."
+          "why": "Common trap: The pyuria is sterile, which is a recognised feature of Kawasaki disease. Treating a UTI that the culture has excluded delays treatment that prevents coronary aneurysms."
         },
         {
           "text": "Measles PCR on a throat swab and urine, with notification to the public health unit",
@@ -197,7 +197,7 @@
         },
         {
           "text": "Repeat the inflammatory markers in 48 hours, with a clinic review if he is still febrile",
-          "why": "Often chosen. Serial review is the plan only when CRP is under 30 mg/L and ESR is under 40 mm/h. His markers are high and he meets at least 3 supplementary laboratory criteria, so he needs treatment now."
+          "why": "Common trap: Serial review is the plan only when CRP is under 30 mg/L and ESR is under 40 mm/h. His markers are high and he meets at least 3 supplementary laboratory criteria, so he needs treatment now."
         },
         {
           "text": "Same-day referral to hospital for intravenous immunoglobulin and echocardiography",
@@ -294,7 +294,7 @@
         },
         {
           "text": "Add frusemide 20 mg each morning",
-          "why": "The common trap. Calcium channel blocker oedema comes from arteriolar dilatation raising capillary pressure, not from salt and water retention. A diuretic barely reduces it and risks volume depletion."
+          "why": "Common trap: Calcium channel blocker oedema comes from arteriolar dilatation raising capillary pressure, not from salt and water retention. A diuretic barely reduces it and risks volume depletion."
         },
         {
           "text": "Add indapamide SR 1.5 mg daily",
@@ -315,7 +315,7 @@
         },
         {
           "text": "Cease amlodipine and start perindopril arginine 5 mg daily",
-          "why": "Often chosen. Swapping one drug for another rarely gives the extra 20 mmHg she needs. She needs two drugs, and amlodipine can stay because the ACE inhibitor will reduce the oedema."
+          "why": "Common trap: Swapping one drug for another rarely gives the extra 20 mmHg she needs. She needs two drugs, and amlodipine can stay because the ACE inhibitor will reduce the oedema."
         },
         {
           "text": "Change amlodipine to lercanidipine 20 mg daily",
@@ -400,7 +400,7 @@
         },
         {
           "text": "Ferrous sulfate 325 mg orally daily",
-          "why": "Often chosen. Oral iron is poorly absorbed in heart failure and did not improve exercise capacity in a randomised trial. Guidelines recommend intravenous iron."
+          "why": "Common trap: Oral iron is poorly absorbed in heart failure and did not improve exercise capacity in a randomised trial. Guidelines recommend intravenous iron."
         },
         {
           "text": "Increase frusemide to 40 mg daily",
@@ -412,7 +412,7 @@
         },
         {
           "text": "No iron treatment, because his ferritin is within the normal range",
-          "why": "The common trap. Laboratory ferritin ranges do not apply in heart failure. The threshold for treatment is a ferritin under 300 microg/L with a saturation under 20%, or a ferritin under 100."
+          "why": "Common trap: Laboratory ferritin ranges do not apply in heart failure. The threshold for treatment is a ferritin under 300 microg/L with a saturation under 20%, or a ferritin under 100."
         },
         {
           "text": "Red cell transfusion of 1 unit",
@@ -475,7 +475,7 @@
       "options": [
         {
           "text": "24-hour Holter monitor, with review of the result in 2 weeks",
-          "why": "Often chosen. Monitoring helps when the cause of symptoms is uncertain. Her ECG already shows the cause, and this block can progress to complete heart block without warning."
+          "why": "Common trap: Monitoring helps when the cause of symptoms is uncertain. Her ECG already shows the cause, and this block can progress to complete heart block without warning."
         },
         {
           "text": "Cease irbesartan and repeat the ECG in 1 week",
@@ -487,7 +487,7 @@
         },
         {
           "text": "Reassure her that this conduction pattern is common with ageing, and review in 3 months",
-          "why": "The common trap. That describes Wenckebach (Mobitz I) block, where the PR interval lengthens before each dropped beat, often in fit young people during sleep. Here the PR interval is fixed and the QRS is wide, which places the block below the AV node."
+          "why": "Common trap: That describes Wenckebach (Mobitz I) block, where the PR interval lengthens before each dropped beat, often in fit young people during sleep. Here the PR interval is fixed and the QRS is wide, which places the block below the AV node."
         },
         {
           "text": "Same-day cardiology assessment for permanent pacemaker insertion",
@@ -570,7 +570,7 @@
         },
         {
           "text": "Apixaban 5 mg twice daily",
-          "why": "The common trap. Her creatinine is below 133 micromol/L, but her age and weight alone meet 2 of the 3 dose-reduction criteria."
+          "why": "Common trap: Her creatinine is below 133 micromol/L, but her age and weight alone meet 2 of the 3 dose-reduction criteria."
         },
         {
           "text": "Aspirin 100 mg daily",
@@ -616,7 +616,7 @@
       "options": [
         {
           "text": "Expiratory chest X-ray, with referral only if it shows air trapping",
-          "why": "Often chosen. Expiratory or decubitus films can show air trapping, but a normal film does not exclude a foreign body, because most inhaled objects, like nuts, are radiolucent. With this history and these signs, the result would not change the plan."
+          "why": "Common trap: Expiratory or decubitus films can show air trapping, but a normal film does not exclude a foreign body, because most inhaled objects, like nuts, are radiolucent. With this history and these signs, the result would not change the plan."
         },
         {
           "text": "Low-dose CT of the chest, with referral if a foreign body is seen",
@@ -632,11 +632,11 @@
         },
         {
           "text": "Reassure, and review in 1 week if the cough persists",
-          "why": "An unsafe delay. A retained nut fragment causes inflammation, pneumonia and eventually bronchiectasis, and becomes harder to remove."
+          "why": "Unsafe delay: A retained nut fragment causes inflammation, pneumonia and eventually bronchiectasis, and becomes harder to remove."
         },
         {
           "text": "Salbutamol 6 puffs through a spacer and mask, with review in 24 hours",
-          "why": "The common trap. Wheeze on one side only after a choking episode is a foreign body until proven otherwise, not viral-induced wheeze or asthma."
+          "why": "Common trap: Wheeze on one side only after a choking episode is a foreign body until proven otherwise, not viral-induced wheeze or asthma."
         },
         {
           "text": "Same-day referral to a paediatric hospital for bronchoscopy",
@@ -666,7 +666,7 @@
       "options": [
         {
           "text": "Amoxicillin 500 mg orally, 8-hourly for 5 days",
-          "why": "Often chosen. Antibiotics help when more breathlessness comes with both more sputum and purulent or changed-colour sputum. His sputum has increased but is still white, so a viral trigger is most likely."
+          "why": "Common trap: Antibiotics help when more breathlessness comes with both more sputum and purulent or changed-colour sputum. His sputum has increased but is still white, so a viral trigger is most likely."
         },
         {
           "text": "Amoxicillin+clavulanate 875/125 mg orally, 12-hourly for 5 days",
@@ -682,7 +682,7 @@
         },
         {
           "text": "Ipratropium 21 micrograms, 4 inhalations through a spacer 6-hourly",
-          "why": "The common trap. Ipratropium is contraindicated in patients taking a long-acting muscarinic antagonist such as tiotropium. The two act on the same receptor, so ipratropium adds anticholinergic effects without more bronchodilation."
+          "why": "Common trap: Ipratropium is contraindicated in patients taking a long-acting muscarinic antagonist such as tiotropium. The two act on the same receptor, so ipratropium adds anticholinergic effects without more bronchodilation."
         },
         {
           "text": "Oxygen 2 L/min through nasal prongs at home until review",
@@ -737,7 +737,7 @@
         },
         {
           "text": "Reassure her that the positive result reflects her BCG vaccination as a baby",
-          "why": "The common trap. IGRAs detect antigens that BCG does not contain, so infant BCG does not cause a positive result. That is why an IGRA is preferred over the skin test in people who have had BCG."
+          "why": "Common trap: IGRAs detect antigens that BCG does not contain, so infant BCG does not cause a positive result. That is why an IGRA is preferred over the skin test in people who have had BCG."
         },
         {
           "text": "Repeat the IGRA in 3 months",
@@ -822,7 +822,7 @@
         },
         {
           "text": "Over-the-counter mouthguard worn at night",
-          "why": "Often chosen. Simple mouthguards fitted without a dentist do not reliably advance the jaw, can damage the teeth and do not work."
+          "why": "Common trap: Simple mouthguards fitted without a dentist do not reliably advance the jaw, can damage the teeth and do not work."
         },
         {
           "text": "Positional therapy with a vibrating device worn on the back",
@@ -875,7 +875,7 @@
         },
         {
           "text": "No follow-up imaging",
-          "why": "Often chosen. No routine follow-up applies to solid nodules smaller than 6 mm in low-risk people. At 7 mm she needs a follow-up CT."
+          "why": "Common trap: No routine follow-up applies to solid nodules smaller than 6 mm in low-risk people. At 7 mm she needs a follow-up CT."
         },
         {
           "text": "PET-CT now",
@@ -946,7 +946,7 @@
         {
           "text": "Repeat the ECG and a point-of-care troponin in 3 hours before deciding on reperfusion",
           "score": 0,
-          "why": "The common trap. His ECG already shows an anterior STEMI. Troponin plays no part in the reperfusion decision, and every minute of delay loses heart muscle."
+          "why": "Common trap: His ECG already shows an anterior STEMI. Troponin plays no part in the reperfusion decision, and every minute of delay loses heart muscle."
         },
         {
           "text": "Rivaroxaban 15 mg orally",
@@ -957,12 +957,12 @@
           "text": "Tenecteplase 45 mg intravenously as a single bolus",
           "score": 2,
           "critical": true,
-          "why": "Critical. Primary PCI cannot be done within 120 minutes of first medical contact, so he needs fibrinolysis now, ideally within 30 minutes. He is within 12 hours of onset and has no contraindications. Tenecteplase is dosed by weight band, and 45 mg is the dose for 80 to 89 kg (a half dose is used in older people)."
+          "why": "Critical: Primary PCI cannot be done within 120 minutes of first medical contact, so he needs fibrinolysis now, ideally within 30 minutes. He is within 12 hours of onset and has no contraindications. Tenecteplase is dosed by weight band, and 45 mg is the dose for 80 to 89 kg (a half dose is used in older people)."
         },
         {
           "text": "Ticagrelor 180 mg orally",
           "score": 0,
-          "why": "Often chosen. Ticagrelor is used with primary PCI, but clopidogrel is the P2Y12 inhibitor studied with fibrinolysis. He can be changed to ticagrelor after PCI."
+          "why": "Common trap: Ticagrelor is used with primary PCI, but clopidogrel is the P2Y12 inhibitor studied with fibrinolysis. He can be changed to ticagrelor after PCI."
         },
         {
           "text": "Transfer by road to the hospital with a catheter laboratory for primary PCI, without fibrinolysis",
@@ -996,12 +996,12 @@
           "text": "12-lead ECG today",
           "score": 2,
           "critical": true,
-          "why": "Critical. Everyone with syncope needs an ECG, and collapse during exercise with a family history of unexplained sudden death in a young relative is a cardiac red flag. Look for long QT, pre-excitation, a Brugada pattern and signs of cardiomyopathy."
+          "why": "Critical: Everyone with syncope needs an ECG, and collapse during exercise with a family history of unexplained sudden death in a young relative is a cardiac red flag. Look for long QT, pre-excitation, a Brugada pattern and signs of cardiomyopathy."
         },
         {
           "text": "Advise more fluids and salt, and reassure him that this was a simple faint",
           "score": 0,
-          "why": "The common trap. A reflex faint comes on with standing still, heat, pain or emotion, after a warning, and happens after exercise rather than during it. Collapsing mid-race with no warning is cardiac until proven otherwise."
+          "why": "Common trap: A reflex faint comes on with standing still, heat, pain or emotion, after a warning, and happens after exercise rather than during it. Collapsing mid-race with no warning is cardiac until proven otherwise."
         },
         {
           "text": "Advise no sport or strenuous exercise until cardiology review",
@@ -1016,7 +1016,7 @@
         {
           "text": "Electroencephalogram",
           "score": 0,
-          "why": "Often chosen. A few brief jerks are common in syncope from reduced blood flow to the brain and do not suggest epilepsy. He recovered quickly without confusion."
+          "why": "Common trap: A few brief jerks are common in syncope from reduced blood flow to the brain and do not suggest epilepsy. He recovered quickly without confusion."
         },
         {
           "text": "Exercise stress test in the practice today",
@@ -1085,12 +1085,12 @@
           "text": "Continue anticoagulation with no planned stop date",
           "score": 2,
           "critical": true,
-          "why": "Critical. After an unprovoked PE, the chance of recurrence once anticoagulation stops is about 10% in the first year and about 25% within 5 years, and a recurrence can be fatal. With a low bleeding risk he should continue anticoagulation indefinitely, with yearly review."
+          "why": "Critical: After an unprovoked PE, the chance of recurrence once anticoagulation stops is about 10% in the first year and about 25% within 5 years, and a recurrence can be fatal. With a low bleeding risk he should continue anticoagulation indefinitely, with yearly review."
         },
         {
           "text": "Measure D-dimer 1 month after stopping apixaban to decide whether to restart",
           "score": 0,
-          "why": "Often chosen. In men with unprovoked VTE, a negative D-dimer after stopping does not lower the recurrence risk enough to justify stopping, and the strategy leaves him unprotected in the meantime."
+          "why": "Common trap: In men with unprovoked VTE, a negative D-dimer after stopping does not lower the recurrence risk enough to justify stopping, and the strategy leaves him unprotected in the meantime."
         },
         {
           "text": "Plan to reduce apixaban to 2.5 mg twice daily once he has completed 6 months of treatment",
@@ -1105,7 +1105,7 @@
         {
           "text": "Request inherited thrombophilia testing, including factor V Leiden and protein C and protein S levels",
           "score": 0,
-          "why": "The common trap. An inherited thrombophilia does not change the plan after an unprovoked PE, which is already indefinite anticoagulation, and some of these assays are unreliable on anticoagulants."
+          "why": "Common trap: An inherited thrombophilia does not change the plan after an unprovoked PE, which is already indefinite anticoagulation, and some of these assays are unreliable on anticoagulants."
         },
         {
           "text": "Review his bleeding risk, kidney function and haemoglobin at least once a year",
@@ -1171,7 +1171,7 @@
         {
           "text": "Measure peak expiratory flow before giving any bronchodilator",
           "score": 0,
-          "why": "Often chosen. Forced manoeuvres add little in severe asthma, can worsen bronchospasm and must not delay treatment. Severity is judged clinically and by oximetry."
+          "why": "Common trap: Forced manoeuvres add little in severe asthma, can worsen bronchospasm and must not delay treatment. Severity is judged clinically and by oximetry."
         },
         {
           "text": "Montelukast 10 mg orally",
@@ -1186,7 +1186,7 @@
         {
           "text": "Oxygen 8 L/min through a Hudson mask to keep her saturation above 98%",
           "score": 0,
-          "why": "The common trap. Oxygen is started only if saturation falls below 92% and is then titrated to 92 to 96%. Over-oxygenation can hide deterioration and cause hypercapnia."
+          "why": "Common trap: Oxygen is started only if saturation falls below 92% and is then titrated to 92 to 96%. Over-oxygenation can hide deterioration and cause hypercapnia."
         },
         {
           "text": "Prednisolone 50 mg orally now",
@@ -1202,7 +1202,7 @@
           "text": "Salbutamol 12 puffs through a spacer every 20 minutes for the first hour",
           "score": 2,
           "critical": true,
-          "why": "Critical. In severe acute asthma give salbutamol (100 micrograms per puff) 12 puffs through a spacer straight away, one at a time with several breaths each, and repeat at least every 20 minutes for the first hour. Use salbutamol, not her budesonide+formoterol, for acute treatment in the practice."
+          "why": "Critical: In severe acute asthma give salbutamol (100 micrograms per puff) 12 puffs through a spacer straight away, one at a time with several breaths each, and repeat at least every 20 minutes for the first hour. Use salbutamol, not her budesonide+formoterol, for acute treatment in the practice."
         }
       ],
       "keyPoint": "Severe acute asthma in general practice: salbutamol 12 puffs through a spacer every 20 minutes, oral prednisolone 37.5 to 50 mg, oxygen only if saturation is below 92%, and ambulance transfer."
@@ -1286,12 +1286,12 @@
         {
           "text": "Drain as much fluid as possible today in the practice through an intravenous cannula",
           "score": 0,
-          "why": "Unsafe. Large-volume drainage without imaging guidance risks pneumothorax, bleeding and re-expansion pulmonary oedema, and he is not in respiratory distress."
+          "why": "Unsafe: Large-volume drainage without imaging guidance risks pneumothorax, bleeding and re-expansion pulmonary oedema, and he is not in respiratory distress."
         },
         {
           "text": "Frusemide 40 mg daily, with a repeat chest X-ray in 2 weeks",
           "score": 0,
-          "why": "The common trap. A diuretic trial suits bilateral effusions in typical heart failure. A large effusion on one side, with weight loss, a normal heart size and a normal NT-proBNP, is an exudate until proven otherwise."
+          "why": "Common trap: A diuretic trial suits bilateral effusions in typical heart failure. A large effusion on one side, with weight loss, a normal heart size and a normal NT-proBNP, is an exudate until proven otherwise."
         },
         {
           "text": "Low-dose CT through the National Lung Cancer Screening Program",
@@ -1306,7 +1306,7 @@
         {
           "text": "Repeat the chest X-ray in 6 weeks",
           "score": 0,
-          "why": "An unsafe delay. A pleural effusion with these risk factors needs urgent investigation and referral."
+          "why": "Unsafe delay: A pleural effusion with these risk factors needs urgent investigation and referral."
         },
         {
           "text": "Serum CEA and CA 19-9",
@@ -1327,7 +1327,7 @@
           "text": "Urgent referral to a respiratory physician in a lung cancer multidisciplinary team",
           "score": 2,
           "critical": true,
-          "why": "Critical. An unexplained pleural effusion with weight loss, a raised platelet count, a heavy smoking history and asbestos exposure strongly suggests lung cancer or mesothelioma. The pathway is urgent referral, to be seen within 2 weeks, to a specialist linked to a lung cancer multidisciplinary team, by phone if needed to avoid delay."
+          "why": "Critical: An unexplained pleural effusion with weight loss, a raised platelet count, a heavy smoking history and asbestos exposure strongly suggests lung cancer or mesothelioma. The pathway is urgent referral, to be seen within 2 weeks, to a specialist linked to a lung cancer multidisciplinary team, by phone if needed to avoid delay."
         }
       ],
       "keyPoint": "A pleural effusion on one side with weight loss, smoking or asbestos exposure is malignant until proven otherwise: contrast CT, an ultrasound-guided diagnostic tap, and urgent referral to a lung cancer team within 2 weeks."

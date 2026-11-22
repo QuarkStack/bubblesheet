@@ -64,7 +64,7 @@
         },
         {
           "text": "HPV test in 12 months, self-collected or clinician-collected",
-          "why": "The common trap. This is the intermediate-risk pathway for an immunocompetent person with HPV (not 16/18) and negative or low-grade LBC. It doesn't apply when severe immune deficiency raises the risk of progression."
+          "why": "Common trap: This is the intermediate-risk pathway for an immunocompetent person with HPV (not 16/18) and negative or low-grade LBC. It doesn't apply when severe immune deficiency raises the risk of progression."
         },
         {
           "text": "LBC repeated in 6 weeks",
@@ -98,15 +98,15 @@
       "options": [
         {
           "text": "Bilateral diagnostic mammogram and breast ultrasound, continuing mometasone if they are normal",
-          "why": "The common trap. Imaging can be normal in Paget disease (in up to half of cases in some series), so a normal mammogram doesn't exclude it. The skin biopsy is the diagnostic test."
+          "why": "Common trap: Imaging can be normal in Paget disease (in up to half of cases in some series), so a normal mammogram doesn't exclude it. The skin biopsy is the diagnostic test."
         },
         {
           "text": "Clobetasol propionate 0.05% ointment twice daily for 4 weeks, then review",
-          "why": "Often chosen. Escalating steroid potency continues the delay that typically postpones this diagnosis by months. Atopic nipple dermatitis is usually bilateral and responds to steroid."
+          "why": "Common trap: Escalating steroid potency continues the delay that typically postpones this diagnosis by months. Atopic nipple dermatitis is usually bilateral and responds to steroid."
         },
         {
           "text": "Continue the topical corticosteroid, with her next routine BreastScreen mammogram in 10 months",
-          "why": "Unsafe delay. BreastScreen is for women without symptoms. A symptomatic breast needs diagnostic imaging and tissue diagnosis now."
+          "why": "Unsafe delay: BreastScreen is for women without symptoms. A symptomatic breast needs diagnostic imaging and tissue diagnosis now."
         },
         {
           "text": "Patch testing for allergic contact dermatitis",
@@ -164,7 +164,7 @@
       "options": [
         {
           "text": "Clomifene citrate 50 mg orally daily on days 2 to 6 of her next cycle",
-          "why": "Often chosen. This treats anovulation, which hasn't been shown: her result is uninterpretable because of its timing. Ovulation induction also needs specialist monitoring."
+          "why": "Common trap: This treats anovulation, which hasn't been shown: her result is uninterpretable because of its timing. Ovulation induction also needs specialist monitoring."
         },
         {
           "text": "Referral to a fertility specialist for ovulation induction",
@@ -180,7 +180,7 @@
         },
         {
           "text": "Serum progesterone on day 21 of her next cycle",
-          "why": "The common trap. 'Day 21' assumes a 28-day cycle. In her 35-day cycle, day 21 is around ovulation, which is why the first result was low."
+          "why": "Common trap: 'Day 21' assumes a 28-day cycle. In her 35-day cycle, day 21 is around ovulation, which is why the first result was low."
         },
         {
           "text": "Serum progesterone on day 28 of her next cycle",
@@ -209,7 +209,7 @@
       "options": [
         {
           "text": "Factor V Leiden and prothrombin gene mutation testing, with protein C, protein S and antithrombin levels",
-          "why": "Often chosen. Routine testing for inherited thrombophilia (factor V Leiden, prothrombin gene, protein C, protein S, antithrombin) is not recommended in recurrent pregnancy loss without other risk factors, and heparin for inherited thrombophilia hasn't been shown to improve live birth rates."
+          "why": "Common trap: Routine testing for inherited thrombophilia (factor V Leiden, prothrombin gene, protein C, protein S, antithrombin) is not recommended in recurrent pregnancy loss without other risk factors, and heparin for inherited thrombophilia hasn't been shown to improve live birth rates."
         },
         {
           "text": "Lupus anticoagulant, anticardiolipin antibodies and anti-β2-glycoprotein I antibodies",
@@ -259,7 +259,7 @@
         },
         {
           "text": "No RhD immunoglobulin until the routine 34-week dose, as the 28-week dose still protects her",
-          "why": "The common trap. Routine prophylaxis doesn't cover a new sensitising event. Each event needs its own dose, regardless of earlier doses."
+          "why": "Common trap: Routine prophylaxis doesn't cover a new sensitising event. Each event needs its own dose, regardless of earlier doses."
         },
         {
           "text": "RhD immunoglobulin 250 IU today",
@@ -276,7 +276,7 @@
         },
         {
           "text": "Test for fetomaternal haemorrhage today, giving RhD immunoglobulin only if fetal cells are detected",
-          "why": "Often chosen. The test decides whether extra doses are needed, not whether to give the standard dose. Don't wait for the result."
+          "why": "Common trap: The test decides whether extra doses are needed, not whether to give the standard dose. Don't wait for the result."
         }
       ],
       "keyPoint": "Every sensitising event after the first trimester needs RhD immunoglobulin 625 IU within 72 hours, even after routine prophylaxis. After 20 weeks, also quantify the fetomaternal haemorrhage."
@@ -323,7 +323,7 @@
       "options": [
         {
           "text": "Gestational diabetes: refer to a diabetes educator and dietitian, and start capillary glucose monitoring",
-          "why": "The common trap. These values meet the IADPSG thresholds (fasting 5.1, 1-hour 10.0, 2-hour 8.5 mmol/L) that ADIPS used from 2014 until 2025. The current thresholds are higher, and she doesn't meet them."
+          "why": "Common trap: These values meet the IADPSG thresholds (fasting 5.1, 1-hour 10.0, 2-hour 8.5 mmol/L) that ADIPS used from 2014 until 2025. The current thresholds are higher, and she doesn't meet them."
         },
         {
           "text": "Gestational diabetes: start metformin 500 mg daily with the evening meal",
@@ -380,7 +380,7 @@
         },
         {
           "text": "Review at 3 months of age, referring if the testes have not descended",
-          "why": "The common trap. Waiting until 3 months suits a well baby with a unilateral undescended testis, because many descend. Bilateral impalpable testes need urgent assessment."
+          "why": "Common trap: Waiting until 3 months suits a well baby with a unilateral undescended testis, because many descend. Bilateral impalpable testes need urgent assessment."
         },
         {
           "text": "Routine paediatric surgical referral now, for orchidopexy at 6 to 12 months of age",
@@ -454,7 +454,7 @@
         },
         {
           "text": "Fasting venous glucose and HbA1c tomorrow morning, then review with the results",
-          "why": "The common trap. Symptoms with a random glucose above 11.1 mmol/L confirm diabetes. Formal tests add nothing and delay care while ketosis progresses."
+          "why": "Common trap: Symptoms with a random glucose above 11.1 mmol/L confirm diabetes. Formal tests add nothing and delay care while ketosis progresses."
         },
         {
           "text": "Insulin glargine 0.2 units/kg at night, with diabetes education this week",
@@ -466,7 +466,7 @@
         },
         {
           "text": "Paediatric endocrinology referral, to be seen within 2 weeks",
-          "why": "Often chosen. The diagnosis is right but the timing isn't. Ketonuria and weight loss show insulin deficiency, and DKA can develop within hours to days."
+          "why": "Common trap: The diagnosis is right but the timing isn't. Ketonuria and weight loss show insulin deficiency, and DKA can develop within hours to days."
         },
         {
           "text": "Urine microscopy and culture, with review in 2 days",
@@ -508,7 +508,7 @@
         },
         {
           "text": "Outpatient echocardiogram and paediatric cardiology referral within 4 weeks",
-          "why": "Often chosen. Right investigation, wrong urgency. Coarctation can progress to circulatory collapse in this age group."
+          "why": "Common trap: Right investigation, wrong urgency. Coarctation can progress to circulatory collapse in this age group."
         },
         {
           "text": "Pre-ductal and post-ductal oxygen saturations, reassuring if they differ by less than 3%",
@@ -516,7 +516,7 @@
         },
         {
           "text": "Reassurance that the murmur is probably innocent, with re-examination at her 4-month immunisations",
-          "why": "The common trap. The level of concern depends on the features around the murmur: weak femoral pulses, slower feeding and a falling weight centile are red flags."
+          "why": "Common trap: The level of concern depends on the features around the murmur: weak femoral pulses, slower feeding and a falling weight centile are red flags."
         }
       ],
       "keyPoint": "Check femoral pulses at every infant check. Weak or absent femoral pulses, especially with feeding or growth concerns, need same-day assessment for coarctation."
@@ -540,7 +540,7 @@
       "options": [
         {
           "text": "Continue counter-positioning and tummy time, and review in 2 months",
-          "why": "The common trap. This suits deformational plagiocephaly, which usually isn't present at birth and gives a parallelogram shape with the ear on the flat side pushed forward."
+          "why": "Common trap: This suits deformational plagiocephaly, which usually isn't present at birth and gives a parallelogram shape with the ear on the flat side pushed forward."
         },
         {
           "text": "Plain skull X-ray, referring if it shows a fused suture",
@@ -595,7 +595,7 @@
         },
         {
           "text": "Reassurance that this is benign premature thelarche, with review of her height and breasts in 3 to 6 months",
-          "why": "Often chosen. Watchful monitoring suits isolated thelarche without a cause, but here a likely reversible cause needs removing first."
+          "why": "Common trap: Watchful monitoring suits isolated thelarche without a cause, but here a likely reversible cause needs removing first."
         },
         {
           "text": "Review in 3 months, after advising her grandmother to cover the gel site and wash her hands",
@@ -612,7 +612,7 @@
         },
         {
           "text": "X-ray of the left hand and wrist for bone age, and review with the result in 2 weeks",
-          "why": "The common trap. Bone age is the most useful test when progression to precocious puberty is suspected, but it isn't the first step when growth is normal and there is a clear external source of oestrogen."
+          "why": "Common trap: Bone age is the most useful test when progression to precocious puberty is suspected, but it isn't the first step when growth is normal and there is a clear external source of oestrogen."
         }
       ],
       "keyPoint": "Before investigating breast development in a young girl, ask about exogenous oestrogen: a carer's transdermal oestrogen, lavender or tea tree oil, or soy formula. Removing the source is usually enough."
@@ -680,7 +680,7 @@
         {
           "text": "Aspirin 150 mg at night, starting now",
           "score": 0,
-          "why": "Correct but premature. Aspirin to prevent pre-eclampsia starts at 12 to 16 weeks of pregnancy in women at increased risk, such as those with pre-existing diabetes or hypertension."
+          "why": "Correct but premature: Aspirin to prevent pre-eclampsia starts at 12 to 16 weeks of pregnancy in women at increased risk, such as those with pre-existing diabetes or hypertension."
         },
         {
           "text": "Cease atorvastatin",
@@ -700,7 +700,7 @@
         {
           "text": "Change perindopril to candesartan 8 mg daily",
           "score": 0,
-          "why": "Often chosen. Angiotensin receptor blockers have the same fetal toxicity as ACE inhibitors."
+          "why": "Common trap: Angiotensin receptor blockers have the same fetal toxicity as ACE inhibitors."
         },
         {
           "text": "Change perindopril to labetalol 100 mg twice daily",
@@ -711,7 +711,7 @@
           "text": "Continue contraception until her HbA1c is 6.5% or lower, if this can be reached without hypoglycaemia",
           "score": 2,
           "critical": true,
-          "why": "Critical. The risk of congenital anomalies and miscarriage rises with HbA1c around conception. Aim for an HbA1c of 6.5% (48 mmol/mol) or lower before conception where it is safe. Pregnancy is strongly discouraged above 10% (86 mmol/mol). Her implant can stay while her glucose is optimised."
+          "why": "Critical: The risk of congenital anomalies and miscarriage rises with HbA1c around conception. Aim for an HbA1c of 6.5% (48 mmol/mol) or lower before conception where it is safe. Pregnancy is strongly discouraged above 10% (86 mmol/mol). Her implant can stay while her glucose is optimised."
         },
         {
           "text": "Folic acid 5 mg daily",
@@ -773,7 +773,7 @@
           "text": "Pelvic ultrasound to confirm an intrauterine pregnancy and its gestation",
           "score": 2,
           "critical": true,
-          "why": "Critical. A pregnancy with an IUD in place is more likely to be ectopic, and a confirmed or suspected ectopic pregnancy is a contraindication to medical abortion. Ultrasound also confirms the gestation is within 63 days."
+          "why": "Critical: A pregnancy with an IUD in place is more likely to be ectopic, and a confirmed or suspected ectopic pregnancy is a contraindication to medical abortion. Ultrasound also confirms the gestation is within 63 days."
         },
         {
           "text": "Referral to a psychologist for counselling before prescribing",
@@ -798,7 +798,7 @@
         {
           "text": "Rhesus antibody screen, with RhD immunoglobulin 250 IU after misoprostol",
           "score": 0,
-          "why": "Often chosen. RANZCOG doesn't recommend routine RhD immunoglobulin after medical abortion before 10 weeks, and Therapeutic Guidelines notes that antibody testing is no longer required before medical abortion."
+          "why": "Common trap: RANZCOG doesn't recommend routine RhD immunoglobulin after medical abortion before 10 weeks, and Therapeutic Guidelines notes that antibody testing is no longer required before medical abortion."
         },
         {
           "text": "Self-collected vaginal swab for chlamydia and gonorrhoea NAAT",
@@ -841,7 +841,7 @@
           "text": "Cool the burn under cool running tap water for 20 minutes now, keeping the rest of him warm",
           "score": 2,
           "critical": true,
-          "why": "Critical. First aid is 20 minutes of cool running water, and it still helps for up to 3 hours after the burn. Two minutes under the tap and an ice pack were not adequate. Keep unburnt areas warm, because young children cool quickly."
+          "why": "Critical: First aid is 20 minutes of cool running water, and it still helps for up to 3 hours after the burn. Two minutes under the tap and an ice pack were not adequate. Keep unburnt areas warm, because young children cool quickly."
         },
         {
           "text": "Flucloxacillin 150 mg orally 6-hourly for 5 days",
@@ -856,7 +856,7 @@
         {
           "text": "Refer to the paediatric burns unit today",
           "score": 0,
-          "why": "Often chosen. He doesn't meet the referral criteria: the burn is under 5% of body surface area, superficial, not circumferential, and spares the face, hands, feet, perineum, genitalia and major joints, and he is over 1 year old. Phone the unit for advice if unsure."
+          "why": "Common trap: He doesn't meet the referral criteria: the burn is under 5% of body surface area, superficial, not circumferential, and spares the face, hands, feet, perineum, genitalia and major joints, and he is over 1 year old. Phone the unit for advice if unsure."
         },
         {
           "text": "Report to child protection services",
@@ -928,7 +928,7 @@
           "text": "Make a report to child protection services",
           "score": 2,
           "critical": true,
-          "why": "Critical. Any bruise in an infant who isn't yet mobile, and bruising of the ear in any child under 4 years, is a sentinel sign of physical abuse. GPs are mandatory reporters, and the threshold is a belief on reasonable grounds, not certainty."
+          "why": "Critical: Any bruise in an infant who isn't yet mobile, and bruising of the ear in any child under 4 years, is a sentinel sign of physical abuse. GPs are mandatory reporters, and the threshold is a belief on reasonable grounds, not certainty."
         },
         {
           "text": "Outpatient skeletal survey at a local radiology practice",
@@ -938,7 +938,7 @@
         {
           "text": "Reassure Kayla that the sibling's blow explains the bruising, and review Leo in 1 week",
           "score": 0,
-          "why": "The common trap. A plausible explanation from a carer doesn't exclude abuse. Bruising in a pre-mobile infant needs assessment whatever the explanation."
+          "why": "Common trap: A plausible explanation from a carer doesn't exclude abuse. Bruising in a pre-mobile infant needs assessment whatever the explanation."
         },
         {
           "text": "Referral to the maternal and child health nurse for a home visit this week",
@@ -1000,13 +1000,13 @@
         {
           "text": "Have someone stay awake to watch her sleep for the rest of this illness",
           "score": 0,
-          "why": "Not needed. A cot or bed is a safe place if a seizure does happen."
+          "why": "Not needed: A cot or bed is a safe place if a seizure does happen."
         },
         {
           "text": "If she has another seizure, lie her on her side, put nothing in her mouth, time it, and call 000 if it lasts 5 minutes or more",
           "score": 2,
           "critical": true,
-          "why": "Critical. First aid, and knowing when to call an ambulance, is the most useful thing to teach. A seizure lasting 5 minutes or more needs medicine, which paramedics carry. Also call if she doesn't wake after it stops or seems very unwell."
+          "why": "Critical: First aid, and knowing when to call an ambulance, is the most useful thing to teach. A seizure lasting 5 minutes or more needs medicine, which paramedics carry. Also call if she doesn't wake after it stops or seems very unwell."
         },
         {
           "text": "Keep her home from childcare until she has been seizure-free for 2 weeks",

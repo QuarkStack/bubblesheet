@@ -86,7 +86,7 @@
         },
         {
           "text": "Add sacubitril+valsartan 49/51 mg twice daily to his current medicines",
-          "why": "Often chosen. An ARNI is the right class, but it replaces the ACE inhibitor and must start at least 36 hours after the last perindopril dose. Taking both together risks angioedema."
+          "why": "Common trap: An ARNI is the right class, but it replaces the ACE inhibitor and must start at least 36 hours after the last perindopril dose. Taking both together risks angioedema."
         },
         {
           "text": "Change bisoprolol to metoprolol tartrate 50 mg twice daily",
@@ -119,7 +119,7 @@
       "options": [
         {
           "text": "Apixaban 5 mg twice daily",
-          "why": "Often chosen. DOACs are preferred for most atrial fibrillation, but not with rheumatic mitral stenosis or a mechanical valve, where trial outcomes were worse than with warfarin."
+          "why": "Common trap: DOACs are preferred for most atrial fibrillation, but not with rheumatic mitral stenosis or a mechanical valve, where trial outcomes were worse than with warfarin."
         },
         {
           "text": "Aspirin 100 mg daily",
@@ -131,7 +131,7 @@
         },
         {
           "text": "No antithrombotic therapy, with stroke risk reassessed each year",
-          "why": "The common trap. Her CHA2DS2-VA score is 0, but the score does not apply when atrial fibrillation occurs with rheumatic mitral stenosis. The embolic risk is high and anticoagulation is indicated regardless."
+          "why": "Common trap: Her CHA2DS2-VA score is 0, but the score does not apply when atrial fibrillation occurs with rheumatic mitral stenosis. The embolic risk is high and anticoagulation is indicated regardless."
         },
         {
           "text": "Rivaroxaban 20 mg daily with food",
@@ -206,11 +206,11 @@
         },
         {
           "text": "Perindopril arginine 5 mg daily, with review in 4 weeks",
-          "why": "Often chosen. Three raised clinic readings look like a diagnosis, but ambulatory monitoring is the more accurate measure and it is normal."
+          "why": "Common trap: Three raised clinic readings look like a diagnosis, but ambulatory monitoring is the more accurate measure and it is normal."
         },
         {
           "text": "Reassurance that his BP is normal, with a routine check in 5 years",
-          "why": "The common trap. White-coat hypertension is not benign enough to ignore. A proportion progress to sustained hypertension, so he needs earlier follow-up."
+          "why": "Common trap: White-coat hypertension is not benign enough to ignore. A proportion progress to sustained hypertension, so he needs earlier follow-up."
         },
         {
           "text": "Repeat clinic BP measurements monthly for 3 months",
@@ -257,7 +257,7 @@
         },
         {
           "text": "Prednisolone 25 mg daily, weaned over 2 weeks",
-          "why": "Often chosen. Corticosteroids give rapid relief but increase recurrence. They are kept for patients who cannot take NSAIDs or who have a specific indication such as autoimmune disease."
+          "why": "Common trap: Corticosteroids give rapid relief but increase recurrence. They are kept for patients who cannot take NSAIDs or who have a specific indication such as autoimmune disease."
         }
       ],
       "keyPoint": "Uncomplicated acute pericarditis is treated with a full-dose NSAID plus colchicine for 3 months. Corticosteroids as first-line treatment increase recurrence."
@@ -295,7 +295,7 @@
         },
         {
           "text": "Exercise stress echocardiogram",
-          "why": "The common trap. Exertional chest tightness usually leads to stress testing, but exercise testing is contraindicated in symptomatic severe aortic stenosis because of the risk of hypotension, syncope and sudden death."
+          "why": "Common trap: Exertional chest tightness usually leads to stress testing, but exercise testing is contraindicated in symptomatic severe aortic stenosis because of the risk of hypotension, syncope and sudden death."
         },
         {
           "text": "Myocardial perfusion scan",
@@ -344,15 +344,15 @@
         },
         {
           "text": "Fluticasone propionate 50 micrograms inhaled twice daily through a spacer for 4 weeks",
-          "why": "Often chosen. Asthma rarely presents as an isolated wet cough. He has no wheeze and did not respond to salbutamol."
+          "why": "Common trap: Asthma rarely presents as an isolated wet cough. He has no wheeze and did not respond to salbutamol."
         },
         {
           "text": "Reassurance that a post-viral cough can last 8 weeks, with review if it continues",
-          "why": "The common trap. In children a daily cough beyond 4 weeks is chronic, and a wet cough is never normal. Untreated, it may progress to bronchiectasis."
+          "why": "Common trap: In children a daily cough beyond 4 weeks is chronic, and a wet cough is never normal. Untreated, it may progress to bronchiectasis."
         },
         {
           "text": "Referral for a sweat test and CT of the chest",
-          "why": "Correct but premature. These are for children with specific pointers (clubbing, poor growth, haemoptysis), a cough that persists after 4 weeks of antibiotics, or more than 3 episodes a year."
+          "why": "Correct but premature: These are for children with specific pointers (clubbing, poor growth, haemoptysis), a cough that persists after 4 weeks of antibiotics, or more than 3 episodes a year."
         }
       ],
       "keyPoint": "A wet cough lasting more than 4 weeks in an otherwise well child is protracted bacterial bronchitis: give 2 weeks of amoxicillin+clavulanate and review. Investigate for bronchiectasis if it does not clear or keeps recurring."
@@ -425,7 +425,7 @@
       "options": [
         {
           "text": "He may continue all driving until the sleep study confirms the diagnosis",
-          "why": "Unsafe delay. Fitness to drive depends on his sleepiness at the wheel, which is already established. It does not wait for a test result."
+          "why": "Unsafe delay: Fitness to drive depends on his sleepiness at the wheel, which is already established. It does not wait for a test result."
         },
         {
           "text": "He may continue commercial driving if he works daylight shifts only",
@@ -433,7 +433,7 @@
         },
         {
           "text": "He may drive his own car but should stop commercial driving",
-          "why": "Often chosen. Commercial standards are stricter, but repeated episodes of falling asleep while driving also fail the private standard."
+          "why": "Common trap: Commercial standards are stricter, but repeated episodes of falling asleep while driving also fail the private standard."
         },
         {
           "text": "He should stop all driving until he is assessed and effectively treated",
@@ -467,7 +467,7 @@
       "options": [
         {
           "text": "Chest X-ray",
-          "why": "Often chosen. A chest X-ray is not sensitive enough to screen for lung cancer and does not reduce mortality."
+          "why": "Common trap: A chest X-ray is not sensitive enough to screen for lung cancer and does not reduce mortality."
         },
         {
           "text": "CT of the chest with contrast",
@@ -480,7 +480,7 @@
         },
         {
           "text": "No imaging, with advice to return if symptoms develop",
-          "why": "The common trap. Screening is not limited to current smokers. People who quit within the past 10 years are eligible, and a family history is not required."
+          "why": "Common trap: Screening is not limited to current smokers. People who quit within the past 10 years are eligible, and a family history is not required."
         },
         {
           "text": "Spirometry, with imaging only if airflow obstruction is found",
@@ -577,7 +577,7 @@
         },
         {
           "text": "Transthoracic echocardiogram, with review in 4 weeks",
-          "why": "Unsafe delay. An echocardiogram does not explain a restrictive defect with reticular opacities, and 4 more weeks of amiodarone risks irreversible fibrosis."
+          "why": "Unsafe delay: An echocardiogram does not explain a restrictive defect with reticular opacities, and 4 more weeks of amiodarone risks irreversible fibrosis."
         }
       ],
       "keyPoint": "New breathlessness or dry cough in anyone taking amiodarone is pulmonary toxicity until shown otherwise. A restrictive spirometry pattern with crackles needs high-resolution CT and early advice about stopping the drug."
@@ -624,7 +624,7 @@
       "options": [
         {
           "text": "Add azithromycin 500 mg three times a week",
-          "why": "Correct but premature. Long-term macrolides are considered, usually with specialist input, for frequent exacerbations that continue despite optimal inhaled therapy."
+          "why": "Correct but premature: Long-term macrolides are considered, usually with specialist input, for frequent exacerbations that continue despite optimal inhaled therapy."
         },
         {
           "text": "Add prednisolone 5 mg daily long term",
@@ -641,7 +641,7 @@
         },
         {
           "text": "Change to fluticasone furoate+vilanterol 100/25 micrograms once daily",
-          "why": "Often chosen. This adds the corticosteroid but removes the muscarinic antagonist, giving up bronchodilation she needs. Step up, not sideways."
+          "why": "Common trap: This adds the corticosteroid but removes the muscarinic antagonist, giving up bronchodilation she needs. Step up, not sideways."
         },
         {
           "text": "Change to tiotropium+olodaterol 2.5/2.5 micrograms, 2 inhalations once daily",
@@ -689,7 +689,7 @@
           "text": "Advise him to continue ticagrelor with aspirin for 12 months",
           "score": 2,
           "critical": true,
-          "why": "Critical. Stopping dual antiplatelet therapy early after a drug-eluting stent for an acute coronary syndrome risks stent thrombosis, which is often fatal. Minor bruising is expected and is not a reason to stop."
+          "why": "Critical: Stopping dual antiplatelet therapy early after a drug-eluting stent for an acute coronary syndrome risks stent thrombosis, which is often fatal. Minor bruising is expected and is not a reason to stop."
         },
         {
           "text": "Arrange an exercise stress test before he returns to work",
@@ -699,12 +699,12 @@
         {
           "text": "Cease ticagrelor and continue aspirin alone",
           "score": 0,
-          "why": "Unsafe. This is the action most likely to cause stent thrombosis."
+          "why": "Unsafe: This is the action most likely to cause stent thrombosis."
         },
         {
           "text": "Change ticagrelor to clopidogrel 75 mg daily today",
           "score": 0,
-          "why": "Often chosen. Minor bruising does not justify a move to a less effective drug. De-escalation is a cardiology decision made for significant bleeding or intolerance."
+          "why": "Common trap: Minor bruising does not justify a move to a less effective drug. De-escalation is a cardiology decision made for significant bleeding or intolerance."
         },
         {
           "text": "Increase bisoprolol to 10 mg daily",
@@ -807,7 +807,7 @@
         {
           "text": "Add spironolactone 25 mg daily today",
           "score": 0,
-          "why": "Often chosen. Spironolactone is the best fourth drug in true resistant hypertension, but it invalidates the aldosterone-to-renin ratio for weeks. Test first, then start."
+          "why": "Common trap: Spironolactone is the best fourth drug in true resistant hypertension, but it invalidates the aldosterone-to-renin ratio for weeks. Test first, then start."
         },
         {
           "text": "Arrange 24-hour ambulatory BP monitoring",
@@ -833,7 +833,7 @@
           "text": "Measure the plasma aldosterone-to-renin ratio",
           "score": 2,
           "critical": true,
-          "why": "Critical. Primary aldosteronism is the most common curable cause of hypertension, is found in a large share of resistant cases, and is often present with a normal potassium. It has specific treatment (a mineralocorticoid antagonist or adrenalectomy), so missing it leaves her at ongoing risk."
+          "why": "Critical: Primary aldosteronism is the most common curable cause of hypertension, is found in a large share of resistant cases, and is often present with a normal potassium. It has specific treatment (a mineralocorticoid antagonist or adrenalectomy), so missing it leaves her at ongoing risk."
         },
         {
           "text": "Refer her to the emergency department for intravenous BP lowering",
@@ -936,7 +936,7 @@
         {
           "text": "Change atorvastatin to rosuvastatin 40 mg daily",
           "score": 0,
-          "why": "Often chosen. Statins lower triglycerides only modestly and do not protect against pancreatitis at this level. His statin continues for cardiovascular risk, but intensifying it is not today's priority."
+          "why": "Common trap: Statins lower triglycerides only modestly and do not protect against pancreatitis at this level. His statin continues for cardiovascular risk, but intensifying it is not today's priority."
         },
         {
           "text": "Intensify his glucose-lowering treatment",
@@ -951,7 +951,7 @@
         {
           "text": "Repeat fasting lipids in 3 months before starting any drug",
           "score": 0,
-          "why": "Unsafe delay. Above 10 mmol/L the risk of acute pancreatitis warrants drug treatment now, alongside lifestyle change."
+          "why": "Unsafe delay: Above 10 mmol/L the risk of acute pancreatitis warrants drug treatment now, alongside lifestyle change."
         },
         {
           "text": "Request genetic testing for familial hypercholesterolaemia",
@@ -977,7 +977,7 @@
           "text": "Start fenofibrate 145 mg daily",
           "score": 2,
           "critical": true,
-          "why": "Critical. Triglycerides above 10 mmol/L carry a risk of acute pancreatitis, and the first aim is to bring them below 10. Fenofibrate is the drug of choice, at full dose with an eGFR above 60. Monitor creatine kinase when it is combined with a statin."
+          "why": "Critical: Triglycerides above 10 mmol/L carry a risk of acute pancreatitis, and the first aim is to bring them below 10. Fenofibrate is the drug of choice, at full dose with an eGFR above 60. Monitor creatine kinase when it is combined with a statin."
         },
         {
           "text": "Start fish oil providing 4 g of omega-3 fatty acids daily",
@@ -1016,7 +1016,7 @@
           "text": "Change perindopril to an angiotensin II receptor blocker",
           "score": 2,
           "critical": true,
-          "why": "Critical. ACE inhibitor cough can start weeks to months after the drug is begun and will not settle while it continues. Any chronic cough work-up in a patient on an ACE inhibitor starts by stopping it. Resolution can take up to 3 months."
+          "why": "Critical: ACE inhibitor cough can start weeks to months after the drug is begun and will not settle while it continues. Any chronic cough work-up in a patient on an ACE inhibitor starts by stopping it. Resolution can take up to 3 months."
         },
         {
           "text": "Refer her for bronchoscopy",
@@ -1026,7 +1026,7 @@
         {
           "text": "Refer her to a speech pathologist for cough suppression therapy",
           "score": 0,
-          "why": "Correct but premature. This is for refractory or unexplained chronic cough after treatable causes have been addressed."
+          "why": "Correct but premature: This is for refractory or unexplained chronic cough after treatable causes have been addressed."
         },
         {
           "text": "Request a CT of the chest",
@@ -1051,7 +1051,7 @@
         {
           "text": "Start esomeprazole 20 mg twice daily for 8 weeks",
           "score": 0,
-          "why": "Often chosen. Empirical proton pump inhibitors do not help chronic cough unless there are reflux symptoms, and she has none."
+          "why": "Common trap: Empirical proton pump inhibitors do not help chronic cough unless there are reflux symptoms, and she has none."
         },
         {
           "text": "Start montelukast 10 mg at night",
@@ -1090,7 +1090,7 @@
         {
           "text": "Add montelukast 5 mg at night",
           "score": 0,
-          "why": "Correct but premature. It is an add-on option once the basics are right, and it carries a risk of behavioural and mood adverse effects."
+          "why": "Correct but premature: It is an add-on option once the basics are right, and it carries a risk of behavioural and mood adverse effects."
         },
         {
           "text": "Advise him to stop soccer until his asthma is controlled",
@@ -1110,13 +1110,13 @@
         {
           "text": "Change his preventer to fluticasone propionate+salmeterol 50/25 micrograms, 2 puffs twice daily",
           "score": 0,
-          "why": "Often chosen. Stepping up is reasonable only after technique, adherence, triggers and comorbidities have been addressed. Otherwise he is exposed to more drug for a delivery problem."
+          "why": "Common trap: Stepping up is reasonable only after technique, adherence, triggers and comorbidities have been addressed. Otherwise he is exposed to more drug for a delivery problem."
         },
         {
           "text": "Check his inhaler technique and restart the spacer",
           "score": 2,
           "critical": true,
-          "why": "Critical. A metered dose inhaler used without a spacer delivers little drug to a child's lungs, so his preventer and his reliever are both under-dosed. Correcting this is likely to restore control and matters for his safety in a flare-up."
+          "why": "Critical: A metered dose inhaler used without a spacer delivers little drug to a child's lungs, so his preventer and his reliever are both under-dosed. Correcting this is likely to restore control and matters for his safety in a flare-up."
         },
         {
           "text": "Increase fluticasone propionate to 250 micrograms twice daily",

@@ -51,7 +51,7 @@
         },
         {
           "text": "Ross River virus IgM positive on both samples, with IgG negative on both samples",
-          "why": "The common trap. IgG normally appears within about 2 weeks of IgM, so IgM without IgG seroconversion on paired samples suggests a false-positive or persistent non-specific IgM. IgM can also persist for months to years after past infection. This pattern does not confirm recent infection."
+          "why": "Common trap: IgG normally appears within about 2 weeks of IgM, so IgM without IgG seroconversion on paired samples suggests a false-positive or persistent non-specific IgM. IgM can also persist for months to years after past infection. This pattern does not confirm recent infection."
         },
         {
           "text": "Ross River virus IgM positive, with a raised C-reactive protein",
@@ -231,7 +231,7 @@
         },
         {
           "text": "HLA-B*1502",
-          "why": "The likely trap. HLA-B*1502 predicts carbamazepine-induced SJS/TEN in the same population. Right population, wrong drug."
+          "why": "Common trap: HLA-B*1502 predicts carbamazepine-induced SJS/TEN in the same population. Right population, wrong drug."
         },
         {
           "text": "HLA-B*5801",
@@ -308,7 +308,7 @@
         },
         {
           "text": "Calcium and vitamin D supplements alone, with DXA in 2 years",
-          "why": "Unsafe. Without a replacement antiresorptive, bone loss is rapid and fracture risk rebounds within months."
+          "why": "Unsafe: Without a replacement antiresorptive, bone loss is rapid and fracture risk rebounds within months."
         },
         {
           "text": "Denosumab 60 mg once yearly instead of 6-monthly",
@@ -316,7 +316,7 @@
         },
         {
           "text": "Drug holiday for 12 months, then repeat DXA",
-          "why": "Often chosen. Drug holidays apply to bisphosphonates, which have a long skeletal half-life. Denosumab's effect wears off once it is stopped."
+          "why": "Common trap: Drug holidays apply to bisphosphonates, which have a long skeletal half-life. Denosumab's effect wears off once it is stopped."
         },
         {
           "text": "Raloxifene 60 mg orally daily",
@@ -376,7 +376,7 @@
       "options": [
         {
           "text": "Continue prednisolone 7 mg daily and reassure him that symptoms are expected during tapering",
-          "why": "Often chosen. Mild aching for a few days after a dose reduction can be watched, with the plan continued. Ten days of recurrent girdle pain and stiffness with a clear rise in ESR and CRP meets the definition of relapse, though, and needs a dose increase."
+          "why": "Common trap: Mild aching for a few days after a dose reduction can be watched, with the plan continued. Ten days of recurrent girdle pain and stiffness with a clear rise in ESR and CRP meets the definition of relapse, though, and needs a dose increase."
         },
         {
           "text": "Increase prednisolone to 8 mg daily, then reduce back to 7 mg over 4–8 weeks",
@@ -471,7 +471,7 @@
         },
         {
           "text": "Finerenone 10 mg orally, daily",
-          "why": "Often chosen. Finerenone fits her profile (type 2 diabetes, albuminuria, K⁺ ≤ 5.0), but in the stepwise sequence it comes after the SGLT2 inhibitor."
+          "why": "Common trap: Finerenone fits her profile (type 2 diabetes, albuminuria, K⁺ ≤ 5.0), but in the stepwise sequence it comes after the SGLT2 inhibitor."
         },
         {
           "text": "Frusemide 20 mg orally, daily",
@@ -655,7 +655,7 @@
         },
         {
           "text": "Repeat urinalysis in 3 months, attributing the bleeding to anticoagulation",
-          "why": "The most common error. Haematuria on anticoagulants should be investigated exactly as it would be without them."
+          "why": "Common trap: Haematuria on anticoagulants should be investigated exactly as it would be without them."
         },
         {
           "text": "Urine cytology on 3 samples, with urology referral only if positive",
@@ -721,11 +721,11 @@
         },
         {
           "text": "Nitrofurantoin 100 mg orally, 6-hourly for 5 days",
-          "why": "Often chosen. Nitrofurantoin is now the TG first-line drug for cystitis in men, but for 7 days. Five days is the course for non-pregnant women."
+          "why": "Common trap: Nitrofurantoin is now the TG first-line drug for cystitis in men, but for 7 days. Five days is the course for non-pregnant women."
         },
         {
           "text": "Trimethoprim 300 mg orally, daily for 3 days",
-          "why": "Often chosen. This is the regimen for non-pregnant women. Men need 7 days."
+          "why": "Common trap: This is the regimen for non-pregnant women. Men need 7 days."
         },
         {
           "text": "Trimethoprim 300 mg orally, daily for 7 days",
@@ -830,7 +830,7 @@
           "text": "Hepatitis B and hepatitis C serology",
           "score": 2,
           "critical": true,
-          "why": "Critical. Immunosuppression can reactivate hepatitis B, sometimes fatally, and chronic hepatitis B or C greatly increases methotrexate liver toxicity. Test HBsAg, anti-HBc and anti-HBs, and hepatitis C antibody."
+          "why": "Critical: Immunosuppression can reactivate hepatitis B, sometimes fatally, and chronic hepatitis B or C greatly increases methotrexate liver toxicity. Test HBsAg, anti-HBc and anti-HBs, and hepatitis C antibody."
         },
         {
           "text": "HLA-B27",
@@ -840,7 +840,7 @@
         {
           "text": "Interferon-gamma release assay (QuantiFERON-TB)",
           "score": 0,
-          "why": "Often chosen. Before methotrexate, TB screening starts with a risk assessment, and he has no risk factors or symptoms. Routine IGRA is required before biological or targeted synthetic DMARDs, and is only considered before methotrexate when risk factors are present."
+          "why": "Common trap: Before methotrexate, TB screening starts with a risk assessment, and he has no risk factors or symptoms. Routine IGRA is required before biological or targeted synthetic DMARDs, and is only considered before methotrexate when risk factors are present."
         },
         {
           "text": "Measure varicella-zoster IgG before zoster vaccination",
@@ -958,7 +958,7 @@
           "text": "Cholecalciferol (vitamin D3) replacement, then recheck 25-hydroxyvitamin D before the infusion",
           "score": 2,
           "critical": true,
-          "why": "Critical. Vitamin D should be above 50 nmol/L before starting antiresorptive therapy, and zoledronic acid is contraindicated in hypocalcaemia and needs a creatinine clearance of at least 35 mL/min and good hydration. Infusing at 31 nmol/L risks symptomatic hypocalcaemia. The mildly raised PTH is secondary to vitamin D deficiency."
+          "why": "Critical: Vitamin D should be above 50 nmol/L before starting antiresorptive therapy, and zoledronic acid is contraindicated in hypocalcaemia and needs a creatinine clearance of at least 35 mL/min and good hydration. Infusing at 31 nmol/L risks symptomatic hypocalcaemia. The mildly raised PTH is secondary to vitamin D deficiency."
         },
         {
           "text": "Denosumab 60 mg subcutaneously today instead of zoledronic acid",
@@ -1082,7 +1082,7 @@
           "text": "Cease ibuprofen",
           "score": 2,
           "critical": true,
-          "why": "Critical. An NSAID with an ACE inhibitor and diuretic in a volume-depleted patient with CKD is the triple whammy, and the most modifiable cause of this AKI (creatinine 1.5 times baseline)."
+          "why": "Critical: An NSAID with an ACE inhibitor and diuretic in a volume-depleted patient with CKD is the triple whammy, and the most modifiable cause of this AKI (creatinine 1.5 times baseline)."
         },
         {
           "text": "Commence gliclazide MR 30 mg daily while metformin is withheld",
@@ -1163,7 +1163,7 @@
         {
           "text": "Cranberry products daily",
           "score": 0,
-          "why": "Often chosen. TG says cranberry may reduce recurrence only in non-pregnant women under 50, and evidence is insufficient in older women."
+          "why": "Common trap: TG says cranberry may reduce recurrence only in non-pregnant women under 50, and evidence is insufficient in older women."
         },
         {
           "text": "Cystoscopy referral",
@@ -1179,7 +1179,7 @@
           "text": "Intravaginal oestrogen (for example oestriol cream)",
           "score": 2,
           "critical": true,
-          "why": "Critical. In postmenopausal women, vaginal oestrogen restores vaginal flora and reduces recurrent UTI. She also has atrophic symptoms."
+          "why": "Critical: In postmenopausal women, vaginal oestrogen restores vaginal flora and reduces recurrent UTI. She also has atrophic symptoms."
         },
         {
           "text": "Methenamine hippurate 1 g orally 12-hourly, reviewed every 6 months",
@@ -1288,7 +1288,7 @@
         {
           "text": "24-hour urine protein collection",
           "score": 0,
-          "why": "Not needed. UACR quantifies the proteinuria, and the nephrologist will decide on further testing."
+          "why": "Not needed: UACR quantifies the proteinuria, and the nephrologist will decide on further testing."
         },
         {
           "text": "ANCA and anti-GBM antibodies",
@@ -1313,7 +1313,7 @@
         {
           "text": "Prednisolone 1 mg/kg orally daily, starting today before specialist review",
           "score": 0,
-          "why": "Often chosen. Induction therapy is specialist-directed and ideally guided by biopsy. Starting high-dose steroid before that discussion is premature."
+          "why": "Common trap: Induction therapy is specialist-directed and ideally guided by biopsy. Starting high-dose steroid before that discussion is premature."
         },
         {
           "text": "Pregnancy test and advice on effective contraception",
@@ -1323,7 +1323,7 @@
         {
           "text": "Repeat UACR twice over the next 3 months to confirm persistence",
           "score": 0,
-          "why": "An unsafe delay. That rule is for CKD screening. Acute nephritis is a medical emergency (Kidney Health Australia)."
+          "why": "Unsafe delay: That rule is for CKD screening. Acute nephritis is a medical emergency (Kidney Health Australia)."
         },
         {
           "text": "Routine rheumatology outpatient referral",
@@ -1334,7 +1334,7 @@
           "text": "Urgent nephrology referral, discussed by phone today",
           "score": 2,
           "critical": true,
-          "why": "Critical. New severely increased albuminuria with haematuria, new hypertension, oedema, a rising creatinine, low complement and rising dsDNA mean lupus nephritis until proven otherwise. KHA: refer signs of acute nephritis without delay. A biopsy will decide induction therapy."
+          "why": "Critical: New severely increased albuminuria with haematuria, new hypertension, oedema, a rising creatinine, low complement and rising dsDNA mean lupus nephritis until proven otherwise. KHA: refer signs of acute nephritis without delay. A biopsy will decide induction therapy."
         },
         {
           "text": "Urine cytology",

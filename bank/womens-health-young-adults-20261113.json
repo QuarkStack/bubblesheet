@@ -78,7 +78,7 @@
         },
         {
           "text": "Combined oral contraceptive pill containing ethinyloestradiol 30 microg",
-          "why": "The common trap. Oral ethinyloestradiol undergoes hepatic first-pass metabolism that suppresses insulin-like growth factor 1 (IGF-1) and fails to reliably improve bone mineral density in functional hypothalamic amenorrhoea."
+          "why": "Common trap: Oral ethinyloestradiol undergoes hepatic first-pass metabolism that suppresses insulin-like growth factor 1 (IGF-1) and fails to reliably improve bone mineral density in functional hypothalamic amenorrhoea."
         },
         {
           "text": "Medroxyprogesterone acetate 150 mg intramuscularly every 12 weeks",
@@ -116,7 +116,7 @@
       "options": [
         {
           "text": "Combined oral contraceptive pill containing ethinyloestradiol 20 microg",
-          "why": "Often chosen. Combined hormonal contraception is UKMEC 4 (unacceptable risk) in migraine with aura at any age, because of ischaemic stroke risk, even at low ethinyloestradiol doses. Her controlled hypertension adds further risk (UKMEC 3)."
+          "why": "Common trap: Combined hormonal contraception is UKMEC 4 (unacceptable risk) in migraine with aura at any age, because of ischaemic stroke risk, even at low ethinyloestradiol doses. Her controlled hypertension adds further risk (UKMEC 3)."
         },
         {
           "text": "Combined vaginal ring releasing ethinyloestradiol and etonogestrel",
@@ -171,7 +171,7 @@
         },
         {
           "text": "Repeat transthoracic echocardiography in 10 years if she remains normotensive",
-          "why": "Often chosen. A 10-year surveillance interval is unsafe in a patient with both a bicuspid aortic valve and an indexed ascending aortic diameter exceeding 2.0 cm/m2."
+          "why": "Common trap: A 10-year surveillance interval is unsafe in a patient with both a bicuspid aortic valve and an indexed ascending aortic diameter exceeding 2.0 cm/m2."
         },
         {
           "text": "Urgent referral for elective aortic root replacement",
@@ -234,7 +234,7 @@
         },
         {
           "text": "Prior radioactive iodine ablation prevents fetal thyroid dysfunction in pregnancy",
-          "why": "The common trap. TRAb can persist for years after radioactive iodine ablation, even though the mother now needs levothyroxine, and still reach the fetus."
+          "why": "Common trap: TRAb can persist for years after radioactive iodine ablation, even though the mother now needs levothyroxine, and still reach the fetus."
         },
         {
           "text": "Transplacental IgG transfer can cause fetal and neonatal thyrotoxicosis",
@@ -314,7 +314,7 @@
       "options": [
         {
           "text": "Common variable immunodeficiency",
-          "why": "The common trap. CVID usually begins after early childhood, and most patients have measurable circulating B cells that fail to mature into plasma cells. Infection from infancy, an affected maternal uncle and absent B cells point to a defect in B-cell development instead."
+          "why": "Common trap: CVID usually begins after early childhood, and most patients have measurable circulating B cells that fail to mature into plasma cells. Infection from infancy, an affected maternal uncle and absent B cells point to a defect in B-cell development instead."
         },
         {
           "text": "Selective IgA deficiency",
@@ -373,7 +373,7 @@
         },
         {
           "text": "1 in 50",
-          "why": "Often chosen. Under Hardy-Weinberg equilibrium (q2 = 1/10,000, so q = 1/100), 2pq (approximately 1/50) is the probability that the unaffected partner is a carrier, before multiplying by the 1/2 chance of transmitting the mutant allele."
+          "why": "Common trap: Under Hardy-Weinberg equilibrium (q2 = 1/10,000, so q = 1/100), 2pq (approximately 1/50) is the probability that the unaffected partner is a carrier, before multiplying by the 1/2 chance of transmitting the mutant allele."
         }
       ],
       "keyPoint": "When one parent has an autosomal recessive condition (probability 1 of passing a mutant allele), the offspring's disease risk equals half the unaffected partner's population carrier frequency (2pq / 2 = q)."
@@ -412,7 +412,7 @@
         },
         {
           "text": "Ten years after the last episode or until age 21 years, whichever is longer",
-          "why": "The common trap. Ten years or until age 21 years is the recommended prophylaxis duration for mild rheumatic heart disease, whereas acute rheumatic fever without rheumatic heart disease requires 5 years or until age 21 years."
+          "why": "Common trap: Ten years or until age 21 years is the recommended prophylaxis duration for mild rheumatic heart disease, whereas acute rheumatic fever without rheumatic heart disease requires 5 years or until age 21 years."
         },
         {
           "text": "Ten years after the last episode or until age 35 years, whichever is longer",
@@ -531,7 +531,7 @@
           "text": "Administer intravenous magnesium sulfate loading dose followed by maintenance infusion",
           "score": 2,
           "critical": true,
-          "why": "Critical. Severe pre-eclampsia with neurological signs (severe headache, visual disturbance, clonus) requires immediate intravenous magnesium sulfate (4 g loading dose over 20 minutes then 1 g/hour) for eclampsia prevention."
+          "why": "Critical: Severe pre-eclampsia with neurological signs (severe headache, visual disturbance, clonus) requires immediate intravenous magnesium sulfate (4 g loading dose over 20 minutes then 1 g/hour) for eclampsia prevention."
         },
         {
           "text": "Administer oral immediate-release nifedipine or intravenous labetalol to lower blood pressure",
@@ -589,7 +589,7 @@
           "text": "Arrange bilateral lower limb compression duplex ultrasonography as the initial imaging test",
           "score": 2,
           "critical": true,
-          "why": "Critical. In a pregnant woman with suspected pulmonary embolism and unilateral leg symptoms, bilateral compression duplex ultrasonography is the initial test of choice because confirming deep vein thrombosis establishes the diagnosis and indication for full anticoagulation without ionising radiation."
+          "why": "Critical: In a pregnant woman with suspected pulmonary embolism and unilateral leg symptoms, bilateral compression duplex ultrasonography is the initial test of choice because confirming deep vein thrombosis establishes the diagnosis and indication for full anticoagulation without ionising radiation."
         },
         {
           "text": "Commence oral rivaroxaban 15 mg twice daily as an outpatient",
@@ -728,7 +728,7 @@
           "text": "Refer urgently for subtotal colectomy with end ileostomy",
           "score": 2,
           "critical": true,
-          "why": "Critical. Failure of second-line medical rescue therapy (infliximab) following intravenous corticosteroids in acute severe ulcerative colitis mandates urgent subtotal colectomy to prevent toxic megacolon, perforation, and death."
+          "why": "Critical: Failure of second-line medical rescue therapy (infliximab) following intravenous corticosteroids in acute severe ulcerative colitis mandates urgent subtotal colectomy to prevent toxic megacolon, perforation, and death."
         }
       ],
       "keyPoint": "Acute severe ulcerative colitis refractory to intravenous corticosteroids and rescue infliximab requires urgent subtotal colectomy, thromboprophylaxis, and direct shared decision-making with the young adult patient."
@@ -756,7 +756,7 @@
           "text": "Administer empirical ceftriaxone 500 mg intramuscularly, oral doxycycline 100 mg twice daily, and oral valaciclovir 500 mg twice daily",
           "score": 2,
           "critical": true,
-          "why": "Critical. Australian STI guidelines recommend immediate empirical syndromic treatment covering gonorrhoea (ceftriaxone 500 mg IM single dose), chlamydia/LGV (doxycycline 100 mg BD for 21 days), and HSV proctitis (valaciclovir 500 mg BD for 7 days) before PCR results return."
+          "why": "Critical: Australian STI guidelines recommend immediate empirical syndromic treatment covering gonorrhoea (ceftriaxone 500 mg IM single dose), chlamydia/LGV (doxycycline 100 mg BD for 21 days), and HSV proctitis (valaciclovir 500 mg BD for 7 days) before PCR results return."
         },
         {
           "text": "Advise the patient that he is legally required to notify his employer of his STI diagnosis",

@@ -46,7 +46,7 @@
         },
         {
           "text": "Amiodarone 300 mg IV only",
-          "why": "The common trap: counting the stacked shocks as three. ARC gives amiodarone after three shocks delivered in different cycles, with the stacked sequence counting as one."
+          "why": "Common trap: counting the stacked shocks as three. ARC gives amiodarone after three shocks delivered in different cycles, with the stacked sequence counting as one."
         },
         {
           "text": "Lignocaine 1 mg/kg IV only",
@@ -222,7 +222,7 @@
         },
         {
           "text": "Insulin (neutral) 10 units IV with 50 mL of 50% glucose",
-          "why": "Often chosen. It is the right second step, but potassium shifts over 15–30 minutes and the myocardium needs protecting now."
+          "why": "Common trap: It is the right second step, but potassium shifts over 15–30 minutes and the myocardium needs protecting now."
         },
         {
           "text": "Salbutamol 10 mg nebulised",
@@ -262,7 +262,7 @@
         },
         {
           "text": "Adrenaline 1 mg IV every 6–10 minutes, with a shock every 2 minutes",
-          "why": "The common trap: the 30–34 °C rule applied below 30 °C. Below 30 °C, adrenaline is withheld."
+          "why": "Common trap: the 30–34 °C rule applied below 30 °C. Below 30 °C, adrenaline is withheld."
         },
         {
           "text": "Amiodarone 300 mg IV, then further shocks every 2 minutes",
@@ -307,7 +307,7 @@
         },
         {
           "text": "Give adrenaline 1 mg IV now, as scheduled",
-          "why": "The common trap. A 1 mg bolus into a heart that has restarted risks tachyarrhythmia, severe hypertension and further myocardial injury."
+          "why": "Common trap: A 1 mg bolus into a heart that has restarted risks tachyarrhythmia, severe hypertension and further myocardial injury."
         },
         {
           "text": "Give sodium bicarbonate 8.4%, 50 mL IV",
@@ -477,7 +477,7 @@
         },
         {
           "text": "Bag-mask ventilation over the mouth and nose, with the stoma sealed",
-          "why": "The common trap. This is right for a tracheostomy with a normal upper airway. After a laryngectomy the mouth and nose no longer connect to the trachea."
+          "why": "Common trap: This is right for a tracheostomy with a normal upper airway. After a laryngectomy the mouth and nose no longer connect to the trachea."
         },
         {
           "text": "Insertion of an i-gel, then bag ventilation",
@@ -526,12 +526,12 @@
           "text": "Charge the defibrillator while compressions continue, with everyone else standing clear",
           "score": 2,
           "critical": true,
-          "why": "Critical. Every 5-second increase in the pre-shock pause nearly halves the chance of success. Charge during compressions, then pause only for the safety check and the shock, aiming for under 5 seconds."
+          "why": "Critical: Every 5-second increase in the pre-shock pause nearly halves the chance of success. Charge during compressions, then pause only for the safety check and the shock, aiming for under 5 seconds."
         },
         {
           "text": "Check for a central pulse immediately after the shock",
           "score": 0,
-          "why": "Often chosen. A pulse is rarely palpable straight after a successful shock, and checking costs perfusion time."
+          "why": "Common trap: A pulse is rarely palpable straight after a successful shock, and checking costs perfusion time."
         },
         {
           "text": "Deliver three stacked shocks",
@@ -566,7 +566,7 @@
         {
           "text": "Stop compressions so the rhythm can be confirmed while the defibrillator charges",
           "score": 0,
-          "why": "The common trap. Charging during a pause adds 5–10 seconds of no flow before every shock."
+          "why": "Common trap: Charging during a pause adds 5–10 seconds of no flow before every shock."
         }
       ],
       "keyPoint": "Charge on the chest, clear the free-flowing oxygen, keep the pause under 5 seconds, shock, and get straight back on the chest."
@@ -635,7 +635,7 @@
           "text": "Activate the catheter laboratory for emergency coronary angiography",
           "score": 2,
           "critical": true,
-          "why": "Critical. ANZCOR 11.7 suggests early angiography for ST elevation after ROSC, whether or not the patient is comatose. With 24-hour PCI on site, primary PCI is the reperfusion route."
+          "why": "Critical: ANZCOR 11.7 suggests early angiography for ST elevation after ROSC, whether or not the patient is comatose. With 24-hour PCI on site, primary PCI is the reperfusion route."
         },
         {
           "text": "Adjust ventilation to a PaCO2 of 35–45 mmHg",
@@ -665,7 +665,7 @@
         {
           "text": "Hyperventilate to a PaCO2 of 30–35 mmHg to offset the metabolic acidosis",
           "score": 0,
-          "why": "The common trap. Hypocapnia causes cerebral vasoconstriction and worsens brain ischaemia. ANZCOR suggests against routinely targeting it."
+          "why": "Common trap: Hypocapnia causes cerebral vasoconstriction and worsens brain ischaemia. ANZCOR suggests against routinely targeting it."
         },
         {
           "text": "Load levetiracetam to prevent seizures",
@@ -722,7 +722,7 @@
           "text": "Give a fibrinolytic (for example alteplase) IV now",
           "score": 2,
           "critical": true,
-          "why": "Critical. ANZCOR suggests fibrinolysis when PE is the suspected cause of arrest. Recent surgery is a relative contraindication, and the alternative here is death."
+          "why": "Critical: ANZCOR suggests fibrinolysis when PE is the suspected cause of arrest. Recent surgery is a relative contraindication, and the alternative here is death."
         },
         {
           "text": "Give amiodarone 300 mg IV",
@@ -762,7 +762,7 @@
         {
           "text": "Stop resuscitation if PEA persists 20 minutes after fibrinolysis",
           "score": 0,
-          "why": "The common trap. The 20-minute guide applies to asystole without a reversible cause. After fibrinolysis for PE, ANZCOR suggests 60–90 minutes."
+          "why": "Common trap: The 20-minute guide applies to asystole without a reversible cause. After fibrinolysis for PE, ANZCOR suggests 60–90 minutes."
         }
       ],
       "keyPoint": "Suspected PE arrest: give the fibrinolytic during CPR, keep running the algorithm, and commit to 60–90 minutes of CPR."
@@ -789,7 +789,7 @@
           "text": "Adrenaline 0.5 mg (0.5 mL of 1:1000) IM into the anterolateral thigh",
           "score": 2,
           "critical": true,
-          "why": "Critical. IM adrenaline is the first-line drug: 0.01 mg/kg up to 0.5 mg, repeated after 5 minutes if needed. Delayed adrenaline is the main factor in fatal anaphylaxis."
+          "why": "Critical: IM adrenaline is the first-line drug: 0.01 mg/kg up to 0.5 mg, repeated after 5 minutes if needed. Delayed adrenaline is the main factor in fatal anaphylaxis."
         },
         {
           "text": "Adrenaline 0.5 mL of 1:10 000 IM",
@@ -834,7 +834,7 @@
         {
           "text": "Sit her fully upright to ease her breathing",
           "score": 0,
-          "why": "The common trap. With hypotension and faintness, sitting up risks collapse and arrest."
+          "why": "Common trap: With hypotension and faintness, sitting up risks collapse and arrest."
         },
         {
           "text": "Stop the cefazolin infusion",
@@ -890,7 +890,7 @@
         {
           "text": "Continue CPR until his daughter arrives so she can agree to stopping",
           "score": 0,
-          "why": "The common trap. The decision rests with the senior clinician, and families shouldn't be made to feel responsible for it."
+          "why": "Common trap: The decision rests with the senior clinician, and families shouldn't be made to feel responsible for it."
         },
         {
           "text": "Give empirical calcium chloride and sodium bicarbonate before stopping",
@@ -905,7 +905,7 @@
         {
           "text": "Record the time of death as the time CPR stopped",
           "score": 0,
-          "why": "Often chosen. Death is confirmed after the observation period, not when CPR stops."
+          "why": "Common trap: Death is confirmed after the observation period, not when CPR stops."
         },
         {
           "text": "Record the time of death as the time these criteria are met",
@@ -916,7 +916,7 @@
           "text": "Stop CPR now, after a brief check with the team",
           "score": 2,
           "critical": true,
-          "why": "Critical. Asystole for more than 20 minutes with all ALS measures in place and no reversible cause found is a reasonable basis for stopping. The team leader decides after consulting the team."
+          "why": "Critical: Asystole for more than 20 minutes with all ALS measures in place and no reversible cause found is a reasonable basis for stopping. The team leader decides after consulting the team."
         }
       ],
       "keyPoint": "Asystole beyond 20 minutes despite full ALS and no reversible cause: stop. Then observe for 5 minutes, check pupils, corneas and motor response, and record death when the criteria are met. Follow local policy on documentation."

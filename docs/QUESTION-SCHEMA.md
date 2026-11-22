@@ -218,7 +218,7 @@ The user uploads each file to `bank/img/`. Until a file is there, the build hold
   "stem": ["..."],
   "lead": "Which THREE actions are MOST appropriate now?",
   "options": [
-    { "text": "Cease ibuprofen", "score": 2, "critical": true, "why": "Critical. ..." },
+    { "text": "Cease ibuprofen", "score": 2, "critical": true, "why": "Critical: ..." },
     { "text": "Repeat EUC within 24–48 hours", "score": 1, "why": "..." },
     { "text": "Withhold metformin", "score": 1, "why": "..." },
     { "text": "Arrange admission for IV fluids", "score": 0, "why": "..." },
@@ -258,7 +258,11 @@ These are the conventions of the RACGP written papers, and the NBME item-writing
   - The key should need at least two steps: recognise the problem, then choose the action or interpret the result.
   - At least two distractors should be options that a partly prepared candidate would pick. Use the distractor types listed above.
   - Benchmark against RACGP's sample questions and Self-Assessment Progress Test (SAPT) items. If an item is easier than these, or answerable by logic, rewrite it.
-- **Explanations (`why`):** one line for each option. Write longer ones for the key and for traps, and start a trap with "Often chosen." or "The common trap." Start a critical CDP answer's `why` with "Critical."
+- **Explanations (`why`):** one line for each option. Write longer ones for the key and for traps.
+  - Start a trap with "Common trap:". Where it fits, name the error in a few words before explaining it, for example "Common trap: the 30–34 °C rule applied below 30 °C. Below 30 °C, adrenaline is withheld."
+  - Other labels, only when they fit: "Correct but premature:", "Unsafe delay:", "Unsafe:" and "Not needed:".
+  - Start a critical CDP answer's `why` with "Critical:".
+  - Don't use "Often chosen." or "The common trap.". Readers who picked the option took "Often chosen" as a comment on their choice, and how often an option is chosen isn't known.
 - **Tone:** plain Australian English, no em-dashes, and no filler words (delve, pivotal, crucial, robust).
 - **Citing attached references.** This repository and its website are public, so attached material is cited in two places.
   - **Public, in the bank:** `source` names the published guideline that supports the answer, with its year, e.g. `"Therapeutic Guidelines: Rheumatology (gout)"` or `"SOMANZ Hypertension in Pregnancy Guideline (2023)"`. No field in a bank (`source`, `why`, `keyPoint`, `bank.sources`, `description`) may name a user's file, course, lecture deck, recall paper or past exam, give its page or slide numbers, or quote it. Write everything in your own words.
