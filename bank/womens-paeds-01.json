@@ -138,11 +138,11 @@
         "Pregnancy and reproductive health"
       ],
       "subtopic": "Subfertility: confirming ovulation",
-      "source": "AJGP Women's Health 1: Assessment of female fertility in the general practice setting",
+      "source": "AJGP Women's Health 1: Assessment of female fertility in the general practice setting (2020)",
       "stem": [
         "Chloe Martens, 36, an architect, and her male partner have had unprotected intercourse 2 to 3 times a week for 7 months without conceiving. Since stopping the combined pill a year ago, her cycles have been regular at 35 days, with 5 days of bleeding and premenstrual breast tenderness. She has no dysmenorrhoea, dyspareunia or hirsutism. Her BMI is 23 kg/m².",
-        "She takes folic acid 500 micrograms and iodine 150 micrograms daily. Her rubella and varicella serology show immunity, her cervical screening is up to date, and a transvaginal pelvic ultrasound last month was normal. Her partner's semen analysis is booked.",
-        "Her previous GP ordered a serum progesterone, which was taken on day 21 of her last cycle. Her next period started 15 days later."
+        "She takes folic acid 500 micrograms and iodine 150 micrograms daily. Her rubella and varicella serology show immunity and her cervical screening is up to date. Last month a transvaginal pelvic ultrasound, including an antral follicle count, was normal, as were her anti-Müllerian hormone (AMH) and TSH. Her partner's semen analysis is booked.",
+        "Her previous GP ordered a serum progesterone, which was taken on day 21 of her last cycle. Her next period started 15 days later. She asks whether the result means she isn't ovulating."
       ],
       "tables": [
         {
@@ -172,7 +172,7 @@
         },
         {
           "text": "Serum FSH, LH, oestradiol, prolactin and TSH on day 2 to 4 of her next cycle",
-          "why": "This is the work-up for oligomenorrhoea or amenorrhoea. With regular cycles and premenstrual symptoms, confirm ovulation first."
+          "why": "Not needed: early follicular FSH, LH and oestradiol with prolactin is the work-up for oligomenorrhoea or amenorrhoea. Her AMH and antral follicle count already assess ovarian reserve, and her TSH is normal."
         },
         {
           "text": "Serum progesterone on day 14 of her next cycle",
@@ -185,7 +185,7 @@
         {
           "text": "Serum progesterone on day 28 of her next cycle",
           "correct": true,
-          "why": "Ovulation is confirmed by a mid-luteal progesterone, taken about 7 days before the next expected period. In a 35-day cycle that is day 28. Her day-21 result is uninterpretable, not evidence of anovulation. If cycle length varies, serial levels may be needed."
+          "why": "Regular cycles with premenstrual symptoms usually mean she is ovulating. When there is doubt, as her mistimed result has caused, a mid-luteal progesterone confirms it: take it about 7 days before the next expected period, which is day 28 of a 35-day cycle. Her day-21 result is uninterpretable, not evidence of anovulation. If cycle length varies, serial levels may be needed."
         }
       ],
       "keyPoint": "Time the 'day 21' progesterone to 7 days before the expected period: cycle length minus 7."
