@@ -1,0 +1,954 @@
+{
+  "schema": 1,
+  "bank": {
+    "id": "gastrointestinal-01",
+    "title": "Gastrointestinal health, set 1",
+    "description": "RACGP AKT and KFP practice on gastrointestinal presentations at all ages: 10 AKT and 4 KFP items, about 30 minutes at full exam time (25 at working pace). One item needs the abdominal X-ray. Covers coeliac testing, fatty liver fibrosis risk, hepatitis B reactivation, pancreatic cancer, eosinophilic oesophagitis, diverticulitis, microscopic colitis, neonatal cholestasis, childhood constipation, sigmoid volvulus, childhood gastroenteritis, rectal bleeding, variceal bleeding and palliative constipation.",
+    "created": "2026-11-24",
+    "reviewBy": "2027-11-24",
+    "sources": [
+      "Therapeutic Guidelines: Antibiotic (Diverticulitis; Prevention of infection in patients with cirrhosis and upper gastrointestinal bleeding; Assessing the need for antimicrobial prophylaxis in patients with immune compromise)",
+      "Therapeutic Guidelines: Gastrointestinal (coeliac disease)",
+      "Tye-Din JA. Interpreting tests for coeliac disease. Aust J Gen Pract 2018",
+      "Gastroenterological Society of Australia. MAFLD in primary care: a consensus statement (2024)",
+      "Loveday BPT et al. Pancreatic cancer: an update on diagnosis and management. Aust J Gen Pract 2019",
+      "Cancer Council Victoria. Optimal care pathways for pancreatic cancer and colorectal cancer, 2nd editions (2021)",
+      "British Society of Gastroenterology eosinophilic oesophagitis guidelines (2022); ACG eosinophilic esophagitis guideline (2025)",
+      "UEG and EMCG European guidelines on microscopic colitis (2021); AGA microscopic colitis guideline (2016)",
+      "Royal Children's Hospital Melbourne clinical practice guidelines: Jaundice in early infancy; Constipation; Gastroenteritis; Dehydration",
+      "ASCRS clinical practice guidelines for colon volvulus and acute colonic pseudo-obstruction (2016)",
+      "Baveno VII consensus (2022); ESGE variceal haemorrhage guideline (2022); HALT-IT trial (2020)",
+      "EASL hepatitis B guidelines (2017)",
+      "Chen J et al. Management of constipation in people receiving palliative care. Aust J Gen Pract 2025"
+    ]
+  },
+  "questions": [
+    {
+      "id": "gi01-s01",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology"
+      ],
+      "subtopic": "Coeliac disease: testing on a gluten-free diet",
+      "source": "Therapeutic Guidelines: Gastrointestinal (coeliac disease); Tye-Din JA. Interpreting tests for coeliac disease: tips, pitfalls and updates. Aust J Gen Pract 2018;47(1-2)",
+      "stem": [
+        "Grace Ofori, 29, a pharmacy technician, asks whether she has coeliac disease. For 2 years she had bloating, loose stools and tiredness. Four months ago she stopped eating gluten after reading about it online, and her symptoms have mostly settled.",
+        "Her full blood count, ferritin and thyroid function are normal. She has no family history of coeliac disease. She wants a clear answer, but she would rather not eat gluten again unless there is no other way to find out. Her examination is normal."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Arrange a gastroscopy with duodenal biopsies now",
+          "why": "Common trap: testing while she is gluten free. After 4 months without gluten the villi may have healed, so a normal biopsy would not exclude coeliac disease."
+        },
+        {
+          "text": "Ask her to eat gluten for 2 weeks, then request coeliac serology",
+          "why": "Right idea, wrong duration. Therapeutic Guidelines describes a gluten challenge of 4 to 6 weeks, eating about 8 to 10 g of gluten a day (roughly 4 slices of wheat bread), before serology. Two weeks can give a false negative. She also prefers to avoid a challenge if possible."
+        },
+        {
+          "text": "Confirm the diagnosis from her response to the gluten-free diet",
+          "why": "Common trap: symptom response proves nothing. Many people without coeliac disease feel better on a gluten-free diet (for example, from less fructan in wheat). A formal diagnosis matters because it means strict lifelong avoidance, follow-up and testing of relatives."
+        },
+        {
+          "text": "Request coeliac serology now",
+          "why": "Common trap: serology on a gluten-free diet. Therapeutic Guidelines says serology is only valid while the person eats 8 to 10 g of gluten a day and cannot be used in someone already gluten free. A negative result now would be falsely reassuring."
+        },
+        {
+          "text": "Request faecal calprotectin",
+          "why": "Not needed: calprotectin separates inflammatory bowel disease from functional symptoms. It does not diagnose or exclude coeliac disease."
+        },
+        {
+          "text": "Request HLA-DQ2 and HLA-DQ8 genotyping",
+          "correct": true,
+          "why": "Serology and biopsy are unreliable once gluten has been stopped. Almost everyone with coeliac disease carries HLA-DQ2 or HLA-DQ8, so a negative result effectively excludes it (likelihood under 1%), and she need not eat gluten again. About 40 to 50% of Australians carry these genes, so a positive result does not diagnose coeliac disease: she would then need a gluten challenge of 4 to 6 weeks followed by serology, and biopsy if positive. This is the recommended first step for a person on a gluten-free diet who is unwilling to do a challenge."
+        }
+      ],
+      "keyPoint": "Coeliac serology and duodenal biopsy are unreliable after gluten has been stopped. For someone already gluten free who does not want a 4 to 6 week gluten challenge, start with HLA-DQ2/DQ8 genotyping: negative excludes coeliac disease, positive means a challenge and serology are still needed."
+    },
+    {
+      "id": "gi01-s02",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology"
+      ],
+      "subtopic": "Fatty liver disease: fibrosis risk",
+      "source": "Gastroenterological Society of Australia. Recommendations for the assessment of metabolic dysfunction-associated fatty liver disease (MAFLD) in primary care: a consensus statement (2024)",
+      "stem": [
+        "Priyanka Desai, 54, a school administrator, attends for results. An abdominal ultrasound arranged for upper abdominal pain showed no gallstones but a diffusely bright liver consistent with steatosis. Her pain has since settled.",
+        "She has type 2 diabetes, hypertension and a BMI of 34 kg/m². She drinks alcohol once or twice a month. She takes metformin XR 1 g daily and perindopril 5 mg daily. Hepatitis B and C serology is negative and her iron studies are normal. Examination shows no signs of chronic liver disease."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "ALT",
+              "64 U/L",
+              "< 35"
+            ],
+            [
+              "AST",
+              "48 U/L",
+              "< 35"
+            ],
+            [
+              "GGT",
+              "70 U/L",
+              "< 38"
+            ],
+            [
+              "Bilirubin",
+              "9 µmol/L",
+              "< 20"
+            ],
+            [
+              "Albumin",
+              "41 g/L",
+              "35–50"
+            ],
+            [
+              "Platelets",
+              "180 × 10⁹/L",
+              "150–400"
+            ],
+            [
+              "HbA1c",
+              "7.4% (57 mmol/mol)",
+              ""
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Arrange a liver biopsy",
+          "why": "Over-investigation: biopsy is invasive and is not used to screen for fibrosis. A specialist may use it later if non-invasive tests disagree."
+        },
+        {
+          "text": "Arrange liver elastography",
+          "correct": true,
+          "why": "Her FIB-4 is (age × AST) ÷ (platelets × √ALT) = (54 × 48) ÷ (180 × 8) = 1.8. A score of 1.3 to 2.7 is indeterminate: it neither rules out nor predicts advanced fibrosis. GESA recommends a second-line test, liver elastography (such as transient elastography) or a direct serum fibrosis test, for anyone with MAFLD and an indeterminate FIB-4. A liver stiffness under 8 kPa puts her at low risk, managed in general practice with FIB-4 repeated at least every 3 years; a high result means referral."
+        },
+        {
+          "text": "Arrange liver ultrasound and alpha-fetoprotein every 6 months",
+          "why": "Correct but premature: this is hepatocellular carcinoma surveillance for cirrhosis. Nothing yet shows that she has advanced fibrosis or cirrhosis."
+        },
+        {
+          "text": "Refer to a liver specialist",
+          "why": "Right action at the wrong score: GESA recommends referral when FIB-4 is above 2.7, a second-line test is high, or there is evidence of cirrhosis. A raised ALT alone is not a referral criterion, and ALT correlates poorly with fibrosis."
+        },
+        {
+          "text": "Repeat FIB-4 in 3 years",
+          "why": "Common trap: the low-risk plan applied to an indeterminate score. Repeating FIB-4 every 3 years is for a score under 1.3, or for an indeterminate score after a reassuring second-line test. Her score is 1.8."
+        },
+        {
+          "text": "Repeat liver function tests in 3 months",
+          "why": "Not helpful: repeating transaminases does not stage fibrosis, which is what predicts liver-related outcomes in fatty liver disease."
+        }
+      ],
+      "keyPoint": "In fatty liver disease, calculate FIB-4: (age × AST) ÷ (platelets × √ALT). Under 1.3, repeat in 3 years. From 1.3 to 2.7, arrange elastography or a direct serum fibrosis test. Above 2.7, or a high second-line result, refer to a liver specialist."
+    },
+    {
+      "id": "gi01-s03",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology",
+        "Infectious diseases"
+      ],
+      "subtopic": "Hepatitis B reactivation before rituximab",
+      "source": "Therapeutic Guidelines: Antibiotic (Assessing the need for antimicrobial prophylaxis in patients with immune compromise, 2026); European Association for the Study of the Liver. Clinical practice guidelines on the management of hepatitis B virus infection (2017)",
+      "stem": [
+        "Duc Pham, 58, a restaurant owner who was born in Vietnam, has primary membranous nephropathy. His nephrologist plans to start rituximab next month and has asked you to arrange screening for latent infections. He does not remember having hepatitis B vaccine. He takes perindopril 10 mg daily and atorvastatin 20 mg daily."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Hepatitis B surface antigen (HBsAg)",
+              "Not detected",
+              ""
+            ],
+            [
+              "Hepatitis B core antibody (anti-HBc, total)",
+              "Detected",
+              ""
+            ],
+            [
+              "Hepatitis B surface antibody (anti-HBs)",
+              "4 mIU/mL",
+              "≥ 10 (immune)"
+            ],
+            [
+              "HBV DNA",
+              "Not detected",
+              ""
+            ],
+            [
+              "ALT",
+              "26 U/L",
+              "< 40"
+            ],
+            [
+              "Hepatitis C antibody",
+              "Not detected",
+              ""
+            ]
+          ]
+        }
+      ],
+      "lead": "What is the MOST appropriate next step regarding hepatitis B?",
+      "options": [
+        {
+          "text": "Arrange antiviral prophylaxis before rituximab starts",
+          "correct": true,
+          "why": "HBsAg negative with anti-HBc positive means past hepatitis B infection. The virus persists in the liver and can reactivate with immunosuppression, sometimes as fulminant hepatitis. Rituximab depletes B cells and carries a high risk. Therapeutic Guidelines (2026) recommends screening everyone before rituximab and antiviral prophylaxis for those who are HBsAg negative and anti-HBc positive. Prophylaxis is usually entecavir or tenofovir, arranged with the treating specialist, started before rituximab and continued for at least 18 months after the last dose (EASL)."
+        },
+        {
+          "text": "Give a course of hepatitis B vaccine before rituximab starts",
+          "why": "Common trap: reading a low anti-HBs as never infected. The positive anti-HBc shows past infection, so the issue is reactivation, which vaccination does not prevent."
+        },
+        {
+          "text": "Give hepatitis B immunoglobulin before each rituximab dose",
+          "why": "Immunoglobulin is for post-exposure prophylaxis in non-immune people. It does not suppress the virus already present in his liver."
+        },
+        {
+          "text": "Monitor ALT every 3 months during treatment",
+          "why": "Unsafe: ALT rises late, after viral replication is established. Waiting for hepatitis risks severe reactivation."
+        },
+        {
+          "text": "Monitor HBV DNA every 3 months and treat if it becomes detectable",
+          "why": "Correct only in another setting: monitoring with pre-emptive treatment is an option for people with past infection on lower-risk immunosuppression. With rituximab, Therapeutic Guidelines recommends prophylaxis."
+        },
+        {
+          "text": "Repeat hepatitis B serology in 6 months before deciding",
+          "why": "Unsafe delay: rituximab starts next month, and the results already answer the question."
+        },
+        {
+          "text": "Request HBeAg and anti-HBe",
+          "why": "Not needed: e antigen markers help stage chronic infection in people who are HBsAg positive. They add nothing when HBsAg is negative."
+        },
+        {
+          "text": "Take no further action because the infection has resolved",
+          "why": "Common trap: \"resolved\" infection is not cured. Covalently closed circular DNA persists in hepatocytes, which is why anti-HBc positive people can reactivate on B-cell depleting drugs."
+        }
+      ],
+      "keyPoint": "Before rituximab, test HBsAg and anti-HBc. HBsAg negative with anti-HBc positive is past infection that rituximab can reactivate: start antiviral prophylaxis (entecavir or tenofovir) before treatment, whatever the anti-HBs level."
+    },
+    {
+      "id": "gi01-s04",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology",
+        "Oncology"
+      ],
+      "subtopic": "Suspected pancreatic cancer",
+      "source": "Loveday BPT, Lipton L, Thomson BNJ. Pancreatic cancer: an update on diagnosis and management. Aust J Gen Pract 2019;48(12); Cancer Council Victoria. Optimal care pathway for people with pancreatic cancer, 2nd edition (2021)",
+      "stem": [
+        "Bruno Ferraro, 67, a retired postal worker, has had a dull ache in his upper abdomen for 3 months. It goes through to his back and is worse when he lies flat. He has lost 6 kg without trying and has little appetite. He has not noticed any change in the colour of his urine or stools.",
+        "Last week his HbA1c was 7.4% (57 mmol/mol); a year ago it was 5.6% (38 mmol/mol). His BMI is 24 kg/m². He stopped smoking 10 years ago after 30 pack-years and drinks 2 standard drinks a week. He has mild epigastric tenderness, with no jaundice, mass or lymphadenopathy. His full blood count, lipase and liver function tests are normal."
+      ],
+      "lead": "What is the MOST appropriate next investigation?",
+      "options": [
+        {
+          "text": "Abdominal ultrasound",
+          "why": "Common trap: the usual first abdominal test. Bowel gas limits views of the pancreas, especially the body and tail, and small tumours are easily missed. The AJGP review states that diagnosis needs cross-sectional imaging, preferably a pancreas protocol CT."
+        },
+        {
+          "text": "CA 19-9",
+          "why": "Common trap: using a tumour marker to diagnose. CA 19-9 is not a screening or diagnostic test. It can be normal in pancreatic cancer and raised in biliary obstruction. It is measured once a diagnosis is probable, for staging and follow-up."
+        },
+        {
+          "text": "Faecal elastase",
+          "why": "Tests for exocrine insufficiency, which may follow pancreatic cancer, but it does not find or exclude a tumour."
+        },
+        {
+          "text": "HbA1c repeated in 3 months after dietary advice",
+          "why": "Unsafe delay: treating this as ordinary type 2 diabetes. New diabetes with weight loss in a lean 67-year-old is not the usual metabolic picture."
+        },
+        {
+          "text": "Magnetic resonance cholangiopancreatography",
+          "why": "Used to characterise biliary disease or pancreatic cysts. Pancreas protocol CT is the first test for a suspected solid tumour and for staging."
+        },
+        {
+          "text": "Pancreas protocol CT of the abdomen",
+          "correct": true,
+          "why": "In people aged 60 or older, unexplained weight loss with any of back pain, upper abdominal pain, new-onset diabetes or similar symptoms warrants urgent CT, within 2 weeks. He has all three. Pancreas protocol (multiphase contrast) CT detects the tumour and stages it, including vessel involvement that decides whether it is resectable."
+        },
+        {
+          "text": "Positron emission tomography",
+          "why": "Not a first-line test. It is sometimes used in staging after CT."
+        }
+      ],
+      "keyPoint": "At age 60 or more, unexplained weight loss with new-onset diabetes, back pain or upper abdominal pain needs a pancreas protocol CT within 2 weeks. CA 19-9 is not a diagnostic test, and ultrasound can miss a pancreatic tumour."
+    },
+    {
+      "id": "gi01-s05",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology"
+      ],
+      "subtopic": "Eosinophilic oesophagitis",
+      "source": "Dhar A et al. British Society of Gastroenterology and BSPGHAN joint consensus guidelines on the diagnosis and management of eosinophilic oesophagitis in children and adults. Gut 2022; American College of Gastroenterology clinical guideline: diagnosis and management of eosinophilic esophagitis (2025)",
+      "stem": [
+        "Lachlan Reid, 23, an engineering student, has had food sticking in his lower chest for 2 years, mostly with steak, chicken and bread. He eats slowly and drinks water with every mouthful. Last month a piece of chicken stuck for 3 hours and he went to an emergency department, where it passed on its own before any procedure. He has no heartburn, weight loss, vomiting or trouble swallowing liquids.",
+        "He has asthma, allergic rhinitis and a peanut allergy. He uses budesonide+formoterol inhaler as needed and takes no other medicines. His examination is normal."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Arrange a barium swallow",
+          "why": "May show rings or a narrowed oesophagus, but it cannot diagnose eosinophilic oesophagitis, which needs histology."
+        },
+        {
+          "text": "Arrange oesophageal manometry",
+          "why": "Manometry diagnoses motility disorders such as achalasia, which causes dysphagia for liquids as well as solids, often with regurgitation. It follows endoscopy and is not the first test."
+        },
+        {
+          "text": "Arrange skin prick testing to foods to plan an elimination diet",
+          "why": "Not needed: skin prick and specific IgE tests do not identify the foods that drive eosinophilic oesophagitis, and test-directed diets work poorly. Diet therapy is planned after the diagnosis is made."
+        },
+        {
+          "text": "Refer for gastroscopy with biopsies from the upper and lower oesophagus",
+          "correct": true,
+          "why": "Solid-food dysphagia and food bolus impaction in a young atopic man is typical of eosinophilic oesophagitis. The diagnosis is histological: at least 6 biopsies from at least 2 levels of the oesophagus, taken even if the mucosa looks normal (ACG 2025; BSG 2022). A food bolus episode makes the endoscopy a priority. Ideally the biopsies are taken before a PPI is started, because a PPI can lower the eosinophil count and hide the diagnosis."
+        },
+        {
+          "text": "Refer for gastroscopy, with biopsies only if the oesophagus looks abnormal",
+          "why": "Common trap: trusting a normal-looking oesophagus. The mucosa can look normal in eosinophilic oesophagitis, so BSG recommends biopsies in anyone with dysphagia or food bolus obstruction whatever the endoscopic appearance."
+        },
+        {
+          "text": "Refer to a speech pathologist for a swallowing assessment",
+          "why": "Suits oropharyngeal dysphagia (coughing or choking as the swallow starts, often after a stroke). Food sticking in the lower chest is oesophageal."
+        },
+        {
+          "text": "Start esomeprazole 40 mg daily for 8 weeks and review",
+          "why": "Correct but premature: a PPI is a first-line treatment once the diagnosis is confirmed, but started now it may mask the histology and delays an endoscopy he needs after a food bolus episode."
+        }
+      ],
+      "keyPoint": "Solid-food dysphagia or food bolus impaction in a young atopic adult suggests eosinophilic oesophagitis. Refer for gastroscopy with at least 6 biopsies from at least 2 levels of the oesophagus, even if it looks normal, ideally before a PPI is started."
+    },
+    {
+      "id": "gi01-s06",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology"
+      ],
+      "subtopic": "Uncomplicated diverticulitis",
+      "source": "Therapeutic Guidelines: Antibiotic (Diverticulitis, published 2025, amended 2026)",
+      "stem": [
+        "Deborah Kemp, 61, a payroll officer, has had 2 days of constant pain in her left lower abdomen with looser stools. She is eating and drinking. She has hypertension treated with amlodipine 5 mg daily and no other illnesses. A colonoscopy 2 years ago, after a positive bowel screening test, showed sigmoid diverticular disease and no polyps.",
+        "Her temperature is 37.8 °C, heart rate 92/min and blood pressure 134/82 mmHg. She is tender in the left iliac fossa, with no guarding or rebound. Her white cell count is 12.6 × 10⁹/L and CRP 74 mg/L. A CT of the abdomen that afternoon shows uncomplicated sigmoid diverticulitis, with no abscess, perforation or free gas."
+      ],
+      "lead": "What is the MOST appropriate management?",
+      "options": [
+        {
+          "text": "Admission for intravenous ceftriaxone and metronidazole",
+          "why": "Correct only in another setting: intravenous therapy is for complicated diverticulitis, meaning perforation, peritonitis, an abscess, sepsis or a positive blood culture."
+        },
+        {
+          "text": "Amoxicillin+clavulanate 875+125 mg orally, 12-hourly for 5 days",
+          "why": "Common trap: routine antibiotics. This is the Therapeutic Guidelines drug and dose when antibiotics are indicated for uncomplicated diverticulitis: immune compromise, right-sided disease, or no improvement after 72 hours of conservative care. She has none of these."
+        },
+        {
+          "text": "Cefalexin 500 mg orally, 6-hourly plus metronidazole 400 mg orally, 12-hourly for 7 days",
+          "why": "Not a current Therapeutic Guidelines regimen for diverticulitis (the oral alternative in non-severe penicillin hypersensitivity is cefuroxime plus metronidazole), and she does not need an antibiotic."
+        },
+        {
+          "text": "Ciprofloxacin 500 mg orally, 12-hourly plus metronidazole 400 mg orally, 12-hourly for 7 days",
+          "why": "An overseas regimen. Fluoroquinolones are reserved in Australia, and she does not need an antibiotic."
+        },
+        {
+          "text": "Colonoscopy within the next 2 weeks",
+          "why": "Unsafe: colonoscopy during acute diverticulitis risks perforation. Therapeutic Guidelines recommends colorectal cancer screening 6 to 8 weeks after an episode for all complicated cases and some uncomplicated ones; her recent colonoscopy is relevant to that decision."
+        },
+        {
+          "text": "Paracetamol and clear fluids, with review in 2 to 3 days and no antibiotic",
+          "correct": true,
+          "why": "Therapeutic Guidelines (2025, amended 2026): adults without immune compromise who have uncomplicated left-sided diverticulitis do not routinely need antibiotics, because randomised trials show no benefit. CT has confirmed the diagnosis and excluded complications; a low-grade fever and raised CRP do not make it complicated. Antibiotics are added for immune compromise, right-sided disease or failure to improve after 72 hours. She should return early if pain, fever or vomiting worsens."
+        },
+        {
+          "text": "Psyllium daily from today to prevent recurrence",
+          "why": "Not acute treatment. Fibre may be discussed for prevention once the episode has settled."
+        }
+      ],
+      "keyPoint": "CT-confirmed uncomplicated left-sided diverticulitis in an immunocompetent adult does not routinely need antibiotics. Give them for immune compromise, right-sided disease, no improvement after 72 hours, or complicated disease."
+    },
+    {
+      "id": "gi01-s07",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology"
+      ],
+      "subtopic": "Microscopic colitis",
+      "source": "Miehlke S et al. European guidelines on microscopic colitis: United European Gastroenterology and European Microscopic Colitis Group statements and recommendations. United European Gastroenterol J 2021; Nguyen GC et al. American Gastroenterological Association Institute guideline on the medical management of microscopic colitis. Gastroenterology 2016",
+      "stem": [
+        "Ingrid Larsen, 68, a retired dental receptionist, has had watery diarrhoea 6 to 8 times a day for 4 months, including at night, with urgency and two episodes of incontinence. There is no blood and her weight is stable. She has hypothyroidism treated with levothyroxine 75 micrograms daily.",
+        "Two months ago her coeliac serology, faecal multiplex PCR and TSH were normal, and her faecal calprotectin was 120 µg/g (reference < 50). You stopped her lansoprazole, which she no longer needed for reflux, and she has taken no anti-inflammatories or antidepressants. Her diarrhoea has not improved.",
+        "Her colonoscopy last week looked normal. The pathology report on random colonic biopsies describes a thickened subepithelial collagen band and increased intraepithelial lymphocytes."
+      ],
+      "lead": "What is the MOST appropriate treatment?",
+      "options": [
+        {
+          "text": "Budesonide 9 mg orally, daily for 8 weeks",
+          "correct": true,
+          "why": "Chronic watery, nocturnal diarrhoea in an older woman with a normal-looking colon, and a thickened collagen band on biopsy, is collagenous colitis, a form of microscopic colitis. Budesonide 9 mg daily is the recommended induction treatment (AGA 2016; UEG and EMCG 2021). Relapse after stopping is common, and maintenance uses the lowest effective dose. Drugs linked with microscopic colitis (PPIs, NSAIDs, SSRIs) should be reviewed, which has been done here."
+        },
+        {
+          "text": "Cholestyramine 4 g orally, twice daily",
+          "why": "An option for some patients, alone or with budesonide, especially if bile acid diarrhoea coexists, but not first-line induction."
+        },
+        {
+          "text": "Loperamide 2 mg orally after each loose stool",
+          "why": "Can ease mild symptoms or be added on, but it does not induce remission. With nocturnal diarrhoea and incontinence she needs budesonide."
+        },
+        {
+          "text": "Low FODMAP diet for 6 weeks",
+          "why": "Common trap: treating this as irritable bowel syndrome with diarrhoea. Nocturnal symptoms, incontinence and the biopsy findings point to an organic cause."
+        },
+        {
+          "text": "Mesalazine 4 g orally, daily for 8 weeks",
+          "why": "Common trap: inflammatory bowel disease treatment applied to microscopic colitis. Mesalazine is less effective than budesonide, and the European guideline recommends against it for induction."
+        },
+        {
+          "text": "Metronidazole 400 mg orally, 12-hourly for 7 days",
+          "why": "No role: infection has been excluded, and microscopic colitis is not an infection."
+        },
+        {
+          "text": "Prednisolone 40 mg orally, daily, tapered over 8 weeks",
+          "why": "Systemic corticosteroids work less reliably than budesonide and cause more adverse effects. They are not first-line."
+        }
+      ],
+      "keyPoint": "Chronic watery diarrhoea in an older person with a normal-looking colon needs random colonic biopsies to diagnose microscopic colitis. Review PPIs, NSAIDs and SSRIs, and induce remission with budesonide 9 mg daily, not mesalazine."
+    },
+    {
+      "id": "gi01-s08",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology",
+        "Paediatrics"
+      ],
+      "subtopic": "Prolonged jaundice with pale stools",
+      "source": "Royal Children's Hospital Melbourne clinical practice guideline: Jaundice in early infancy",
+      "stem": [
+        "Willow Kennedy, 4 weeks old, is brought by her mother, Anika, because she still looks yellow. Willow was born at term after an uncomplicated pregnancy and became jaundiced on day 3; the midwife said it was normal. She is exclusively breastfed, feeds well and is above her birth weight. Her newborn screening test was normal.",
+        "She is alert and well, with yellow skin and sclerae. Her liver edge is palpable 2 cm below the costal margin. Anika shows you a photo of a recent nappy: the stool is pale and putty coloured, and the urine has stained the nappy yellow."
+      ],
+      "lead": "What is the MOST appropriate next step?",
+      "options": [
+        {
+          "text": "Advise Anika to stop breastfeeding for 48 hours to see if the jaundice fades",
+          "why": "Common trap: a test for breast milk jaundice. RCH advises not to stop breastfeeding. Breast milk jaundice is unconjugated, the stools stay yellow, and it is a diagnosis of exclusion."
+        },
+        {
+          "text": "Arrange an outpatient abdominal ultrasound in the next few weeks",
+          "why": "Unsafe delay: ultrasound is part of the work-up, but it follows same-day bloods and specialist discussion, not a wait of weeks."
+        },
+        {
+          "text": "Measure a transcutaneous bilirubin and plot it on a phototherapy chart",
+          "why": "A transcutaneous meter gives total bilirubin only, and phototherapy charts are for unconjugated jaundice in the first days of life. The question now is the conjugated fraction."
+        },
+        {
+          "text": "Reassure that breast milk jaundice can last up to 12 weeks and review in 2 weeks",
+          "why": "Common trap: labelling prolonged jaundice as breast milk jaundice without testing. Pale stools and dark urine point to cholestasis."
+        },
+        {
+          "text": "Request a conjugated bilirubin today and phone paediatric gastroenterology",
+          "correct": true,
+          "why": "Jaundice for more than 2 weeks is prolonged and needs a fractionated (total and conjugated) bilirubin, with a full blood count, film and reticulocytes, thyroid function, blood group and direct antiglobulin test. RCH states that pale or acholic stools at any age need urgent evaluation for cholestatic liver disease, including biliary atresia, and discussion with paediatric gastroenterology. A conjugated bilirubin above 20 µmol/L or 20% of the total is abnormal. Biliary atresia surgery (portoenterostomy) gives better results the earlier it is done, so this cannot wait."
+        },
+        {
+          "text": "Request thyroid function tests and review in 1 week",
+          "why": "Thyroid function is part of the prolonged jaundice screen, but on its own, with a week of waiting, it misses the urgent problem."
+        },
+        {
+          "text": "Send her to hospital today for phototherapy",
+          "why": "Phototherapy treats unconjugated hyperbilirubinaemia. It does nothing for conjugated jaundice and would delay the right investigations."
+        }
+      ],
+      "keyPoint": "Jaundice beyond 2 weeks of age needs a total and conjugated bilirubin. Pale stools or dark urine mean cholestasis until proven otherwise: test the same day and discuss urgently with paediatric gastroenterology, because biliary atresia surgery works best early."
+    },
+    {
+      "id": "gi01-s09",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology",
+        "Paediatrics"
+      ],
+      "subtopic": "Constipation with overflow soiling",
+      "source": "Royal Children's Hospital Melbourne clinical practice guideline: Constipation",
+      "stem": [
+        "Hamish Doherty, 5, in Prep, is brought by his father, Marcus, because Hamish has had \"diarrhoea\" in his underpants every day for 3 weeks. His teacher has phoned twice. Marcus would like a stool test for infection. Before this, Hamish passed a large, hard stool every 4 to 5 days that sometimes blocked the toilet, and he often hid behind the couch with his legs crossed when he needed to go.",
+        "He was toilet trained at 3 and passed meconium on his first day of life. He eats well and is on the 50th centile for weight and height. He takes no medicines.",
+        "His abdomen is soft and not distended, with a firm, mobile mass above the pubis extending into the left iliac fossa. His spine, lower limb neurology and perianal skin are normal."
+      ],
+      "lead": "What is the MOST appropriate management?",
+      "options": [
+        {
+          "text": "Abdominal X-ray to confirm faecal loading before treatment",
+          "why": "Not needed: RCH states that an X-ray and internal examination are not required. The diagnosis is clinical."
+        },
+        {
+          "text": "Daily glycerine suppository for 1 week",
+          "why": "RCH advises avoiding rectal treatment in children. A suppository or small enema is used only as a one-off, with sedation strongly considered, because it is distressing and can worsen withholding."
+        },
+        {
+          "text": "Faecal multiplex PCR before starting treatment",
+          "why": "Not needed: three weeks of daily soiling after months of large, hard, infrequent stools, with a palpable faecal mass, is overflow, not infection."
+        },
+        {
+          "text": "Increase dietary fibre and water and review in 4 weeks",
+          "why": "RCH notes that extra fibre alone is not adequate and that fluid need not exceed normal requirements. It leaves the impaction in place."
+        },
+        {
+          "text": "Loperamide for the soiling until the stools firm up",
+          "why": "Unsafe: the \"diarrhoea\" is liquid stool leaking around impacted faeces. An antidiarrhoeal worsens the impaction."
+        },
+        {
+          "text": "Oral macrogol to disimpact, then a maintenance dose",
+          "correct": true,
+          "why": "Soiling with a hard mass in the lower abdomen means faecal impaction with overflow. RCH recommends oral disimpaction as an outpatient, with macrogol in rising daily doses over about 7 days (for ages 1 to 6, 1, 2, 2, 3, 3, 4 and 4 adult sachets), then moving straight to a maintenance dose titrated to one soft, easy bowel action a day, usually for months. Add toilet sitting for up to 5 minutes after meals with a footstool, and a reward chart. Explain that stopping laxatives too early is a common cause of relapse, and review within 4 weeks."
+        },
+        {
+          "text": "Paraffin oil at a maintenance dose, with no disimpaction",
+          "why": "Paraffin oil is a first-line maintenance option, but a child with impaction needs disimpaction first. Maintenance alone leaves the mass and the soiling."
+        },
+        {
+          "text": "Refer to a paediatric surgeon to exclude Hirschsprung disease",
+          "why": "No red flags: he passed meconium on day 1, is growing well, and has no ribbon-like stools, persistent vomiting or abdominal mass other than faeces."
+        }
+      ],
+      "keyPoint": "Daily \"diarrhoea\" in a previously constipated child with a palpable faecal mass is overflow soiling from impaction. Disimpact with oral macrogol, then go straight to maintenance for months, with toilet sitting after meals. Avoid antidiarrhoeals, rectal treatments and X-rays."
+    },
+    {
+      "id": "gi01-s10",
+      "format": "sba",
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology"
+      ],
+      "subtopic": "Sigmoid volvulus",
+      "source": "Vogel JD et al. American Society of Colon and Rectal Surgeons clinical practice guidelines for colon volvulus and acute colonic pseudo-obstruction. Dis Colon Rectum 2016",
+      "stem": [
+        "Malcolm Ashworth, 65, has cerebral palsy and lives in a supported disability residence. He uses a few words and gestures to communicate. Staff bring him because his abdomen has swollen over 2 days, he groans when moved, and he has not opened his bowels or passed wind for 2 days. He vomited once this morning. He has long-standing constipation treated with daily macrogol.",
+        "His temperature is 37.4 °C, heart rate 104/min and blood pressure 128/78 mmHg. His abdomen is grossly distended, tympanic and diffusely tender, without guarding. The rectum is empty on digital examination. You arrange an abdominal X-ray at the local hospital (see image)."
+      ],
+      "images": [
+        {
+          "file": "gi01-s10-1.jpg",
+          "alt": "Abdominal X-ray of an adult showing gas-filled, distended bowel loops",
+          "credit": "Case courtesy of Craig Hacking, [Radiopaedia.org](https://radiopaedia.org), rID: 62318",
+          "licence": "CC BY-NC-SA 3.0 (modified)",
+          "licenceUrl": "https://radiopaedia.org/licence",
+          "source": "https://radiopaedia.org/cases/62318",
+          "caption": "Sigmoid volvulus: gas-filled, dilated large bowel with a hugely distended sigmoid loop forming the coffee bean sign"
+        }
+      ],
+      "lead": "What is the MOST likely diagnosis?",
+      "options": [
+        {
+          "text": "Acute colonic pseudo-obstruction",
+          "why": "Common trap: pseudo-obstruction (Ogilvie syndrome) also causes massive colonic dilatation in frail or institutionalised people, but the dilatation is diffuse, often greatest in the caecum, without a single twisted loop. The coffee bean shaped sigmoid loop points to volvulus."
+        },
+        {
+          "text": "Caecal volvulus",
+          "why": "A twisted caecum usually appears as one large dilated loop displaced into the left upper abdomen, often with dilated small bowel. It is less common than sigmoid volvulus in this group."
+        },
+        {
+          "text": "Faecal impaction",
+          "why": "Chronic constipation fits, but the rectum is empty and the film shows gas-distended bowel rather than a faecally loaded colon. Laxatives or enemas would be unsafe if given for this."
+        },
+        {
+          "text": "Obstructing sigmoid carcinoma",
+          "why": "Can cause large bowel obstruction with the colon dilated up to the tumour, but without a twisted closed loop. It usually follows weeks of change in bowel habit or bleeding."
+        },
+        {
+          "text": "Sigmoid volvulus",
+          "correct": true,
+          "why": "The X-ray shows gas-filled, dilated large bowel with a hugely distended sigmoid loop in the shape of a coffee bean, a closed loop twisted on its mesentery. Sigmoid volvulus mainly affects older or institutionalised people with chronic constipation and neurological conditions such as cerebral palsy or Parkinson disease. He needs same-day transfer for surgical assessment: endoscopic decompression is usually first if there is no ischaemia, perforation or peritonitis, with surgery for those or for recurrence. Delay risks gangrene and perforation."
+        },
+        {
+          "text": "Small bowel obstruction",
+          "why": "Shows central dilated small bowel loops with valvulae conniventes and a collapsed colon, not a massively distended colon."
+        },
+        {
+          "text": "Toxic megacolon",
+          "why": "Complicates colitis (inflammatory bowel disease or Clostridioides difficile) with bloody diarrhoea, fever and systemic toxicity. He has absolute constipation and a low-grade temperature."
+        }
+      ],
+      "keyPoint": "Sudden abdominal distension and absolute constipation in an older or institutionalised person with chronic constipation and neurological disease suggests sigmoid volvulus. A coffee bean shaped sigmoid loop on X-ray supports it: arrange same-day surgical assessment, where endoscopic decompression is usually first."
+    },
+    {
+      "id": "gi01-c01",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology",
+        "Paediatrics"
+      ],
+      "subtopic": "Gastroenteritis with dehydration in a toddler",
+      "source": "Royal Children's Hospital Melbourne clinical practice guidelines: Gastroenteritis (2025); Dehydration",
+      "stem": [
+        "Aisha Rahman, 14 months, is brought by her mother, Farah, to the urgent care centre of a small rural hospital where you are the GP on call. Since yesterday Aisha has vomited 8 times and had 6 watery stools. Two children at her childcare centre had gastroenteritis this week. She is still breastfed but vomits most feeds, and she has had 3 wet nappies in the last 24 hours.",
+        "She weighs 10.2 kg; at her immunisation visit 2 weeks ago she weighed 10.8 kg. She is irritable but alert and settles when Farah holds her. Her heart rate is 140/min, respiratory rate 30/min, temperature 37.9 °C and capillary refill 3 seconds. Her hands and feet are warm. Her eyes are sunken and her mouth is dry. Her abdomen is soft and not tender, and there is no blood in the stools."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Check her electrolytes and blood glucose before rehydration",
+          "score": 0,
+          "why": "Not needed: RCH reserves these for children who need IV fluids, are severely dehydrated, show signs of an electrolyte disturbance or have predisposing conditions. Most children with gastroenteritis need no tests."
+        },
+        {
+          "text": "Give a 20 mL/kg intravenous bolus of sodium chloride 0.9%",
+          "score": 0,
+          "why": "Correct only in another setting: boluses are for shock. She is alert, with warm peripheries and no hypotension; she is moderately dehydrated, and enteral rehydration is preferred."
+        },
+        {
+          "text": "Give metoclopramide 0.1 mg/kg intramuscularly",
+          "score": 0,
+          "why": "Unsafe: metoclopramide can cause dystonic reactions in young children. RCH does not routinely recommend antiemetics other than ondansetron."
+        },
+        {
+          "text": "Give ondansetron 2 mg as a wafer",
+          "score": 1,
+          "why": "RCH supports ondansetron for children older than 6 months with persistent vomiting, to help oral rehydration. The initial oral dose is 2 mg for 8 to 15 kg."
+        },
+        {
+          "text": "Give ondansetron 4 mg as a wafer",
+          "score": 0,
+          "why": "Right drug, wrong dose: 4 mg is the RCH initial dose for 15 to 30 kg. She weighs 10.2 kg."
+        },
+        {
+          "text": "Give oral rehydration solution in small, frequent amounts",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: she has lost about 6% of her body weight, with sunken eyes, a dry mouth and a prolonged capillary refill, which is moderate dehydration. RCH states that whenever possible rehydration should be enteral. Small, frequent volumes of oral rehydration solution (aiming for about 10 mL/kg an hour), given with a syringe or spoon if needed, are better tolerated after ondansetron. Breastfeeding continues."
+        },
+        {
+          "text": "Offer a sports drink if she refuses the rehydration solution",
+          "score": 0,
+          "why": "Unsafe: sports drinks and similar sugary drinks are hypertonic and can worsen diarrhoea. RCH allows diluted apple juice or an ice block only for mild dehydration."
+        },
+        {
+          "text": "Plan nasogastric rehydration if oral fluids fail",
+          "score": 1,
+          "why": "If oral rehydration fails, RCH recommends nasogastric rehydration with oral rehydration solution before IV fluids. It is safe and effective even with vomiting, and can be done in a small rural hospital, avoiding a transfer."
+        },
+        {
+          "text": "Request a faecal multiplex PCR",
+          "score": 0,
+          "why": "Not needed: stool testing does not change management in uncomplicated gastroenteritis without blood in the stool."
+        },
+        {
+          "text": "Start a probiotic",
+          "score": 0,
+          "why": "Not needed: RCH found insufficient evidence that probiotics reduce symptoms."
+        },
+        {
+          "text": "Stop breastfeeding until the vomiting settles",
+          "score": 0,
+          "why": "Unsafe: continue breastfeeding during rehydration. Stopping removes a source of fluid and comfort and does not shorten the illness."
+        }
+      ],
+      "keyPoint": "Moderate dehydration from gastroenteritis in a child is treated enterally: oral rehydration solution in small, frequent amounts, a single weight-based dose of ondansetron for persistent vomiting (2 mg for 8 to 15 kg, over 6 months of age), and nasogastric rehydration if oral intake fails. Boluses, bloods and stool tests are for shock, severe dehydration or failed enteral rehydration."
+    },
+    {
+      "id": "gi01-c02",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology",
+        "Oncology"
+      ],
+      "subtopic": "Rectal bleeding with change in bowel habit",
+      "source": "Cancer Council Victoria. Optimal care pathway for people with colorectal cancer, 2nd edition (2021)",
+      "stem": [
+        "Rebecca Sandoval, 44, a flight attendant, has had looser stools 3 times a day for 8 weeks; before that she opened her bowels once a day. Over the same time she has seen dark red blood mixed with the stool about 6 times. She has mild cramping in her left lower abdomen before bowel actions. Her weight is stable. She had haemorrhoids in her second pregnancy 10 years ago and thinks they are back.",
+        "She has no family history of bowel cancer or inflammatory bowel disease and takes no medicines. Her abdomen is soft, with mild tenderness in the left iliac fossa and no mass. You see a small, soft, non-tender skin tag at the anal margin."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Perform a digital rectal examination",
+          "score": 1,
+          "why": "The optimal care pathway lists rectal examination in the initial assessment. A palpable rectal tumour changes the urgency and route of referral, and the skin tag alone explains nothing."
+        },
+        {
+          "text": "Prescribe a corticosteroid haemorrhoid ointment and review in 6 weeks",
+          "score": 0,
+          "why": "Unsafe delay: blood mixed with the stool and a new change in bowel habit are not explained by haemorrhoids. Attributing them to haemorrhoids is a common cause of delayed diagnosis."
+        },
+        {
+          "text": "Refer for colonoscopy, to be completed within 4 weeks",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: rectal bleeding with a change in bowel habit is one of the highest-risk symptom combinations in the optimal care pathway, with about 5 to 10 in 100 such patients having colorectal cancer. When symptoms suggest colorectal cancer, the pathway sets referral and completed colonoscopy within 4 weeks. Colorectal cancer is increasing in people under 50, so her age does not lower the urgency."
+        },
+        {
+          "text": "Refer for flexible sigmoidoscopy",
+          "score": 0,
+          "why": "Examines only the distal colon. Blood mixed with the stool and changed bowel habit need the whole colon examined."
+        },
+        {
+          "text": "Request a CT colonography",
+          "score": 0,
+          "why": "Cannot take biopsies or remove polyps. It is an alternative only for people who cannot have a colonoscopy."
+        },
+        {
+          "text": "Request a faecal calprotectin",
+          "score": 0,
+          "why": "Not needed: a raised result might suggest inflammatory bowel disease, but she needs a colonoscopy whatever the result."
+        },
+        {
+          "text": "Request an iFOBT, and refer for colonoscopy only if it is positive",
+          "score": 0,
+          "why": "Common trap: using iFOBT to rule out cancer in high-risk symptoms. The optimal care pathway describes iFOBT as a useful triage tool for symptoms of moderate risk, but rectal bleeding with a change in bowel habit needs colonoscopy whatever the result, and a negative test does not exclude cancer."
+        },
+        {
+          "text": "Request carcinoembryonic antigen",
+          "score": 0,
+          "why": "Not a diagnostic test. It is used for staging and follow-up after a diagnosis."
+        },
+        {
+          "text": "Request full blood count and ferritin",
+          "score": 1,
+          "why": "Part of the initial work-up in the optimal care pathway. Iron deficiency or anaemia increases suspicion, informs the colonoscopy referral and may need treatment."
+        },
+        {
+          "text": "Start psyllium and review in 4 weeks",
+          "score": 0,
+          "why": "Unsafe delay: treating symptoms as functional before excluding cancer."
+        }
+      ],
+      "keyPoint": "Rectal bleeding with a change in bowel habit is a highest-risk combination for colorectal cancer at any age. Examine the rectum, check full blood count and ferritin, and refer for colonoscopy to be completed within 4 weeks. A skin tag, past haemorrhoids or a negative iFOBT should not stop the referral."
+    },
+    {
+      "id": "gi01-c03",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology",
+        "Emergency medicine"
+      ],
+      "subtopic": "Suspected variceal bleeding in a rural hospital",
+      "source": "Therapeutic Guidelines: Antibiotic (Prevention of infection in patients with cirrhosis and upper gastrointestinal bleeding, 2025); de Franchis R et al. Baveno VII: renewing consensus in portal hypertension. J Hepatol 2022; Gralnek IM et al. ESGE guideline on endoscopic diagnosis and management of oesophagogastric variceal haemorrhage. Endoscopy 2022; HALT-IT trial. Lancet 2020",
+      "stem": [
+        "Dennis Kelly, 52, an Aboriginal man who works as a shearer, is brought by his partner to the urgent care centre of a rural hospital at 9 pm. In the last hour he has twice vomited about a cupful of bright red blood, and this afternoon he passed a black stool. He has alcohol-related cirrhosis, diagnosed 2 years ago, and still drinks about 6 standard drinks a day. He takes spironolactone 100 mg daily and has no allergies.",
+        "He is alert. His heart rate is 116/min and blood pressure 94/58 mmHg. He has spider naevi, mild jaundice and shifting dullness. You insert two large-bore cannulas, send blood for urgent tests and cross-matching, keep him fasting, and call the retrieval service, which will take him to a regional hospital for endoscopy. The team will arrive in about 2 hours. The hospital stocks O RhD-negative red cells."
+      ],
+      "tables": [
+        {
+          "head": [
+            "Test",
+            "Result",
+            "Reference"
+          ],
+          "rows": [
+            [
+              "Haemoglobin",
+              "66 g/L",
+              "130–180"
+            ],
+            [
+              "Platelets",
+              "74 × 10⁹/L",
+              "150–400"
+            ],
+            [
+              "INR",
+              "1.7",
+              "0.9–1.2"
+            ],
+            [
+              "Bilirubin",
+              "46 µmol/L",
+              "< 20"
+            ],
+            [
+              "Albumin",
+              "27 g/L",
+              "35–50"
+            ],
+            [
+              "Creatinine",
+              "88 µmol/L",
+              "60–110"
+            ]
+          ]
+        }
+      ],
+      "lead": "Which THREE actions are MOST appropriate while you wait for the retrieval team?",
+      "options": [
+        {
+          "text": "Give ceftriaxone 1 g intravenously",
+          "score": 1,
+          "why": "Therapeutic Guidelines recommends antibiotic prophylaxis for all adults with cirrhosis and acute upper gastrointestinal bleeding, variceal or not, started at presentation and before endoscopy. It reduces infection, rebleeding and death. Ceftriaxone 1 g IV daily is first choice, for 3 to 7 days in total."
+        },
+        {
+          "text": "Give fresh frozen plasma to bring the INR below 1.5",
+          "score": 0,
+          "why": "Unsafe: the INR does not reflect bleeding risk in cirrhosis, and the extra volume raises portal pressure. Fresh frozen plasma is not recommended for this purpose."
+        },
+        {
+          "text": "Give platelets to bring the count above 100 × 10⁹/L",
+          "score": 0,
+          "why": "Not recommended: there is no evidence that correcting the platelet count controls variceal bleeding."
+        },
+        {
+          "text": "Give sodium chloride 0.9% boluses until his systolic blood pressure is above 120 mmHg",
+          "score": 0,
+          "why": "Unsafe: over-filling raises portal pressure and increases rebleeding. Give enough volume to keep him perfused, with red cells to replace blood loss."
+        },
+        {
+          "text": "Give tranexamic acid 1 g intravenously",
+          "score": 0,
+          "why": "Common trap: tranexamic acid for gastrointestinal bleeding. In the HALT-IT trial it did not reduce deaths from gastrointestinal bleeding, many of them in people with liver disease, and it increased venous thromboembolism. It is not recommended."
+        },
+        {
+          "text": "Insert a balloon tamponade tube",
+          "score": 0,
+          "why": "Correct only in another setting: a temporary bridge for massive bleeding that cannot be controlled with drugs, placed by experienced staff, usually after the airway is secured."
+        },
+        {
+          "text": "Start octreotide, as an intravenous bolus then an infusion",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: a vasoactive drug (octreotide, or terlipressin where available) lowers portal pressure and should start as soon as variceal bleeding is suspected, before endoscopy, and continue for up to 5 days (Baveno VII; ESGE 2022). Bright red haematemesis in a man with cirrhosis and ascites is variceal until proven otherwise."
+        },
+        {
+          "text": "Start propranolol 40 mg twice daily",
+          "score": 0,
+          "why": "Unsafe: a beta-blocker worsens hypotension during active bleeding. Non-selective beta-blockers are used to prevent rebleeding after recovery."
+        },
+        {
+          "text": "Transfuse red cells, aiming for a haemoglobin above 100 g/L",
+          "score": 0,
+          "why": "Common trap: liberal transfusion. Raising the haemoglobin this high increases portal pressure, rebleeding and mortality."
+        },
+        {
+          "text": "Transfuse red cells, aiming for a haemoglobin of 70 to 90 g/L",
+          "score": 1,
+          "why": "A restrictive strategy is recommended in variceal bleeding: transfuse when the haemoglobin is below 70 g/L, aiming for 70 to 90 g/L (Baveno VII; ESGE 2022). His haemoglobin is 66 g/L and he is still bleeding."
+        }
+      ],
+      "keyPoint": "Suspected variceal bleeding in cirrhosis: start a vasoactive drug (octreotide or terlipressin) and antibiotic prophylaxis (ceftriaxone 1 g IV) at presentation, before endoscopy, and transfuse to a haemoglobin of 70 to 90 g/L. Avoid tranexamic acid, fresh frozen plasma and over-filling."
+    },
+    {
+      "id": "gi01-c04",
+      "format": "cdp",
+      "select": 3,
+      "exams": [
+        "RACGP"
+      ],
+      "topics": [
+        "Gastroenterology",
+        "Palliative care"
+      ],
+      "subtopic": "Opioid-induced constipation in palliative care",
+      "source": "Chen J, Good P, Stokes C, Gurgenci T. Management of constipation in people receiving palliative care. Aust J Gen Pract 2025;54(8)",
+      "stem": [
+        "Valerie Simmons, 79, a retired music teacher, has metastatic breast cancer with bone metastases. She lives with her daughter and is under the community palliative care team. Her pain has been controlled since oxycodone modified release 20 mg twice daily was started 2 weeks ago, with oxycodone immediate release 5 mg as needed for breakthrough pain.",
+        "She has not opened her bowels for 6 days; before that she passed small, hard pellets with straining. She feels bloated and a little nauseated but has not vomited, and she is passing wind. Her daughter started her on psyllium 1 teaspoon daily when the oxycodone began. She drinks about 800 mL a day. She has chronic kidney disease, with an eGFR of 24 mL/min/1.73 m² last week. She wonders whether to cut down the oxycodone.",
+        "Her abdomen is mildly distended and soft, with active bowel sounds and no tenderness. Her full blood count last week was normal. On rectal examination, the rectum is loaded with hard faeces."
+      ],
+      "lead": "Which THREE actions are MOST appropriate now?",
+      "options": [
+        {
+          "text": "Arrange an abdominal X-ray",
+          "score": 0,
+          "why": "Not needed: plain films do not improve the assessment of constipation. They are used only when bowel obstruction is suspected, and she is passing wind with active bowel sounds."
+        },
+        {
+          "text": "Give a glycerol suppository and a sorbitol+sodium citrate enema",
+          "score": 1,
+          "why": "For hard faeces in the rectum, the AJGP review recommends a glycerol suppository plus a small-volume sorbitol+sodium citrate enema (or a bisacodyl suppository), together with an oral laxative."
+        },
+        {
+          "text": "Give a sodium phosphate enema",
+          "score": 0,
+          "why": "Unsafe: sodium phosphate enemas can cause hyperphosphataemia with hypocalcaemia and hypernatraemia, and worsen renal failure. Avoid them in severe kidney impairment."
+        },
+        {
+          "text": "Halve the dose of modified-release oxycodone",
+          "score": 0,
+          "why": "Common trap: treating constipation by undertreating pain. Her pain is controlled; the answer is regular laxatives, not less analgesia."
+        },
+        {
+          "text": "Prescribe methylnaltrexone by subcutaneous injection",
+          "score": 0,
+          "why": "Correct but premature: methylnaltrexone is for opioid-induced constipation that persists despite regular laxatives, after bowel obstruction has been excluded. She has not yet had regular laxatives."
+        },
+        {
+          "text": "Prescribe ondansetron 4 mg orally, 8-hourly as needed for the nausea",
+          "score": 0,
+          "why": "Common trap: a 5HT3 antagonist slows gut transit and is itself a cause of constipation. Nausea often settles once the bowels open; if an antiemetic is needed and there is no obstruction, metoclopramide is usually preferred."
+        },
+        {
+          "text": "Start docusate 100 mg twice daily on its own",
+          "score": 0,
+          "why": "A stool softener alone is unlikely to overcome opioid-slowed transit. A stimulant laxative is usually needed."
+        },
+        {
+          "text": "Start macrogol 1 sachet twice daily plus bisacodyl 10 mg at night",
+          "score": 2,
+          "critical": true,
+          "why": "Critical: recommended laxatives in palliative care are an osmotic laxative and a stimulant, given regularly. Anyone on a regular opioid should have a laxative prescribed at the same time, and tolerance to opioid-induced constipation does not develop. Macrogol is not absorbed and is safe in kidney impairment."
+        },
+        {
+          "text": "Stop the psyllium",
+          "score": 1,
+          "why": "Bulking agents need a large fluid intake to work, which few palliative patients manage (she drinks about 800 mL a day). The AJGP review does not recommend them in this setting, and they can worsen hard stools."
+        }
+      ],
+      "keyPoint": "Everyone on a regular opioid needs a regular laxative, usually an osmotic plus a stimulant. Treat a rectum loaded with hard faeces with a suppository and small-volume enema, stop bulking agents, avoid sodium phosphate enemas in kidney impairment, and keep methylnaltrexone for refractory cases without obstruction."
+    }
+  ]
+}
