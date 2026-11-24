@@ -355,12 +355,12 @@
       "lead": "What is the approximate risk that their first child will be affected with phenylketonuria?",
       "options": [
         {
-          "text": "1 in 1,000",
-          "why": "This reflects an incorrect square-root calculation of the mutant allele frequency."
+          "text": "1 in 2",
+          "why": "Common trap: This assumes her partner is a carrier. He is unaffected, unrelated and has no family history, so his chance of being a carrier is only the population figure of about 1 in 50 (2pq)."
         },
         {
-          "text": "1 in 10,000",
-          "why": "This is the general population birth incidence and ignores that the mother is homozygous affected."
+          "text": "1 in 50",
+          "why": "Common trap: Under Hardy-Weinberg equilibrium (q² = 1/10,000, so q = 1/100), 2pq (approximately 1/50) is the probability that the unaffected partner is a carrier, before multiplying by the 1/2 chance of transmitting the mutant allele."
         },
         {
           "text": "1 in 100",
@@ -372,8 +372,8 @@
           "why": "This underestimates the risk by halving the transmission probability twice."
         },
         {
-          "text": "1 in 50",
-          "why": "Common trap: Under Hardy-Weinberg equilibrium (q2 = 1/10,000, so q = 1/100), 2pq (approximately 1/50) is the probability that the unaffected partner is a carrier, before multiplying by the 1/2 chance of transmitting the mutant allele."
+          "text": "1 in 10,000",
+          "why": "This is the general population birth incidence and ignores that the mother is homozygous affected."
         }
       ],
       "keyPoint": "When one parent has an autosomal recessive condition (probability 1 of passing a mutant allele), the offspring's disease risk equals half the unaffected partner's population carrier frequency (2pq / 2 = q)."

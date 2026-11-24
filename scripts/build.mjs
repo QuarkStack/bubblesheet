@@ -123,7 +123,9 @@ function checkQuestion(q, where, seenIds) {
     else texts.add(o.text.trim().toLowerCase());
     if (!isStr(o.why)) err(w, 'why (explanation) is required');
   });
-  const sorted = q.options.map((o) => (o && o.text) || '').slice().sort((a, b) => a.localeCompare(b, 'en', { sensitivity: 'base', numeric: true }));
+  // Thousands separators (10,000) are ignored so numbers sort by value.
+  const sortKey = (t) => t.replace(/(\d),(?=\d{3}\b)/g, '$1');
+  const sorted = q.options.map((o) => (o && o.text) || '').slice().sort((a, b) => sortKey(a).localeCompare(sortKey(b), 'en', { sensitivity: 'base', numeric: true }));
   if (q.options.some((o, i) => o && o.text !== sorted[i])) warn(where, 'options are not in alphabetical order');
 
   if (q.format === 'sba') {

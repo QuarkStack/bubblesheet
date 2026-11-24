@@ -267,6 +267,7 @@ These are the conventions of the RACGP written papers, and the NBME item-writing
 - **Tone:** plain Australian English, no em-dashes, and no filler words (delve, pivotal, crucial, robust).
 - **Citing attached references.** This repository and its website are public, so attached material is cited in two places.
   - **Public, in the bank:** `source` names the published guideline that supports the answer, with its year, e.g. `"Therapeutic Guidelines: Rheumatology (gout)"` or `"SOMANZ Hypertension in Pregnancy Guideline (2023)"`. No field in a bank (`source`, `why`, `keyPoint`, `bank.sources`, `description`) may name a user's file, course, lecture deck, recall paper or past exam, give its page or slide numbers, or quote it. Write everything in your own words.
+  - **Exception, AJGP collections:** AJGP articles may be cited with the theme and number of the collection they come from, e.g. `"AJGP Women's Health 1: Assessment of female fertility in the general practice setting (2020)"`, because the articles themselves are public. Still give each article's own title and year.
   - **Private, in a separate file:** the exact location goes in `refs/<bank-id>.json`, which the user uploads to the private answers repository. Signed-in users see it after answering, under "Your reference".
     ```json
     {
